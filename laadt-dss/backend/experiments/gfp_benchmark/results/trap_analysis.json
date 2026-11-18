@@ -1,0 +1,301 @@
+{
+ "conditions": {
+  "tr|gemma4:e4b|grounded_guard": {
+   "trap": {
+    "m1_sv_rate": 0.47619047619047616,
+    "m2_gfs": 0.4625051918285001,
+    "nQ_sv": 7,
+    "nQ_gfs": 7,
+    "n_responses": 21
+   },
+   "other": {
+    "m1_sv_rate": 0.13945578231292516,
+    "m2_gfs": 0.8138195819891656,
+    "nQ_sv": 49,
+    "nQ_gfs": 49,
+    "n_responses": 144
+   },
+   "mwu_p_m1": null
+  },
+  "tr|gemma4:e4b|grounded_noguard": {
+   "trap": {
+    "m1_sv_rate": 0.47619047619047616,
+    "m2_gfs": 0.4625051918285001,
+    "nQ_sv": 7,
+    "nQ_gfs": 7,
+    "n_responses": 21
+   },
+   "other": {
+    "m1_sv_rate": 0.14285714285714285,
+    "m2_gfs": 0.8016677705544831,
+    "nQ_sv": 49,
+    "nQ_gfs": 49,
+    "n_responses": 145
+   },
+   "mwu_p_m1": 0.011687848957227957
+  },
+  "tr|gemma4:e4b|ungrounded": {
+   "trap": {
+    "m1_sv_rate": 0.42857142857142855,
+    "m2_gfs": 0.49829859294145007,
+    "nQ_sv": 7,
+    "nQ_gfs": 7,
+    "n_responses": 21
+   },
+   "other": {
+    "m1_sv_rate": 0.23129251700680273,
+    "m2_gfs": 0.7056885727535362,
+    "nQ_sv": 49,
+    "nQ_gfs": 49,
+    "n_responses": 147
+   },
+   "mwu_p_m1": null
+  },
+  "tr|qwen3.5:27b|grounded_guard": {
+   "trap": {
+    "m1_sv_rate": 0.23809523809523808,
+    "m2_gfs": 0.5416237201951487,
+    "nQ_sv": 7,
+    "nQ_gfs": 7,
+    "n_responses": 21
+   },
+   "other": {
+    "m1_sv_rate": 0.13605442176870747,
+    "m2_gfs": 0.6982146514061488,
+    "nQ_sv": 49,
+    "nQ_gfs": 49,
+    "n_responses": 146
+   },
+   "mwu_p_m1": null
+  },
+  "tr|qwen3.5:27b|grounded_noguard": {
+   "trap": {
+    "m1_sv_rate": 0.23809523809523808,
+    "m2_gfs": 0.5416237201951487,
+    "nQ_sv": 7,
+    "nQ_gfs": 7,
+    "n_responses": 21
+   },
+   "other": {
+    "m1_sv_rate": 0.13605442176870747,
+    "m2_gfs": 0.6982146514061488,
+    "nQ_sv": 49,
+    "nQ_gfs": 49,
+    "n_responses": 146
+   },
+   "mwu_p_m1": 0.2808232527507002
+  },
+  "tr|qwen3.5:27b|ungrounded": {
+   "trap": {
+    "m1_sv_rate": 0.21428571428571427,
+    "m2_gfs": 0.4472222222222222,
+    "nQ_sv": 7,
+    "nQ_gfs": 7,
+    "n_responses": 18
+   },
+   "other": {
+    "m1_sv_rate": 0.1564625850340136,
+    "m2_gfs": 0.6284131658195757,
+    "nQ_sv": 49,
+    "nQ_gfs": 49,
+    "n_responses": 118
+   },
+   "mwu_p_m1": null
+  },
+  "tr|mistral-small3.2:24b|grounded_guard": {
+   "trap": {
+    "m1_sv_rate": 0.047619047619047616,
+    "m2_gfs": 0.6488095238095238,
+    "nQ_sv": 7,
+    "nQ_gfs": 7,
+    "n_responses": 20
+   },
+   "other": {
+    "m1_sv_rate": 0.05442176870748299,
+    "m2_gfs": 0.7086484289231986,
+    "nQ_sv": 49,
+    "nQ_gfs": 44,
+    "n_responses": 146
+   },
+   "mwu_p_m1": null
+  },
+  "tr|mistral-small3.2:24b|grounded_noguard": {
+   "trap": {
+    "m1_sv_rate": 0.047619047619047616,
+    "m2_gfs": 0.6488095238095238,
+    "nQ_sv": 7,
+    "nQ_gfs": 7,
+    "n_responses": 20
+   },
+   "other": {
+    "m1_sv_rate": 0.06802721088435373,
+    "m2_gfs": 0.7001941394990422,
+    "nQ_sv": 49,
+    "nQ_gfs": 44,
+    "n_responses": 146
+   },
+   "mwu_p_m1": 0.9837336058478388
+  },
+  "tr|mistral-small3.2:24b|ungrounded": {
+   "trap": {
+    "m1_sv_rate": 0.09523809523809523,
+    "m2_gfs": 0.5330284794570509,
+    "nQ_sv": 7,
+    "nQ_gfs": 7,
+    "n_responses": 21
+   },
+   "other": {
+    "m1_sv_rate": 0.1292517006802721,
+    "m2_gfs": 0.6495994688896723,
+    "nQ_sv": 49,
+    "nQ_gfs": 49,
+    "n_responses": 147
+   },
+   "mwu_p_m1": null
+  },
+  "en|gemma4:e4b|grounded_guard": {
+   "trap": {
+    "m1_sv_rate": 0.23809523809523808,
+    "m2_gfs": 0.4298047190904334,
+    "nQ_sv": 7,
+    "nQ_gfs": 7,
+    "n_responses": 21
+   },
+   "other": {
+    "m1_sv_rate": 0.08333333333333333,
+    "m2_gfs": 0.8411663307820432,
+    "nQ_sv": 48,
+    "nQ_gfs": 48,
+    "n_responses": 141
+   },
+   "mwu_p_m1": null
+  },
+  "en|gemma4:e4b|grounded_noguard": {
+   "trap": {
+    "m1_sv_rate": 0.23809523809523808,
+    "m2_gfs": 0.4298047190904334,
+    "nQ_sv": 7,
+    "nQ_gfs": 7,
+    "n_responses": 21
+   },
+   "other": {
+    "m1_sv_rate": 0.08843537414965986,
+    "m2_gfs": 0.8587969634057299,
+    "nQ_sv": 49,
+    "nQ_gfs": 49,
+    "n_responses": 143
+   },
+   "mwu_p_m1": 0.0842164361492317
+  },
+  "en|gemma4:e4b|ungrounded": {
+   "trap": {
+    "m1_sv_rate": 0.2857142857142857,
+    "m2_gfs": 0.41622770320249314,
+    "nQ_sv": 7,
+    "nQ_gfs": 7,
+    "n_responses": 21
+   },
+   "other": {
+    "m1_sv_rate": 0.22448979591836735,
+    "m2_gfs": 0.6843331152909721,
+    "nQ_sv": 49,
+    "nQ_gfs": 49,
+    "n_responses": 147
+   },
+   "mwu_p_m1": null
+  },
+  "en|qwen3.5:27b|grounded_guard": {
+   "trap": {
+    "m1_sv_rate": 0.47619047619047616,
+    "m2_gfs": 0.41070741427884283,
+    "nQ_sv": 7,
+    "nQ_gfs": 7,
+    "n_responses": 21
+   },
+   "other": {
+    "m1_sv_rate": 0.12585034013605442,
+    "m2_gfs": 0.7214454751973641,
+    "nQ_sv": 49,
+    "nQ_gfs": 49,
+    "n_responses": 145
+   },
+   "mwu_p_m1": null
+  },
+  "en|qwen3.5:27b|grounded_noguard": {
+   "trap": {
+    "m1_sv_rate": 0.47619047619047616,
+    "m2_gfs": 0.41070741427884283,
+    "nQ_sv": 7,
+    "nQ_gfs": 7,
+    "n_responses": 21
+   },
+   "other": {
+    "m1_sv_rate": 0.12585034013605442,
+    "m2_gfs": 0.7214454751973641,
+    "nQ_sv": 49,
+    "nQ_gfs": 49,
+    "n_responses": 145
+   },
+   "mwu_p_m1": 0.005213204353645372
+  },
+  "en|qwen3.5:27b|ungrounded": {
+   "trap": {
+    "m1_sv_rate": 0.2857142857142857,
+    "m2_gfs": 0.4467910396481825,
+    "nQ_sv": 7,
+    "nQ_gfs": 7,
+    "n_responses": 19
+   },
+   "other": {
+    "m1_sv_rate": 0.11564625850340136,
+    "m2_gfs": 0.5903275633925789,
+    "nQ_sv": 49,
+    "nQ_gfs": 48,
+    "n_responses": 114
+   },
+   "mwu_p_m1": null
+  }
+ },
+ "m3_guard_trap": {
+  "tr|gemma4:e4b": {
+   "n": 21,
+   "pre_sv": 10,
+   "blocked": 0,
+   "retried": 0,
+   "delivered_sv": 10,
+   "pre_sv_and_delivered_sv": 10
+  },
+  "tr|qwen3.5:27b": {
+   "n": 21,
+   "pre_sv": 5,
+   "blocked": 2,
+   "retried": 2,
+   "delivered_sv": 5,
+   "pre_sv_and_delivered_sv": 5
+  },
+  "tr|mistral-small3.2:24b": {
+   "n": 20,
+   "pre_sv": 1,
+   "blocked": 0,
+   "retried": 0,
+   "delivered_sv": 1,
+   "pre_sv_and_delivered_sv": 1
+  },
+  "en|gemma4:e4b": {
+   "n": 21,
+   "pre_sv": 5,
+   "blocked": 0,
+   "retried": 0,
+   "delivered_sv": 5,
+   "pre_sv_and_delivered_sv": 5
+  },
+  "en|qwen3.5:27b": {
+   "n": 21,
+   "pre_sv": 10,
+   "blocked": 0,
+   "retried": 0,
+   "delivered_sv": 10,
+   "pre_sv_and_delivered_sv": 10
+  }
+ }
+}

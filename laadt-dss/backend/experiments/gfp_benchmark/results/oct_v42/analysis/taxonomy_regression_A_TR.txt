@@ -1,0 +1,5 @@
+Beyan 2026-11-05 (b) regresyon: duzeltilmis analyze_guard_flag_taxonomy.py (e7fde016), yalniz raw_g1_gemma4-e4b_20261014T200243Z.jsonl iceren deneme dizininde (GFP_RUN_DIR=_taxreg_A) kosuldu.
+cikti sha256: f701a449be6712f088e293662cece133f33cbd68a1f1829f09cc71e144c6a12e
+analysis/taxonomy.out sha256: f701a449be6712f088e293662cece133f33cbd68a1f1829f09cc71e144c6a12e
+sonuc: BAYT-OZDES (cmp, 2975 bayt)
+deneme dizini kosudan sonra silindi.

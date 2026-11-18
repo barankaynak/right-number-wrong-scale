@@ -1,0 +1,11 @@
+{"ts": "2026-11-05T21:13:21+00:00", "event": "start", "models": ["deepseek-v4.1-flash"], "lang": "tr", "experiments": ["g1", "mt"], "repeats": 3, "timeout_s": 600}
+{"ts": "2026-11-05T21:13:21+00:00", "event": "condition_start", "exp": "g1", "model": "deepseek-v4.1-flash", "attempt": 1, "identity": ["evren-gateway", "a9876098b46735aef51f193039fade5f105f66471985996b388f11e75b2ce73f"]}
+{"ts": "2026-11-06T09:15:33+00:00", "event": "start", "models": ["deepseek-v4.1-flash"], "lang": "tr", "experiments": ["g1", "mt"], "repeats": 3, "timeout_s": 600}
+{"ts": "2026-11-06T09:15:33+00:00", "event": "condition_start", "exp": "g1", "model": "deepseek-v4.1-flash", "attempt": 1, "identity": ["evren-gateway", "a9876098b46735aef51f193039fade5f105f66471985996b388f11e75b2ce73f"]}
+{"ts": "2026-11-07T04:42:03+00:00", "event": "condition_done", "exp": "g1", "model": "deepseek-v4.1-flash", "file": "raw_g1_deepseek-v4.1-flash_20261106T091533Z.jsonl", "n": 504, "excluded": 1, "excl_rate": 0.002, "wall_h": 19.44}
+{"ts": "2026-11-07T04:42:03+00:00", "event": "condition_status", "exp": "g1", "model": "deepseek-v4.1-flash", "status": "complete"}
+{"ts": "2026-11-07T04:45:21+00:00", "event": "determinism_check_done", "model": "deepseek-v4.1-flash", "file": "determinism_check_deepseek-v4.1-flash_20261107T044203Z.jsonl"}
+{"ts": "2026-11-07T04:45:21+00:00", "event": "condition_start", "exp": "mt", "model": "deepseek-v4.1-flash", "attempt": 1, "identity": ["evren-gateway", "a9876098b46735aef51f193039fade5f105f66471985996b388f11e75b2ce73f"]}
+{"ts": "2026-11-07T22:02:01+00:00", "event": "condition_done", "exp": "mt", "model": "deepseek-v4.1-flash", "file": "raw_mt_deepseek-v4.1-flash_20261107T044521Z.jsonl", "n": 189, "excluded": 0, "excl_rate": 0.0, "wall_h": 17.28}
+{"ts": "2026-11-07T22:02:01+00:00", "event": "condition_status", "exp": "mt", "model": "deepseek-v4.1-flash", "status": "complete"}
+{"ts": "2026-11-07T22:02:01+00:00", "event": "end"}

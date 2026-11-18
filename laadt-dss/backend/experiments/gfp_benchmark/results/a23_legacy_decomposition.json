@@ -1,0 +1,125 @@
+{
+ "tr": {
+  "readings": {
+   "injected|incl_yield": {
+    "n": 97,
+    "primary": 0,
+    "s1": 41,
+    "s2": 70
+   },
+   "injected|excl_yield": {
+    "n": 97,
+    "primary": 0,
+    "s1": 41,
+    "s2": 70
+   },
+   "injected|replay_check": {
+    "n": 97,
+    "s1_matches_stored": 97,
+    "s2_matches_stored": 97
+   },
+   "control|incl_yield": {
+    "n": 36,
+    "primary": 0,
+    "s1": 12,
+    "s2": 22
+   },
+   "control|excl_yield": {
+    "n": 36,
+    "primary": 0,
+    "s1": 12,
+    "s2": 22
+   },
+   "control|replay_check": {
+    "n": 36,
+    "s1_matches_stored": 36,
+    "s2_matches_stored": 36
+   }
+  },
+  "warning_types_last_tool": {
+   "numeric_deviation": 111
+  }
+ },
+ "en": {
+  "readings": {
+   "injected|incl_yield": {
+    "n": 87,
+    "primary": 0,
+    "s1": 45,
+    "s2": 60
+   },
+   "injected|excl_yield": {
+    "n": 87,
+    "primary": 0,
+    "s1": 45,
+    "s2": 60
+   },
+   "injected|replay_check": {
+    "n": 87,
+    "s1_matches_stored": 87,
+    "s2_matches_stored": 87
+   },
+   "control|incl_yield": {
+    "n": 38,
+    "primary": 0,
+    "s1": 15,
+    "s2": 21
+   },
+   "control|excl_yield": {
+    "n": 38,
+    "primary": 0,
+    "s1": 15,
+    "s2": 21
+   },
+   "control|replay_check": {
+    "n": 38,
+    "s1_matches_stored": 38,
+    "s2_matches_stored": 38
+   }
+  },
+  "warning_types_last_tool": {
+   "numeric_deviation": 110
+  }
+ },
+ "mistral": {
+  "readings": {
+   "injected|incl_yield": {
+    "n": 66,
+    "primary": 0,
+    "s1": 30,
+    "s2": 53
+   },
+   "injected|excl_yield": {
+    "n": 66,
+    "primary": 0,
+    "s1": 30,
+    "s2": 53
+   },
+   "injected|replay_check": {
+    "n": 66,
+    "s1_matches_stored": 66,
+    "s2_matches_stored": 66
+   },
+   "control|incl_yield": {
+    "n": 28,
+    "primary": 0,
+    "s1": 9,
+    "s2": 19
+   },
+   "control|excl_yield": {
+    "n": 28,
+    "primary": 0,
+    "s1": 9,
+    "s2": 19
+   },
+   "control|replay_check": {
+    "n": 28,
+    "s1_matches_stored": 28,
+    "s2_matches_stored": 28
+   }
+  },
+  "warning_types_last_tool": {
+   "numeric_deviation": 83
+  }
+ }
+}

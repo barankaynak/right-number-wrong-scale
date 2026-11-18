@@ -1,0 +1,25 @@
+=== CROSS-LINGUAL yeniden-skorlama (guard v4.1, pre_intervention referans-GFS) ===
+
+lang model         arm                ref-GFS   nQ   GR  UNG  SCL UNIT   IGN
+tr   deepseek-v4.1-flash grounded_guard       0.696   56 3214  999   63  112   655
+tr   deepseek-v4.1-flash grounded_noguard     0.700   56 3358 1101   64  135   669
+tr   deepseek-v4.1-flash ungrounded           0.487   56 1474 1449   75  122   720
+
+=== TR ↔ EN farkı (referans-GFS, grounded_noguard = ham temellendirme) ===
+
+-> crosslingual_rescore.json + crosslingual_cells.json
+tr deepseek-v4.1-flash {'P0': 14, 'P1a': 24, 'P1b': 0, 'P2': 19, 'P3': 110} decomp 0.03064
+-> intervention_paths.json
+=== A19 tuzak vs diğer (guard v4.1, referans-graf, pre_intervention) ===
+lang model                 arm                M1 trap  M1 oth  M2 trap  M2 oth  nQ t/o   MWU p
+tr   deepseek-v4.1-flash   grounded_guard       0.571   0.112    0.582   0.712   7/49      -  
+tr   deepseek-v4.1-flash   grounded_noguard     0.524   0.129    0.573   0.718   7/49    0.028
+tr   deepseek-v4.1-flash   ungrounded           0.571   0.177    0.422   0.496   7/49      -  
+
+=== M3 grounded_guard, tuzak yanıtları (teslim tarafı) ===
+tr   deepseek-v4.1-flash   n= 21 pre_SV= 12 blocked= 21 retried= 21 delivered_SV=  0 (pre&delivered SV=0)
+
+-> trap_analysis.json + trap_flagged_sentences.jsonl (93 SV bayrağı)
+-> /app/experiments/gfp_benchmark/results/oct_v42_evren/g1_reachable_subset.json
+-> /app/experiments/gfp_benchmark/results/oct_v42_evren/mt_results.json
+-> /app/experiments/gfp_benchmark/results/oct_v42_evren/a30_results.json

@@ -1,0 +1,8 @@
+{
+ "snapshot_sha256": "2c395eebe038ffcde2d237fd2b46a89447aef82b01e91b384c0b515c96c1045e",
+ "questions": 56,
+ "records": 5032,
+ "irradiance_source": "clearsky",
+ "n_diff_questions": 0,
+ "diff_questions": []
+}

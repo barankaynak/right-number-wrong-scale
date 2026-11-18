@@ -1,0 +1,384 @@
+{
+ "n_rows": 1134,
+ "n_excluded": 15,
+ "by_condition_n": {
+  "en|gemma4:e4b": 188,
+  "en|qwen3.8:27b": 183,
+  "tr|gemma4:e4b": 189,
+  "tr|mistral-small3.2:24b": 184,
+  "tr|muse-glimmer:30b": 189,
+  "tr|qwen3.8:27b": 186
+ },
+ "questions": {
+  "answerable": [
+   "com-10",
+   "com-11",
+   "com-12",
+   "dis-03",
+   "dis-09",
+   "dis-10",
+   "dis-13",
+   "res-04",
+   "res-11",
+   "res-12",
+   "sta-01",
+   "sta-02",
+   "sta-03",
+   "sta-05",
+   "sta-06",
+   "sta-07",
+   "sta-08",
+   "sta-09",
+   "sta-10",
+   "sta-11"
+  ],
+  "clear": [
+   "com-12",
+   "dis-03",
+   "dis-09",
+   "dis-10",
+   "res-04",
+   "res-11",
+   "res-12",
+   "sta-01",
+   "sta-02",
+   "sta-03",
+   "sta-05",
+   "sta-06",
+   "sta-07",
+   "sta-08",
+   "sta-09",
+   "sta-10",
+   "sta-11"
+  ]
+ },
+ "TU_question_means": {
+  "grounded_guard|turn1": {
+   "res-04": 0.3888888888888889,
+   "res-11": 0.0,
+   "res-12": 0.1111111111111111,
+   "com-10": 0.0,
+   "com-11": 0.0,
+   "com-12": 0.0,
+   "dis-03": 0.0,
+   "dis-09": 0.0,
+   "dis-10": 0.0,
+   "dis-13": 0.0,
+   "sta-01": 0.05555555555555555,
+   "sta-02": 0.0,
+   "sta-03": 0.0,
+   "sta-05": 0.1111111111111111,
+   "sta-06": 0.0,
+   "sta-07": 0.0,
+   "sta-08": 0.0,
+   "sta-09": 0.0,
+   "sta-10": 0.05555555555555555,
+   "sta-11": 0.0
+  },
+  "grounded_guard|turn2": {
+   "res-04": 0.8333333333333334,
+   "res-11": 0.16666666666666666,
+   "res-12": 0.2222222222222222,
+   "com-10": 0.0,
+   "com-11": 0.16666666666666666,
+   "com-12": 0.1111111111111111,
+   "dis-03": 0.0,
+   "dis-09": 0.0,
+   "dis-10": 0.16666666666666666,
+   "dis-13": 0.0,
+   "sta-01": 0.16666666666666666,
+   "sta-02": 0.05555555555555555,
+   "sta-03": 0.05555555555555555,
+   "sta-05": 0.4444444444444444,
+   "sta-06": 0.0,
+   "sta-07": 0.2777777777777778,
+   "sta-08": 0.0,
+   "sta-09": 0.0,
+   "sta-10": 0.1111111111111111,
+   "sta-11": 0.0
+  },
+  "grounded_noguard|turn1": {
+   "res-04": 0.3888888888888889,
+   "res-11": 0.0,
+   "res-12": 0.2777777777777778,
+   "com-10": 0.2777777777777778,
+   "com-11": 0.3888888888888889,
+   "com-12": 0.0,
+   "dis-03": 0.0,
+   "dis-09": 0.3333333333333333,
+   "dis-10": 0.16666666666666666,
+   "dis-13": 0.5555555555555556,
+   "sta-01": 0.05555555555555555,
+   "sta-02": 0.0,
+   "sta-03": 0.0,
+   "sta-05": 0.1111111111111111,
+   "sta-06": 0.0,
+   "sta-07": 0.0,
+   "sta-08": 0.0,
+   "sta-09": 0.0,
+   "sta-10": 0.1111111111111111,
+   "sta-11": 0.058823529411764705
+  },
+  "grounded_noguard|turn2": {
+   "res-04": 0.7777777777777778,
+   "res-11": 0.7222222222222222,
+   "res-12": 0.7777777777777778,
+   "com-10": 0.6111111111111112,
+   "com-11": 0.7777777777777778,
+   "com-12": 0.05555555555555555,
+   "dis-03": 0.0,
+   "dis-09": 0.7777777777777778,
+   "dis-10": 0.6111111111111112,
+   "dis-13": 0.6111111111111112,
+   "sta-01": 0.3888888888888889,
+   "sta-02": 0.16666666666666666,
+   "sta-03": 0.2222222222222222,
+   "sta-05": 0.2777777777777778,
+   "sta-06": 0.2222222222222222,
+   "sta-07": 0.5555555555555556,
+   "sta-08": 0.11764705882352941,
+   "sta-09": 0.1111111111111111,
+   "sta-10": 0.3888888888888889,
+   "sta-11": 0.23529411764705882
+  },
+  "ungrounded|turn1": {
+   "res-04": 0.0,
+   "res-11": 0.0,
+   "res-12": 0.0,
+   "com-10": 0.0,
+   "com-11": 0.0,
+   "com-12": 0.0,
+   "dis-03": 0.0,
+   "dis-09": 0.0,
+   "dis-10": 0.0,
+   "dis-13": 0.0,
+   "sta-01": 0.0,
+   "sta-02": 0.0,
+   "sta-03": 0.0,
+   "sta-05": 0.0,
+   "sta-06": 0.0,
+   "sta-07": 0.0,
+   "sta-08": 0.0,
+   "sta-09": 0.0,
+   "sta-10": 0.0,
+   "sta-11": 0.0
+  },
+  "ungrounded|turn2": {
+   "res-04": 0.0,
+   "res-11": 0.0,
+   "res-12": 0.0,
+   "com-10": 0.0,
+   "com-11": 0.0,
+   "com-12": 0.0,
+   "dis-03": 0.0,
+   "dis-09": 0.0,
+   "dis-10": 0.0,
+   "dis-13": 0.0,
+   "sta-01": 0.0,
+   "sta-02": 0.0,
+   "sta-03": 0.0,
+   "sta-05": 0.0,
+   "sta-06": 0.0,
+   "sta-07": 0.0,
+   "sta-08": 0.0,
+   "sta-09": 0.0,
+   "sta-10": 0.0,
+   "sta-11": 0.0
+  }
+ },
+ "primary": {
+  "H_MT1": {
+   "n_questions": 20,
+   "n": 20,
+   "stat": 0.0,
+   "p": 0.0021147111484839287,
+   "mean_diff": 0.10277777777777777,
+   "ci95": [
+    0.05277777777777778,
+    0.1611111111111111
+   ],
+   "label": "guard arm TU, turn 2 minus turn 1",
+   "p_holm": 0.0021147111484839287
+  },
+  "H_MT2": {
+   "n_questions": 20,
+   "n": 20,
+   "stat": 10.5,
+   "p": 0.000670177747074686,
+   "mean_diff": 0.18137254901960784,
+   "ci95": [
+    0.10637254901960787,
+    0.25898692810457513
+   ],
+   "label": "usability cost C = TU(noguard) - TU(guard), turn 2 minus turn 1",
+   "p_holm": 0.001340355494149372
+  }
+ },
+ "sensitivity_clear17": {
+  "H_MT1": {
+   "n_questions": 17,
+   "n": 17,
+   "stat": 0.0,
+   "p": 0.0032067376594402783,
+   "mean_diff": 0.1111111111111111,
+   "ci95": [
+    0.05555555555555555,
+    0.17647058823529413
+   ],
+   "label": "guard arm TU, turn 2 minus turn 1",
+   "p_holm": 0.0045489032919822665
+  },
+  "H_MT2": {
+   "n_questions": 17,
+   "n": 17,
+   "stat": 9.0,
+   "p": 0.0022744516459911332,
+   "mean_diff": 0.1774317570165321,
+   "ci95": [
+    0.09227220299884661,
+    0.26239907727797007
+   ],
+   "label": "usability cost C = TU(noguard) - TU(guard), turn 2 minus turn 1",
+   "p_holm": 0.0045489032919822665
+  }
+ },
+ "secondary_a_turn2_reference_gfs": {
+  "arm_mean": {
+   "grounded_guard": 0.895652364838543,
+   "grounded_noguard": 0.7183361634649358,
+   "ungrounded": 0.673705190042835
+  },
+  "guard_vs_noguard": {
+   "n_questions": 17,
+   "n": 17,
+   "stat": 2.0,
+   "p": 4.57763671875e-05
+  }
+ },
+ "secondary_b_guard_turn2_blocked": {
+  "turn2_tool_called": {
+   "blocked": 148,
+   "n": 240
+  },
+  "turn2_no_tool": {
+   "blocked": 117,
+   "n": 136
+  }
+ },
+ "secondary_c_TU_by_condition_turn1_turn2": {
+  "en|gemma4:e4b|grounded_guard": [
+   0.0,
+   0.1833
+  ],
+  "en|gemma4:e4b|grounded_noguard": [
+   0.0167,
+   0.3167
+  ],
+  "en|gemma4:e4b|ungrounded": [
+   0.0,
+   0.0
+  ],
+  "en|qwen3.8:27b|grounded_guard": [
+   0.0667,
+   0.0833
+  ],
+  "en|qwen3.8:27b|grounded_noguard": [
+   0.25,
+   0.6333
+  ],
+  "en|qwen3.8:27b|ungrounded": [
+   0.0,
+   0.0
+  ],
+  "tr|gemma4:e4b|grounded_guard": [
+   0.0167,
+   0.15
+  ],
+  "tr|gemma4:e4b|grounded_noguard": [
+   0.0,
+   0.2333
+  ],
+  "tr|gemma4:e4b|ungrounded": [
+   0.0,
+   0.0
+  ],
+  "tr|mistral-small3.2:24b|grounded_guard": [
+   0.0517,
+   0.1552
+  ],
+  "tr|mistral-small3.2:24b|grounded_noguard": [
+   0.069,
+   0.2931
+  ],
+  "tr|mistral-small3.2:24b|ungrounded": [
+   0.0,
+   0.0
+  ],
+  "tr|muse-glimmer:30b|grounded_guard": [
+   0.0,
+   0.2
+  ],
+  "tr|muse-glimmer:30b|grounded_noguard": [
+   0.0833,
+   0.4167
+  ],
+  "tr|muse-glimmer:30b|ungrounded": [
+   0.0,
+   0.0
+  ],
+  "tr|qwen3.8:27b|grounded_guard": [
+   0.0833,
+   0.0667
+  ],
+  "tr|qwen3.8:27b|grounded_noguard": [
+   0.4,
+   0.6333
+  ],
+  "tr|qwen3.8:27b|ungrounded": [
+   0.0,
+   0.0
+  ]
+ },
+ "secondary_d_turn1_tool_rate": {
+  "grounded_guard": 0.1835,
+  "grounded_noguard": 0.1835,
+  "ungrounded": 0.0
+ },
+ "secondary_e_traps_turn2_scale_violations": {
+  "grounded_guard": 0,
+  "grounded_noguard": 190,
+  "ungrounded": 0
+ },
+ "proxy_validation": {
+  "n_items": 86,
+  "proxy_Y": 54,
+  "coder1": {
+   "n": 86,
+   "kappa": 0.9496,
+   "raw_agreement": 0.9767,
+   "pabak": 0.9534,
+   "cells": {
+    "proxyY_humanY": 54,
+    "proxyY_humanN": 0,
+    "proxyN_humanY": 2,
+    "proxyN_humanN": 30
+   },
+   "criterion_met": true
+  },
+  "coder2": {
+   "n": 30,
+   "kappa": 0.9327,
+   "raw_agreement": 0.9667,
+   "pabak": 0.9334,
+   "cells": {
+    "proxyY_humanY": 16,
+    "proxyY_humanN": 0,
+    "proxyN_humanY": 1,
+    "proxyN_humanN": 13
+   },
+   "criterion_met": true
+  },
+  "proxy_valid": true,
+  "rule": "each coder: kappa >= 0.7 or raw agreement >= 0.85 (A28-3, A29-4)"
+ }
+}

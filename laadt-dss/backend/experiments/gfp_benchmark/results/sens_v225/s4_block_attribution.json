@@ -1,0 +1,678 @@
+{
+ "per_unit": {
+  "oct_v42|raw_g1_gemma4-e4b_20261014T200243Z.jsonl|t1": {
+   "evaluated": 168,
+   "blocked": 154,
+   "retried": 160,
+   "retried_draft_passes_sign": 0,
+   "blocked_draft_passes_sign": 0,
+   "retried_draft_passes_decimal": 0,
+   "blocked_draft_passes_decimal": 0,
+   "retried_draft_passes_both": 0,
+   "blocked_draft_passes_both": 0
+  },
+  "oct_v42|raw_g1_gemma4-e4b_en_20261015T161107Z.jsonl|t1": {
+   "evaluated": 168,
+   "blocked": 140,
+   "retried": 150,
+   "retried_draft_passes_sign": 0,
+   "blocked_draft_passes_sign": 0,
+   "retried_draft_passes_decimal": 4,
+   "blocked_draft_passes_decimal": 3,
+   "retried_draft_passes_both": 4,
+   "blocked_draft_passes_both": 3
+  },
+  "oct_v42|raw_g1_mistral-small3.2-24b_20261016T015818Z.jsonl|t1": {
+   "evaluated": 165,
+   "blocked": 88,
+   "retried": 100,
+   "retried_draft_passes_sign": 1,
+   "blocked_draft_passes_sign": 1,
+   "retried_draft_passes_decimal": 6,
+   "blocked_draft_passes_decimal": 6,
+   "retried_draft_passes_both": 7,
+   "blocked_draft_passes_both": 7,
+   "summary_fails_own_check": 5
+  },
+  "oct_v42|raw_g1_muse-glimmer-30b_20261016T121738Z.jsonl|t1": {
+   "evaluated": 168,
+   "blocked": 128,
+   "retried": 134,
+   "retried_draft_passes_sign": 1,
+   "blocked_draft_passes_sign": 1,
+   "retried_draft_passes_decimal": 13,
+   "blocked_draft_passes_decimal": 13,
+   "retried_draft_passes_both": 14,
+   "blocked_draft_passes_both": 14,
+   "summary_fails_own_check": 2
+  },
+  "oct_v42|raw_g1_qwen3.8-27b_20261015T072421Z.jsonl|t1": {
+   "evaluated": 166,
+   "blocked": 142,
+   "retried": 150,
+   "retried_draft_passes_sign": 0,
+   "blocked_draft_passes_sign": 0,
+   "retried_draft_passes_decimal": 4,
+   "blocked_draft_passes_decimal": 4,
+   "retried_draft_passes_both": 4,
+   "blocked_draft_passes_both": 4,
+   "summary_fails_own_check": 5
+  },
+  "oct_v42|raw_g1_qwen3.8-27b_en_20261015T180819Z.jsonl|t1": {
+   "evaluated": 166,
+   "blocked": 136,
+   "retried": 143,
+   "retried_draft_passes_sign": 0,
+   "blocked_draft_passes_sign": 0,
+   "retried_draft_passes_decimal": 0,
+   "blocked_draft_passes_decimal": 0,
+   "retried_draft_passes_both": 0,
+   "blocked_draft_passes_both": 0,
+   "summary_fails_own_check": 6
+  },
+  "oct_v42_mt|raw_mt_gemma4-e4b_20261104T230435Z.jsonl|t1": {
+   "evaluated": 63,
+   "blocked": 57,
+   "retried": 58,
+   "retried_draft_passes_sign": 0,
+   "blocked_draft_passes_sign": 0,
+   "retried_draft_passes_decimal": 0,
+   "blocked_draft_passes_decimal": 0,
+   "retried_draft_passes_both": 0,
+   "blocked_draft_passes_both": 0
+  },
+  "oct_v42_mt|raw_mt_gemma4-e4b_20261104T230435Z.jsonl|t2": {
+   "evaluated": 63,
+   "blocked": 47,
+   "retried": 53,
+   "retried_draft_passes_sign": 0,
+   "blocked_draft_passes_sign": 0,
+   "retried_draft_passes_decimal": 2,
+   "blocked_draft_passes_decimal": 2,
+   "retried_draft_passes_both": 2,
+   "blocked_draft_passes_both": 2
+  },
+  "oct_v42_mt|raw_mt_gemma4-e4b_en_20261105T051421Z.jsonl|t1": {
+   "evaluated": 63,
+   "blocked": 62,
+   "retried": 63,
+   "retried_draft_passes_sign": 0,
+   "blocked_draft_passes_sign": 0,
+   "retried_draft_passes_decimal": 0,
+   "blocked_draft_passes_decimal": 0,
+   "retried_draft_passes_both": 0,
+   "blocked_draft_passes_both": 0
+  },
+  "oct_v42_mt|raw_mt_gemma4-e4b_en_20261105T051421Z.jsonl|t2": {
+   "evaluated": 63,
+   "blocked": 39,
+   "retried": 43,
+   "retried_draft_passes_sign": 0,
+   "blocked_draft_passes_sign": 0,
+   "retried_draft_passes_decimal": 4,
+   "blocked_draft_passes_decimal": 4,
+   "retried_draft_passes_both": 4,
+   "blocked_draft_passes_both": 4,
+   "summary_fails_own_check": 1
+  },
+  "oct_v42_mt|raw_mt_mistral-small3.2-24b_20261105T103315Z.jsonl|t1": {
+   "evaluated": 61,
+   "blocked": 22,
+   "retried": 29,
+   "retried_draft_passes_sign": 0,
+   "blocked_draft_passes_sign": 0,
+   "retried_draft_passes_decimal": 0,
+   "blocked_draft_passes_decimal": 0,
+   "retried_draft_passes_both": 0,
+   "blocked_draft_passes_both": 0
+  },
+  "oct_v42_mt|raw_mt_mistral-small3.2-24b_20261105T103315Z.jsonl|t2": {
+   "evaluated": 63,
+   "blocked": 34,
+   "retried": 39,
+   "retried_draft_passes_sign": 0,
+   "blocked_draft_passes_sign": 0,
+   "retried_draft_passes_decimal": 5,
+   "blocked_draft_passes_decimal": 4,
+   "retried_draft_passes_both": 5,
+   "blocked_draft_passes_both": 4
+  },
+  "oct_v42_mt|raw_mt_muse-glimmer-30b_20261105T172843Z.jsonl|t1": {
+   "evaluated": 63,
+   "blocked": 51,
+   "retried": 52,
+   "retried_draft_passes_sign": 0,
+   "blocked_draft_passes_sign": 0,
+   "retried_draft_passes_decimal": 3,
+   "blocked_draft_passes_decimal": 3,
+   "retried_draft_passes_both": 3,
+   "blocked_draft_passes_both": 3
+  },
+  "oct_v42_mt|raw_mt_muse-glimmer-30b_20261105T172843Z.jsonl|t2": {
+   "evaluated": 63,
+   "blocked": 49,
+   "retried": 56,
+   "retried_draft_passes_sign": 0,
+   "blocked_draft_passes_sign": 0,
+   "retried_draft_passes_decimal": 8,
+   "blocked_draft_passes_decimal": 4,
+   "retried_draft_passes_both": 9,
+   "blocked_draft_passes_both": 5,
+   "summary_fails_own_check": 1
+  },
+  "oct_v42_mt|raw_mt_qwen3.8-27b_20261105T010006Z.jsonl|t1": {
+   "evaluated": 63,
+   "blocked": 58,
+   "retried": 61,
+   "retried_draft_passes_sign": 0,
+   "blocked_draft_passes_sign": 0,
+   "retried_draft_passes_decimal": 0,
+   "blocked_draft_passes_decimal": 0,
+   "retried_draft_passes_both": 0,
+   "blocked_draft_passes_both": 0
+  },
+  "oct_v42_mt|raw_mt_qwen3.8-27b_20261105T010006Z.jsonl|t2": {
+   "evaluated": 63,
+   "blocked": 48,
+   "retried": 50,
+   "retried_draft_passes_sign": 0,
+   "blocked_draft_passes_sign": 0,
+   "retried_draft_passes_decimal": 4,
+   "blocked_draft_passes_decimal": 4,
+   "retried_draft_passes_both": 4,
+   "blocked_draft_passes_both": 4
+  },
+  "oct_v42_mt|raw_mt_qwen3.8-27b_en_20261105T063650Z.jsonl|t1": {
+   "evaluated": 63,
+   "blocked": 61,
+   "retried": 62,
+   "retried_draft_passes_sign": 0,
+   "blocked_draft_passes_sign": 0,
+   "retried_draft_passes_decimal": 0,
+   "blocked_draft_passes_decimal": 0,
+   "retried_draft_passes_both": 0,
+   "blocked_draft_passes_both": 0
+  },
+  "oct_v42_mt|raw_mt_qwen3.8-27b_en_20261105T063650Z.jsonl|t2": {
+   "evaluated": 63,
+   "blocked": 49,
+   "retried": 51,
+   "retried_draft_passes_sign": 0,
+   "blocked_draft_passes_sign": 0,
+   "retried_draft_passes_decimal": 3,
+   "blocked_draft_passes_decimal": 3,
+   "retried_draft_passes_both": 3,
+   "blocked_draft_passes_both": 3
+  },
+  "oct_v42_evren|raw_g1_deepseek-v4.1-flash_20261106T091533Z.jsonl|t1": {
+   "evaluated": 167,
+   "blocked": 129,
+   "retried": 153,
+   "retried_draft_passes_sign": 0,
+   "blocked_draft_passes_sign": 0,
+   "retried_draft_passes_decimal": 11,
+   "blocked_draft_passes_decimal": 11,
+   "retried_draft_passes_both": 11,
+   "blocked_draft_passes_both": 11,
+   "summary_fails_own_check": 3
+  },
+  "oct_v42_evren|raw_mt_deepseek-v4.1-flash_20261107T044521Z.jsonl|t1": {
+   "evaluated": 63,
+   "blocked": 60,
+   "retried": 63,
+   "retried_draft_passes_sign": 0,
+   "blocked_draft_passes_sign": 0,
+   "retried_draft_passes_decimal": 4,
+   "blocked_draft_passes_decimal": 4,
+   "retried_draft_passes_both": 4,
+   "blocked_draft_passes_both": 4
+  },
+  "oct_v42_evren|raw_mt_deepseek-v4.1-flash_20261107T044521Z.jsonl|t2": {
+   "evaluated": 63,
+   "blocked": 48,
+   "retried": 53,
+   "retried_draft_passes_sign": 0,
+   "blocked_draft_passes_sign": 0,
+   "retried_draft_passes_decimal": 17,
+   "blocked_draft_passes_decimal": 17,
+   "retried_draft_passes_both": 17,
+   "blocked_draft_passes_both": 17,
+   "summary_fails_own_check": 1
+  }
+ },
+ "summaries_failing_own_check": [
+  {
+   "file": "oct_v42|raw_g1_mistral-small3.2-24b_20261016T015818Z.jsonl",
+   "qid": "sta-12",
+   "arm": "grounded_guard",
+   "rep": 0,
+   "unit": "t1",
+   "flagged": [
+    [
+     "96,561",
+     "UNGROUNDED",
+     "• Net bugünkü değer: -96,561 TL"
+    ]
+   ],
+   "passes_under": [
+    "sign",
+    "both"
+   ]
+  },
+  {
+   "file": "oct_v42|raw_g1_mistral-small3.2-24b_20261016T015818Z.jsonl",
+   "qid": "sta-01",
+   "arm": "grounded_guard",
+   "rep": 1,
+   "unit": "t1",
+   "flagged": [
+    [
+     "697,664",
+     "UNGROUNDED",
+     "• Net bugünkü değer: -697,664 TL"
+    ]
+   ],
+   "passes_under": [
+    "sign",
+    "both"
+   ]
+  },
+  {
+   "file": "oct_v42|raw_g1_mistral-small3.2-24b_20261016T015818Z.jsonl",
+   "qid": "sta-12",
+   "arm": "grounded_guard",
+   "rep": 1,
+   "unit": "t1",
+   "flagged": [
+    [
+     "135,347",
+     "UNGROUNDED",
+     "• Net bugünkü değer: -135,347 TL"
+    ]
+   ],
+   "passes_under": [
+    "sign",
+    "both"
+   ]
+  },
+  {
+   "file": "oct_v42|raw_g1_mistral-small3.2-24b_20261016T015818Z.jsonl",
+   "qid": "sta-13",
+   "arm": "grounded_guard",
+   "rep": 1,
+   "unit": "t1",
+   "flagged": [
+    [
+     "62,094",
+     "UNGROUNDED",
+     "• Net bugünkü değer: -62,094 TL"
+    ]
+   ],
+   "passes_under": [
+    "sign",
+    "both"
+   ]
+  },
+  {
+   "file": "oct_v42|raw_g1_mistral-small3.2-24b_20261016T015818Z.jsonl",
+   "qid": "sta-12",
+   "arm": "grounded_guard",
+   "rep": 2,
+   "unit": "t1",
+   "flagged": [
+    [
+     "96,561",
+     "UNGROUNDED",
+     "• Net bugünkü değer: -96,561 TL"
+    ]
+   ],
+   "passes_under": [
+    "sign",
+    "both"
+   ]
+  },
+  {
+   "file": "oct_v42|raw_g1_muse-glimmer-30b_20261016T121738Z.jsonl",
+   "qid": "com-15",
+   "arm": "grounded_guard",
+   "rep": 1,
+   "unit": "t1",
+   "flagged": [
+    [
+     "139,655",
+     "UNGROUNDED",
+     "• Net bugünkü değer: -139,655 TL"
+    ]
+   ],
+   "passes_under": [
+    "sign",
+    "both"
+   ]
+  },
+  {
+   "file": "oct_v42|raw_g1_muse-glimmer-30b_20261016T121738Z.jsonl",
+   "qid": "com-15",
+   "arm": "grounded_guard",
+   "rep": 2,
+   "unit": "t1",
+   "flagged": [
+    [
+     "139,655",
+     "UNGROUNDED",
+     "• Net bugünkü değer: -139,655 TL"
+    ]
+   ],
+   "passes_under": [
+    "sign",
+    "both"
+   ]
+  },
+  {
+   "file": "oct_v42|raw_g1_qwen3.8-27b_20261015T072421Z.jsonl",
+   "qid": "com-05",
+   "arm": "grounded_guard",
+   "rep": 0,
+   "unit": "t1",
+   "flagged": [
+    [
+     "694,609",
+     "UNGROUNDED",
+     "• Net bugünkü değer: -694,609 TL"
+    ]
+   ],
+   "passes_under": [
+    "sign",
+    "both"
+   ]
+  },
+  {
+   "file": "oct_v42|raw_g1_qwen3.8-27b_20261015T072421Z.jsonl",
+   "qid": "com-04",
+   "arm": "grounded_guard",
+   "rep": 1,
+   "unit": "t1",
+   "flagged": [
+    [
+     "367,260",
+     "UNGROUNDED",
+     "• Net bugünkü değer: -367,260 TL"
+    ]
+   ],
+   "passes_under": [
+    "sign",
+    "both"
+   ]
+  },
+  {
+   "file": "oct_v42|raw_g1_qwen3.8-27b_20261015T072421Z.jsonl",
+   "qid": "com-05",
+   "arm": "grounded_guard",
+   "rep": 1,
+   "unit": "t1",
+   "flagged": [
+    [
+     "694,609",
+     "UNGROUNDED",
+     "• Net bugünkü değer: -694,609 TL"
+    ]
+   ],
+   "passes_under": [
+    "sign",
+    "both"
+   ]
+  },
+  {
+   "file": "oct_v42|raw_g1_qwen3.8-27b_20261015T072421Z.jsonl",
+   "qid": "com-04",
+   "arm": "grounded_guard",
+   "rep": 2,
+   "unit": "t1",
+   "flagged": [
+    [
+     "367,260",
+     "UNGROUNDED",
+     "• Net bugünkü değer: -367,260 TL"
+    ]
+   ],
+   "passes_under": [
+    "sign",
+    "both"
+   ]
+  },
+  {
+   "file": "oct_v42|raw_g1_qwen3.8-27b_20261015T072421Z.jsonl",
+   "qid": "com-05",
+   "arm": "grounded_guard",
+   "rep": 2,
+   "unit": "t1",
+   "flagged": [
+    [
+     "694,609",
+     "UNGROUNDED",
+     "• Net bugünkü değer: -694,609 TL"
+    ]
+   ],
+   "passes_under": [
+    "sign",
+    "both"
+   ]
+  },
+  {
+   "file": "oct_v42|raw_g1_qwen3.8-27b_en_20261015T180819Z.jsonl",
+   "qid": "com-04",
+   "arm": "grounded_guard",
+   "rep": 0,
+   "unit": "t1",
+   "flagged": [
+    [
+     "367,260",
+     "UNGROUNDED",
+     "• Net present value: -367,260 TL"
+    ]
+   ],
+   "passes_under": [
+    "sign",
+    "both"
+   ]
+  },
+  {
+   "file": "oct_v42|raw_g1_qwen3.8-27b_en_20261015T180819Z.jsonl",
+   "qid": "com-05",
+   "arm": "grounded_guard",
+   "rep": 0,
+   "unit": "t1",
+   "flagged": [
+    [
+     "694,609",
+     "UNGROUNDED",
+     "• Net present value: -694,609 TL"
+    ]
+   ],
+   "passes_under": [
+    "sign",
+    "both"
+   ]
+  },
+  {
+   "file": "oct_v42|raw_g1_qwen3.8-27b_en_20261015T180819Z.jsonl",
+   "qid": "com-04",
+   "arm": "grounded_guard",
+   "rep": 1,
+   "unit": "t1",
+   "flagged": [
+    [
+     "367,260",
+     "UNGROUNDED",
+     "• Net present value: -367,260 TL"
+    ]
+   ],
+   "passes_under": [
+    "sign",
+    "both"
+   ]
+  },
+  {
+   "file": "oct_v42|raw_g1_qwen3.8-27b_en_20261015T180819Z.jsonl",
+   "qid": "com-05",
+   "arm": "grounded_guard",
+   "rep": 1,
+   "unit": "t1",
+   "flagged": [
+    [
+     "694,609",
+     "UNGROUNDED",
+     "• Net present value: -694,609 TL"
+    ]
+   ],
+   "passes_under": [
+    "sign",
+    "both"
+   ]
+  },
+  {
+   "file": "oct_v42|raw_g1_qwen3.8-27b_en_20261015T180819Z.jsonl",
+   "qid": "com-14",
+   "arm": "grounded_guard",
+   "rep": 1,
+   "unit": "t1",
+   "flagged": [
+    [
+     "1,824,311",
+     "UNGROUNDED",
+     "• Net present value: -1,824,311 TL"
+    ]
+   ],
+   "passes_under": [
+    "sign",
+    "both"
+   ]
+  },
+  {
+   "file": "oct_v42|raw_g1_qwen3.8-27b_en_20261015T180819Z.jsonl",
+   "qid": "com-05",
+   "arm": "grounded_guard",
+   "rep": 2,
+   "unit": "t1",
+   "flagged": [
+    [
+     "694,609",
+     "UNGROUNDED",
+     "• Net present value: -694,609 TL"
+    ]
+   ],
+   "passes_under": [
+    "sign",
+    "both"
+   ]
+  },
+  {
+   "file": "oct_v42_mt|raw_mt_gemma4-e4b_en_20261105T051421Z.jsonl",
+   "qid": "com-12",
+   "arm": "grounded_guard",
+   "rep": 0,
+   "unit": "t2",
+   "flagged": [
+    [
+     "685,016",
+     "UNGROUNDED",
+     "• Net present value: -685,016 TL"
+    ]
+   ],
+   "passes_under": [
+    "sign",
+    "both"
+   ]
+  },
+  {
+   "file": "oct_v42_mt|raw_mt_muse-glimmer-30b_20261105T172843Z.jsonl",
+   "qid": "res-11",
+   "arm": "grounded_guard",
+   "rep": 1,
+   "unit": "t2",
+   "flagged": [
+    [
+     "2,350,724",
+     "UNGROUNDED",
+     "• Net bugünkü değer: -2,350,724 TL"
+    ]
+   ],
+   "passes_under": [
+    "sign",
+    "both"
+   ]
+  },
+  {
+   "file": "oct_v42_evren|raw_g1_deepseek-v4.1-flash_20261106T091533Z.jsonl",
+   "qid": "com-04",
+   "arm": "grounded_guard",
+   "rep": 1,
+   "unit": "t1",
+   "flagged": [
+    [
+     "367,260",
+     "UNGROUNDED",
+     "• Net bugünkü değer: -367,260 TL"
+    ]
+   ],
+   "passes_under": [
+    "sign",
+    "both"
+   ]
+  },
+  {
+   "file": "oct_v42_evren|raw_g1_deepseek-v4.1-flash_20261106T091533Z.jsonl",
+   "qid": "com-04",
+   "arm": "grounded_guard",
+   "rep": 2,
+   "unit": "t1",
+   "flagged": [
+    [
+     "367,260",
+     "UNGROUNDED",
+     "• Net bugünkü değer: -367,260 TL"
+    ]
+   ],
+   "passes_under": [
+    "sign",
+    "both"
+   ]
+  },
+  {
+   "file": "oct_v42_evren|raw_g1_deepseek-v4.1-flash_20261106T091533Z.jsonl",
+   "qid": "com-05",
+   "arm": "grounded_guard",
+   "rep": 2,
+   "unit": "t1",
+   "flagged": [
+    [
+     "694,609",
+     "UNGROUNDED",
+     "• Net bugünkü değer: -694,609 TL"
+    ]
+   ],
+   "passes_under": [
+    "sign",
+    "both"
+   ]
+  },
+  {
+   "file": "oct_v42_evren|raw_mt_deepseek-v4.1-flash_20261107T044521Z.jsonl",
+   "qid": "com-12",
+   "arm": "grounded_guard",
+   "rep": 1,
+   "unit": "t2",
+   "flagged": [
+    [
+     "685,016",
+     "UNGROUNDED",
+     "• Net bugünkü değer: -685,016 TL"
+    ]
+   ],
+   "passes_under": [
+    "sign",
+    "both"
+   ]
+  }
+ ],
+ "note": "lower bound: retry text of blocked turns is not stored"
+}

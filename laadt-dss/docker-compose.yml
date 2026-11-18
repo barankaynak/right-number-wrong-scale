@@ -1,0 +1,135 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: laadt_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+      POSTGRES_DB: ${POSTGRES_DB:-laadt_dss}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    container_name: laadt_redis
+    restart: always
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  emqx:
+    image: emqx:5.5
+    container_name: laadt_emqx
+    restart: always
+    ports:
+      - "1883:1883"   # MQTT
+      - "8083:8083"   # MQTT over WebSocket
+      - "18083:18083" # EMQX Dashboard
+    volumes:
+      - emqx_data:/opt/emqx/data
+    healthcheck:
+      test: ["CMD", "emqx", "ping"]
+      interval: 10s
+      timeout: 10s
+      retries: 10
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: laadt_backend
+    restart: always
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-postgres}@db:5432/${POSTGRES_DB:-laadt_dss}
+      - REDIS_URL=redis://redis:6379/0
+      - MQTT_HOST=emqx
+      - MQTT_PORT=1883
+      - ENVIRONMENT=development
+      - OLLAMA_HOST=${OLLAMA_HOST:-http://host.docker.internal:11434}
+      - OLLAMA_MODEL=gemma4:e4b
+      - LLM_BACKEND=ollama
+      # GFP ProvenanceGuard (A1): block | log | off (G1 ablasyonu bu bayrakla)
+      - GUARD_MODE=block
+      # Gerçek bina footprint'leri (Google+Microsoft/VIDA PMTiles).
+      # VARSAYILAN: uzak Source Cooperative arşivi (global, byte-range, yerel depolama YOK).
+      - FOOTPRINT_PROVIDER=pmtiles
+      - PMTILES_PATH=https://data.source.coop/vida/google-microsoft-open-buildings/pmtiles/go_ms_building_footprints.pmtiles
+      # Daha HIZLI yerel okuma istersen: yukarıdaki satırı /data/buildings.pmtiles yap ve
+      # aşağıdaki mount'u aç (194 GB host dosyası; kopyalanmaz, byte-range okunur):
+      # - PMTILES_PATH=/data/buildings.pmtiles
+    volumes:
+      - ./backend:/app
+      # - "D:/go_ms_building_footprints.pmtiles:/data/buildings.pmtiles:ro"
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      emqx:
+        condition: service_healthy
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+
+  test:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: laadt_test
+    environment:
+      - DATABASE_URL=postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-postgres}@db:5432/${POSTGRES_DB:-laadt_dss}
+      - REDIS_URL=redis://redis:6379/0
+      - MQTT_HOST=emqx
+      - MQTT_PORT=1883
+      - ENVIRONMENT=test
+      - OLLAMA_HOST=${OLLAMA_HOST:-http://host.docker.internal:11434}
+      - LLM_BACKEND=mock
+    volumes:
+      - ./backend:/app
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      emqx:
+        condition: service_healthy
+    command: pytest tests/ -v
+    profiles:
+      - test
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: laadt_frontend
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:8000
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:
+  redis_data:
+  emqx_data:

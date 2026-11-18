@@ -1,0 +1,516 @@
+{
+ "counts": {
+  "raw_g4_final_en_seed42_20260710T190205Z.jsonl|source|long_decimal": 22,
+  "raw_g4_final_en_seed42_20260710T190205Z.jsonl|mutated|long_decimal": 22,
+  "raw_g4_final_mistral-small3.2-24b_seed42_20260710T225730Z.jsonl|source|long_decimal": 15,
+  "raw_g4_final_mistral-small3.2-24b_seed42_20260710T225730Z.jsonl|mutated|long_decimal": 15,
+  "raw_g4_final_seed42_20260710T074242Z.jsonl|source|long_decimal": 1,
+  "raw_g4_final_seed42_20260710T074242Z.jsonl|mutated|long_decimal": 1
+ },
+ "examples": [
+  {
+   "file": "raw_g4_final_en_seed42_20260710T190205Z.jsonl",
+   "field": "source",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "scale_swap",
+   "qid": "com-01"
+  },
+  {
+   "file": "raw_g4_final_en_seed42_20260710T190205Z.jsonl",
+   "field": "mutated",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "scale_swap",
+   "qid": "com-01"
+  },
+  {
+   "file": "raw_g4_final_en_seed42_20260710T190205Z.jsonl",
+   "field": "source",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "small_int_fabrication",
+   "qid": "com-08"
+  },
+  {
+   "file": "raw_g4_final_en_seed42_20260710T190205Z.jsonl",
+   "field": "mutated",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "small_int_fabrication",
+   "qid": "com-08"
+  },
+  {
+   "file": "raw_g4_final_en_seed42_20260710T190205Z.jsonl",
+   "field": "source",
+   "tag": "long_decimal",
+   "n": 3,
+   "kind": "injected",
+   "category": "value_fabrication",
+   "qid": "dis-04"
+  },
+  {
+   "file": "raw_g4_final_en_seed42_20260710T190205Z.jsonl",
+   "field": "mutated",
+   "tag": "long_decimal",
+   "n": 3,
+   "kind": "injected",
+   "category": "value_fabrication",
+   "qid": "dis-04"
+  },
+  {
+   "file": "raw_g4_final_en_seed42_20260710T190205Z.jsonl",
+   "field": "source",
+   "tag": "long_decimal",
+   "n": 3,
+   "kind": "control",
+   "category": null,
+   "qid": "dis-04"
+  },
+  {
+   "file": "raw_g4_final_en_seed42_20260710T190205Z.jsonl",
+   "field": "mutated",
+   "tag": "long_decimal",
+   "n": 3,
+   "kind": "control",
+   "category": null,
+   "qid": "dis-04"
+  },
+  {
+   "file": "raw_g4_final_en_seed42_20260710T190205Z.jsonl",
+   "field": "source",
+   "tag": "long_decimal",
+   "n": 4,
+   "kind": "injected",
+   "category": "value_fabrication",
+   "qid": "dis-06"
+  },
+  {
+   "file": "raw_g4_final_en_seed42_20260710T190205Z.jsonl",
+   "field": "mutated",
+   "tag": "long_decimal",
+   "n": 4,
+   "kind": "injected",
+   "category": "value_fabrication",
+   "qid": "dis-06"
+  },
+  {
+   "file": "raw_g4_final_en_seed42_20260710T190205Z.jsonl",
+   "field": "source",
+   "tag": "long_decimal",
+   "n": 4,
+   "kind": "control",
+   "category": null,
+   "qid": "dis-06"
+  },
+  {
+   "file": "raw_g4_final_en_seed42_20260710T190205Z.jsonl",
+   "field": "mutated",
+   "tag": "long_decimal",
+   "n": 4,
+   "kind": "control",
+   "category": null,
+   "qid": "dis-06"
+  },
+  {
+   "file": "raw_g4_final_en_seed42_20260710T190205Z.jsonl",
+   "field": "source",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "scale_swap",
+   "qid": "res-02"
+  },
+  {
+   "file": "raw_g4_final_en_seed42_20260710T190205Z.jsonl",
+   "field": "mutated",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "scale_swap",
+   "qid": "res-02"
+  },
+  {
+   "file": "raw_g4_final_en_seed42_20260710T190205Z.jsonl",
+   "field": "source",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "value_fabrication",
+   "qid": "res-05"
+  },
+  {
+   "file": "raw_g4_final_en_seed42_20260710T190205Z.jsonl",
+   "field": "mutated",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "value_fabrication",
+   "qid": "res-05"
+  },
+  {
+   "file": "raw_g4_final_en_seed42_20260710T190205Z.jsonl",
+   "field": "source",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "control",
+   "category": null,
+   "qid": "res-05"
+  },
+  {
+   "file": "raw_g4_final_en_seed42_20260710T190205Z.jsonl",
+   "field": "mutated",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "control",
+   "category": null,
+   "qid": "res-05"
+  },
+  {
+   "file": "raw_g4_final_en_seed42_20260710T190205Z.jsonl",
+   "field": "source",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "unit_swap",
+   "qid": "res-05"
+  },
+  {
+   "file": "raw_g4_final_en_seed42_20260710T190205Z.jsonl",
+   "field": "mutated",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "unit_swap",
+   "qid": "res-05"
+  },
+  {
+   "file": "raw_g4_final_en_seed42_20260710T190205Z.jsonl",
+   "field": "source",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "scale_swap",
+   "qid": "res-05"
+  },
+  {
+   "file": "raw_g4_final_en_seed42_20260710T190205Z.jsonl",
+   "field": "mutated",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "scale_swap",
+   "qid": "res-05"
+  },
+  {
+   "file": "raw_g4_final_en_seed42_20260710T190205Z.jsonl",
+   "field": "source",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "small_int_fabrication",
+   "qid": "res-05"
+  },
+  {
+   "file": "raw_g4_final_en_seed42_20260710T190205Z.jsonl",
+   "field": "mutated",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "small_int_fabrication",
+   "qid": "res-05"
+  },
+  {
+   "file": "raw_g4_final_mistral-small3.2-24b_seed42_20260710T225730Z.jsonl",
+   "field": "source",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "value_fabrication",
+   "qid": "com-03"
+  },
+  {
+   "file": "raw_g4_final_mistral-small3.2-24b_seed42_20260710T225730Z.jsonl",
+   "field": "mutated",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "value_fabrication",
+   "qid": "com-03"
+  },
+  {
+   "file": "raw_g4_final_mistral-small3.2-24b_seed42_20260710T225730Z.jsonl",
+   "field": "source",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "control",
+   "category": null,
+   "qid": "com-03"
+  },
+  {
+   "file": "raw_g4_final_mistral-small3.2-24b_seed42_20260710T225730Z.jsonl",
+   "field": "mutated",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "control",
+   "category": null,
+   "qid": "com-03"
+  },
+  {
+   "file": "raw_g4_final_mistral-small3.2-24b_seed42_20260710T225730Z.jsonl",
+   "field": "source",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "unit_swap",
+   "qid": "com-03"
+  },
+  {
+   "file": "raw_g4_final_mistral-small3.2-24b_seed42_20260710T225730Z.jsonl",
+   "field": "mutated",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "unit_swap",
+   "qid": "com-03"
+  },
+  {
+   "file": "raw_g4_final_mistral-small3.2-24b_seed42_20260710T225730Z.jsonl",
+   "field": "source",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "scale_swap",
+   "qid": "com-03"
+  },
+  {
+   "file": "raw_g4_final_mistral-small3.2-24b_seed42_20260710T225730Z.jsonl",
+   "field": "mutated",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "scale_swap",
+   "qid": "com-03"
+  },
+  {
+   "file": "raw_g4_final_mistral-small3.2-24b_seed42_20260710T225730Z.jsonl",
+   "field": "source",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "value_fabrication",
+   "qid": "com-08"
+  },
+  {
+   "file": "raw_g4_final_mistral-small3.2-24b_seed42_20260710T225730Z.jsonl",
+   "field": "mutated",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "value_fabrication",
+   "qid": "com-08"
+  },
+  {
+   "file": "raw_g4_final_mistral-small3.2-24b_seed42_20260710T225730Z.jsonl",
+   "field": "source",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "control",
+   "category": null,
+   "qid": "com-08"
+  },
+  {
+   "file": "raw_g4_final_mistral-small3.2-24b_seed42_20260710T225730Z.jsonl",
+   "field": "mutated",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "control",
+   "category": null,
+   "qid": "com-08"
+  },
+  {
+   "file": "raw_g4_final_mistral-small3.2-24b_seed42_20260710T225730Z.jsonl",
+   "field": "source",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "unit_swap",
+   "qid": "com-08"
+  },
+  {
+   "file": "raw_g4_final_mistral-small3.2-24b_seed42_20260710T225730Z.jsonl",
+   "field": "mutated",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "unit_swap",
+   "qid": "com-08"
+  },
+  {
+   "file": "raw_g4_final_mistral-small3.2-24b_seed42_20260710T225730Z.jsonl",
+   "field": "source",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "small_int_fabrication",
+   "qid": "com-08"
+  },
+  {
+   "file": "raw_g4_final_mistral-small3.2-24b_seed42_20260710T225730Z.jsonl",
+   "field": "mutated",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "small_int_fabrication",
+   "qid": "com-08"
+  },
+  {
+   "file": "raw_g4_final_mistral-small3.2-24b_seed42_20260710T225730Z.jsonl",
+   "field": "source",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "value_fabrication",
+   "qid": "com-13"
+  },
+  {
+   "file": "raw_g4_final_mistral-small3.2-24b_seed42_20260710T225730Z.jsonl",
+   "field": "mutated",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "value_fabrication",
+   "qid": "com-13"
+  },
+  {
+   "file": "raw_g4_final_mistral-small3.2-24b_seed42_20260710T225730Z.jsonl",
+   "field": "source",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "control",
+   "category": null,
+   "qid": "com-13"
+  },
+  {
+   "file": "raw_g4_final_mistral-small3.2-24b_seed42_20260710T225730Z.jsonl",
+   "field": "mutated",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "control",
+   "category": null,
+   "qid": "com-13"
+  },
+  {
+   "file": "raw_g4_final_mistral-small3.2-24b_seed42_20260710T225730Z.jsonl",
+   "field": "source",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "unit_swap",
+   "qid": "com-13"
+  },
+  {
+   "file": "raw_g4_final_mistral-small3.2-24b_seed42_20260710T225730Z.jsonl",
+   "field": "mutated",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "unit_swap",
+   "qid": "com-13"
+  },
+  {
+   "file": "raw_g4_final_mistral-small3.2-24b_seed42_20260710T225730Z.jsonl",
+   "field": "source",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "scale_swap",
+   "qid": "com-13"
+  },
+  {
+   "file": "raw_g4_final_mistral-small3.2-24b_seed42_20260710T225730Z.jsonl",
+   "field": "mutated",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "scale_swap",
+   "qid": "com-13"
+  },
+  {
+   "file": "raw_g4_final_mistral-small3.2-24b_seed42_20260710T225730Z.jsonl",
+   "field": "source",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "small_int_fabrication",
+   "qid": "com-13"
+  },
+  {
+   "file": "raw_g4_final_mistral-small3.2-24b_seed42_20260710T225730Z.jsonl",
+   "field": "mutated",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "small_int_fabrication",
+   "qid": "com-13"
+  },
+  {
+   "file": "raw_g4_final_mistral-small3.2-24b_seed42_20260710T225730Z.jsonl",
+   "field": "source",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "value_fabrication",
+   "qid": "dis-01"
+  },
+  {
+   "file": "raw_g4_final_mistral-small3.2-24b_seed42_20260710T225730Z.jsonl",
+   "field": "mutated",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "value_fabrication",
+   "qid": "dis-01"
+  },
+  {
+   "file": "raw_g4_final_mistral-small3.2-24b_seed42_20260710T225730Z.jsonl",
+   "field": "source",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "control",
+   "category": null,
+   "qid": "dis-01"
+  },
+  {
+   "file": "raw_g4_final_mistral-small3.2-24b_seed42_20260710T225730Z.jsonl",
+   "field": "mutated",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "control",
+   "category": null,
+   "qid": "dis-01"
+  },
+  {
+   "file": "raw_g4_final_seed42_20260710T074242Z.jsonl",
+   "field": "source",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "small_int_fabrication",
+   "qid": "com-01"
+  },
+  {
+   "file": "raw_g4_final_seed42_20260710T074242Z.jsonl",
+   "field": "mutated",
+   "tag": "long_decimal",
+   "n": 1,
+   "kind": "injected",
+   "category": "small_int_fabrication",
+   "qid": "com-01"
+  }
+ ]
+}

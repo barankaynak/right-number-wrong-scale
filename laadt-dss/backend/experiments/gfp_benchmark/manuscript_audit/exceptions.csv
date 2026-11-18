@@ -1,0 +1,8 @@
+file,value,context,category,reason
+main.tex,9004,orcid.org,identifier,part of the author's ORCID iD
+main.tex,2639,orcid.org,identifier,part of the author's ORCID iD
+cover_letter.md,9004,ORCID,identifier,part of the author's ORCID iD
+cover_letter.md,2639,ORCID,identifier,part of the author's ORCID iD
+main.tex,35.1,0.538,illustrative,worked example of the percentage-as-ratio rule (Sec. 3 matching tolerance); not a result
+main.tex,0.538,35.1,illustrative,worked example of the percentage-as-ratio rule (Sec. 3 matching tolerance); not a result
+graphical_abstract.tex,2,kWp,illustrative,example LLM answer in the graphical abstract (2 kWp for one house); not a result

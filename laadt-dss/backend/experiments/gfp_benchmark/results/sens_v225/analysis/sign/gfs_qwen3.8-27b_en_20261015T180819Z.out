@@ -1,0 +1,379 @@
+{
+ "model": "qwen3.8:27b",
+ "exclusions": {
+  "fallback": 30,
+  "error": 0,
+  "ref_invalid": 0,
+  "no_claims_ref": 132,
+  "no_claims_inrun": 322,
+  "total": 504
+ },
+ "exclusion_rate": 0.0595,
+ "exclusion_rate_over_10pct_INVALID": false,
+ "within_repeat_variance": {
+  "ref_gfs": {
+   "n_cells_multi_repeat": 114,
+   "mean_cell_std": 0.0604,
+   "median_cell_std": 0.0446,
+   "max_cell_std": 0.4082,
+   "frac_cells_std_zero": 0.114
+  },
+  "inrun_gfs": {
+   "n_cells_multi_repeat": 47,
+   "mean_cell_std": 0.0301,
+   "median_cell_std": 0.0154,
+   "max_cell_std": 0.1902,
+   "frac_cells_std_zero": 0.319
+  }
+ },
+ "G1_reference_gfs": {
+  "H_G1a": {
+   "pair": "grounded_guard vs ungrounded",
+   "gfs_mean": {
+    "grounded_guard": 0.8681481481481481,
+    "ungrounded": 0.4968046396578922
+   },
+   "wilcoxon": {
+    "n": 15,
+    "stat": 6.0,
+    "p": 0.0008544921875,
+    "p_holm": 0.001708984375
+   },
+   "mcnemar_clean": {
+    "discordant": 11,
+    "a_only": 11,
+    "b_only": 0,
+    "p": 0.0009765625
+   },
+   "bootstrap": {
+    "mean_diff": 0.37134350849025594,
+    "ci95": [
+     0.2354630516552017,
+     0.4848183634858133
+    ]
+   },
+   "achieved_n": 15
+  },
+  "H_G1b": {
+   "pair": "grounded_guard vs grounded_noguard",
+   "gfs_mean": {
+    "grounded_guard": 0.8763888888888889,
+    "grounded_noguard": 0.8352373168938246
+   },
+   "wilcoxon": {
+    "n": 16,
+    "stat": 35.0,
+    "p": 0.09344482421875,
+    "p_holm": 0.09344482421875
+   },
+   "mcnemar_clean": {
+    "discordant": 12,
+    "a_only": 12,
+    "b_only": 0,
+    "p": 0.00048828125
+   },
+   "bootstrap": {
+    "mean_diff": 0.04115157199506422,
+    "ci95": [
+     -0.03722921068192237,
+     0.1046252744952767
+    ]
+   },
+   "achieved_n": 16
+  },
+  "H_G1a_aux": {
+   "pair": "grounded_noguard vs ungrounded",
+   "gfs_mean": {
+    "grounded_noguard": 0.6374982147962773,
+    "ungrounded": 0.44015097171182394
+   },
+   "wilcoxon": {
+    "n": 53,
+    "stat": 142.0,
+    "p": 3.833188239990208e-07,
+    "p_holm": 1.1499564719970626e-06
+   },
+   "mcnemar_clean": {
+    "discordant": 0,
+    "a_only": 0,
+    "b_only": 0,
+    "p": 1.0
+   },
+   "bootstrap": {
+    "mean_diff": 0.19734724308445348,
+    "ci95": [
+     0.13851383785116936,
+     0.2515169213245431
+    ]
+   },
+   "achieved_n": 53
+  }
+ },
+ "G1_reference_gfs_sensitivity": {
+  "withheld_as_0": {
+   "H_G1a": {
+    "gfs_mean": {
+     "grounded_guard": 0.2466230936819172,
+     "ungrounded": 0.433984864208373
+    },
+    "achieved_n": 51,
+    "wilcoxon": {
+     "n": 51,
+     "stat": 399.0,
+     "p": 0.013338724594837748,
+     "p_holm": 0.013338724594837748
+    },
+    "mcnemar_clean": {
+     "discordant": 11,
+     "a_only": 11,
+     "b_only": 0,
+     "p": 0.0009765625
+    },
+    "bootstrap": {
+     "mean_diff": -0.1873617705264558,
+     "ci95": [
+      -0.2956072094590539,
+      -0.07233625694544266
+     ]
+    }
+   },
+   "H_G1b": {
+    "gfs_mean": {
+     "grounded_guard": 0.2561844863731656,
+     "grounded_noguard": 0.6421781398054953
+    },
+    "achieved_n": 53,
+    "wilcoxon": {
+     "n": 53,
+     "stat": 91.0,
+     "p": 5.1533608841136404e-08,
+     "p_holm": 1.546008265234092e-07
+    },
+    "mcnemar_clean": {
+     "discordant": 12,
+     "a_only": 12,
+     "b_only": 0,
+     "p": 0.00048828125
+    },
+    "bootstrap": {
+     "mean_diff": -0.38599365343232966,
+     "ci95": [
+      -0.4764551609739074,
+      -0.2949115539627921
+     ]
+    }
+   },
+   "H_G1a_aux": {
+    "gfs_mean": {
+     "grounded_noguard": 0.6374982147962773,
+     "ungrounded": 0.44015097171182394
+    },
+    "achieved_n": 53,
+    "wilcoxon": {
+     "n": 53,
+     "stat": 142.0,
+     "p": 3.833188239990208e-07,
+     "p_holm": 7.666376479980416e-07
+    },
+    "mcnemar_clean": {
+     "discordant": 0,
+     "a_only": 0,
+     "b_only": 0,
+     "p": 1.0
+    },
+    "bootstrap": {
+     "mean_diff": 0.19734724308445348,
+     "ci95": [
+      0.13851383785116936,
+      0.2515169213245431
+     ]
+    }
+   }
+  },
+  "withheld_as_1": {
+   "H_G1a": {
+    "gfs_mean": {
+     "grounded_guard": 0.9655773420479302,
+     "ungrounded": 0.433984864208373
+    },
+    "achieved_n": 51,
+    "wilcoxon": {
+     "n": 51,
+     "stat": 4.0,
+     "p": 6.528366037592496e-10,
+     "p_holm": 1.9585098112777487e-09
+    },
+    "mcnemar_clean": {
+     "discordant": 47,
+     "a_only": 47,
+     "b_only": 0,
+     "p": 1.4210854715202004e-14
+    },
+    "bootstrap": {
+     "mean_diff": 0.5315924778395572,
+     "ci95": [
+      0.47236041208024254,
+      0.586582074385899
+     ]
+    }
+   },
+   "H_G1b": {
+    "gfs_mean": {
+     "grounded_guard": 0.9668763102725366,
+     "grounded_noguard": 0.6421781398054953
+    },
+    "achieved_n": 53,
+    "wilcoxon": {
+     "n": 53,
+     "stat": 55.0,
+     "p": 4.997630211981767e-09,
+     "p_holm": 9.995260423963535e-09
+    },
+    "mcnemar_clean": {
+     "discordant": 49,
+     "a_only": 49,
+     "b_only": 0,
+     "p": 3.552713678800501e-15
+    },
+    "bootstrap": {
+     "mean_diff": 0.32469817046704136,
+     "ci95": [
+      0.2520568504745162,
+      0.3985374032529464
+     ]
+    }
+   },
+   "H_G1a_aux": {
+    "gfs_mean": {
+     "grounded_noguard": 0.6374982147962773,
+     "ungrounded": 0.44015097171182394
+    },
+    "achieved_n": 53,
+    "wilcoxon": {
+     "n": 53,
+     "stat": 142.0,
+     "p": 3.833188239990208e-07,
+     "p_holm": 3.833188239990208e-07
+    },
+    "mcnemar_clean": {
+     "discordant": 0,
+     "a_only": 0,
+     "b_only": 0,
+     "p": 1.0
+    },
+    "bootstrap": {
+     "mean_diff": 0.19734724308445348,
+     "ci95": [
+      0.13851383785116936,
+      0.2515169213245431
+     ]
+    }
+   }
+  }
+ },
+ "withheld": {
+  "n_guard_responses": 166,
+  "n_withheld": 104,
+  "withheld_rate": 0.6265,
+  "clean_in_noguard_withheld_in_guard": {
+   "any_repeat": {
+    "n_questions": 0,
+    "share_of_questions": 0.0
+   },
+   "all_repeats": {
+    "n_questions": 0,
+    "share_of_questions": 0.0
+   }
+  }
+ },
+ "G1b_pre_intervention": {
+  "gfs_mean": {
+   "grounded_guard": 0.7973653996168506,
+   "grounded_noguard": 0.7924984625678395
+  },
+  "wilcoxon": {
+   "n": 40,
+   "stat": 247.0,
+   "p": 0.7505744646291802
+  },
+  "note": "fark ≈0 beklenir → kazanım müdahaleden (dürüst ayrıştırma)"
+ },
+ "G2_inrun_primary": {
+  "analysis_unit": "question (cell-mean over repeats)",
+  "group_means": {
+   "chain1": 0.8045,
+   "chain2": 0.8042,
+   "chain3": 0.699
+  },
+  "group_n": {
+   "chain1": 22,
+   "chain2": 15,
+   "chain3": 7
+  },
+  "kruskal": {
+   "H": 0.0917460317460268,
+   "p": 0.9551632450608557
+  },
+  "dunn": {
+   "pairwise_p": {
+    "chain1-vs-chain2": 0.8951841526651838,
+    "chain1-vs-chain3": 0.8275527429663092,
+    "chain2-vs-chain3": 0.7619690632679399
+   },
+   "pairwise_p_holm": {
+    "chain2-vs-chain3": 1.0,
+    "chain1-vs-chain3": 1.0,
+    "chain1-vs-chain2": 1.0
+   }
+  },
+  "spearman": {
+   "rho": -0.014449546110761581,
+   "p": 0.9258297297714917
+  },
+  "claim_count_covariate_note": "chain≥2 sorular doğal olarak daha çok iddia içerir (prereg §6.3)"
+ },
+ "G2_reference_secondary": {
+  "analysis_unit": "question (cell-mean over repeats)",
+  "group_means": {
+   "chain1": 0.6424,
+   "chain2": 0.6565,
+   "chain3": 0.6253
+  },
+  "group_n": {
+   "chain1": 27,
+   "chain2": 19,
+   "chain3": 9
+  },
+  "kruskal": {
+   "H": 0.023741171109577408,
+   "p": 0.9881995918889978
+  },
+  "dunn": {
+   "pairwise_p": {
+    "chain1-vs-chain2": 0.901048745606698,
+    "chain1-vs-chain3": 0.8996280352156081,
+    "chain2-vs-chain3": 0.9776908332293783
+   },
+   "pairwise_p_holm": {
+    "chain1-vs-chain3": 1.0,
+    "chain1-vs-chain2": 1.0,
+    "chain2-vs-chain3": 1.0
+   }
+  },
+  "spearman": {
+   "rho": -0.02074889376629208,
+   "p": 0.8804808838366183
+  }
+ },
+ "guard_side_metrics": {
+  "n": 166,
+  "blocked_rate": 0.8193,
+  "retried_rate": 0.8614,
+  "ambiguous_per_response": 0.747,
+  "evaluated_rate": 1.0,
+  "toolless_rate": 0.259,
+  "blocked_rate_toolless": 0.9767,
+  "blocked_rate_tool": 0.7642,
+  "withheld_no_claims_rate": 0.7229
+ }
+}

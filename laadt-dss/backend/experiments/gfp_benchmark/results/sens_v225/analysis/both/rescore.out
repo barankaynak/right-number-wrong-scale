@@ -1,0 +1,31 @@
+UYARI: tr/glm-4.7-flash:latest dosyası yok (raw_g1_glm-4.7-flash-latest_2026*.jsonl)
+=== CROSS-LINGUAL yeniden-skorlama (guard v4.1, pre_intervention referans-GFS) ===
+
+lang model         arm                ref-GFS   nQ   GR  UNG  SCL UNIT   IGN
+tr   gemma4:e4b    grounded_guard       0.723   56 1390  392   63   54   939
+tr   gemma4:e4b    grounded_noguard     0.727   56 1389  377   48   56   970
+tr   gemma4:e4b    ungrounded           0.642   56 1523  597  104   67  1214
+tr   qwen3.8:27b   grounded_guard       0.633   55 3434 1215  102  120   692
+tr   qwen3.8:27b   grounded_noguard     0.638   52 3285 1288  105  112   688
+tr   qwen3.8:27b   ungrounded           0.456   48 1326 1251  117   98  1037
+tr   mistral-small3.2:24b grounded_guard       0.704   54 1074  336    9   31   315
+tr   mistral-small3.2:24b grounded_noguard     0.718   54 1096  355   16   30   320
+tr   mistral-small3.2:24b ungrounded           0.614   56 1599 1054   48   84   801
+tr   glm-4.7-flash:latest grounded_guard         nan    0    0    0    0    0     0
+tr   glm-4.7-flash:latest grounded_noguard       nan    0    0    0    0    0     0
+tr   glm-4.7-flash:latest ungrounded             nan    0    0    0    0    0     0
+tr   muse-glimmer:30b grounded_guard       0.783   55 1626  193   24   29   153
+tr   muse-glimmer:30b grounded_noguard     0.741   55 1760  224   32   39   127
+tr   muse-glimmer:30b ungrounded           0.707   53  535  185   29    4   146
+en   gemma4:e4b    grounded_guard       0.736   56 1246  311   43   29   700
+en   gemma4:e4b    grounded_noguard     0.756   56 1268  283   43   32   676
+en   gemma4:e4b    ungrounded           0.643   56 1176  436   81   39   937
+en   qwen3.8:27b   grounded_guard       0.659   53 3194 1061   94   79   608
+en   qwen3.8:27b   grounded_noguard     0.661   55 3247 1071  100   94   641
+en   qwen3.8:27b   ungrounded           0.440   54 1823 1788  169  105  1042
+
+=== TR ↔ EN farkı (referans-GFS, grounded_noguard = ham temellendirme) ===
+  gemma4:e4b   : TR 0.727  vs  EN 0.756   Δ(EN-TR) = +0.029
+  qwen3.8:27b  : TR 0.638  vs  EN 0.661   Δ(EN-TR) = +0.023
+
+-> crosslingual_rescore.json + crosslingual_cells.json

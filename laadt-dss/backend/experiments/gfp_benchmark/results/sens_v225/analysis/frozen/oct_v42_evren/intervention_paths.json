@@ -1,0 +1,99 @@
+{
+ "tr|deepseek-v4.1-flash": {
+  "n_guard_responses": 167,
+  "paths": {
+   "P0": {
+    "n": 14,
+    "share": 0.0838,
+    "delivered_ref_gfs": 0.9261180679785331,
+    "delivered_clean_rate": 0.6,
+    "paired_noguard_ref_gfs": 0.830944360650243,
+    "paired_delta": 0.09517370732829007,
+    "n_pairs": 5,
+    "first_draft_ref_gfs": null,
+    "summaries_ref_gfs_below_1": null
+   },
+   "P1a": {
+    "n": 24,
+    "share": 0.1437,
+    "delivered_ref_gfs": 0.8904580876177176,
+    "delivered_clean_rate": 0.6666666666666666,
+    "paired_noguard_ref_gfs": 0.7949079809282483,
+    "paired_delta": 0.09555010668946924,
+    "n_pairs": 24,
+    "first_draft_ref_gfs": 0.7761875004810715,
+    "summaries_ref_gfs_below_1": null
+   },
+   "P1b": {
+    "n": 0,
+    "share": 0.0,
+    "delivered_ref_gfs": null,
+    "delivered_clean_rate": null,
+    "paired_noguard_ref_gfs": null,
+    "paired_delta": null,
+    "n_pairs": 0,
+    "first_draft_ref_gfs": null,
+    "summaries_ref_gfs_below_1": null
+   },
+   "P2": {
+    "n": 19,
+    "share": 0.1138,
+    "delivered_ref_gfs": 0.8456140350877193,
+    "delivered_clean_rate": 0.6842105263157895,
+    "paired_noguard_ref_gfs": 0.767845538397864,
+    "paired_delta": 0.07845075789843231,
+    "n_pairs": 18,
+    "first_draft_ref_gfs": 0.8254442528095183,
+    "summaries_ref_gfs_below_1": 6
+   },
+   "P3": {
+    "n": 110,
+    "share": 0.6587,
+    "delivered_ref_gfs": null,
+    "delivered_clean_rate": null,
+    "paired_noguard_ref_gfs": null,
+    "paired_delta": null,
+    "n_pairs": 0,
+    "first_draft_ref_gfs": null,
+    "summaries_ref_gfs_below_1": null
+   }
+  },
+  "decomposition": {
+   "primary": {
+    "sum": 0.03064,
+    "by_path": {
+     "P0": 0.00798,
+     "P1a": 0.01373,
+     "P1b": 0.0,
+     "P2": 0.00893,
+     "P3": 0.0
+    }
+   },
+   "withheld_as_0": {
+    "sum": -0.40002,
+    "by_path": {
+     "P0": 0.00798,
+     "P1a": 0.01373,
+     "P1b": 0.0,
+     "P2": 0.00893,
+     "P3": -0.43066
+    }
+   },
+   "withheld_as_1": {
+    "sum": 0.25866,
+    "by_path": {
+     "P0": 0.00798,
+     "P1a": 0.01373,
+     "P1b": 0.0,
+     "P2": 0.00893,
+     "P3": 0.22802
+    }
+   }
+  },
+  "correction_resolution_share": 0.1569,
+  "e3_breakdown_retried": {
+   "retry_restated_numbers": 152,
+   "retry_requested_tool": 1
+  }
+ }
+}

@@ -1,0 +1,27 @@
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+pydantic==2.6.1
+pydantic-settings==2.1.0
+sqlalchemy==2.0.25
+alembic==1.13.1
+psycopg2-binary==2.9.9
+celery==5.3.6
+redis==5.0.1
+pvlib>=0.11.0
+# pybamm — not yet used, add in Phase 3
+pandapower>=2.13.0
+simbench>=1.5.0
+numpy>=1.26.4,<2.0
+scipy>=1.12.0
+pandas>=2.2.0
+scikit-learn>=1.4.0
+# BDEW/VDEW standart yük profilleri (H0/G0-G6) — numpy<2.0 uyumlu son sürüm
+demandlib==0.1.9
+# PMTiles (gerçek bina footprint arşivi) okuma — saf Python, bağımlılık yok
+pmtiles>=3.4.0
+pytest==8.0.0
+pytest-cov==4.1.0
+httpx==0.26.0
+slowapi>=0.1.9
+# Phase 3 — IoT layer
+paho-mqtt>=1.6.1

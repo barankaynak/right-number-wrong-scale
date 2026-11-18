@@ -1,0 +1,215 @@
+{
+ "tr|gemma4:e4b|grounded_guard": {
+  "gfs": 0.7234167037413665,
+  "nQ": 56,
+  "verdicts": {
+   "GROUNDED": 1390,
+   "UNGROUNDED": 392,
+   "SCALE_VIOLATION": 63,
+   "UNIT_MISMATCH": 54,
+   "IGNORED": 939
+  }
+ },
+ "tr|gemma4:e4b|grounded_noguard": {
+  "gfs": 0.7273867240482588,
+  "nQ": 56,
+  "verdicts": {
+   "GROUNDED": 1389,
+   "UNGROUNDED": 377,
+   "SCALE_VIOLATION": 48,
+   "UNIT_MISMATCH": 56,
+   "IGNORED": 970
+  }
+ },
+ "tr|gemma4:e4b|ungrounded": {
+  "gfs": 0.6424008558691815,
+  "nQ": 56,
+  "verdicts": {
+   "GROUNDED": 1523,
+   "UNGROUNDED": 597,
+   "SCALE_VIOLATION": 104,
+   "UNIT_MISMATCH": 67,
+   "IGNORED": 1214
+  }
+ },
+ "tr|qwen3.8:27b|grounded_guard": {
+  "gfs": 0.6343552242212688,
+  "nQ": 55,
+  "verdicts": {
+   "GROUNDED": 3439,
+   "UNGROUNDED": 1205,
+   "SCALE_VIOLATION": 100,
+   "UNIT_MISMATCH": 126,
+   "IGNORED": 693
+  }
+ },
+ "tr|qwen3.8:27b|grounded_noguard": {
+  "gfs": 0.6388662371692473,
+  "nQ": 52,
+  "verdicts": {
+   "GROUNDED": 3293,
+   "UNGROUNDED": 1279,
+   "SCALE_VIOLATION": 103,
+   "UNIT_MISMATCH": 115,
+   "IGNORED": 688
+  }
+ },
+ "tr|qwen3.8:27b|ungrounded": {
+  "gfs": 0.45628927123400065,
+  "nQ": 48,
+  "verdicts": {
+   "GROUNDED": 1327,
+   "UNGROUNDED": 1249,
+   "SCALE_VIOLATION": 117,
+   "UNIT_MISMATCH": 99,
+   "IGNORED": 1037
+  }
+ },
+ "tr|mistral-small3.2:24b|grounded_guard": {
+  "gfs": 0.7058944139393747,
+  "nQ": 54,
+  "verdicts": {
+   "GROUNDED": 1078,
+   "UNGROUNDED": 332,
+   "SCALE_VIOLATION": 9,
+   "UNIT_MISMATCH": 31,
+   "IGNORED": 315
+  }
+ },
+ "tr|mistral-small3.2:24b|grounded_noguard": {
+  "gfs": 0.7184474372014563,
+  "nQ": 54,
+  "verdicts": {
+   "GROUNDED": 1100,
+   "UNGROUNDED": 351,
+   "SCALE_VIOLATION": 16,
+   "UNIT_MISMATCH": 30,
+   "IGNORED": 320
+  }
+ },
+ "tr|mistral-small3.2:24b|ungrounded": {
+  "gfs": 0.6160182016826776,
+  "nQ": 56,
+  "verdicts": {
+   "GROUNDED": 1626,
+   "UNGROUNDED": 1026,
+   "SCALE_VIOLATION": 48,
+   "UNIT_MISMATCH": 85,
+   "IGNORED": 801
+  }
+ },
+ "tr|glm-4.7-flash:latest|grounded_guard": {
+  "gfs": NaN,
+  "nQ": 0,
+  "verdicts": {}
+ },
+ "tr|glm-4.7-flash:latest|grounded_noguard": {
+  "gfs": NaN,
+  "nQ": 0,
+  "verdicts": {}
+ },
+ "tr|glm-4.7-flash:latest|ungrounded": {
+  "gfs": NaN,
+  "nQ": 0,
+  "verdicts": {}
+ },
+ "tr|muse-glimmer:30b|grounded_guard": {
+  "gfs": 0.783284161601728,
+  "nQ": 55,
+  "verdicts": {
+   "GROUNDED": 1626,
+   "UNGROUNDED": 193,
+   "SCALE_VIOLATION": 24,
+   "UNIT_MISMATCH": 29,
+   "IGNORED": 153
+  }
+ },
+ "tr|muse-glimmer:30b|grounded_noguard": {
+  "gfs": 0.741410183176467,
+  "nQ": 55,
+  "verdicts": {
+   "GROUNDED": 1760,
+   "UNGROUNDED": 224,
+   "SCALE_VIOLATION": 32,
+   "UNIT_MISMATCH": 39,
+   "IGNORED": 127
+  }
+ },
+ "tr|muse-glimmer:30b|ungrounded": {
+  "gfs": 0.706760430345336,
+  "nQ": 53,
+  "verdicts": {
+   "GROUNDED": 535,
+   "UNGROUNDED": 185,
+   "SCALE_VIOLATION": 29,
+   "UNIT_MISMATCH": 4,
+   "IGNORED": 146
+  }
+ },
+ "en|gemma4:e4b|grounded_guard": {
+  "gfs": 0.7359925742452759,
+  "nQ": 56,
+  "verdicts": {
+   "GROUNDED": 1245,
+   "UNGROUNDED": 312,
+   "SCALE_VIOLATION": 43,
+   "UNIT_MISMATCH": 29,
+   "IGNORED": 700
+  }
+ },
+ "en|gemma4:e4b|grounded_noguard": {
+  "gfs": 0.7559177286024488,
+  "nQ": 56,
+  "verdicts": {
+   "GROUNDED": 1268,
+   "UNGROUNDED": 283,
+   "SCALE_VIOLATION": 43,
+   "UNIT_MISMATCH": 32,
+   "IGNORED": 676
+  }
+ },
+ "en|gemma4:e4b|ungrounded": {
+  "gfs": 0.643021158576395,
+  "nQ": 56,
+  "verdicts": {
+   "GROUNDED": 1176,
+   "UNGROUNDED": 436,
+   "SCALE_VIOLATION": 81,
+   "UNIT_MISMATCH": 39,
+   "IGNORED": 937
+  }
+ },
+ "en|qwen3.8:27b|grounded_guard": {
+  "gfs": 0.6589472322830183,
+  "nQ": 53,
+  "verdicts": {
+   "GROUNDED": 3195,
+   "UNGROUNDED": 1060,
+   "SCALE_VIOLATION": 94,
+   "UNIT_MISMATCH": 79,
+   "IGNORED": 608
+  }
+ },
+ "en|qwen3.8:27b|grounded_noguard": {
+  "gfs": 0.6605635948449927,
+  "nQ": 55,
+  "verdicts": {
+   "GROUNDED": 3246,
+   "UNGROUNDED": 1072,
+   "SCALE_VIOLATION": 100,
+   "UNIT_MISMATCH": 94,
+   "IGNORED": 641
+  }
+ },
+ "en|qwen3.8:27b|ungrounded": {
+  "gfs": 0.4402370190581277,
+  "nQ": 54,
+  "verdicts": {
+   "GROUNDED": 1825,
+   "UNGROUNDED": 1786,
+   "SCALE_VIOLATION": 169,
+   "UNIT_MISMATCH": 105,
+   "IGNORED": 1042
+  }
+ }
+}

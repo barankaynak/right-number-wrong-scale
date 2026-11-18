@@ -1,0 +1,44 @@
+{
+ "items": [
+  {
+   "file": "oct_v42|raw_g1_mistral-small3.2-24b_20261016T015818Z.jsonl",
+   "qid": "res-06",
+   "arm": "grounded_guard",
+   "rep": 0,
+   "unit": "t1",
+   "blocked": true,
+   "claim": "4,676",
+   "matched_key": "assumptions.electricity_buy_price_tl_per_kwh",
+   "record_value": 4.857,
+   "record_sign": 1,
+   "sentence": "• Net bugünkü değer: -4,676 TL"
+  },
+  {
+   "file": "oct_v42|raw_g1_mistral-small3.2-24b_20261016T015818Z.jsonl",
+   "qid": "res-06",
+   "arm": "grounded_guard",
+   "rep": 1,
+   "unit": "t1",
+   "blocked": true,
+   "claim": "4,676",
+   "matched_key": "assumptions.electricity_buy_price_tl_per_kwh",
+   "record_value": 4.857,
+   "record_sign": 1,
+   "sentence": "• Net bugünkü değer: -4,676 TL"
+  },
+  {
+   "file": "oct_v42_evren|raw_g1_deepseek-v4.1-flash_20261106T091533Z.jsonl",
+   "qid": "res-13",
+   "arm": "grounded_guard",
+   "rep": 1,
+   "unit": "t1",
+   "blocked": false,
+   "claim": "70.453",
+   "matched_key": "npv_statistics.var_95_tl",
+   "record_value": 70453.0,
+   "record_sign": 1,
+   "sentence": "| P5 (kötü senaryo) | −70.453 TL |"
+  }
+ ],
+ "position_fallbacks": 0
+}

@@ -1,0 +1,682 @@
+{
+ "design": "A29: coder-1 all 86 (primary); coder-2 seed-drawn subset of 30 (reliability)",
+ "n": {
+  "responses": 86,
+  "numbers": 916,
+  "overlap_responses": 30,
+  "overlap_numbers": 309
+ },
+ "matcher_verdicts_all": {
+  "IGNORED": 99,
+  "GROUNDED": 776,
+  "UNGROUNDED": 33,
+  "SCALE_VIOLATION": 1,
+  "UNIT_MISMATCH": 7
+ },
+ "reliability_overlap": {
+  "number_level_traceable": {
+   "n": 262,
+   "kappa": 0.903,
+   "raw_agreement": 0.9885,
+   "pabak": 0.977,
+   "NA_excluded_rule": "unit dropped if either coder marked N/A",
+   "NA_disagreements": 6
+  },
+  "response_level_usable": {
+   "n": 30,
+   "kappa": 1.0,
+   "raw_agreement": 1.0,
+   "pabak": 1.0
+  }
+ },
+ "primary_coder1_all": {
+  "P0": {
+   "n_responses": 25,
+   "Y1": {
+    "k": 185,
+    "n": 189,
+    "share": 0.9788,
+    "wilson95": [
+     0.9469,
+     0.9917
+    ],
+    "n_NA_excluded": 7
+   },
+   "Y2": {
+    "k": 0,
+    "n": 0,
+    "share": null,
+    "wilson95": null,
+    "n_NA_excluded": 1
+   },
+   "usable": {
+    "k": 11,
+    "n": 25,
+    "share": 0.44,
+    "wilson95": [
+     0.2667,
+     0.6293
+    ]
+   }
+  },
+  "P1a": {
+   "n_responses": 36,
+   "Y1": {
+    "k": 420,
+    "n": 422,
+    "share": 0.9953,
+    "wilson95": [
+     0.9829,
+     0.9987
+    ],
+    "n_NA_excluded": 44
+   },
+   "Y2": {
+    "k": 0,
+    "n": 1,
+    "share": 0.0,
+    "wilson95": [
+     0.0,
+     0.7935
+    ],
+    "n_NA_excluded": 3
+   },
+   "usable": {
+    "k": 22,
+    "n": 36,
+    "share": 0.6111,
+    "wilson95": [
+     0.4486,
+     0.7522
+    ]
+   }
+  },
+  "P2": {
+   "n_responses": 25,
+   "Y1": {
+    "k": 107,
+    "n": 114,
+    "share": 0.9386,
+    "wilson95": [
+     0.8787,
+     0.9699
+    ],
+    "n_NA_excluded": 0
+   },
+   "Y2": {
+    "k": 1,
+    "n": 36,
+    "share": 0.0278,
+    "wilson95": [
+     0.0049,
+     0.1417
+    ],
+    "n_NA_excluded": 0
+   },
+   "usable": {
+    "k": 23,
+    "n": 25,
+    "share": 0.92,
+    "wilson95": [
+     0.7503,
+     0.9778
+    ]
+   }
+  },
+  "all": {
+   "n_responses": 86,
+   "Y1": {
+    "k": 712,
+    "n": 725,
+    "share": 0.9821,
+    "wilson95": [
+     0.9696,
+     0.9895
+    ],
+    "n_NA_excluded": 51
+   },
+   "Y2": {
+    "k": 1,
+    "n": 37,
+    "share": 0.027,
+    "wilson95": [
+     0.0048,
+     0.1382
+    ],
+    "n_NA_excluded": 4
+   },
+   "usable": {
+    "k": 56,
+    "n": 86,
+    "share": 0.6512,
+    "wilson95": [
+     0.5459,
+     0.7435
+    ]
+   }
+  }
+ },
+ "primary_input_echo_in_Y1_numerator": {
+  "sheet": 595,
+  "input_echo": 117
+ },
+ "overlap": {
+  "coder1": {
+   "P0": {
+    "n_responses": 9,
+    "Y1": {
+     "k": 91,
+     "n": 94,
+     "share": 0.9681,
+     "wilson95": [
+      0.9103,
+      0.9891
+     ],
+     "n_NA_excluded": 3
+    },
+    "Y2": {
+     "k": 0,
+     "n": 0,
+     "share": null,
+     "wilson95": null,
+     "n_NA_excluded": 1
+    },
+    "usable": {
+     "k": 4,
+     "n": 9,
+     "share": 0.4444,
+     "wilson95": [
+      0.1888,
+      0.7333
+     ]
+    }
+   },
+   "P1a": {
+    "n_responses": 13,
+    "Y1": {
+     "k": 115,
+     "n": 117,
+     "share": 0.9829,
+     "wilson95": [
+      0.9398,
+      0.9953
+     ],
+     "n_NA_excluded": 20
+    },
+    "Y2": {
+     "k": 0,
+     "n": 1,
+     "share": 0.0,
+     "wilson95": [
+      0.0,
+      0.7935
+     ],
+     "n_NA_excluded": 0
+    },
+    "usable": {
+     "k": 6,
+     "n": 13,
+     "share": 0.4615,
+     "wilson95": [
+      0.2321,
+      0.7086
+     ]
+    }
+   },
+   "P2": {
+    "n_responses": 8,
+    "Y1": {
+     "k": 37,
+     "n": 41,
+     "share": 0.9024,
+     "wilson95": [
+      0.7745,
+      0.9614
+     ],
+     "n_NA_excluded": 0
+    },
+    "Y2": {
+     "k": 1,
+     "n": 7,
+     "share": 0.1429,
+     "wilson95": [
+      0.0257,
+      0.5131
+     ],
+     "n_NA_excluded": 0
+    },
+    "usable": {
+     "k": 7,
+     "n": 8,
+     "share": 0.875,
+     "wilson95": [
+      0.5291,
+      0.9776
+     ]
+    }
+   },
+   "all": {
+    "n_responses": 30,
+    "Y1": {
+     "k": 243,
+     "n": 252,
+     "share": 0.9643,
+     "wilson95": [
+      0.9335,
+      0.9811
+     ],
+     "n_NA_excluded": 23
+    },
+    "Y2": {
+     "k": 1,
+     "n": 8,
+     "share": 0.125,
+     "wilson95": [
+      0.0224,
+      0.4709
+     ],
+     "n_NA_excluded": 1
+    },
+    "usable": {
+     "k": 17,
+     "n": 30,
+     "share": 0.5667,
+     "wilson95": [
+      0.392,
+      0.7262
+     ]
+    }
+   }
+  },
+  "coder2": {
+   "P0": {
+    "n_responses": 9,
+    "Y1": {
+     "k": 94,
+     "n": 95,
+     "share": 0.9895,
+     "wilson95": [
+      0.9428,
+      0.9981
+     ],
+     "n_NA_excluded": 2
+    },
+    "Y2": {
+     "k": 0,
+     "n": 1,
+     "share": 0.0,
+     "wilson95": [
+      0.0,
+      0.7935
+     ],
+     "n_NA_excluded": 0
+    },
+    "usable": {
+     "k": 4,
+     "n": 9,
+     "share": 0.4444,
+     "wilson95": [
+      0.1888,
+      0.7333
+     ]
+    }
+   },
+   "P1a": {
+    "n_responses": 13,
+    "Y1": {
+     "k": 116,
+     "n": 117,
+     "share": 0.9915,
+     "wilson95": [
+      0.9532,
+      0.9985
+     ],
+     "n_NA_excluded": 20
+    },
+    "Y2": {
+     "k": 0,
+     "n": 1,
+     "share": 0.0,
+     "wilson95": [
+      0.0,
+      0.7935
+     ],
+     "n_NA_excluded": 0
+    },
+    "usable": {
+     "k": 6,
+     "n": 13,
+     "share": 0.4615,
+     "wilson95": [
+      0.2321,
+      0.7086
+     ]
+    }
+   },
+   "P2": {
+    "n_responses": 8,
+    "Y1": {
+     "k": 37,
+     "n": 41,
+     "share": 0.9024,
+     "wilson95": [
+      0.7745,
+      0.9614
+     ],
+     "n_NA_excluded": 0
+    },
+    "Y2": {
+     "k": 1,
+     "n": 7,
+     "share": 0.1429,
+     "wilson95": [
+      0.0257,
+      0.5131
+     ],
+     "n_NA_excluded": 0
+    },
+    "usable": {
+     "k": 7,
+     "n": 8,
+     "share": 0.875,
+     "wilson95": [
+      0.5291,
+      0.9776
+     ]
+    }
+   },
+   "all": {
+    "n_responses": 30,
+    "Y1": {
+     "k": 247,
+     "n": 253,
+     "share": 0.9763,
+     "wilson95": [
+      0.9492,
+      0.9891
+     ],
+     "n_NA_excluded": 22
+    },
+    "Y2": {
+     "k": 1,
+     "n": 9,
+     "share": 0.1111,
+     "wilson95": [
+      0.0199,
+      0.435
+     ],
+     "n_NA_excluded": 0
+    },
+    "usable": {
+     "k": 17,
+     "n": 30,
+     "share": 0.5667,
+     "wilson95": [
+      0.392,
+      0.7262
+     ]
+    }
+   }
+  },
+  "strict_AND": {
+   "P0": {
+    "n_responses": 9,
+    "Y1": {
+     "k": 91,
+     "n": 95,
+     "share": 0.9579,
+     "wilson95": [
+      0.8967,
+      0.9835
+     ],
+     "n_NA_excluded": 2
+    },
+    "Y2": {
+     "k": 0,
+     "n": 1,
+     "share": 0.0,
+     "wilson95": [
+      0.0,
+      0.7935
+     ],
+     "n_NA_excluded": 0
+    },
+    "usable": {
+     "k": 4,
+     "n": 9,
+     "share": 0.4444,
+     "wilson95": [
+      0.1888,
+      0.7333
+     ]
+    }
+   },
+   "P1a": {
+    "n_responses": 13,
+    "Y1": {
+     "k": 115,
+     "n": 117,
+     "share": 0.9829,
+     "wilson95": [
+      0.9398,
+      0.9953
+     ],
+     "n_NA_excluded": 20
+    },
+    "Y2": {
+     "k": 0,
+     "n": 1,
+     "share": 0.0,
+     "wilson95": [
+      0.0,
+      0.7935
+     ],
+     "n_NA_excluded": 0
+    },
+    "usable": {
+     "k": 6,
+     "n": 13,
+     "share": 0.4615,
+     "wilson95": [
+      0.2321,
+      0.7086
+     ]
+    }
+   },
+   "P2": {
+    "n_responses": 8,
+    "Y1": {
+     "k": 37,
+     "n": 41,
+     "share": 0.9024,
+     "wilson95": [
+      0.7745,
+      0.9614
+     ],
+     "n_NA_excluded": 0
+    },
+    "Y2": {
+     "k": 1,
+     "n": 7,
+     "share": 0.1429,
+     "wilson95": [
+      0.0257,
+      0.5131
+     ],
+     "n_NA_excluded": 0
+    },
+    "usable": {
+     "k": 7,
+     "n": 8,
+     "share": 0.875,
+     "wilson95": [
+      0.5291,
+      0.9776
+     ]
+    }
+   },
+   "all": {
+    "n_responses": 30,
+    "Y1": {
+     "k": 243,
+     "n": 253,
+     "share": 0.9605,
+     "wilson95": [
+      0.9288,
+      0.9784
+     ],
+     "n_NA_excluded": 22
+    },
+    "Y2": {
+     "k": 1,
+     "n": 9,
+     "share": 0.1111,
+     "wilson95": [
+      0.0199,
+      0.435
+     ],
+     "n_NA_excluded": 0
+    },
+    "usable": {
+     "k": 17,
+     "n": 30,
+     "share": 0.5667,
+     "wilson95": [
+      0.392,
+      0.7262
+     ]
+    }
+   }
+  },
+  "lenient_OR": {
+   "P0": {
+    "n_responses": 9,
+    "Y1": {
+     "k": 94,
+     "n": 95,
+     "share": 0.9895,
+     "wilson95": [
+      0.9428,
+      0.9981
+     ],
+     "n_NA_excluded": 2
+    },
+    "Y2": {
+     "k": 0,
+     "n": 1,
+     "share": 0.0,
+     "wilson95": [
+      0.0,
+      0.7935
+     ],
+     "n_NA_excluded": 0
+    },
+    "usable": {
+     "k": 4,
+     "n": 9,
+     "share": 0.4444,
+     "wilson95": [
+      0.1888,
+      0.7333
+     ]
+    }
+   },
+   "P1a": {
+    "n_responses": 13,
+    "Y1": {
+     "k": 116,
+     "n": 117,
+     "share": 0.9915,
+     "wilson95": [
+      0.9532,
+      0.9985
+     ],
+     "n_NA_excluded": 20
+    },
+    "Y2": {
+     "k": 0,
+     "n": 1,
+     "share": 0.0,
+     "wilson95": [
+      0.0,
+      0.7935
+     ],
+     "n_NA_excluded": 0
+    },
+    "usable": {
+     "k": 6,
+     "n": 13,
+     "share": 0.4615,
+     "wilson95": [
+      0.2321,
+      0.7086
+     ]
+    }
+   },
+   "P2": {
+    "n_responses": 8,
+    "Y1": {
+     "k": 37,
+     "n": 41,
+     "share": 0.9024,
+     "wilson95": [
+      0.7745,
+      0.9614
+     ],
+     "n_NA_excluded": 0
+    },
+    "Y2": {
+     "k": 1,
+     "n": 7,
+     "share": 0.1429,
+     "wilson95": [
+      0.0257,
+      0.5131
+     ],
+     "n_NA_excluded": 0
+    },
+    "usable": {
+     "k": 7,
+     "n": 8,
+     "share": 0.875,
+     "wilson95": [
+      0.5291,
+      0.9776
+     ]
+    }
+   },
+   "all": {
+    "n_responses": 30,
+    "Y1": {
+     "k": 247,
+     "n": 253,
+     "share": 0.9763,
+     "wilson95": [
+      0.9492,
+      0.9891
+     ],
+     "n_NA_excluded": 22
+    },
+    "Y2": {
+     "k": 1,
+     "n": 9,
+     "share": 0.1111,
+     "wilson95": [
+      0.0199,
+      0.435
+     ],
+     "n_NA_excluded": 0
+    },
+    "usable": {
+     "k": 17,
+     "n": 30,
+     "share": 0.5667,
+     "wilson95": [
+      0.392,
+      0.7262
+     ]
+    }
+   }
+  }
+ }
+}

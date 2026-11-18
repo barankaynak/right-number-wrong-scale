@@ -1,0 +1,35 @@
+{
+ "tr|deepseek-v4.1-flash|grounded_guard": {
+  "gfs": 0.6952093731532775,
+  "nQ": 56,
+  "verdicts": {
+   "GROUNDED": 3210,
+   "UNGROUNDED": 1004,
+   "SCALE_VIOLATION": 63,
+   "UNIT_MISMATCH": 111,
+   "IGNORED": 655
+  }
+ },
+ "tr|deepseek-v4.1-flash|grounded_noguard": {
+  "gfs": 0.699410953801632,
+  "nQ": 56,
+  "verdicts": {
+   "GROUNDED": 3351,
+   "UNGROUNDED": 1109,
+   "SCALE_VIOLATION": 64,
+   "UNIT_MISMATCH": 134,
+   "IGNORED": 669
+  }
+ },
+ "tr|deepseek-v4.1-flash|ungrounded": {
+  "gfs": 0.4865672937228592,
+  "nQ": 56,
+  "verdicts": {
+   "GROUNDED": 1470,
+   "UNGROUNDED": 1453,
+   "SCALE_VIOLATION": 75,
+   "UNIT_MISMATCH": 122,
+   "IGNORED": 720
+  }
+ }
+}

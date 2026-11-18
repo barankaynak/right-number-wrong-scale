@@ -1,0 +1,269 @@
+{
+ "tr|gemma4:e4b": {
+  "main_file": "raw_g1_gemma4-e4b_20261014T200243Z.jsonl",
+  "det_file": "determinism_check_gemma4-e4b_20261014T223629Z.jsonl",
+  "n": 5,
+  "identical": 1,
+  "similar_ge_0_95": 1,
+  "cells": [
+   {
+    "qid": "res-01",
+    "identical": false,
+    "similar_ge_0_95": false,
+    "seed_det": 10000,
+    "seed_main": 10000
+   },
+   {
+    "qid": "res-11",
+    "identical": true,
+    "similar_ge_0_95": true,
+    "seed_det": 10000,
+    "seed_main": 10000
+   },
+   {
+    "qid": "com-01",
+    "identical": false,
+    "similar_ge_0_95": false,
+    "seed_det": 10000,
+    "seed_main": 10000
+   },
+   {
+    "qid": "dis-01",
+    "identical": false,
+    "similar_ge_0_95": false,
+    "seed_det": 10000,
+    "seed_main": 10000
+   },
+   {
+    "qid": "sta-01",
+    "identical": false,
+    "similar_ge_0_95": false,
+    "seed_det": 10000,
+    "seed_main": 10000
+   }
+  ]
+ },
+ "tr|qwen3.8:27b": {
+  "main_file": "raw_g1_qwen3.8-27b_20261015T072421Z.jsonl",
+  "det_file": "determinism_check_qwen3.8-27b_20261015T160743Z.jsonl",
+  "n": 5,
+  "identical": 0,
+  "similar_ge_0_95": 0,
+  "cells": [
+   {
+    "qid": "res-01",
+    "identical": false,
+    "similar_ge_0_95": false,
+    "seed_det": 10000,
+    "seed_main": 10000
+   },
+   {
+    "qid": "res-11",
+    "identical": false,
+    "similar_ge_0_95": false,
+    "seed_det": 10000,
+    "seed_main": 10000
+   },
+   {
+    "qid": "com-01",
+    "identical": false,
+    "similar_ge_0_95": false,
+    "seed_det": 10000,
+    "seed_main": 10000
+   },
+   {
+    "qid": "dis-01",
+    "identical": false,
+    "similar_ge_0_95": false,
+    "seed_det": 10000,
+    "seed_main": 10000
+   },
+   {
+    "qid": "sta-01",
+    "identical": false,
+    "similar_ge_0_95": false,
+    "seed_det": 10000,
+    "seed_main": 10000
+   }
+  ]
+ },
+ "tr|mistral-small3.2:24b": {
+  "main_file": "raw_g1_mistral-small3.2-24b_20261016T015818Z.jsonl",
+  "det_file": "determinism_check_mistral-small3.2-24b_20261016T033429Z.jsonl",
+  "n": 5,
+  "identical": 0,
+  "similar_ge_0_95": 0,
+  "cells": [
+   {
+    "qid": "res-01",
+    "identical": false,
+    "similar_ge_0_95": false,
+    "seed_det": 10000,
+    "seed_main": 10000
+   },
+   {
+    "qid": "res-11",
+    "identical": false,
+    "similar_ge_0_95": false,
+    "seed_det": 10000,
+    "seed_main": 10000
+   },
+   {
+    "qid": "com-01",
+    "identical": false,
+    "similar_ge_0_95": false,
+    "seed_det": 10000,
+    "seed_main": 10000
+   },
+   {
+    "qid": "dis-01",
+    "identical": false,
+    "similar_ge_0_95": false,
+    "seed_det": 10000,
+    "seed_main": 10000
+   },
+   {
+    "qid": "sta-01",
+    "identical": false,
+    "similar_ge_0_95": false,
+    "seed_det": 10000,
+    "seed_main": 10000
+   }
+  ]
+ },
+ "tr|glm-4.7-flash:latest": {
+  "status": "not run"
+ },
+ "tr|muse-glimmer:30b": {
+  "main_file": "raw_g1_muse-glimmer-30b_20261016T121738Z.jsonl",
+  "det_file": "determinism_check_muse-glimmer-30b_20261016T172541Z.jsonl",
+  "n": 5,
+  "identical": 0,
+  "similar_ge_0_95": 0,
+  "cells": [
+   {
+    "qid": "res-01",
+    "identical": false,
+    "similar_ge_0_95": false,
+    "seed_det": 10000,
+    "seed_main": 10000
+   },
+   {
+    "qid": "res-11",
+    "identical": false,
+    "similar_ge_0_95": false,
+    "seed_det": 10000,
+    "seed_main": 10000
+   },
+   {
+    "qid": "com-01",
+    "identical": false,
+    "similar_ge_0_95": false,
+    "seed_det": 10000,
+    "seed_main": 10000
+   },
+   {
+    "qid": "dis-01",
+    "identical": false,
+    "similar_ge_0_95": false,
+    "seed_det": 10000,
+    "seed_main": 10000
+   },
+   {
+    "qid": "sta-01",
+    "identical": false,
+    "similar_ge_0_95": false,
+    "seed_det": 10000,
+    "seed_main": 10000
+   }
+  ]
+ },
+ "en|gemma4:e4b": {
+  "main_file": "raw_g1_gemma4-e4b_en_20261015T161107Z.jsonl",
+  "det_file": "determinism_check_gemma4-e4b_en_20261015T180720Z.jsonl",
+  "n": 5,
+  "identical": 0,
+  "similar_ge_0_95": 0,
+  "cells": [
+   {
+    "qid": "res-01",
+    "identical": false,
+    "similar_ge_0_95": false,
+    "seed_det": 10000,
+    "seed_main": 10000
+   },
+   {
+    "qid": "res-11",
+    "identical": false,
+    "similar_ge_0_95": false,
+    "seed_det": 10000,
+    "seed_main": 10000
+   },
+   {
+    "qid": "com-01",
+    "identical": false,
+    "similar_ge_0_95": false,
+    "seed_det": 10000,
+    "seed_main": 10000
+   },
+   {
+    "qid": "dis-01",
+    "identical": false,
+    "similar_ge_0_95": false,
+    "seed_det": 10000,
+    "seed_main": 10000
+   },
+   {
+    "qid": "sta-01",
+    "identical": false,
+    "similar_ge_0_95": false,
+    "seed_det": 10000,
+    "seed_main": 10000
+   }
+  ]
+ },
+ "en|qwen3.8:27b": {
+  "main_file": "raw_g1_qwen3.8-27b_en_20261015T180819Z.jsonl",
+  "det_file": "determinism_check_qwen3.8-27b_en_20261016T015405Z.jsonl",
+  "n": 5,
+  "identical": 0,
+  "similar_ge_0_95": 0,
+  "cells": [
+   {
+    "qid": "res-01",
+    "identical": false,
+    "similar_ge_0_95": false,
+    "seed_det": 10000,
+    "seed_main": 10000
+   },
+   {
+    "qid": "res-11",
+    "identical": false,
+    "similar_ge_0_95": false,
+    "seed_det": 10000,
+    "seed_main": 10000
+   },
+   {
+    "qid": "com-01",
+    "identical": false,
+    "similar_ge_0_95": false,
+    "seed_det": 10000,
+    "seed_main": 10000
+   },
+   {
+    "qid": "dis-01",
+    "identical": false,
+    "similar_ge_0_95": false,
+    "seed_det": 10000,
+    "seed_main": 10000
+   },
+   {
+    "qid": "sta-01",
+    "identical": false,
+    "similar_ge_0_95": false,
+    "seed_det": 10000,
+    "seed_main": 10000
+   }
+  ]
+ }
+}

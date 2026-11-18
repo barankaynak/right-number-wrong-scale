@@ -1,0 +1,35 @@
+=== C1–C4: grounded_guard kolu, guard değerlendirme-kapsamı ===
+tr  gemma4:e4b            n=168 evaluated=168 (100.0%) blocked=154 (91.7% all, 91.7% eval) | not-eval=  0: ref-unverifiable=  0 empty-graph-scored=  0
+tr  qwen3.8:27b           n=166 evaluated=166 (100.0%) blocked=142 (85.5% all, 85.5% eval) | not-eval=  0: ref-unverifiable=  0 empty-graph-scored=  0
+tr  mistral-small3.2:24b  n=165 evaluated=165 (100.0%) blocked= 88 (53.3% all, 53.3% eval) | not-eval=  0: ref-unverifiable=  0 empty-graph-scored=  0
+tr  muse-glimmer:30b      n=168 evaluated=168 (100.0%) blocked=128 (76.2% all, 76.2% eval) | not-eval=  0: ref-unverifiable=  0 empty-graph-scored=  0
+en  gemma4:e4b            n=168 evaluated=168 (100.0%) blocked=140 (83.3% all, 83.3% eval) | not-eval=  0: ref-unverifiable=  0 empty-graph-scored=  0
+en  qwen3.8:27b           n=166 evaluated=166 (100.0%) blocked=136 (81.9% all, 81.9% eval) | not-eval=  0: ref-unverifiable=  0 empty-graph-scored=  0
+
+=== T1: tuzak soruları, araç-çağıran yanıt payı ===
+tr  gemma4:e4b            grounded_guard     0/21
+tr  gemma4:e4b            grounded_noguard   0/21
+tr  gemma4:e4b            ungrounded         0/21
+tr  qwen3.8:27b           grounded_guard     9/21
+tr  qwen3.8:27b           grounded_noguard   9/21
+tr  qwen3.8:27b           ungrounded         0/17
+tr  mistral-small3.2:24b  grounded_guard     1/21
+tr  mistral-small3.2:24b  grounded_noguard   1/21
+tr  mistral-small3.2:24b  ungrounded         0/21
+tr  muse-glimmer:30b      grounded_guard     0/21
+tr  muse-glimmer:30b      grounded_noguard   0/21
+tr  muse-glimmer:30b      ungrounded         0/21
+en  gemma4:e4b            grounded_guard     0/21
+en  gemma4:e4b            grounded_noguard   0/21
+en  gemma4:e4b            ungrounded         0/21
+en  qwen3.8:27b           grounded_guard     8/21
+en  qwen3.8:27b           grounded_noguard   6/21
+en  qwen3.8:27b           ungrounded         0/19
+
+=== T2: tuzak SCALE_VIOLATION bayrakları, mekanik ayrıştırma ===
+grounded_guard    toplam=148 a_input_echo=56 b_small_integer=72 c_other=20
+all               toplam=414 a_input_echo=177 b_small_integer=191 c_other=46
+grounded_noguard  toplam=139 a_input_echo=58 b_small_integer=67 c_other=14
+ungrounded        toplam=127 a_input_echo=63 b_small_integer=52 c_other=12
+
+-> guard_coverage.json (c_other=46)

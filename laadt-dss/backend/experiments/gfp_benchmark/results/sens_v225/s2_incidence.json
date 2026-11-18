@@ -1,0 +1,6346 @@
+{
+ "oct_v42|raw_g1_gemma4-e4b_20261014T200243Z.jsonl|grounded_guard|delivered_ref": {
+  "_n": {
+   "units": 168,
+   "long_decimal": 8,
+   "numerals": 225,
+   "minus_prefixed": 0
+  },
+  "frozen": {
+   "GROUNDED": 119,
+   "UNGROUNDED": 3,
+   "SCALE_VIOLATION": 1,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 102,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 119,
+   "UNGROUNDED": 3,
+   "SCALE_VIOLATION": 1,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 102,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 119,
+   "UNGROUNDED": 3,
+   "SCALE_VIOLATION": 1,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 94,
+   "units_counts_changed": 3,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 119,
+   "UNGROUNDED": 3,
+   "SCALE_VIOLATION": 1,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 94,
+   "units_counts_changed": 3,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42|raw_g1_gemma4-e4b_20261014T200243Z.jsonl|grounded_guard|delivered_inrun": {
+  "_n": {
+   "units": 168,
+   "long_decimal": 8,
+   "numerals": 225,
+   "minus_prefixed": 0
+  },
+  "frozen": {
+   "GROUNDED": 114,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 111,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 114,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 111,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 114,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 103,
+   "units_counts_changed": 3,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 114,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 103,
+   "units_counts_changed": 3,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42|raw_g1_gemma4-e4b_20261014T200243Z.jsonl|grounded_guard|draft_inrun": {
+  "_n": {
+   "units": 168,
+   "long_decimal": 16,
+   "numerals": 2854,
+   "minus_prefixed": 0
+  },
+  "frozen": {
+   "GROUNDED": 281,
+   "UNGROUNDED": 1134,
+   "SCALE_VIOLATION": 2,
+   "UNIT_MISMATCH": 1,
+   "IGNORED": 1436,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 281,
+   "UNGROUNDED": 1134,
+   "SCALE_VIOLATION": 2,
+   "UNIT_MISMATCH": 1,
+   "IGNORED": 1436,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 281,
+   "UNGROUNDED": 1128,
+   "SCALE_VIOLATION": 2,
+   "UNIT_MISMATCH": 1,
+   "IGNORED": 1426,
+   "units_counts_changed": 7,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 281,
+   "UNGROUNDED": 1128,
+   "SCALE_VIOLATION": 2,
+   "UNIT_MISMATCH": 1,
+   "IGNORED": 1426,
+   "units_counts_changed": 7,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42|raw_g1_gemma4-e4b_20261014T200243Z.jsonl|grounded_noguard|delivered_ref": {
+  "_n": {
+   "units": 168,
+   "long_decimal": 16,
+   "numerals": 2856,
+   "minus_prefixed": 0
+  },
+  "frozen": {
+   "GROUNDED": 1389,
+   "UNGROUNDED": 379,
+   "SCALE_VIOLATION": 48,
+   "UNIT_MISMATCH": 56,
+   "IGNORED": 984,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 1389,
+   "UNGROUNDED": 379,
+   "SCALE_VIOLATION": 48,
+   "UNIT_MISMATCH": 56,
+   "IGNORED": 984,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 1389,
+   "UNGROUNDED": 377,
+   "SCALE_VIOLATION": 48,
+   "UNIT_MISMATCH": 56,
+   "IGNORED": 970,
+   "units_counts_changed": 8,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 1389,
+   "UNGROUNDED": 377,
+   "SCALE_VIOLATION": 48,
+   "UNIT_MISMATCH": 56,
+   "IGNORED": 970,
+   "units_counts_changed": 8,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42|raw_g1_gemma4-e4b_20261014T200243Z.jsonl|grounded_noguard|delivered_inrun": {
+  "_n": {
+   "units": 168,
+   "long_decimal": 16,
+   "numerals": 2856,
+   "minus_prefixed": 0
+  },
+  "frozen": {
+   "GROUNDED": 279,
+   "UNGROUNDED": 1096,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 1,
+   "IGNORED": 1480,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 279,
+   "UNGROUNDED": 1096,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 1,
+   "IGNORED": 1480,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 279,
+   "UNGROUNDED": 1094,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 1,
+   "IGNORED": 1466,
+   "units_counts_changed": 8,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 279,
+   "UNGROUNDED": 1094,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 1,
+   "IGNORED": 1466,
+   "units_counts_changed": 8,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42|raw_g1_gemma4-e4b_20261014T200243Z.jsonl|grounded_noguard|draft_inrun": {
+  "_n": {
+   "units": 168,
+   "long_decimal": 16,
+   "numerals": 2856,
+   "minus_prefixed": 0
+  },
+  "frozen": {
+   "GROUNDED": 279,
+   "UNGROUNDED": 1096,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 1,
+   "IGNORED": 1480,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 279,
+   "UNGROUNDED": 1096,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 1,
+   "IGNORED": 1480,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 279,
+   "UNGROUNDED": 1094,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 1,
+   "IGNORED": 1466,
+   "units_counts_changed": 8,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 279,
+   "UNGROUNDED": 1094,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 1,
+   "IGNORED": 1466,
+   "units_counts_changed": 8,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42|raw_g1_gemma4-e4b_20261014T200243Z.jsonl|ungrounded|delivered_ref": {
+  "_n": {
+   "units": 168,
+   "long_decimal": 0,
+   "numerals": 3505,
+   "minus_prefixed": 0
+  },
+  "frozen": {
+   "GROUNDED": 1523,
+   "UNGROUNDED": 597,
+   "SCALE_VIOLATION": 104,
+   "UNIT_MISMATCH": 67,
+   "IGNORED": 1214,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 1523,
+   "UNGROUNDED": 597,
+   "SCALE_VIOLATION": 104,
+   "UNIT_MISMATCH": 67,
+   "IGNORED": 1214,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 1523,
+   "UNGROUNDED": 597,
+   "SCALE_VIOLATION": 104,
+   "UNIT_MISMATCH": 67,
+   "IGNORED": 1214,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 1523,
+   "UNGROUNDED": 597,
+   "SCALE_VIOLATION": 104,
+   "UNIT_MISMATCH": 67,
+   "IGNORED": 1214,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42|raw_g1_gemma4-e4b_20261014T200243Z.jsonl|ungrounded|delivered_inrun": {
+  "_n": {
+   "units": 168,
+   "long_decimal": 0,
+   "numerals": 3505,
+   "minus_prefixed": 0
+  },
+  "frozen": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1683,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1822,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1683,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1822,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1683,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1822,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1683,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1822,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42|raw_g1_gemma4-e4b_20261014T200243Z.jsonl|ungrounded|draft_inrun": {
+  "_n": {
+   "units": 168,
+   "long_decimal": 0,
+   "numerals": 3505,
+   "minus_prefixed": 0
+  },
+  "frozen": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1683,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1822,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1683,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1822,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1683,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1822,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1683,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1822,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42|raw_g1_gemma4-e4b_en_20261015T161107Z.jsonl|grounded_guard|delivered_ref": {
+  "_n": {
+   "units": 168,
+   "numerals": 344,
+   "minus_prefixed": 0,
+   "long_decimal": 18
+  },
+  "frozen": {
+   "GROUNDED": 260,
+   "UNGROUNDED": 1,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 83,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 260,
+   "UNGROUNDED": 1,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 83,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 260,
+   "UNGROUNDED": 1,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 65,
+   "units_counts_changed": 13,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 260,
+   "UNGROUNDED": 1,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 65,
+   "units_counts_changed": 13,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42|raw_g1_gemma4-e4b_en_20261015T161107Z.jsonl|grounded_guard|delivered_inrun": {
+  "_n": {
+   "units": 168,
+   "numerals": 344,
+   "minus_prefixed": 0,
+   "long_decimal": 18
+  },
+  "frozen": {
+   "GROUNDED": 255,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 89,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 255,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 89,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 255,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 71,
+   "units_counts_changed": 13,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 255,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 71,
+   "units_counts_changed": 13,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42|raw_g1_gemma4-e4b_en_20261015T161107Z.jsonl|grounded_guard|draft_inrun": {
+  "_n": {
+   "units": 168,
+   "numerals": 2398,
+   "minus_prefixed": 6,
+   "long_decimal": 69
+  },
+  "frozen": {
+   "GROUNDED": 657,
+   "UNGROUNDED": 720,
+   "SCALE_VIOLATION": 6,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1015,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 658,
+   "UNGROUNDED": 719,
+   "SCALE_VIOLATION": 6,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1015,
+   "units_counts_changed": 1,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 651,
+   "UNGROUNDED": 692,
+   "SCALE_VIOLATION": 6,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 980,
+   "units_counts_changed": 27,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 4
+  },
+  "both": {
+   "GROUNDED": 652,
+   "UNGROUNDED": 691,
+   "SCALE_VIOLATION": 6,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 980,
+   "units_counts_changed": 28,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 4
+  },
+  "frozen>sign": {
+   "UNGROUNDED>GROUNDED": 1
+  }
+ },
+ "oct_v42|raw_g1_gemma4-e4b_en_20261015T161107Z.jsonl|grounded_noguard|delivered_ref": {
+  "_n": {
+   "units": 168,
+   "numerals": 2373,
+   "minus_prefixed": 0,
+   "long_decimal": 71
+  },
+  "frozen": {
+   "GROUNDED": 1268,
+   "UNGROUNDED": 312,
+   "SCALE_VIOLATION": 43,
+   "UNIT_MISMATCH": 32,
+   "IGNORED": 718,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 1268,
+   "UNGROUNDED": 312,
+   "SCALE_VIOLATION": 43,
+   "UNIT_MISMATCH": 32,
+   "IGNORED": 718,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 1268,
+   "UNGROUNDED": 283,
+   "SCALE_VIOLATION": 43,
+   "UNIT_MISMATCH": 32,
+   "IGNORED": 676,
+   "units_counts_changed": 29,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 4
+  },
+  "both": {
+   "GROUNDED": 1268,
+   "UNGROUNDED": 283,
+   "SCALE_VIOLATION": 43,
+   "UNIT_MISMATCH": 32,
+   "IGNORED": 676,
+   "units_counts_changed": 29,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 4
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42|raw_g1_gemma4-e4b_en_20261015T161107Z.jsonl|grounded_noguard|delivered_inrun": {
+  "_n": {
+   "units": 168,
+   "numerals": 2373,
+   "minus_prefixed": 0,
+   "long_decimal": 71
+  },
+  "frozen": {
+   "GROUNDED": 610,
+   "UNGROUNDED": 731,
+   "SCALE_VIOLATION": 9,
+   "UNIT_MISMATCH": 2,
+   "IGNORED": 1021,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 610,
+   "UNGROUNDED": 731,
+   "SCALE_VIOLATION": 9,
+   "UNIT_MISMATCH": 2,
+   "IGNORED": 1021,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 608,
+   "UNGROUNDED": 704,
+   "SCALE_VIOLATION": 9,
+   "UNIT_MISMATCH": 2,
+   "IGNORED": 979,
+   "units_counts_changed": 29,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 5
+  },
+  "both": {
+   "GROUNDED": 608,
+   "UNGROUNDED": 704,
+   "SCALE_VIOLATION": 9,
+   "UNIT_MISMATCH": 2,
+   "IGNORED": 979,
+   "units_counts_changed": 29,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 5
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42|raw_g1_gemma4-e4b_en_20261015T161107Z.jsonl|grounded_noguard|draft_inrun": {
+  "_n": {
+   "units": 168,
+   "numerals": 2373,
+   "minus_prefixed": 0,
+   "long_decimal": 71
+  },
+  "frozen": {
+   "GROUNDED": 610,
+   "UNGROUNDED": 731,
+   "SCALE_VIOLATION": 9,
+   "UNIT_MISMATCH": 2,
+   "IGNORED": 1021,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 610,
+   "UNGROUNDED": 731,
+   "SCALE_VIOLATION": 9,
+   "UNIT_MISMATCH": 2,
+   "IGNORED": 1021,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 608,
+   "UNGROUNDED": 704,
+   "SCALE_VIOLATION": 9,
+   "UNIT_MISMATCH": 2,
+   "IGNORED": 979,
+   "units_counts_changed": 29,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 5
+  },
+  "both": {
+   "GROUNDED": 608,
+   "UNGROUNDED": 704,
+   "SCALE_VIOLATION": 9,
+   "UNIT_MISMATCH": 2,
+   "IGNORED": 979,
+   "units_counts_changed": 29,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 5
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42|raw_g1_gemma4-e4b_en_20261015T161107Z.jsonl|ungrounded|delivered_ref": {
+  "_n": {
+   "units": 168,
+   "long_decimal": 0,
+   "numerals": 2675,
+   "minus_prefixed": 1
+  },
+  "frozen": {
+   "GROUNDED": 1177,
+   "UNGROUNDED": 439,
+   "SCALE_VIOLATION": 81,
+   "UNIT_MISMATCH": 39,
+   "IGNORED": 939,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 1177,
+   "UNGROUNDED": 439,
+   "SCALE_VIOLATION": 81,
+   "UNIT_MISMATCH": 39,
+   "IGNORED": 939,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 1177,
+   "UNGROUNDED": 439,
+   "SCALE_VIOLATION": 81,
+   "UNIT_MISMATCH": 39,
+   "IGNORED": 939,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 1177,
+   "UNGROUNDED": 439,
+   "SCALE_VIOLATION": 81,
+   "UNIT_MISMATCH": 39,
+   "IGNORED": 939,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42|raw_g1_gemma4-e4b_en_20261015T161107Z.jsonl|ungrounded|delivered_inrun": {
+  "_n": {
+   "units": 167,
+   "long_decimal": 0,
+   "numerals": 2669,
+   "minus_prefixed": 1
+  },
+  "frozen": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1223,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1446,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1223,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1446,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1223,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1446,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1223,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1446,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42|raw_g1_gemma4-e4b_en_20261015T161107Z.jsonl|ungrounded|draft_inrun": {
+  "_n": {
+   "units": 167,
+   "long_decimal": 0,
+   "numerals": 2669,
+   "minus_prefixed": 1
+  },
+  "frozen": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1223,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1446,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1223,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1446,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1223,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1446,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1223,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1446,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42|raw_g1_mistral-small3.2-24b_20261016T015818Z.jsonl|grounded_guard|delivered_ref": {
+  "_n": {
+   "units": 167,
+   "numerals": 475,
+   "minus_prefixed": 9,
+   "long_decimal": 6
+  },
+  "frozen": {
+   "GROUNDED": 283,
+   "UNGROUNDED": 87,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 14,
+   "IGNORED": 91,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 278,
+   "UNGROUNDED": 92,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 14,
+   "IGNORED": 91,
+   "units_counts_changed": 7,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 1
+  },
+  "decimal": {
+   "GROUNDED": 283,
+   "UNGROUNDED": 87,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 14,
+   "IGNORED": 85,
+   "units_counts_changed": 6,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 278,
+   "UNGROUNDED": 92,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 14,
+   "IGNORED": 85,
+   "units_counts_changed": 13,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 1
+  },
+  "frozen>sign": {
+   "GROUNDED>UNGROUNDED": 6,
+   "UNGROUNDED>GROUNDED": 1
+  }
+ },
+ "oct_v42|raw_g1_mistral-small3.2-24b_20261016T015818Z.jsonl|grounded_guard|delivered_inrun": {
+  "_n": {
+   "units": 165,
+   "numerals": 457,
+   "minus_prefixed": 7,
+   "long_decimal": 6
+  },
+  "frozen": {
+   "GROUNDED": 335,
+   "UNGROUNDED": 5,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 117,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 340,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 117,
+   "units_counts_changed": 5,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 5
+  },
+  "decimal": {
+   "GROUNDED": 335,
+   "UNGROUNDED": 5,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 111,
+   "units_counts_changed": 6,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 340,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 111,
+   "units_counts_changed": 11,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 5
+  },
+  "frozen>sign": {
+   "UNGROUNDED>GROUNDED": 5
+  }
+ },
+ "oct_v42|raw_g1_mistral-small3.2-24b_20261016T015818Z.jsonl|grounded_guard|draft_inrun": {
+  "_n": {
+   "units": 164,
+   "numerals": 1850,
+   "minus_prefixed": 15,
+   "long_decimal": 85
+  },
+  "frozen": {
+   "GROUNDED": 1114,
+   "UNGROUNDED": 306,
+   "SCALE_VIOLATION": 7,
+   "UNIT_MISMATCH": 19,
+   "IGNORED": 404,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 1123,
+   "UNGROUNDED": 297,
+   "SCALE_VIOLATION": 7,
+   "UNIT_MISMATCH": 19,
+   "IGNORED": 404,
+   "units_counts_changed": 5,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 1
+  },
+  "decimal": {
+   "GROUNDED": 1106,
+   "UNGROUNDED": 270,
+   "SCALE_VIOLATION": 7,
+   "UNIT_MISMATCH": 16,
+   "IGNORED": 366,
+   "units_counts_changed": 33,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 6
+  },
+  "both": {
+   "GROUNDED": 1115,
+   "UNGROUNDED": 261,
+   "SCALE_VIOLATION": 7,
+   "UNIT_MISMATCH": 16,
+   "IGNORED": 366,
+   "units_counts_changed": 35,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 7
+  },
+  "frozen>sign": {
+   "UNGROUNDED>GROUNDED": 9
+  }
+ },
+ "oct_v42|raw_g1_mistral-small3.2-24b_20261016T015818Z.jsonl|grounded_noguard|delivered_ref": {
+  "_n": {
+   "units": 167,
+   "numerals": 1913,
+   "minus_prefixed": 18,
+   "long_decimal": 84
+  },
+  "frozen": {
+   "GROUNDED": 1110,
+   "UNGROUNDED": 390,
+   "SCALE_VIOLATION": 16,
+   "UNIT_MISMATCH": 35,
+   "IGNORED": 362,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 1107,
+   "UNGROUNDED": 393,
+   "SCALE_VIOLATION": 16,
+   "UNIT_MISMATCH": 35,
+   "IGNORED": 362,
+   "units_counts_changed": 6,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 1
+  },
+  "decimal": {
+   "GROUNDED": 1106,
+   "UNGROUNDED": 355,
+   "SCALE_VIOLATION": 16,
+   "UNIT_MISMATCH": 30,
+   "IGNORED": 322,
+   "units_counts_changed": 35,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 3
+  },
+  "both": {
+   "GROUNDED": 1103,
+   "UNGROUNDED": 358,
+   "SCALE_VIOLATION": 16,
+   "UNIT_MISMATCH": 30,
+   "IGNORED": 322,
+   "units_counts_changed": 38,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 4
+  },
+  "frozen>sign": {
+   "GROUNDED>UNGROUNDED": 5,
+   "UNGROUNDED>GROUNDED": 2
+  }
+ },
+ "oct_v42|raw_g1_mistral-small3.2-24b_20261016T015818Z.jsonl|grounded_noguard|delivered_inrun": {
+  "_n": {
+   "units": 166,
+   "numerals": 1901,
+   "minus_prefixed": 16,
+   "long_decimal": 84
+  },
+  "frozen": {
+   "GROUNDED": 1112,
+   "UNGROUNDED": 340,
+   "SCALE_VIOLATION": 13,
+   "UNIT_MISMATCH": 20,
+   "IGNORED": 416,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 1121,
+   "UNGROUNDED": 331,
+   "SCALE_VIOLATION": 13,
+   "UNIT_MISMATCH": 20,
+   "IGNORED": 416,
+   "units_counts_changed": 6,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 1
+  },
+  "decimal": {
+   "GROUNDED": 1106,
+   "UNGROUNDED": 305,
+   "SCALE_VIOLATION": 13,
+   "UNIT_MISMATCH": 17,
+   "IGNORED": 376,
+   "units_counts_changed": 35,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 6
+  },
+  "both": {
+   "GROUNDED": 1115,
+   "UNGROUNDED": 296,
+   "SCALE_VIOLATION": 13,
+   "UNIT_MISMATCH": 17,
+   "IGNORED": 376,
+   "units_counts_changed": 38,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 7
+  },
+  "frozen>sign": {
+   "UNGROUNDED>GROUNDED": 9
+  }
+ },
+ "oct_v42|raw_g1_mistral-small3.2-24b_20261016T015818Z.jsonl|grounded_noguard|draft_inrun": {
+  "_n": {
+   "units": 165,
+   "numerals": 1901,
+   "minus_prefixed": 16,
+   "long_decimal": 84
+  },
+  "frozen": {
+   "GROUNDED": 1112,
+   "UNGROUNDED": 340,
+   "SCALE_VIOLATION": 13,
+   "UNIT_MISMATCH": 20,
+   "IGNORED": 416,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 1121,
+   "UNGROUNDED": 331,
+   "SCALE_VIOLATION": 13,
+   "UNIT_MISMATCH": 20,
+   "IGNORED": 416,
+   "units_counts_changed": 6,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 1
+  },
+  "decimal": {
+   "GROUNDED": 1106,
+   "UNGROUNDED": 305,
+   "SCALE_VIOLATION": 13,
+   "UNIT_MISMATCH": 17,
+   "IGNORED": 376,
+   "units_counts_changed": 35,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 6
+  },
+  "both": {
+   "GROUNDED": 1115,
+   "UNGROUNDED": 296,
+   "SCALE_VIOLATION": 13,
+   "UNIT_MISMATCH": 17,
+   "IGNORED": 376,
+   "units_counts_changed": 38,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 7
+  },
+  "frozen>sign": {
+   "UNGROUNDED>GROUNDED": 9
+  }
+ },
+ "oct_v42|raw_g1_mistral-small3.2-24b_20261016T015818Z.jsonl|ungrounded|delivered_ref": {
+  "_n": {
+   "units": 168,
+   "numerals": 3588,
+   "minus_prefixed": 33,
+   "long_decimal": 2
+  },
+  "frozen": {
+   "GROUNDED": 1626,
+   "UNGROUNDED": 1028,
+   "SCALE_VIOLATION": 48,
+   "UNIT_MISMATCH": 85,
+   "IGNORED": 801,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 1599,
+   "UNGROUNDED": 1056,
+   "SCALE_VIOLATION": 48,
+   "UNIT_MISMATCH": 84,
+   "IGNORED": 801,
+   "units_counts_changed": 4,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 1626,
+   "UNGROUNDED": 1026,
+   "SCALE_VIOLATION": 48,
+   "UNIT_MISMATCH": 85,
+   "IGNORED": 801,
+   "units_counts_changed": 1,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 1599,
+   "UNGROUNDED": 1054,
+   "SCALE_VIOLATION": 48,
+   "UNIT_MISMATCH": 84,
+   "IGNORED": 801,
+   "units_counts_changed": 4,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {
+   "GROUNDED>UNGROUNDED": 27,
+   "UNIT_MISMATCH>UNGROUNDED": 1
+  }
+ },
+ "oct_v42|raw_g1_mistral-small3.2-24b_20261016T015818Z.jsonl|ungrounded|delivered_inrun": {
+  "_n": {
+   "units": 168,
+   "numerals": 3588,
+   "minus_prefixed": 33,
+   "long_decimal": 2
+  },
+  "frozen": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 2295,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1293,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 2301,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1287,
+   "units_counts_changed": 2,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 2293,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1293,
+   "units_counts_changed": 1,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 2299,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1287,
+   "units_counts_changed": 3,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {
+   "IGNORED>UNGROUNDED": 6
+  }
+ },
+ "oct_v42|raw_g1_mistral-small3.2-24b_20261016T015818Z.jsonl|ungrounded|draft_inrun": {
+  "_n": {
+   "units": 168,
+   "numerals": 3588,
+   "minus_prefixed": 33,
+   "long_decimal": 2
+  },
+  "frozen": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 2295,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1293,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 2301,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1287,
+   "units_counts_changed": 2,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 2293,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1293,
+   "units_counts_changed": 1,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 2299,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1287,
+   "units_counts_changed": 3,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {
+   "IGNORED>UNGROUNDED": 6
+  }
+ },
+ "oct_v42|raw_g1_muse-glimmer-30b_20261016T121738Z.jsonl|grounded_guard|delivered_ref": {
+  "_n": {
+   "units": 161,
+   "numerals": 493,
+   "minus_prefixed": 2,
+   "long_decimal": 9
+  },
+  "frozen": {
+   "GROUNDED": 468,
+   "UNGROUNDED": 5,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 2,
+   "IGNORED": 18,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 468,
+   "UNGROUNDED": 5,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 2,
+   "IGNORED": 18,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 468,
+   "UNGROUNDED": 3,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 2,
+   "IGNORED": 11,
+   "units_counts_changed": 6,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 1
+  },
+  "both": {
+   "GROUNDED": 468,
+   "UNGROUNDED": 3,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 2,
+   "IGNORED": 11,
+   "units_counts_changed": 6,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 1
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42|raw_g1_muse-glimmer-30b_20261016T121738Z.jsonl|grounded_guard|delivered_inrun": {
+  "_n": {
+   "units": 168,
+   "numerals": 493,
+   "minus_prefixed": 2,
+   "long_decimal": 9
+  },
+  "frozen": {
+   "GROUNDED": 472,
+   "UNGROUNDED": 2,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 19,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 474,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 19,
+   "units_counts_changed": 2,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 2
+  },
+  "decimal": {
+   "GROUNDED": 470,
+   "UNGROUNDED": 2,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 12,
+   "units_counts_changed": 6,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 472,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 12,
+   "units_counts_changed": 8,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 2
+  },
+  "frozen>sign": {
+   "UNGROUNDED>GROUNDED": 2
+  }
+ },
+ "oct_v42|raw_g1_muse-glimmer-30b_20261016T121738Z.jsonl|grounded_guard|draft_inrun": {
+  "_n": {
+   "units": 161,
+   "numerals": 2180,
+   "minus_prefixed": 8,
+   "long_decimal": 155
+  },
+  "frozen": {
+   "GROUNDED": 1417,
+   "UNGROUNDED": 475,
+   "SCALE_VIOLATION": 6,
+   "UNIT_MISMATCH": 7,
+   "IGNORED": 275,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 1421,
+   "UNGROUNDED": 471,
+   "SCALE_VIOLATION": 6,
+   "UNIT_MISMATCH": 7,
+   "IGNORED": 275,
+   "units_counts_changed": 4,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 1
+  },
+  "decimal": {
+   "GROUNDED": 1413,
+   "UNGROUNDED": 372,
+   "SCALE_VIOLATION": 6,
+   "UNIT_MISMATCH": 6,
+   "IGNORED": 228,
+   "units_counts_changed": 37,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 13
+  },
+  "both": {
+   "GROUNDED": 1417,
+   "UNGROUNDED": 368,
+   "SCALE_VIOLATION": 6,
+   "UNIT_MISMATCH": 6,
+   "IGNORED": 228,
+   "units_counts_changed": 41,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 14
+  },
+  "frozen>sign": {
+   "UNGROUNDED>GROUNDED": 4
+  }
+ },
+ "oct_v42|raw_g1_muse-glimmer-30b_20261016T121738Z.jsonl|grounded_noguard|delivered_ref": {
+  "_n": {
+   "units": 158,
+   "numerals": 2386,
+   "minus_prefixed": 6,
+   "long_decimal": 204
+  },
+  "frozen": {
+   "GROUNDED": 1765,
+   "UNGROUNDED": 365,
+   "SCALE_VIOLATION": 32,
+   "UNIT_MISMATCH": 40,
+   "IGNORED": 184,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 1765,
+   "UNGROUNDED": 365,
+   "SCALE_VIOLATION": 32,
+   "UNIT_MISMATCH": 40,
+   "IGNORED": 184,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 1760,
+   "UNGROUNDED": 224,
+   "SCALE_VIOLATION": 32,
+   "UNIT_MISMATCH": 39,
+   "IGNORED": 127,
+   "units_counts_changed": 40,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 9
+  },
+  "both": {
+   "GROUNDED": 1760,
+   "UNGROUNDED": 224,
+   "SCALE_VIOLATION": 32,
+   "UNIT_MISMATCH": 39,
+   "IGNORED": 127,
+   "units_counts_changed": 40,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 9
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42|raw_g1_muse-glimmer-30b_20261016T121738Z.jsonl|grounded_noguard|delivered_inrun": {
+  "_n": {
+   "units": 168,
+   "numerals": 2386,
+   "minus_prefixed": 6,
+   "long_decimal": 204
+  },
+  "frozen": {
+   "GROUNDED": 1583,
+   "UNGROUNDED": 517,
+   "SCALE_VIOLATION": 13,
+   "UNIT_MISMATCH": 12,
+   "IGNORED": 261,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 1585,
+   "UNGROUNDED": 515,
+   "SCALE_VIOLATION": 13,
+   "UNIT_MISMATCH": 12,
+   "IGNORED": 261,
+   "units_counts_changed": 2,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 1575,
+   "UNGROUNDED": 379,
+   "SCALE_VIOLATION": 13,
+   "UNIT_MISMATCH": 11,
+   "IGNORED": 204,
+   "units_counts_changed": 40,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 15
+  },
+  "both": {
+   "GROUNDED": 1577,
+   "UNGROUNDED": 377,
+   "SCALE_VIOLATION": 13,
+   "UNIT_MISMATCH": 11,
+   "IGNORED": 204,
+   "units_counts_changed": 41,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 15
+  },
+  "frozen>sign": {
+   "UNGROUNDED>GROUNDED": 2
+  }
+ },
+ "oct_v42|raw_g1_muse-glimmer-30b_20261016T121738Z.jsonl|grounded_noguard|draft_inrun": {
+  "_n": {
+   "units": 158,
+   "numerals": 2386,
+   "minus_prefixed": 6,
+   "long_decimal": 204
+  },
+  "frozen": {
+   "GROUNDED": 1583,
+   "UNGROUNDED": 517,
+   "SCALE_VIOLATION": 13,
+   "UNIT_MISMATCH": 12,
+   "IGNORED": 261,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 1585,
+   "UNGROUNDED": 515,
+   "SCALE_VIOLATION": 13,
+   "UNIT_MISMATCH": 12,
+   "IGNORED": 261,
+   "units_counts_changed": 2,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 1575,
+   "UNGROUNDED": 379,
+   "SCALE_VIOLATION": 13,
+   "UNIT_MISMATCH": 11,
+   "IGNORED": 204,
+   "units_counts_changed": 40,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 15
+  },
+  "both": {
+   "GROUNDED": 1577,
+   "UNGROUNDED": 377,
+   "SCALE_VIOLATION": 13,
+   "UNIT_MISMATCH": 11,
+   "IGNORED": 204,
+   "units_counts_changed": 41,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 15
+  },
+  "frozen>sign": {
+   "UNGROUNDED>GROUNDED": 2
+  }
+ },
+ "oct_v42|raw_g1_muse-glimmer-30b_20261016T121738Z.jsonl|ungrounded|delivered_ref": {
+  "_n": {
+   "units": 168,
+   "numerals": 899,
+   "minus_prefixed": 0,
+   "long_decimal": 0
+  },
+  "frozen": {
+   "GROUNDED": 535,
+   "UNGROUNDED": 185,
+   "SCALE_VIOLATION": 29,
+   "UNIT_MISMATCH": 4,
+   "IGNORED": 146,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 535,
+   "UNGROUNDED": 185,
+   "SCALE_VIOLATION": 29,
+   "UNIT_MISMATCH": 4,
+   "IGNORED": 146,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 535,
+   "UNGROUNDED": 185,
+   "SCALE_VIOLATION": 29,
+   "UNIT_MISMATCH": 4,
+   "IGNORED": 146,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 535,
+   "UNGROUNDED": 185,
+   "SCALE_VIOLATION": 29,
+   "UNIT_MISMATCH": 4,
+   "IGNORED": 146,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42|raw_g1_muse-glimmer-30b_20261016T121738Z.jsonl|ungrounded|delivered_inrun": {
+  "_n": {
+   "units": 168,
+   "numerals": 899,
+   "minus_prefixed": 0,
+   "long_decimal": 0
+  },
+  "frozen": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 652,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 247,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 652,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 247,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 652,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 247,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 652,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 247,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42|raw_g1_muse-glimmer-30b_20261016T121738Z.jsonl|ungrounded|draft_inrun": {
+  "_n": {
+   "units": 168,
+   "numerals": 899,
+   "minus_prefixed": 0,
+   "long_decimal": 0
+  },
+  "frozen": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 652,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 247,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 652,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 247,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 652,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 247,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 652,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 247,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42|raw_g1_qwen3.8-27b_20261015T072421Z.jsonl|grounded_guard|delivered_ref": {
+  "_n": {
+   "units": 157,
+   "long_decimal": 2,
+   "numerals": 517,
+   "minus_prefixed": 5
+  },
+  "frozen": {
+   "GROUNDED": 447,
+   "UNGROUNDED": 38,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 3,
+   "IGNORED": 29,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 449,
+   "UNGROUNDED": 36,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 3,
+   "IGNORED": 29,
+   "units_counts_changed": 2,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 2
+  },
+  "decimal": {
+   "GROUNDED": 445,
+   "UNGROUNDED": 38,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 3,
+   "IGNORED": 29,
+   "units_counts_changed": 2,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 447,
+   "UNGROUNDED": 36,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 3,
+   "IGNORED": 29,
+   "units_counts_changed": 4,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 2
+  },
+  "frozen>sign": {
+   "UNGROUNDED>GROUNDED": 2
+  }
+ },
+ "oct_v42|raw_g1_qwen3.8-27b_20261015T072421Z.jsonl|grounded_guard|delivered_inrun": {
+  "_n": {
+   "units": 166,
+   "long_decimal": 2,
+   "numerals": 505,
+   "minus_prefixed": 5
+  },
+  "frozen": {
+   "GROUNDED": 464,
+   "UNGROUNDED": 5,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 36,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 469,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 36,
+   "units_counts_changed": 5,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 5
+  },
+  "decimal": {
+   "GROUNDED": 462,
+   "UNGROUNDED": 5,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 36,
+   "units_counts_changed": 2,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 467,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 36,
+   "units_counts_changed": 7,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 5
+  },
+  "frozen>sign": {
+   "UNGROUNDED>GROUNDED": 5
+  }
+ },
+ "oct_v42|raw_g1_qwen3.8-27b_20261015T072421Z.jsonl|grounded_guard|draft_inrun": {
+  "_n": {
+   "units": 155,
+   "numerals": 5742,
+   "minus_prefixed": 90,
+   "long_decimal": 179
+  },
+  "frozen": {
+   "GROUNDED": 3602,
+   "UNGROUNDED": 1179,
+   "SCALE_VIOLATION": 68,
+   "UNIT_MISMATCH": 48,
+   "IGNORED": 845,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 3624,
+   "UNGROUNDED": 1159,
+   "SCALE_VIOLATION": 70,
+   "UNIT_MISMATCH": 46,
+   "IGNORED": 843,
+   "units_counts_changed": 20,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 3601,
+   "UNGROUNDED": 1058,
+   "SCALE_VIOLATION": 68,
+   "UNIT_MISMATCH": 48,
+   "IGNORED": 788,
+   "units_counts_changed": 35,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 4
+  },
+  "both": {
+   "GROUNDED": 3621,
+   "UNGROUNDED": 1040,
+   "SCALE_VIOLATION": 70,
+   "UNIT_MISMATCH": 46,
+   "IGNORED": 786,
+   "units_counts_changed": 51,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 4
+  },
+  "frozen>sign": {
+   "UNIT_MISMATCH>UNGROUNDED": 2,
+   "UNGROUNDED>GROUNDED": 30,
+   "GROUNDED>UNGROUNDED": 7,
+   "IGNORED>UNGROUNDED": 2,
+   "UNGROUNDED>SCALE_VIOLATION": 1,
+   "GROUNDED>SCALE_VIOLATION": 1
+  }
+ },
+ "oct_v42|raw_g1_qwen3.8-27b_20261015T072421Z.jsonl|grounded_noguard|delivered_ref": {
+  "_n": {
+   "units": 155,
+   "numerals": 5710,
+   "minus_prefixed": 83,
+   "long_decimal": 208
+  },
+  "frozen": {
+   "GROUNDED": 3318,
+   "UNGROUNDED": 1418,
+   "SCALE_VIOLATION": 103,
+   "UNIT_MISMATCH": 115,
+   "IGNORED": 756,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 3310,
+   "UNGROUNDED": 1427,
+   "SCALE_VIOLATION": 105,
+   "UNIT_MISMATCH": 112,
+   "IGNORED": 756,
+   "units_counts_changed": 16,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 3313,
+   "UNGROUNDED": 1279,
+   "SCALE_VIOLATION": 103,
+   "UNIT_MISMATCH": 115,
+   "IGNORED": 692,
+   "units_counts_changed": 38,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 3305,
+   "UNGROUNDED": 1288,
+   "SCALE_VIOLATION": 105,
+   "UNIT_MISMATCH": 112,
+   "IGNORED": 692,
+   "units_counts_changed": 50,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {
+   "GROUNDED>UNGROUNDED": 19,
+   "UNGROUNDED>GROUNDED": 13,
+   "GROUNDED>SCALE_VIOLATION": 2,
+   "UNIT_MISMATCH>UNGROUNDED": 3
+  }
+ },
+ "oct_v42|raw_g1_qwen3.8-27b_20261015T072421Z.jsonl|grounded_noguard|delivered_inrun": {
+  "_n": {
+   "units": 164,
+   "numerals": 5686,
+   "minus_prefixed": 83,
+   "long_decimal": 208
+  },
+  "frozen": {
+   "GROUNDED": 3403,
+   "UNGROUNDED": 1326,
+   "SCALE_VIOLATION": 44,
+   "UNIT_MISMATCH": 39,
+   "IGNORED": 874,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 3421,
+   "UNGROUNDED": 1307,
+   "SCALE_VIOLATION": 46,
+   "UNIT_MISMATCH": 38,
+   "IGNORED": 874,
+   "units_counts_changed": 18,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 3398,
+   "UNGROUNDED": 1187,
+   "SCALE_VIOLATION": 44,
+   "UNIT_MISMATCH": 39,
+   "IGNORED": 810,
+   "units_counts_changed": 38,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 4
+  },
+  "both": {
+   "GROUNDED": 3413,
+   "UNGROUNDED": 1171,
+   "SCALE_VIOLATION": 46,
+   "UNIT_MISMATCH": 38,
+   "IGNORED": 810,
+   "units_counts_changed": 53,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 4
+  },
+  "frozen>sign": {
+   "UNGROUNDED>GROUNDED": 28,
+   "GROUNDED>UNGROUNDED": 9,
+   "UNGROUNDED>SCALE_VIOLATION": 1,
+   "GROUNDED>SCALE_VIOLATION": 1,
+   "UNIT_MISMATCH>UNGROUNDED": 1
+  }
+ },
+ "oct_v42|raw_g1_qwen3.8-27b_20261015T072421Z.jsonl|grounded_noguard|draft_inrun": {
+  "_n": {
+   "units": 151,
+   "numerals": 5686,
+   "minus_prefixed": 83,
+   "long_decimal": 208
+  },
+  "frozen": {
+   "GROUNDED": 3403,
+   "UNGROUNDED": 1326,
+   "SCALE_VIOLATION": 44,
+   "UNIT_MISMATCH": 39,
+   "IGNORED": 874,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 3421,
+   "UNGROUNDED": 1307,
+   "SCALE_VIOLATION": 46,
+   "UNIT_MISMATCH": 38,
+   "IGNORED": 874,
+   "units_counts_changed": 18,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 3398,
+   "UNGROUNDED": 1187,
+   "SCALE_VIOLATION": 44,
+   "UNIT_MISMATCH": 39,
+   "IGNORED": 810,
+   "units_counts_changed": 38,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 4
+  },
+  "both": {
+   "GROUNDED": 3413,
+   "UNGROUNDED": 1171,
+   "SCALE_VIOLATION": 46,
+   "UNIT_MISMATCH": 38,
+   "IGNORED": 810,
+   "units_counts_changed": 53,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 4
+  },
+  "frozen>sign": {
+   "UNGROUNDED>GROUNDED": 28,
+   "GROUNDED>UNGROUNDED": 9,
+   "UNGROUNDED>SCALE_VIOLATION": 1,
+   "GROUNDED>SCALE_VIOLATION": 1,
+   "UNIT_MISMATCH>UNGROUNDED": 1
+  }
+ },
+ "oct_v42|raw_g1_qwen3.8-27b_20261015T072421Z.jsonl|ungrounded|delivered_ref": {
+  "_n": {
+   "units": 168,
+   "long_decimal": 1,
+   "numerals": 4089,
+   "minus_prefixed": 10
+  },
+  "frozen": {
+   "GROUNDED": 1441,
+   "UNGROUNDED": 1346,
+   "SCALE_VIOLATION": 117,
+   "UNIT_MISMATCH": 112,
+   "IGNORED": 1073,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 1442,
+   "UNGROUNDED": 1346,
+   "SCALE_VIOLATION": 117,
+   "UNIT_MISMATCH": 111,
+   "IGNORED": 1073,
+   "units_counts_changed": 4,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 2
+  },
+  "decimal": {
+   "GROUNDED": 1441,
+   "UNGROUNDED": 1345,
+   "SCALE_VIOLATION": 117,
+   "UNIT_MISMATCH": 112,
+   "IGNORED": 1073,
+   "units_counts_changed": 1,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 1442,
+   "UNGROUNDED": 1345,
+   "SCALE_VIOLATION": 117,
+   "UNIT_MISMATCH": 111,
+   "IGNORED": 1073,
+   "units_counts_changed": 5,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 2
+  },
+  "frozen>sign": {
+   "UNGROUNDED>GROUNDED": 2,
+   "GROUNDED>UNGROUNDED": 1,
+   "UNIT_MISMATCH>UNGROUNDED": 1
+  }
+ },
+ "oct_v42|raw_g1_qwen3.8-27b_20261015T072421Z.jsonl|ungrounded|delivered_inrun": {
+  "_n": {
+   "units": 127,
+   "numerals": 3829,
+   "minus_prefixed": 3,
+   "long_decimal": 0
+  },
+  "frozen": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 2275,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1554,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 2276,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1553,
+   "units_counts_changed": 1,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 2275,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1554,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 2276,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1553,
+   "units_counts_changed": 1,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {
+   "IGNORED>UNGROUNDED": 1
+  }
+ },
+ "oct_v42|raw_g1_qwen3.8-27b_20261015T072421Z.jsonl|ungrounded|draft_inrun": {
+  "_n": {
+   "units": 127,
+   "numerals": 3829,
+   "minus_prefixed": 3,
+   "long_decimal": 0
+  },
+  "frozen": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 2275,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1554,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 2276,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1553,
+   "units_counts_changed": 1,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 2275,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1554,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 2276,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1553,
+   "units_counts_changed": 1,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {
+   "IGNORED>UNGROUNDED": 1
+  }
+ },
+ "oct_v42|raw_g1_qwen3.8-27b_en_20261015T180819Z.jsonl|grounded_guard|delivered_ref": {
+  "_n": {
+   "units": 163,
+   "long_decimal": 4,
+   "numerals": 616,
+   "minus_prefixed": 7
+  },
+  "frozen": {
+   "GROUNDED": 555,
+   "UNGROUNDED": 31,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 3,
+   "IGNORED": 27,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 558,
+   "UNGROUNDED": 28,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 3,
+   "IGNORED": 27,
+   "units_counts_changed": 3,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 3
+  },
+  "decimal": {
+   "GROUNDED": 555,
+   "UNGROUNDED": 31,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 3,
+   "IGNORED": 23,
+   "units_counts_changed": 3,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 558,
+   "UNGROUNDED": 28,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 3,
+   "IGNORED": 23,
+   "units_counts_changed": 6,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 3
+  },
+  "frozen>sign": {
+   "UNGROUNDED>GROUNDED": 3
+  }
+ },
+ "oct_v42|raw_g1_qwen3.8-27b_en_20261015T180819Z.jsonl|grounded_guard|delivered_inrun": {
+  "_n": {
+   "units": 166,
+   "long_decimal": 4,
+   "numerals": 610,
+   "minus_prefixed": 6
+  },
+  "frozen": {
+   "GROUNDED": 579,
+   "UNGROUNDED": 6,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 25,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 585,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 25,
+   "units_counts_changed": 6,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 6
+  },
+  "decimal": {
+   "GROUNDED": 579,
+   "UNGROUNDED": 6,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 21,
+   "units_counts_changed": 3,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 585,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 21,
+   "units_counts_changed": 9,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 6
+  },
+  "frozen>sign": {
+   "UNGROUNDED>GROUNDED": 6
+  }
+ },
+ "oct_v42|raw_g1_qwen3.8-27b_en_20261015T180819Z.jsonl|grounded_guard|draft_inrun": {
+  "_n": {
+   "units": 161,
+   "long_decimal": 228,
+   "numerals": 5264,
+   "minus_prefixed": 69
+  },
+  "frozen": {
+   "GROUNDED": 3280,
+   "UNGROUNDED": 1135,
+   "SCALE_VIOLATION": 22,
+   "UNIT_MISMATCH": 31,
+   "IGNORED": 796,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 3298,
+   "UNGROUNDED": 1117,
+   "SCALE_VIOLATION": 22,
+   "UNIT_MISMATCH": 31,
+   "IGNORED": 796,
+   "units_counts_changed": 16,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 3276,
+   "UNGROUNDED": 983,
+   "SCALE_VIOLATION": 22,
+   "UNIT_MISMATCH": 31,
+   "IGNORED": 724,
+   "units_counts_changed": 38,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 3294,
+   "UNGROUNDED": 965,
+   "SCALE_VIOLATION": 22,
+   "UNIT_MISMATCH": 31,
+   "IGNORED": 724,
+   "units_counts_changed": 49,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {
+   "UNGROUNDED>GROUNDED": 24,
+   "GROUNDED>UNGROUNDED": 6
+  }
+ },
+ "oct_v42|raw_g1_qwen3.8-27b_en_20261015T180819Z.jsonl|grounded_noguard|delivered_ref": {
+  "_n": {
+   "units": 165,
+   "long_decimal": 225,
+   "numerals": 5397,
+   "minus_prefixed": 65
+  },
+  "frozen": {
+   "GROUNDED": 3260,
+   "UNGROUNDED": 1230,
+   "SCALE_VIOLATION": 100,
+   "UNIT_MISMATCH": 96,
+   "IGNORED": 711,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 3262,
+   "UNGROUNDED": 1228,
+   "SCALE_VIOLATION": 100,
+   "UNIT_MISMATCH": 96,
+   "IGNORED": 711,
+   "units_counts_changed": 10,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 1
+  },
+  "decimal": {
+   "GROUNDED": 3257,
+   "UNGROUNDED": 1078,
+   "SCALE_VIOLATION": 100,
+   "UNIT_MISMATCH": 94,
+   "IGNORED": 643,
+   "units_counts_changed": 40,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 3259,
+   "UNGROUNDED": 1076,
+   "SCALE_VIOLATION": 100,
+   "UNIT_MISMATCH": 94,
+   "IGNORED": 643,
+   "units_counts_changed": 46,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 1
+  },
+  "frozen>sign": {
+   "UNGROUNDED>GROUNDED": 9,
+   "GROUNDED>UNGROUNDED": 7
+  }
+ },
+ "oct_v42|raw_g1_qwen3.8-27b_en_20261015T180819Z.jsonl|grounded_noguard|delivered_inrun": {
+  "_n": {
+   "units": 166,
+   "long_decimal": 225,
+   "numerals": 5378,
+   "minus_prefixed": 64
+  },
+  "frozen": {
+   "GROUNDED": 3271,
+   "UNGROUNDED": 1185,
+   "SCALE_VIOLATION": 33,
+   "UNIT_MISMATCH": 42,
+   "IGNORED": 847,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 3287,
+   "UNGROUNDED": 1169,
+   "SCALE_VIOLATION": 33,
+   "UNIT_MISMATCH": 42,
+   "IGNORED": 847,
+   "units_counts_changed": 16,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 3268,
+   "UNGROUNDED": 1033,
+   "SCALE_VIOLATION": 33,
+   "UNIT_MISMATCH": 40,
+   "IGNORED": 779,
+   "units_counts_changed": 40,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 2
+  },
+  "both": {
+   "GROUNDED": 3284,
+   "UNGROUNDED": 1017,
+   "SCALE_VIOLATION": 33,
+   "UNIT_MISMATCH": 40,
+   "IGNORED": 779,
+   "units_counts_changed": 51,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 2
+  },
+  "frozen>sign": {
+   "UNGROUNDED>GROUNDED": 22,
+   "GROUNDED>UNGROUNDED": 6
+  }
+ },
+ "oct_v42|raw_g1_qwen3.8-27b_en_20261015T180819Z.jsonl|grounded_noguard|draft_inrun": {
+  "_n": {
+   "units": 163,
+   "long_decimal": 225,
+   "numerals": 5378,
+   "minus_prefixed": 64
+  },
+  "frozen": {
+   "GROUNDED": 3271,
+   "UNGROUNDED": 1185,
+   "SCALE_VIOLATION": 33,
+   "UNIT_MISMATCH": 42,
+   "IGNORED": 847,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 3287,
+   "UNGROUNDED": 1169,
+   "SCALE_VIOLATION": 33,
+   "UNIT_MISMATCH": 42,
+   "IGNORED": 847,
+   "units_counts_changed": 16,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 3268,
+   "UNGROUNDED": 1033,
+   "SCALE_VIOLATION": 33,
+   "UNIT_MISMATCH": 40,
+   "IGNORED": 779,
+   "units_counts_changed": 40,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 2
+  },
+  "both": {
+   "GROUNDED": 3284,
+   "UNGROUNDED": 1017,
+   "SCALE_VIOLATION": 33,
+   "UNIT_MISMATCH": 40,
+   "IGNORED": 779,
+   "units_counts_changed": 51,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 2
+  },
+  "frozen>sign": {
+   "UNGROUNDED>GROUNDED": 22,
+   "GROUNDED>UNGROUNDED": 6
+  }
+ },
+ "oct_v42|raw_g1_qwen3.8-27b_en_20261015T180819Z.jsonl|ungrounded|delivered_ref": {
+  "_n": {
+   "units": 168,
+   "long_decimal": 0,
+   "numerals": 5017,
+   "minus_prefixed": 4
+  },
+  "frozen": {
+   "GROUNDED": 1861,
+   "UNGROUNDED": 1822,
+   "SCALE_VIOLATION": 169,
+   "UNIT_MISMATCH": 111,
+   "IGNORED": 1054,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 1859,
+   "UNGROUNDED": 1824,
+   "SCALE_VIOLATION": 169,
+   "UNIT_MISMATCH": 111,
+   "IGNORED": 1054,
+   "units_counts_changed": 2,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 1861,
+   "UNGROUNDED": 1822,
+   "SCALE_VIOLATION": 169,
+   "UNIT_MISMATCH": 111,
+   "IGNORED": 1054,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 1859,
+   "UNGROUNDED": 1824,
+   "SCALE_VIOLATION": 169,
+   "UNIT_MISMATCH": 111,
+   "IGNORED": 1054,
+   "units_counts_changed": 2,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {
+   "GROUNDED>UNGROUNDED": 2
+  }
+ },
+ "oct_v42|raw_g1_qwen3.8-27b_en_20261015T180819Z.jsonl|ungrounded|delivered_inrun": {
+  "_n": {
+   "units": 142,
+   "long_decimal": 0,
+   "numerals": 4927,
+   "minus_prefixed": 4
+  },
+  "frozen": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 3222,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1705,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 3222,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1705,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 3222,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1705,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 3222,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1705,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42|raw_g1_qwen3.8-27b_en_20261015T180819Z.jsonl|ungrounded|draft_inrun": {
+  "_n": {
+   "units": 142,
+   "long_decimal": 0,
+   "numerals": 4927,
+   "minus_prefixed": 4
+  },
+  "frozen": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 3222,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1705,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 3222,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1705,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 3222,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1705,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 3222,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1705,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_mt|raw_mt_gemma4-e4b_20261104T230435Z.jsonl|grounded_guard|delivered_ref": {
+  "_n": {
+   "units": 126,
+   "long_decimal": 2,
+   "numerals": 289,
+   "minus_prefixed": 0
+  },
+  "frozen": {
+   "GROUNDED": 142,
+   "UNGROUNDED": 11,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 2,
+   "IGNORED": 134,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 142,
+   "UNGROUNDED": 11,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 2,
+   "IGNORED": 134,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 142,
+   "UNGROUNDED": 11,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 2,
+   "IGNORED": 132,
+   "units_counts_changed": 1,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 142,
+   "UNGROUNDED": 11,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 2,
+   "IGNORED": 132,
+   "units_counts_changed": 1,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_mt|raw_mt_gemma4-e4b_20261104T230435Z.jsonl|grounded_guard|delivered_inrun": {
+  "_n": {
+   "units": 126,
+   "long_decimal": 2,
+   "numerals": 289,
+   "minus_prefixed": 0
+  },
+  "frozen": {
+   "GROUNDED": 134,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 155,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 134,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 155,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 134,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 153,
+   "units_counts_changed": 1,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 134,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 153,
+   "units_counts_changed": 1,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_mt|raw_mt_gemma4-e4b_20261104T230435Z.jsonl|grounded_guard|draft_inrun": {
+  "_n": {
+   "units": 126,
+   "long_decimal": 9,
+   "numerals": 1933,
+   "minus_prefixed": 0
+  },
+  "frozen": {
+   "GROUNDED": 260,
+   "UNGROUNDED": 647,
+   "SCALE_VIOLATION": 9,
+   "UNIT_MISMATCH": 7,
+   "IGNORED": 1010,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 260,
+   "UNGROUNDED": 647,
+   "SCALE_VIOLATION": 9,
+   "UNIT_MISMATCH": 7,
+   "IGNORED": 1010,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 260,
+   "UNGROUNDED": 643,
+   "SCALE_VIOLATION": 9,
+   "UNIT_MISMATCH": 7,
+   "IGNORED": 1005,
+   "units_counts_changed": 8,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 2
+  },
+  "both": {
+   "GROUNDED": 260,
+   "UNGROUNDED": 643,
+   "SCALE_VIOLATION": 9,
+   "UNIT_MISMATCH": 7,
+   "IGNORED": 1005,
+   "units_counts_changed": 8,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 2
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_mt|raw_mt_gemma4-e4b_20261104T230435Z.jsonl|grounded_noguard|delivered_ref": {
+  "_n": {
+   "units": 126,
+   "long_decimal": 10,
+   "numerals": 2262,
+   "minus_prefixed": 1
+  },
+  "frozen": {
+   "GROUNDED": 995,
+   "UNGROUNDED": 325,
+   "SCALE_VIOLATION": 68,
+   "UNIT_MISMATCH": 47,
+   "IGNORED": 827,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 995,
+   "UNGROUNDED": 326,
+   "SCALE_VIOLATION": 68,
+   "UNIT_MISMATCH": 46,
+   "IGNORED": 827,
+   "units_counts_changed": 1,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 995,
+   "UNGROUNDED": 321,
+   "SCALE_VIOLATION": 68,
+   "UNIT_MISMATCH": 46,
+   "IGNORED": 822,
+   "units_counts_changed": 8,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 1
+  },
+  "both": {
+   "GROUNDED": 995,
+   "UNGROUNDED": 322,
+   "SCALE_VIOLATION": 68,
+   "UNIT_MISMATCH": 45,
+   "IGNORED": 822,
+   "units_counts_changed": 9,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 1
+  },
+  "frozen>sign": {
+   "UNIT_MISMATCH>UNGROUNDED": 1
+  }
+ },
+ "oct_v42_mt|raw_mt_gemma4-e4b_20261104T230435Z.jsonl|grounded_noguard|delivered_inrun": {
+  "_n": {
+   "units": 126,
+   "long_decimal": 10,
+   "numerals": 2262,
+   "minus_prefixed": 1
+  },
+  "frozen": {
+   "GROUNDED": 295,
+   "UNGROUNDED": 798,
+   "SCALE_VIOLATION": 18,
+   "UNIT_MISMATCH": 9,
+   "IGNORED": 1142,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 295,
+   "UNGROUNDED": 799,
+   "SCALE_VIOLATION": 18,
+   "UNIT_MISMATCH": 8,
+   "IGNORED": 1142,
+   "units_counts_changed": 1,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 295,
+   "UNGROUNDED": 794,
+   "SCALE_VIOLATION": 18,
+   "UNIT_MISMATCH": 9,
+   "IGNORED": 1136,
+   "units_counts_changed": 8,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 1
+  },
+  "both": {
+   "GROUNDED": 295,
+   "UNGROUNDED": 795,
+   "SCALE_VIOLATION": 18,
+   "UNIT_MISMATCH": 8,
+   "IGNORED": 1136,
+   "units_counts_changed": 9,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 1
+  },
+  "frozen>sign": {
+   "UNIT_MISMATCH>UNGROUNDED": 1
+  }
+ },
+ "oct_v42_mt|raw_mt_gemma4-e4b_20261104T230435Z.jsonl|grounded_noguard|draft_inrun": {
+  "_n": {
+   "units": 126,
+   "long_decimal": 10,
+   "numerals": 2262,
+   "minus_prefixed": 1
+  },
+  "frozen": {
+   "GROUNDED": 295,
+   "UNGROUNDED": 798,
+   "SCALE_VIOLATION": 18,
+   "UNIT_MISMATCH": 9,
+   "IGNORED": 1142,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 295,
+   "UNGROUNDED": 799,
+   "SCALE_VIOLATION": 18,
+   "UNIT_MISMATCH": 8,
+   "IGNORED": 1142,
+   "units_counts_changed": 1,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 295,
+   "UNGROUNDED": 794,
+   "SCALE_VIOLATION": 18,
+   "UNIT_MISMATCH": 9,
+   "IGNORED": 1136,
+   "units_counts_changed": 8,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 1
+  },
+  "both": {
+   "GROUNDED": 295,
+   "UNGROUNDED": 795,
+   "SCALE_VIOLATION": 18,
+   "UNIT_MISMATCH": 8,
+   "IGNORED": 1136,
+   "units_counts_changed": 9,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 1
+  },
+  "frozen>sign": {
+   "UNIT_MISMATCH>UNGROUNDED": 1
+  }
+ },
+ "oct_v42_mt|raw_mt_gemma4-e4b_20261104T230435Z.jsonl|ungrounded|delivered_ref": {
+  "_n": {
+   "units": 126,
+   "long_decimal": 0,
+   "numerals": 2626,
+   "minus_prefixed": 9
+  },
+  "frozen": {
+   "GROUNDED": 1096,
+   "UNGROUNDED": 392,
+   "SCALE_VIOLATION": 93,
+   "UNIT_MISMATCH": 32,
+   "IGNORED": 1013,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 1092,
+   "UNGROUNDED": 396,
+   "SCALE_VIOLATION": 93,
+   "UNIT_MISMATCH": 32,
+   "IGNORED": 1013,
+   "units_counts_changed": 3,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 1096,
+   "UNGROUNDED": 392,
+   "SCALE_VIOLATION": 93,
+   "UNIT_MISMATCH": 32,
+   "IGNORED": 1013,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 1092,
+   "UNGROUNDED": 396,
+   "SCALE_VIOLATION": 93,
+   "UNIT_MISMATCH": 32,
+   "IGNORED": 1013,
+   "units_counts_changed": 3,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {
+   "GROUNDED>UNGROUNDED": 4
+  }
+ },
+ "oct_v42_mt|raw_mt_gemma4-e4b_20261104T230435Z.jsonl|ungrounded|delivered_inrun": {
+  "_n": {
+   "units": 126,
+   "long_decimal": 0,
+   "numerals": 2626,
+   "minus_prefixed": 9
+  },
+  "frozen": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1249,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1377,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1252,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1374,
+   "units_counts_changed": 2,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1249,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1377,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1252,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1374,
+   "units_counts_changed": 2,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {
+   "IGNORED>UNGROUNDED": 3
+  }
+ },
+ "oct_v42_mt|raw_mt_gemma4-e4b_20261104T230435Z.jsonl|ungrounded|draft_inrun": {
+  "_n": {
+   "units": 126,
+   "long_decimal": 0,
+   "numerals": 2626,
+   "minus_prefixed": 9
+  },
+  "frozen": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1249,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1377,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1252,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1374,
+   "units_counts_changed": 2,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1249,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1377,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1252,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1374,
+   "units_counts_changed": 2,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {
+   "IGNORED>UNGROUNDED": 3
+  }
+ },
+ "oct_v42_mt|raw_mt_gemma4-e4b_en_20261105T051421Z.jsonl|grounded_guard|delivered_ref": {
+  "_n": {
+   "units": 126,
+   "long_decimal": 8,
+   "numerals": 274,
+   "minus_prefixed": 1
+  },
+  "frozen": {
+   "GROUNDED": 179,
+   "UNGROUNDED": 11,
+   "SCALE_VIOLATION": 1,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 83,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 180,
+   "UNGROUNDED": 10,
+   "SCALE_VIOLATION": 1,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 83,
+   "units_counts_changed": 1,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 1
+  },
+  "decimal": {
+   "GROUNDED": 177,
+   "UNGROUNDED": 11,
+   "SCALE_VIOLATION": 1,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 77,
+   "units_counts_changed": 7,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 178,
+   "UNGROUNDED": 10,
+   "SCALE_VIOLATION": 1,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 77,
+   "units_counts_changed": 8,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 1
+  },
+  "frozen>sign": {
+   "UNGROUNDED>GROUNDED": 1
+  }
+ },
+ "oct_v42_mt|raw_mt_gemma4-e4b_en_20261105T051421Z.jsonl|grounded_guard|delivered_inrun": {
+  "_n": {
+   "units": 126,
+   "long_decimal": 8,
+   "numerals": 274,
+   "minus_prefixed": 1
+  },
+  "frozen": {
+   "GROUNDED": 171,
+   "UNGROUNDED": 1,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 102,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 172,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 102,
+   "units_counts_changed": 1,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 1
+  },
+  "decimal": {
+   "GROUNDED": 171,
+   "UNGROUNDED": 1,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 94,
+   "units_counts_changed": 7,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 172,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 94,
+   "units_counts_changed": 8,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 1
+  },
+  "frozen>sign": {
+   "UNGROUNDED>GROUNDED": 1
+  }
+ },
+ "oct_v42_mt|raw_mt_gemma4-e4b_en_20261105T051421Z.jsonl|grounded_guard|draft_inrun": {
+  "_n": {
+   "units": 126,
+   "long_decimal": 14,
+   "numerals": 1580,
+   "minus_prefixed": 0
+  },
+  "frozen": {
+   "GROUNDED": 270,
+   "UNGROUNDED": 520,
+   "SCALE_VIOLATION": 8,
+   "UNIT_MISMATCH": 5,
+   "IGNORED": 777,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 270,
+   "UNGROUNDED": 520,
+   "SCALE_VIOLATION": 8,
+   "UNIT_MISMATCH": 5,
+   "IGNORED": 777,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 270,
+   "UNGROUNDED": 511,
+   "SCALE_VIOLATION": 8,
+   "UNIT_MISMATCH": 5,
+   "IGNORED": 772,
+   "units_counts_changed": 12,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 4
+  },
+  "both": {
+   "GROUNDED": 270,
+   "UNGROUNDED": 511,
+   "SCALE_VIOLATION": 8,
+   "UNIT_MISMATCH": 5,
+   "IGNORED": 772,
+   "units_counts_changed": 12,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 4
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_mt|raw_mt_gemma4-e4b_en_20261105T051421Z.jsonl|grounded_noguard|delivered_ref": {
+  "_n": {
+   "units": 125,
+   "long_decimal": 20,
+   "numerals": 1846,
+   "minus_prefixed": 0
+  },
+  "frozen": {
+   "GROUNDED": 868,
+   "UNGROUNDED": 282,
+   "SCALE_VIOLATION": 45,
+   "UNIT_MISMATCH": 44,
+   "IGNORED": 607,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 868,
+   "UNGROUNDED": 282,
+   "SCALE_VIOLATION": 45,
+   "UNIT_MISMATCH": 44,
+   "IGNORED": 607,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 868,
+   "UNGROUNDED": 273,
+   "SCALE_VIOLATION": 45,
+   "UNIT_MISMATCH": 44,
+   "IGNORED": 596,
+   "units_counts_changed": 14,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 868,
+   "UNGROUNDED": 273,
+   "SCALE_VIOLATION": 45,
+   "UNIT_MISMATCH": 44,
+   "IGNORED": 596,
+   "units_counts_changed": 14,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_mt|raw_mt_gemma4-e4b_en_20261105T051421Z.jsonl|grounded_noguard|delivered_inrun": {
+  "_n": {
+   "units": 126,
+   "long_decimal": 20,
+   "numerals": 1846,
+   "minus_prefixed": 0
+  },
+  "frozen": {
+   "GROUNDED": 413,
+   "UNGROUNDED": 587,
+   "SCALE_VIOLATION": 18,
+   "UNIT_MISMATCH": 17,
+   "IGNORED": 811,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 413,
+   "UNGROUNDED": 587,
+   "SCALE_VIOLATION": 18,
+   "UNIT_MISMATCH": 17,
+   "IGNORED": 811,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 413,
+   "UNGROUNDED": 578,
+   "SCALE_VIOLATION": 18,
+   "UNIT_MISMATCH": 17,
+   "IGNORED": 800,
+   "units_counts_changed": 14,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 413,
+   "UNGROUNDED": 578,
+   "SCALE_VIOLATION": 18,
+   "UNIT_MISMATCH": 17,
+   "IGNORED": 800,
+   "units_counts_changed": 14,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_mt|raw_mt_gemma4-e4b_en_20261105T051421Z.jsonl|grounded_noguard|draft_inrun": {
+  "_n": {
+   "units": 125,
+   "long_decimal": 20,
+   "numerals": 1846,
+   "minus_prefixed": 0
+  },
+  "frozen": {
+   "GROUNDED": 413,
+   "UNGROUNDED": 587,
+   "SCALE_VIOLATION": 18,
+   "UNIT_MISMATCH": 17,
+   "IGNORED": 811,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 413,
+   "UNGROUNDED": 587,
+   "SCALE_VIOLATION": 18,
+   "UNIT_MISMATCH": 17,
+   "IGNORED": 811,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 413,
+   "UNGROUNDED": 578,
+   "SCALE_VIOLATION": 18,
+   "UNIT_MISMATCH": 17,
+   "IGNORED": 800,
+   "units_counts_changed": 14,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 413,
+   "UNGROUNDED": 578,
+   "SCALE_VIOLATION": 18,
+   "UNIT_MISMATCH": 17,
+   "IGNORED": 800,
+   "units_counts_changed": 14,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_mt|raw_mt_gemma4-e4b_en_20261105T051421Z.jsonl|ungrounded|delivered_ref": {
+  "_n": {
+   "units": 126,
+   "long_decimal": 0,
+   "numerals": 2167,
+   "minus_prefixed": 1
+  },
+  "frozen": {
+   "GROUNDED": 917,
+   "UNGROUNDED": 339,
+   "SCALE_VIOLATION": 103,
+   "UNIT_MISMATCH": 23,
+   "IGNORED": 785,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 917,
+   "UNGROUNDED": 339,
+   "SCALE_VIOLATION": 103,
+   "UNIT_MISMATCH": 23,
+   "IGNORED": 785,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 917,
+   "UNGROUNDED": 339,
+   "SCALE_VIOLATION": 103,
+   "UNIT_MISMATCH": 23,
+   "IGNORED": 785,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 917,
+   "UNGROUNDED": 339,
+   "SCALE_VIOLATION": 103,
+   "UNIT_MISMATCH": 23,
+   "IGNORED": 785,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_mt|raw_mt_gemma4-e4b_en_20261105T051421Z.jsonl|ungrounded|delivered_inrun": {
+  "_n": {
+   "units": 125,
+   "long_decimal": 0,
+   "numerals": 2161,
+   "minus_prefixed": 1
+  },
+  "frozen": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1012,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1149,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1012,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1149,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1012,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1149,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1012,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1149,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_mt|raw_mt_gemma4-e4b_en_20261105T051421Z.jsonl|ungrounded|draft_inrun": {
+  "_n": {
+   "units": 125,
+   "long_decimal": 0,
+   "numerals": 2161,
+   "minus_prefixed": 1
+  },
+  "frozen": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1012,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1149,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1012,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1149,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1012,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1149,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1012,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1149,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_mt|raw_mt_mistral-small3.2-24b_20261105T103315Z.jsonl|grounded_guard|delivered_ref": {
+  "_n": {
+   "units": 121,
+   "long_decimal": 6,
+   "numerals": 317,
+   "minus_prefixed": 1
+  },
+  "frozen": {
+   "GROUNDED": 149,
+   "UNGROUNDED": 40,
+   "SCALE_VIOLATION": 1,
+   "UNIT_MISMATCH": 1,
+   "IGNORED": 126,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 149,
+   "UNGROUNDED": 40,
+   "SCALE_VIOLATION": 1,
+   "UNIT_MISMATCH": 1,
+   "IGNORED": 126,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 148,
+   "UNGROUNDED": 40,
+   "SCALE_VIOLATION": 1,
+   "UNIT_MISMATCH": 1,
+   "IGNORED": 121,
+   "units_counts_changed": 5,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 148,
+   "UNGROUNDED": 40,
+   "SCALE_VIOLATION": 1,
+   "UNIT_MISMATCH": 1,
+   "IGNORED": 121,
+   "units_counts_changed": 5,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_mt|raw_mt_mistral-small3.2-24b_20261105T103315Z.jsonl|grounded_guard|delivered_inrun": {
+  "_n": {
+   "units": 124,
+   "long_decimal": 6,
+   "numerals": 298,
+   "minus_prefixed": 0
+  },
+  "frozen": {
+   "GROUNDED": 154,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 144,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 154,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 144,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 153,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 139,
+   "units_counts_changed": 5,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 153,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 139,
+   "units_counts_changed": 5,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_mt|raw_mt_mistral-small3.2-24b_20261105T103315Z.jsonl|grounded_guard|draft_inrun": {
+  "_n": {
+   "units": 119,
+   "long_decimal": 49,
+   "numerals": 1005,
+   "minus_prefixed": 3
+  },
+  "frozen": {
+   "GROUNDED": 447,
+   "UNGROUNDED": 191,
+   "SCALE_VIOLATION": 8,
+   "UNIT_MISMATCH": 1,
+   "IGNORED": 358,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 447,
+   "UNGROUNDED": 191,
+   "SCALE_VIOLATION": 8,
+   "UNIT_MISMATCH": 1,
+   "IGNORED": 358,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 445,
+   "UNGROUNDED": 164,
+   "SCALE_VIOLATION": 8,
+   "UNIT_MISMATCH": 1,
+   "IGNORED": 338,
+   "units_counts_changed": 19,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 5
+  },
+  "both": {
+   "GROUNDED": 445,
+   "UNGROUNDED": 164,
+   "SCALE_VIOLATION": 8,
+   "UNIT_MISMATCH": 1,
+   "IGNORED": 338,
+   "units_counts_changed": 19,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 5
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_mt|raw_mt_mistral-small3.2-24b_20261105T103315Z.jsonl|grounded_noguard|delivered_ref": {
+  "_n": {
+   "units": 121,
+   "long_decimal": 63,
+   "numerals": 1079,
+   "minus_prefixed": 4
+  },
+  "frozen": {
+   "GROUNDED": 503,
+   "UNGROUNDED": 233,
+   "SCALE_VIOLATION": 16,
+   "UNIT_MISMATCH": 19,
+   "IGNORED": 308,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 503,
+   "UNGROUNDED": 233,
+   "SCALE_VIOLATION": 16,
+   "UNIT_MISMATCH": 19,
+   "IGNORED": 308,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 502,
+   "UNGROUNDED": 193,
+   "SCALE_VIOLATION": 16,
+   "UNIT_MISMATCH": 17,
+   "IGNORED": 288,
+   "units_counts_changed": 13,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 3
+  },
+  "both": {
+   "GROUNDED": 502,
+   "UNGROUNDED": 193,
+   "SCALE_VIOLATION": 16,
+   "UNIT_MISMATCH": 17,
+   "IGNORED": 288,
+   "units_counts_changed": 13,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 3
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_mt|raw_mt_mistral-small3.2-24b_20261105T103315Z.jsonl|grounded_noguard|delivered_inrun": {
+  "_n": {
+   "units": 124,
+   "long_decimal": 63,
+   "numerals": 1060,
+   "minus_prefixed": 3
+  },
+  "frozen": {
+   "GROUNDED": 459,
+   "UNGROUNDED": 206,
+   "SCALE_VIOLATION": 8,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 387,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 459,
+   "UNGROUNDED": 206,
+   "SCALE_VIOLATION": 8,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 387,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 456,
+   "UNGROUNDED": 167,
+   "SCALE_VIOLATION": 8,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 366,
+   "units_counts_changed": 13,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 4
+  },
+  "both": {
+   "GROUNDED": 456,
+   "UNGROUNDED": 167,
+   "SCALE_VIOLATION": 8,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 366,
+   "units_counts_changed": 13,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 4
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_mt|raw_mt_mistral-small3.2-24b_20261105T103315Z.jsonl|grounded_noguard|draft_inrun": {
+  "_n": {
+   "units": 119,
+   "long_decimal": 63,
+   "numerals": 1060,
+   "minus_prefixed": 3
+  },
+  "frozen": {
+   "GROUNDED": 459,
+   "UNGROUNDED": 206,
+   "SCALE_VIOLATION": 8,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 387,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 459,
+   "UNGROUNDED": 206,
+   "SCALE_VIOLATION": 8,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 387,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 456,
+   "UNGROUNDED": 167,
+   "SCALE_VIOLATION": 8,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 366,
+   "units_counts_changed": 13,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 4
+  },
+  "both": {
+   "GROUNDED": 456,
+   "UNGROUNDED": 167,
+   "SCALE_VIOLATION": 8,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 366,
+   "units_counts_changed": 13,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 4
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_mt|raw_mt_mistral-small3.2-24b_20261105T103315Z.jsonl|ungrounded|delivered_ref": {
+  "_n": {
+   "units": 126,
+   "numerals": 2222,
+   "minus_prefixed": 30,
+   "long_decimal": 2
+  },
+  "frozen": {
+   "GROUNDED": 894,
+   "UNGROUNDED": 551,
+   "SCALE_VIOLATION": 38,
+   "UNIT_MISMATCH": 43,
+   "IGNORED": 696,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 887,
+   "UNGROUNDED": 559,
+   "SCALE_VIOLATION": 38,
+   "UNIT_MISMATCH": 42,
+   "IGNORED": 696,
+   "units_counts_changed": 5,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 890,
+   "UNGROUNDED": 553,
+   "SCALE_VIOLATION": 38,
+   "UNIT_MISMATCH": 43,
+   "IGNORED": 696,
+   "units_counts_changed": 2,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 883,
+   "UNGROUNDED": 561,
+   "SCALE_VIOLATION": 38,
+   "UNIT_MISMATCH": 42,
+   "IGNORED": 696,
+   "units_counts_changed": 7,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {
+   "UNIT_MISMATCH>UNGROUNDED": 1,
+   "GROUNDED>UNGROUNDED": 7
+  }
+ },
+ "oct_v42_mt|raw_mt_mistral-small3.2-24b_20261105T103315Z.jsonl|ungrounded|delivered_inrun": {
+  "_n": {
+   "units": 125,
+   "numerals": 2216,
+   "minus_prefixed": 30,
+   "long_decimal": 2
+  },
+  "frozen": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1241,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 975,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1241,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 975,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1239,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 975,
+   "units_counts_changed": 2,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1239,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 975,
+   "units_counts_changed": 2,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_mt|raw_mt_mistral-small3.2-24b_20261105T103315Z.jsonl|ungrounded|draft_inrun": {
+  "_n": {
+   "units": 125,
+   "numerals": 2216,
+   "minus_prefixed": 30,
+   "long_decimal": 2
+  },
+  "frozen": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1241,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 975,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1241,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 975,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1239,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 975,
+   "units_counts_changed": 2,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1239,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 975,
+   "units_counts_changed": 2,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_mt|raw_mt_muse-glimmer-30b_20261105T172843Z.jsonl|grounded_guard|delivered_ref": {
+  "_n": {
+   "units": 125,
+   "long_decimal": 5,
+   "numerals": 199,
+   "minus_prefixed": 1
+  },
+  "frozen": {
+   "GROUNDED": 151,
+   "UNGROUNDED": 30,
+   "SCALE_VIOLATION": 1,
+   "UNIT_MISMATCH": 3,
+   "IGNORED": 14,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 151,
+   "UNGROUNDED": 30,
+   "SCALE_VIOLATION": 1,
+   "UNIT_MISMATCH": 3,
+   "IGNORED": 14,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 151,
+   "UNGROUNDED": 30,
+   "SCALE_VIOLATION": 1,
+   "UNIT_MISMATCH": 3,
+   "IGNORED": 9,
+   "units_counts_changed": 4,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 151,
+   "UNGROUNDED": 30,
+   "SCALE_VIOLATION": 1,
+   "UNIT_MISMATCH": 3,
+   "IGNORED": 9,
+   "units_counts_changed": 4,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_mt|raw_mt_muse-glimmer-30b_20261105T172843Z.jsonl|grounded_guard|delivered_inrun": {
+  "_n": {
+   "units": 126,
+   "long_decimal": 5,
+   "numerals": 199,
+   "minus_prefixed": 1
+  },
+  "frozen": {
+   "GROUNDED": 184,
+   "UNGROUNDED": 1,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 14,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 185,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 14,
+   "units_counts_changed": 1,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 1
+  },
+  "decimal": {
+   "GROUNDED": 184,
+   "UNGROUNDED": 1,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 9,
+   "units_counts_changed": 4,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 185,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 9,
+   "units_counts_changed": 5,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 1
+  },
+  "frozen>sign": {
+   "UNGROUNDED>GROUNDED": 1
+  }
+ },
+ "oct_v42_mt|raw_mt_muse-glimmer-30b_20261105T172843Z.jsonl|grounded_guard|draft_inrun": {
+  "_n": {
+   "units": 125,
+   "long_decimal": 152,
+   "numerals": 1629,
+   "minus_prefixed": 1
+  },
+  "frozen": {
+   "GROUNDED": 914,
+   "UNGROUNDED": 442,
+   "SCALE_VIOLATION": 10,
+   "UNIT_MISMATCH": 4,
+   "IGNORED": 259,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 915,
+   "UNGROUNDED": 441,
+   "SCALE_VIOLATION": 10,
+   "UNIT_MISMATCH": 4,
+   "IGNORED": 259,
+   "units_counts_changed": 1,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 906,
+   "UNGROUNDED": 346,
+   "SCALE_VIOLATION": 10,
+   "UNIT_MISMATCH": 4,
+   "IGNORED": 211,
+   "units_counts_changed": 40,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 11
+  },
+  "both": {
+   "GROUNDED": 907,
+   "UNGROUNDED": 345,
+   "SCALE_VIOLATION": 10,
+   "UNIT_MISMATCH": 4,
+   "IGNORED": 211,
+   "units_counts_changed": 40,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 12
+  },
+  "frozen>sign": {
+   "UNGROUNDED>GROUNDED": 1
+  }
+ },
+ "oct_v42_mt|raw_mt_muse-glimmer-30b_20261105T172843Z.jsonl|grounded_noguard|delivered_ref": {
+  "_n": {
+   "units": 122,
+   "long_decimal": 133,
+   "numerals": 1410,
+   "minus_prefixed": 3
+  },
+  "frozen": {
+   "GROUNDED": 861,
+   "UNGROUNDED": 342,
+   "SCALE_VIOLATION": 24,
+   "UNIT_MISMATCH": 26,
+   "IGNORED": 157,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 860,
+   "UNGROUNDED": 343,
+   "SCALE_VIOLATION": 24,
+   "UNIT_MISMATCH": 26,
+   "IGNORED": 157,
+   "units_counts_changed": 1,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 859,
+   "UNGROUNDED": 245,
+   "SCALE_VIOLATION": 24,
+   "UNIT_MISMATCH": 24,
+   "IGNORED": 125,
+   "units_counts_changed": 32,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 3
+  },
+  "both": {
+   "GROUNDED": 858,
+   "UNGROUNDED": 246,
+   "SCALE_VIOLATION": 24,
+   "UNIT_MISMATCH": 24,
+   "IGNORED": 125,
+   "units_counts_changed": 33,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 3
+  },
+  "frozen>sign": {
+   "GROUNDED>UNGROUNDED": 1
+  }
+ },
+ "oct_v42_mt|raw_mt_muse-glimmer-30b_20261105T172843Z.jsonl|grounded_noguard|delivered_inrun": {
+  "_n": {
+   "units": 126,
+   "long_decimal": 133,
+   "numerals": 1410,
+   "minus_prefixed": 3
+  },
+  "frozen": {
+   "GROUNDED": 694,
+   "UNGROUNDED": 477,
+   "SCALE_VIOLATION": 4,
+   "UNIT_MISMATCH": 2,
+   "IGNORED": 233,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 694,
+   "UNGROUNDED": 477,
+   "SCALE_VIOLATION": 4,
+   "UNIT_MISMATCH": 2,
+   "IGNORED": 233,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 692,
+   "UNGROUNDED": 380,
+   "SCALE_VIOLATION": 4,
+   "UNIT_MISMATCH": 1,
+   "IGNORED": 200,
+   "units_counts_changed": 32,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 7
+  },
+  "both": {
+   "GROUNDED": 692,
+   "UNGROUNDED": 380,
+   "SCALE_VIOLATION": 4,
+   "UNIT_MISMATCH": 1,
+   "IGNORED": 200,
+   "units_counts_changed": 32,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 7
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_mt|raw_mt_muse-glimmer-30b_20261105T172843Z.jsonl|grounded_noguard|draft_inrun": {
+  "_n": {
+   "units": 122,
+   "long_decimal": 133,
+   "numerals": 1410,
+   "minus_prefixed": 3
+  },
+  "frozen": {
+   "GROUNDED": 694,
+   "UNGROUNDED": 477,
+   "SCALE_VIOLATION": 4,
+   "UNIT_MISMATCH": 2,
+   "IGNORED": 233,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 694,
+   "UNGROUNDED": 477,
+   "SCALE_VIOLATION": 4,
+   "UNIT_MISMATCH": 2,
+   "IGNORED": 233,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 692,
+   "UNGROUNDED": 380,
+   "SCALE_VIOLATION": 4,
+   "UNIT_MISMATCH": 1,
+   "IGNORED": 200,
+   "units_counts_changed": 32,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 7
+  },
+  "both": {
+   "GROUNDED": 692,
+   "UNGROUNDED": 380,
+   "SCALE_VIOLATION": 4,
+   "UNIT_MISMATCH": 1,
+   "IGNORED": 200,
+   "units_counts_changed": 32,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 7
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_mt|raw_mt_muse-glimmer-30b_20261105T172843Z.jsonl|ungrounded|delivered_ref": {
+  "_n": {
+   "units": 126,
+   "long_decimal": 0,
+   "numerals": 629,
+   "minus_prefixed": 2
+  },
+  "frozen": {
+   "GROUNDED": 306,
+   "UNGROUNDED": 135,
+   "SCALE_VIOLATION": 33,
+   "UNIT_MISMATCH": 3,
+   "IGNORED": 152,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 304,
+   "UNGROUNDED": 137,
+   "SCALE_VIOLATION": 33,
+   "UNIT_MISMATCH": 3,
+   "IGNORED": 152,
+   "units_counts_changed": 2,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 306,
+   "UNGROUNDED": 135,
+   "SCALE_VIOLATION": 33,
+   "UNIT_MISMATCH": 3,
+   "IGNORED": 152,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 304,
+   "UNGROUNDED": 137,
+   "SCALE_VIOLATION": 33,
+   "UNIT_MISMATCH": 3,
+   "IGNORED": 152,
+   "units_counts_changed": 2,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {
+   "GROUNDED>UNGROUNDED": 2
+  }
+ },
+ "oct_v42_mt|raw_mt_muse-glimmer-30b_20261105T172843Z.jsonl|ungrounded|delivered_inrun": {
+  "_n": {
+   "units": 126,
+   "long_decimal": 0,
+   "numerals": 629,
+   "minus_prefixed": 2
+  },
+  "frozen": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 393,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 236,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 393,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 236,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 393,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 236,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 393,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 236,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_mt|raw_mt_muse-glimmer-30b_20261105T172843Z.jsonl|ungrounded|draft_inrun": {
+  "_n": {
+   "units": 126,
+   "long_decimal": 0,
+   "numerals": 629,
+   "minus_prefixed": 2
+  },
+  "frozen": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 393,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 236,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 393,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 236,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 393,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 236,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 393,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 236,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_mt|raw_mt_qwen3.8-27b_20261105T010006Z.jsonl|grounded_guard|delivered_ref": {
+  "_n": {
+   "units": 111,
+   "long_decimal": 0,
+   "numerals": 100,
+   "minus_prefixed": 0
+  },
+  "frozen": {
+   "GROUNDED": 48,
+   "UNGROUNDED": 38,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 2,
+   "IGNORED": 12,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 48,
+   "UNGROUNDED": 38,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 2,
+   "IGNORED": 12,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 48,
+   "UNGROUNDED": 38,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 2,
+   "IGNORED": 12,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 48,
+   "UNGROUNDED": 38,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 2,
+   "IGNORED": 12,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_mt|raw_mt_qwen3.8-27b_20261105T010006Z.jsonl|grounded_guard|delivered_inrun": {
+  "_n": {
+   "units": 126,
+   "long_decimal": 0,
+   "numerals": 100,
+   "minus_prefixed": 0
+  },
+  "frozen": {
+   "GROUNDED": 82,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 18,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 82,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 18,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 82,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 18,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 82,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 18,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_mt|raw_mt_qwen3.8-27b_20261105T010006Z.jsonl|grounded_guard|draft_inrun": {
+  "_n": {
+   "units": 111,
+   "numerals": 4463,
+   "minus_prefixed": 2,
+   "long_decimal": 352
+  },
+  "frozen": {
+   "GROUNDED": 2450,
+   "UNGROUNDED": 1048,
+   "SCALE_VIOLATION": 120,
+   "UNIT_MISMATCH": 36,
+   "IGNORED": 809,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 2450,
+   "UNGROUNDED": 1048,
+   "SCALE_VIOLATION": 120,
+   "UNIT_MISMATCH": 36,
+   "IGNORED": 809,
+   "units_counts_changed": 2,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 2431,
+   "UNGROUNDED": 798,
+   "SCALE_VIOLATION": 120,
+   "UNIT_MISMATCH": 32,
+   "IGNORED": 730,
+   "units_counts_changed": 40,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 4
+  },
+  "both": {
+   "GROUNDED": 2431,
+   "UNGROUNDED": 798,
+   "SCALE_VIOLATION": 120,
+   "UNIT_MISMATCH": 32,
+   "IGNORED": 730,
+   "units_counts_changed": 41,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 4
+  },
+  "frozen>sign": {
+   "UNGROUNDED>GROUNDED": 1,
+   "GROUNDED>UNGROUNDED": 1
+  }
+ },
+ "oct_v42_mt|raw_mt_qwen3.8-27b_20261105T010006Z.jsonl|grounded_noguard|delivered_ref": {
+  "_n": {
+   "units": 116,
+   "long_decimal": 195,
+   "numerals": 4831,
+   "minus_prefixed": 28
+  },
+  "frozen": {
+   "GROUNDED": 2208,
+   "UNGROUNDED": 1426,
+   "SCALE_VIOLATION": 170,
+   "UNIT_MISMATCH": 132,
+   "IGNORED": 895,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 2198,
+   "UNGROUNDED": 1437,
+   "SCALE_VIOLATION": 170,
+   "UNIT_MISMATCH": 132,
+   "IGNORED": 894,
+   "units_counts_changed": 6,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 2188,
+   "UNGROUNDED": 1314,
+   "SCALE_VIOLATION": 170,
+   "UNIT_MISMATCH": 126,
+   "IGNORED": 838,
+   "units_counts_changed": 41,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 2177,
+   "UNGROUNDED": 1326,
+   "SCALE_VIOLATION": 170,
+   "UNIT_MISMATCH": 126,
+   "IGNORED": 837,
+   "units_counts_changed": 44,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {
+   "GROUNDED>UNGROUNDED": 10,
+   "IGNORED>UNGROUNDED": 1
+  }
+ },
+ "oct_v42_mt|raw_mt_qwen3.8-27b_20261105T010006Z.jsonl|grounded_noguard|delivered_inrun": {
+  "_n": {
+   "units": 126,
+   "long_decimal": 195,
+   "numerals": 4831,
+   "minus_prefixed": 28
+  },
+  "frozen": {
+   "GROUNDED": 2592,
+   "UNGROUNDED": 1132,
+   "SCALE_VIOLATION": 188,
+   "UNIT_MISMATCH": 42,
+   "IGNORED": 877,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 2584,
+   "UNGROUNDED": 1140,
+   "SCALE_VIOLATION": 188,
+   "UNIT_MISMATCH": 42,
+   "IGNORED": 877,
+   "units_counts_changed": 5,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 2573,
+   "UNGROUNDED": 1014,
+   "SCALE_VIOLATION": 187,
+   "UNIT_MISMATCH": 39,
+   "IGNORED": 823,
+   "units_counts_changed": 41,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 2563,
+   "UNGROUNDED": 1024,
+   "SCALE_VIOLATION": 187,
+   "UNIT_MISMATCH": 39,
+   "IGNORED": 823,
+   "units_counts_changed": 44,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {
+   "GROUNDED>UNGROUNDED": 8
+  }
+ },
+ "oct_v42_mt|raw_mt_qwen3.8-27b_20261105T010006Z.jsonl|grounded_noguard|draft_inrun": {
+  "_n": {
+   "units": 116,
+   "long_decimal": 195,
+   "numerals": 4831,
+   "minus_prefixed": 28
+  },
+  "frozen": {
+   "GROUNDED": 2592,
+   "UNGROUNDED": 1132,
+   "SCALE_VIOLATION": 188,
+   "UNIT_MISMATCH": 42,
+   "IGNORED": 877,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 2584,
+   "UNGROUNDED": 1140,
+   "SCALE_VIOLATION": 188,
+   "UNIT_MISMATCH": 42,
+   "IGNORED": 877,
+   "units_counts_changed": 5,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 2573,
+   "UNGROUNDED": 1014,
+   "SCALE_VIOLATION": 187,
+   "UNIT_MISMATCH": 39,
+   "IGNORED": 823,
+   "units_counts_changed": 41,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 2563,
+   "UNGROUNDED": 1024,
+   "SCALE_VIOLATION": 187,
+   "UNIT_MISMATCH": 39,
+   "IGNORED": 823,
+   "units_counts_changed": 44,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {
+   "GROUNDED>UNGROUNDED": 8
+  }
+ },
+ "oct_v42_mt|raw_mt_qwen3.8-27b_20261105T010006Z.jsonl|ungrounded|delivered_ref": {
+  "_n": {
+   "units": 123,
+   "long_decimal": 0,
+   "numerals": 4179,
+   "minus_prefixed": 1
+  },
+  "frozen": {
+   "GROUNDED": 1462,
+   "UNGROUNDED": 1289,
+   "SCALE_VIOLATION": 169,
+   "UNIT_MISMATCH": 78,
+   "IGNORED": 1181,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 1462,
+   "UNGROUNDED": 1289,
+   "SCALE_VIOLATION": 169,
+   "UNIT_MISMATCH": 78,
+   "IGNORED": 1181,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 1462,
+   "UNGROUNDED": 1289,
+   "SCALE_VIOLATION": 169,
+   "UNIT_MISMATCH": 78,
+   "IGNORED": 1181,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 1462,
+   "UNGROUNDED": 1289,
+   "SCALE_VIOLATION": 169,
+   "UNIT_MISMATCH": 78,
+   "IGNORED": 1181,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_mt|raw_mt_qwen3.8-27b_20261105T010006Z.jsonl|ungrounded|delivered_inrun": {
+  "_n": {
+   "units": 123,
+   "long_decimal": 0,
+   "numerals": 4161,
+   "minus_prefixed": 1
+  },
+  "frozen": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 2523,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1638,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 2523,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1638,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 2523,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1638,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 2523,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1638,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_mt|raw_mt_qwen3.8-27b_20261105T010006Z.jsonl|ungrounded|draft_inrun": {
+  "_n": {
+   "units": 120,
+   "long_decimal": 0,
+   "numerals": 4161,
+   "minus_prefixed": 1
+  },
+  "frozen": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 2523,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1638,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 2523,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1638,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 2523,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1638,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 2523,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1638,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_mt|raw_mt_qwen3.8-27b_en_20261105T063650Z.jsonl|grounded_guard|delivered_ref": {
+  "_n": {
+   "units": 117,
+   "numerals": 123,
+   "minus_prefixed": 0,
+   "long_decimal": 0
+  },
+  "frozen": {
+   "GROUNDED": 80,
+   "UNGROUNDED": 33,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 10,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 80,
+   "UNGROUNDED": 33,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 10,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 80,
+   "UNGROUNDED": 33,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 10,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 80,
+   "UNGROUNDED": 33,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 10,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_mt|raw_mt_qwen3.8-27b_en_20261105T063650Z.jsonl|grounded_guard|delivered_inrun": {
+  "_n": {
+   "units": 126,
+   "numerals": 123,
+   "minus_prefixed": 0,
+   "long_decimal": 0
+  },
+  "frozen": {
+   "GROUNDED": 113,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 10,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 113,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 10,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 113,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 10,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 113,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 10,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_mt|raw_mt_qwen3.8-27b_en_20261105T063650Z.jsonl|grounded_guard|draft_inrun": {
+  "_n": {
+   "units": 117,
+   "numerals": 4475,
+   "minus_prefixed": 5,
+   "long_decimal": 349
+  },
+  "frozen": {
+   "GROUNDED": 2450,
+   "UNGROUNDED": 1070,
+   "SCALE_VIOLATION": 97,
+   "UNIT_MISMATCH": 23,
+   "IGNORED": 835,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 2452,
+   "UNGROUNDED": 1067,
+   "SCALE_VIOLATION": 98,
+   "UNIT_MISMATCH": 23,
+   "IGNORED": 835,
+   "units_counts_changed": 5,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 2438,
+   "UNGROUNDED": 832,
+   "SCALE_VIOLATION": 97,
+   "UNIT_MISMATCH": 16,
+   "IGNORED": 743,
+   "units_counts_changed": 44,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 3
+  },
+  "both": {
+   "GROUNDED": 2440,
+   "UNGROUNDED": 829,
+   "SCALE_VIOLATION": 98,
+   "UNIT_MISMATCH": 16,
+   "IGNORED": 743,
+   "units_counts_changed": 47,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 3
+  },
+  "frozen>sign": {
+   "GROUNDED>UNGROUNDED": 1,
+   "UNGROUNDED>GROUNDED": 3,
+   "UNGROUNDED>SCALE_VIOLATION": 1
+  }
+ },
+ "oct_v42_mt|raw_mt_qwen3.8-27b_en_20261105T063650Z.jsonl|grounded_noguard|delivered_ref": {
+  "_n": {
+   "units": 113,
+   "numerals": 4682,
+   "minus_prefixed": 2,
+   "long_decimal": 176
+  },
+  "frozen": {
+   "GROUNDED": 2146,
+   "UNGROUNDED": 1472,
+   "SCALE_VIOLATION": 173,
+   "UNIT_MISMATCH": 86,
+   "IGNORED": 805,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 2146,
+   "UNGROUNDED": 1472,
+   "SCALE_VIOLATION": 173,
+   "UNIT_MISMATCH": 86,
+   "IGNORED": 805,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 2134,
+   "UNGROUNDED": 1361,
+   "SCALE_VIOLATION": 173,
+   "UNIT_MISMATCH": 82,
+   "IGNORED": 756,
+   "units_counts_changed": 29,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 2134,
+   "UNGROUNDED": 1361,
+   "SCALE_VIOLATION": 173,
+   "UNIT_MISMATCH": 82,
+   "IGNORED": 756,
+   "units_counts_changed": 29,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_mt|raw_mt_qwen3.8-27b_en_20261105T063650Z.jsonl|grounded_noguard|delivered_inrun": {
+  "_n": {
+   "units": 126,
+   "numerals": 4682,
+   "minus_prefixed": 2,
+   "long_decimal": 176
+  },
+  "frozen": {
+   "GROUNDED": 2423,
+   "UNGROUNDED": 1262,
+   "SCALE_VIOLATION": 72,
+   "UNIT_MISMATCH": 41,
+   "IGNORED": 884,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 2423,
+   "UNGROUNDED": 1262,
+   "SCALE_VIOLATION": 72,
+   "UNIT_MISMATCH": 41,
+   "IGNORED": 884,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 2416,
+   "UNGROUNDED": 1147,
+   "SCALE_VIOLATION": 72,
+   "UNIT_MISMATCH": 40,
+   "IGNORED": 831,
+   "units_counts_changed": 29,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 2416,
+   "UNGROUNDED": 1147,
+   "SCALE_VIOLATION": 72,
+   "UNIT_MISMATCH": 40,
+   "IGNORED": 831,
+   "units_counts_changed": 29,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_mt|raw_mt_qwen3.8-27b_en_20261105T063650Z.jsonl|grounded_noguard|draft_inrun": {
+  "_n": {
+   "units": 113,
+   "numerals": 4682,
+   "minus_prefixed": 2,
+   "long_decimal": 176
+  },
+  "frozen": {
+   "GROUNDED": 2423,
+   "UNGROUNDED": 1262,
+   "SCALE_VIOLATION": 72,
+   "UNIT_MISMATCH": 41,
+   "IGNORED": 884,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 2423,
+   "UNGROUNDED": 1262,
+   "SCALE_VIOLATION": 72,
+   "UNIT_MISMATCH": 41,
+   "IGNORED": 884,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 2416,
+   "UNGROUNDED": 1147,
+   "SCALE_VIOLATION": 72,
+   "UNIT_MISMATCH": 40,
+   "IGNORED": 831,
+   "units_counts_changed": 29,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 2416,
+   "UNGROUNDED": 1147,
+   "SCALE_VIOLATION": 72,
+   "UNIT_MISMATCH": 40,
+   "IGNORED": 831,
+   "units_counts_changed": 29,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_mt|raw_mt_qwen3.8-27b_en_20261105T063650Z.jsonl|ungrounded|delivered_ref": {
+  "_n": {
+   "units": 126,
+   "long_decimal": 0,
+   "numerals": 5013,
+   "minus_prefixed": 5
+  },
+  "frozen": {
+   "GROUNDED": 1673,
+   "UNGROUNDED": 1844,
+   "SCALE_VIOLATION": 248,
+   "UNIT_MISMATCH": 117,
+   "IGNORED": 1131,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 1673,
+   "UNGROUNDED": 1845,
+   "SCALE_VIOLATION": 248,
+   "UNIT_MISMATCH": 116,
+   "IGNORED": 1131,
+   "units_counts_changed": 1,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 1673,
+   "UNGROUNDED": 1844,
+   "SCALE_VIOLATION": 248,
+   "UNIT_MISMATCH": 117,
+   "IGNORED": 1131,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 1673,
+   "UNGROUNDED": 1845,
+   "SCALE_VIOLATION": 248,
+   "UNIT_MISMATCH": 116,
+   "IGNORED": 1131,
+   "units_counts_changed": 1,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {
+   "UNIT_MISMATCH>UNGROUNDED": 1
+  }
+ },
+ "oct_v42_mt|raw_mt_qwen3.8-27b_en_20261105T063650Z.jsonl|ungrounded|delivered_inrun": {
+  "_n": {
+   "units": 120,
+   "numerals": 4989,
+   "minus_prefixed": 4,
+   "long_decimal": 0
+  },
+  "frozen": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 3381,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1608,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 3381,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1608,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 3381,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1608,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 3381,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1608,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_mt|raw_mt_qwen3.8-27b_en_20261105T063650Z.jsonl|ungrounded|draft_inrun": {
+  "_n": {
+   "units": 120,
+   "numerals": 4989,
+   "minus_prefixed": 4,
+   "long_decimal": 0
+  },
+  "frozen": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 3381,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1608,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 3381,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1608,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 3381,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1608,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 3381,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1608,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_evren|raw_g1_deepseek-v4.1-flash_20261106T091533Z.jsonl|grounded_guard|delivered_ref": {
+  "_n": {
+   "units": 162,
+   "numerals": 938,
+   "minus_prefixed": 4,
+   "long_decimal": 12
+  },
+  "frozen": {
+   "GROUNDED": 762,
+   "UNGROUNDED": 96,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 20,
+   "IGNORED": 60,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 764,
+   "UNGROUNDED": 94,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 20,
+   "IGNORED": 60,
+   "units_counts_changed": 2,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 2
+  },
+  "decimal": {
+   "GROUNDED": 758,
+   "UNGROUNDED": 96,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 20,
+   "IGNORED": 52,
+   "units_counts_changed": 7,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 760,
+   "UNGROUNDED": 94,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 20,
+   "IGNORED": 52,
+   "units_counts_changed": 9,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 2
+  },
+  "frozen>sign": {
+   "UNGROUNDED>GROUNDED": 2
+  }
+ },
+ "oct_v42_evren|raw_g1_deepseek-v4.1-flash_20261106T091533Z.jsonl|grounded_guard|delivered_inrun": {
+  "_n": {
+   "units": 167,
+   "numerals": 932,
+   "minus_prefixed": 4,
+   "long_decimal": 12
+  },
+  "frozen": {
+   "GROUNDED": 873,
+   "UNGROUNDED": 3,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 56,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 876,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 56,
+   "units_counts_changed": 3,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 3
+  },
+  "decimal": {
+   "GROUNDED": 869,
+   "UNGROUNDED": 3,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 48,
+   "units_counts_changed": 7,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 872,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 48,
+   "units_counts_changed": 10,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 3
+  },
+  "frozen>sign": {
+   "UNGROUNDED>GROUNDED": 3
+  }
+ },
+ "oct_v42_evren|raw_g1_deepseek-v4.1-flash_20261106T091533Z.jsonl|grounded_guard|draft_inrun": {
+  "_n": {
+   "units": 161,
+   "numerals": 5043,
+   "minus_prefixed": 32,
+   "long_decimal": 245
+  },
+  "frozen": {
+   "GROUNDED": 3526,
+   "UNGROUNDED": 749,
+   "SCALE_VIOLATION": 44,
+   "UNIT_MISMATCH": 34,
+   "IGNORED": 690,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 3533,
+   "UNGROUNDED": 743,
+   "SCALE_VIOLATION": 44,
+   "UNIT_MISMATCH": 33,
+   "IGNORED": 690,
+   "units_counts_changed": 10,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 3516,
+   "UNGROUNDED": 573,
+   "SCALE_VIOLATION": 44,
+   "UNIT_MISMATCH": 34,
+   "IGNORED": 631,
+   "units_counts_changed": 41,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 11
+  },
+  "both": {
+   "GROUNDED": 3523,
+   "UNGROUNDED": 567,
+   "SCALE_VIOLATION": 44,
+   "UNIT_MISMATCH": 33,
+   "IGNORED": 631,
+   "units_counts_changed": 48,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 11
+  },
+  "frozen>sign": {
+   "UNGROUNDED>GROUNDED": 9,
+   "GROUNDED>UNGROUNDED": 3,
+   "UNIT_MISMATCH>GROUNDED": 1
+  }
+ },
+ "oct_v42_evren|raw_g1_deepseek-v4.1-flash_20261106T091533Z.jsonl|grounded_noguard|delivered_ref": {
+  "_n": {
+   "units": 163,
+   "numerals": 5327,
+   "minus_prefixed": 38,
+   "long_decimal": 252
+  },
+  "frozen": {
+   "GROUNDED": 3358,
+   "UNGROUNDED": 1101,
+   "SCALE_VIOLATION": 64,
+   "UNIT_MISMATCH": 135,
+   "IGNORED": 669,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 3351,
+   "UNGROUNDED": 1109,
+   "SCALE_VIOLATION": 64,
+   "UNIT_MISMATCH": 134,
+   "IGNORED": 669,
+   "units_counts_changed": 9,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 3350,
+   "UNGROUNDED": 925,
+   "SCALE_VIOLATION": 64,
+   "UNIT_MISMATCH": 134,
+   "IGNORED": 602,
+   "units_counts_changed": 41,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 3
+  },
+  "both": {
+   "GROUNDED": 3343,
+   "UNGROUNDED": 933,
+   "SCALE_VIOLATION": 64,
+   "UNIT_MISMATCH": 133,
+   "IGNORED": 602,
+   "units_counts_changed": 48,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 3
+  },
+  "frozen>sign": {
+   "GROUNDED>UNGROUNDED": 9,
+   "UNGROUNDED>GROUNDED": 2,
+   "UNIT_MISMATCH>UNGROUNDED": 1
+  }
+ },
+ "oct_v42_evren|raw_g1_deepseek-v4.1-flash_20261106T091533Z.jsonl|grounded_noguard|delivered_inrun": {
+  "_n": {
+   "units": 168,
+   "numerals": 5327,
+   "minus_prefixed": 38,
+   "long_decimal": 252
+  },
+  "frozen": {
+   "GROUNDED": 3798,
+   "UNGROUNDED": 771,
+   "SCALE_VIOLATION": 48,
+   "UNIT_MISMATCH": 35,
+   "IGNORED": 675,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 3808,
+   "UNGROUNDED": 762,
+   "SCALE_VIOLATION": 48,
+   "UNIT_MISMATCH": 34,
+   "IGNORED": 675,
+   "units_counts_changed": 11,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 3790,
+   "UNGROUNDED": 595,
+   "SCALE_VIOLATION": 48,
+   "UNIT_MISMATCH": 34,
+   "IGNORED": 608,
+   "units_counts_changed": 41,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 10
+  },
+  "both": {
+   "GROUNDED": 3800,
+   "UNGROUNDED": 586,
+   "SCALE_VIOLATION": 48,
+   "UNIT_MISMATCH": 33,
+   "IGNORED": 608,
+   "units_counts_changed": 50,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 10
+  },
+  "frozen>sign": {
+   "UNGROUNDED>GROUNDED": 12,
+   "GROUNDED>UNGROUNDED": 3,
+   "UNIT_MISMATCH>GROUNDED": 1
+  }
+ },
+ "oct_v42_evren|raw_g1_deepseek-v4.1-flash_20261106T091533Z.jsonl|grounded_noguard|draft_inrun": {
+  "_n": {
+   "units": 163,
+   "numerals": 5327,
+   "minus_prefixed": 38,
+   "long_decimal": 252
+  },
+  "frozen": {
+   "GROUNDED": 3798,
+   "UNGROUNDED": 771,
+   "SCALE_VIOLATION": 48,
+   "UNIT_MISMATCH": 35,
+   "IGNORED": 675,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 3808,
+   "UNGROUNDED": 762,
+   "SCALE_VIOLATION": 48,
+   "UNIT_MISMATCH": 34,
+   "IGNORED": 675,
+   "units_counts_changed": 11,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 3790,
+   "UNGROUNDED": 595,
+   "SCALE_VIOLATION": 48,
+   "UNIT_MISMATCH": 34,
+   "IGNORED": 608,
+   "units_counts_changed": 41,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 10
+  },
+  "both": {
+   "GROUNDED": 3800,
+   "UNGROUNDED": 586,
+   "SCALE_VIOLATION": 48,
+   "UNIT_MISMATCH": 33,
+   "IGNORED": 608,
+   "units_counts_changed": 50,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 10
+  },
+  "frozen>sign": {
+   "UNGROUNDED>GROUNDED": 12,
+   "GROUNDED>UNGROUNDED": 3,
+   "UNIT_MISMATCH>GROUNDED": 1
+  }
+ },
+ "oct_v42_evren|raw_g1_deepseek-v4.1-flash_20261106T091533Z.jsonl|ungrounded|delivered_ref": {
+  "_n": {
+   "units": 168,
+   "numerals": 3840,
+   "minus_prefixed": 6,
+   "long_decimal": 1
+  },
+  "frozen": {
+   "GROUNDED": 1474,
+   "UNGROUNDED": 1449,
+   "SCALE_VIOLATION": 75,
+   "UNIT_MISMATCH": 122,
+   "IGNORED": 720,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 1470,
+   "UNGROUNDED": 1453,
+   "SCALE_VIOLATION": 75,
+   "UNIT_MISMATCH": 122,
+   "IGNORED": 720,
+   "units_counts_changed": 3,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 1473,
+   "UNGROUNDED": 1449,
+   "SCALE_VIOLATION": 75,
+   "UNIT_MISMATCH": 122,
+   "IGNORED": 720,
+   "units_counts_changed": 1,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 1469,
+   "UNGROUNDED": 1453,
+   "SCALE_VIOLATION": 75,
+   "UNIT_MISMATCH": 122,
+   "IGNORED": 720,
+   "units_counts_changed": 3,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {
+   "GROUNDED>UNGROUNDED": 4
+  }
+ },
+ "oct_v42_evren|raw_g1_deepseek-v4.1-flash_20261106T091533Z.jsonl|ungrounded|delivered_inrun": {
+  "_n": {
+   "units": 168,
+   "numerals": 3840,
+   "minus_prefixed": 6,
+   "long_decimal": 1
+  },
+  "frozen": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 2635,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1205,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 2635,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1205,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 2634,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1205,
+   "units_counts_changed": 1,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 2634,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1205,
+   "units_counts_changed": 1,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_evren|raw_g1_deepseek-v4.1-flash_20261106T091533Z.jsonl|ungrounded|draft_inrun": {
+  "_n": {
+   "units": 168,
+   "numerals": 3840,
+   "minus_prefixed": 6,
+   "long_decimal": 1
+  },
+  "frozen": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 2635,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1205,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 2635,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1205,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 2634,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1205,
+   "units_counts_changed": 1,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 2634,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 1205,
+   "units_counts_changed": 1,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_evren|raw_mt_deepseek-v4.1-flash_20261107T044521Z.jsonl|grounded_guard|delivered_ref": {
+  "_n": {
+   "units": 121,
+   "numerals": 317,
+   "minus_prefixed": 1,
+   "long_decimal": 11
+  },
+  "frozen": {
+   "GROUNDED": 224,
+   "UNGROUNDED": 49,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 5,
+   "IGNORED": 39,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 225,
+   "UNGROUNDED": 48,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 5,
+   "IGNORED": 39,
+   "units_counts_changed": 1,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 1
+  },
+  "decimal": {
+   "GROUNDED": 220,
+   "UNGROUNDED": 49,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 5,
+   "IGNORED": 32,
+   "units_counts_changed": 3,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 221,
+   "UNGROUNDED": 48,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 5,
+   "IGNORED": 32,
+   "units_counts_changed": 4,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 1
+  },
+  "frozen>sign": {
+   "UNGROUNDED>GROUNDED": 1
+  }
+ },
+ "oct_v42_evren|raw_mt_deepseek-v4.1-flash_20261107T044521Z.jsonl|grounded_guard|delivered_inrun": {
+  "_n": {
+   "units": 126,
+   "numerals": 317,
+   "minus_prefixed": 1,
+   "long_decimal": 11
+  },
+  "frozen": {
+   "GROUNDED": 277,
+   "UNGROUNDED": 1,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 39,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 278,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 39,
+   "units_counts_changed": 1,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 1
+  },
+  "decimal": {
+   "GROUNDED": 271,
+   "UNGROUNDED": 1,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 34,
+   "units_counts_changed": 3,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 272,
+   "UNGROUNDED": 0,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 34,
+   "units_counts_changed": 4,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 1
+  },
+  "frozen>sign": {
+   "UNGROUNDED>GROUNDED": 1
+  }
+ },
+ "oct_v42_evren|raw_mt_deepseek-v4.1-flash_20261107T044521Z.jsonl|grounded_guard|draft_inrun": {
+  "_n": {
+   "units": 121,
+   "numerals": 3911,
+   "minus_prefixed": 2,
+   "long_decimal": 340
+  },
+  "frozen": {
+   "GROUNDED": 2505,
+   "UNGROUNDED": 616,
+   "SCALE_VIOLATION": 75,
+   "UNIT_MISMATCH": 35,
+   "IGNORED": 680,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 2507,
+   "UNGROUNDED": 615,
+   "SCALE_VIOLATION": 75,
+   "UNIT_MISMATCH": 34,
+   "IGNORED": 680,
+   "units_counts_changed": 2,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 2497,
+   "UNGROUNDED": 381,
+   "SCALE_VIOLATION": 75,
+   "UNIT_MISMATCH": 28,
+   "IGNORED": 590,
+   "units_counts_changed": 50,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 21
+  },
+  "both": {
+   "GROUNDED": 2499,
+   "UNGROUNDED": 380,
+   "SCALE_VIOLATION": 75,
+   "UNIT_MISMATCH": 27,
+   "IGNORED": 590,
+   "units_counts_changed": 52,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 21
+  },
+  "frozen>sign": {
+   "UNGROUNDED>GROUNDED": 1,
+   "UNIT_MISMATCH>GROUNDED": 1
+  }
+ },
+ "oct_v42_evren|raw_mt_deepseek-v4.1-flash_20261107T044521Z.jsonl|grounded_noguard|delivered_ref": {
+  "_n": {
+   "units": 126,
+   "numerals": 4007,
+   "minus_prefixed": 13,
+   "long_decimal": 211
+  },
+  "frozen": {
+   "GROUNDED": 2219,
+   "UNGROUNDED": 943,
+   "SCALE_VIOLATION": 106,
+   "UNIT_MISMATCH": 102,
+   "IGNORED": 637,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 2215,
+   "UNGROUNDED": 950,
+   "SCALE_VIOLATION": 106,
+   "UNIT_MISMATCH": 99,
+   "IGNORED": 637,
+   "units_counts_changed": 6,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 2210,
+   "UNGROUNDED": 782,
+   "SCALE_VIOLATION": 105,
+   "UNIT_MISMATCH": 100,
+   "IGNORED": 599,
+   "units_counts_changed": 41,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 1
+  },
+  "both": {
+   "GROUNDED": 2205,
+   "UNGROUNDED": 790,
+   "SCALE_VIOLATION": 105,
+   "UNIT_MISMATCH": 97,
+   "IGNORED": 599,
+   "units_counts_changed": 47,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 1
+  },
+  "frozen>sign": {
+   "UNIT_MISMATCH>UNGROUNDED": 3,
+   "GROUNDED>UNGROUNDED": 4
+  }
+ },
+ "oct_v42_evren|raw_mt_deepseek-v4.1-flash_20261107T044521Z.jsonl|grounded_noguard|delivered_inrun": {
+  "_n": {
+   "units": 126,
+   "numerals": 4007,
+   "minus_prefixed": 13,
+   "long_decimal": 211
+  },
+  "frozen": {
+   "GROUNDED": 2617,
+   "UNGROUNDED": 612,
+   "SCALE_VIOLATION": 84,
+   "UNIT_MISMATCH": 33,
+   "IGNORED": 661,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 2623,
+   "UNGROUNDED": 608,
+   "SCALE_VIOLATION": 85,
+   "UNIT_MISMATCH": 30,
+   "IGNORED": 661,
+   "units_counts_changed": 6,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 2612,
+   "UNGROUNDED": 450,
+   "SCALE_VIOLATION": 84,
+   "UNIT_MISMATCH": 29,
+   "IGNORED": 621,
+   "units_counts_changed": 41,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 7
+  },
+  "both": {
+   "GROUNDED": 2617,
+   "UNGROUNDED": 447,
+   "SCALE_VIOLATION": 85,
+   "UNIT_MISMATCH": 26,
+   "IGNORED": 621,
+   "units_counts_changed": 47,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 7
+  },
+  "frozen>sign": {
+   "UNGROUNDED>GROUNDED": 4,
+   "UNIT_MISMATCH>GROUNDED": 2,
+   "UNIT_MISMATCH>SCALE_VIOLATION": 1
+  }
+ },
+ "oct_v42_evren|raw_mt_deepseek-v4.1-flash_20261107T044521Z.jsonl|grounded_noguard|draft_inrun": {
+  "_n": {
+   "units": 126,
+   "numerals": 4007,
+   "minus_prefixed": 13,
+   "long_decimal": 211
+  },
+  "frozen": {
+   "GROUNDED": 2617,
+   "UNGROUNDED": 612,
+   "SCALE_VIOLATION": 84,
+   "UNIT_MISMATCH": 33,
+   "IGNORED": 661,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 2623,
+   "UNGROUNDED": 608,
+   "SCALE_VIOLATION": 85,
+   "UNIT_MISMATCH": 30,
+   "IGNORED": 661,
+   "units_counts_changed": 6,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 2612,
+   "UNGROUNDED": 450,
+   "SCALE_VIOLATION": 84,
+   "UNIT_MISMATCH": 29,
+   "IGNORED": 621,
+   "units_counts_changed": 41,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 7
+  },
+  "both": {
+   "GROUNDED": 2617,
+   "UNGROUNDED": 447,
+   "SCALE_VIOLATION": 85,
+   "UNIT_MISMATCH": 26,
+   "IGNORED": 621,
+   "units_counts_changed": 47,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 7
+  },
+  "frozen>sign": {
+   "UNGROUNDED>GROUNDED": 4,
+   "UNIT_MISMATCH>GROUNDED": 2,
+   "UNIT_MISMATCH>SCALE_VIOLATION": 1
+  }
+ },
+ "oct_v42_evren|raw_mt_deepseek-v4.1-flash_20261107T044521Z.jsonl|ungrounded|delivered_ref": {
+  "_n": {
+   "units": 121,
+   "numerals": 2769,
+   "minus_prefixed": 2,
+   "long_decimal": 0
+  },
+  "frozen": {
+   "GROUNDED": 1071,
+   "UNGROUNDED": 895,
+   "SCALE_VIOLATION": 94,
+   "UNIT_MISMATCH": 53,
+   "IGNORED": 656,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 1069,
+   "UNGROUNDED": 897,
+   "SCALE_VIOLATION": 94,
+   "UNIT_MISMATCH": 53,
+   "IGNORED": 656,
+   "units_counts_changed": 2,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 1071,
+   "UNGROUNDED": 895,
+   "SCALE_VIOLATION": 94,
+   "UNIT_MISMATCH": 53,
+   "IGNORED": 656,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 1069,
+   "UNGROUNDED": 897,
+   "SCALE_VIOLATION": 94,
+   "UNIT_MISMATCH": 53,
+   "IGNORED": 656,
+   "units_counts_changed": 2,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {
+   "GROUNDED>UNGROUNDED": 2
+  }
+ },
+ "oct_v42_evren|raw_mt_deepseek-v4.1-flash_20261107T044521Z.jsonl|ungrounded|delivered_inrun": {
+  "_n": {
+   "units": 126,
+   "numerals": 2769,
+   "minus_prefixed": 2,
+   "long_decimal": 0
+  },
+  "frozen": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1844,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 925,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1844,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 925,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1844,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 925,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1844,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 925,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ },
+ "oct_v42_evren|raw_mt_deepseek-v4.1-flash_20261107T044521Z.jsonl|ungrounded|draft_inrun": {
+  "_n": {
+   "units": 121,
+   "numerals": 2769,
+   "minus_prefixed": 2,
+   "long_decimal": 0
+  },
+  "frozen": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1844,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 925,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "sign": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1844,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 925,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "decimal": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1844,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 925,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "both": {
+   "GROUNDED": 0,
+   "UNGROUNDED": 1844,
+   "SCALE_VIOLATION": 0,
+   "UNIT_MISMATCH": 0,
+   "IGNORED": 925,
+   "units_counts_changed": 0,
+   "units_passed_to_failed": 0,
+   "units_failed_to_passed": 0
+  },
+  "frozen>sign": {}
+ }
+}

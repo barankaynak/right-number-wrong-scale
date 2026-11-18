@@ -1,0 +1,84 @@
+{
+ "hashes": {
+  "guard": "a050b46ab5d8fa392215a1df47162c311daae95118d2bfa311d31e84a729f7c2",
+  "orchestrator": "283ccfe725bf45d34498cfa0acd2eeab76c0e553bcd3bc2e422f1a388296b94e",
+  "v5_copy": "a477e0eb8d6e5778390eb8a12acf8f818d136d2860bac23d007983b9f69867b1",
+  "this_script": "47c30854e7df1fada74a1c7f95932f0466c5a27b230eec2c0c777293c47eb50b"
+ },
+ "variants": [
+  "frozen"
+ ],
+ "per_file": {
+  "oct_v42|raw_g1_gemma4-e4b_20261014T200243Z.jsonl": {
+   "ref_ok": 504,
+   "delivered_inrun_ok": 504,
+   "draft_inrun_ok": 504
+  },
+  "oct_v42|raw_g1_gemma4-e4b_en_20261015T161107Z.jsonl": {
+   "ref_ok": 504,
+   "delivered_inrun_ok": 503,
+   "draft_inrun_ok": 503
+  },
+  "oct_v42|raw_g1_mistral-small3.2-24b_20261016T015818Z.jsonl": {
+   "ref_ok": 502,
+   "delivered_inrun_ok": 499,
+   "draft_inrun_ok": 497
+  },
+  "oct_v42|raw_g1_muse-glimmer-30b_20261016T121738Z.jsonl": {
+   "ref_ok": 487,
+   "delivered_inrun_ok": 504,
+   "draft_inrun_ok": 487
+  },
+  "oct_v42|raw_g1_qwen3.8-27b_20261015T072421Z.jsonl": {
+   "ref_ok": 480,
+   "delivered_inrun_ok": 457,
+   "draft_inrun_ok": 433
+  },
+  "oct_v42|raw_g1_qwen3.8-27b_en_20261015T180819Z.jsonl": {
+   "ref_ok": 496,
+   "delivered_inrun_ok": 474,
+   "draft_inrun_ok": 466
+  },
+  "oct_v42_mt|raw_mt_gemma4-e4b_20261104T230435Z.jsonl": {
+   "ref_ok": 378,
+   "delivered_inrun_ok": 378,
+   "draft_inrun_ok": 378
+  },
+  "oct_v42_mt|raw_mt_gemma4-e4b_en_20261105T051421Z.jsonl": {
+   "ref_ok": 377,
+   "delivered_inrun_ok": 377,
+   "draft_inrun_ok": 376
+  },
+  "oct_v42_mt|raw_mt_mistral-small3.2-24b_20261105T103315Z.jsonl": {
+   "ref_ok": 368,
+   "delivered_inrun_ok": 373,
+   "draft_inrun_ok": 363
+  },
+  "oct_v42_mt|raw_mt_muse-glimmer-30b_20261105T172843Z.jsonl": {
+   "ref_ok": 373,
+   "delivered_inrun_ok": 378,
+   "draft_inrun_ok": 373
+  },
+  "oct_v42_mt|raw_mt_qwen3.8-27b_20261105T010006Z.jsonl": {
+   "ref_ok": 350,
+   "delivered_inrun_ok": 375,
+   "draft_inrun_ok": 347
+  },
+  "oct_v42_mt|raw_mt_qwen3.8-27b_en_20261105T063650Z.jsonl": {
+   "ref_ok": 356,
+   "delivered_inrun_ok": 372,
+   "draft_inrun_ok": 350
+  },
+  "oct_v42_evren|raw_g1_deepseek-v4.1-flash_20261106T091533Z.jsonl": {
+   "ref_ok": 493,
+   "delivered_inrun_ok": 503,
+   "draft_inrun_ok": 492
+  },
+  "oct_v42_evren|raw_mt_deepseek-v4.1-flash_20261107T044521Z.jsonl": {
+   "ref_ok": 368,
+   "delivered_inrun_ok": 378,
+   "draft_inrun_ok": 368
+  }
+ },
+ "fail_examples": []
+}

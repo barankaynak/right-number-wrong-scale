@@ -1,0 +1,32 @@
+{
+ "n_items": 86,
+ "proxy_Y": 54,
+ "coder1": {
+  "n": 86,
+  "kappa": 0.9496,
+  "raw_agreement": 0.9767,
+  "pabak": 0.9534,
+  "cells": {
+   "proxyY_humanY": 54,
+   "proxyY_humanN": 0,
+   "proxyN_humanY": 2,
+   "proxyN_humanN": 30
+  },
+  "criterion_met": true
+ },
+ "coder2": {
+  "n": 30,
+  "kappa": 0.9327,
+  "raw_agreement": 0.9667,
+  "pabak": 0.9334,
+  "cells": {
+   "proxyY_humanY": 16,
+   "proxyY_humanN": 0,
+   "proxyN_humanY": 1,
+   "proxyN_humanN": 13
+  },
+  "criterion_met": true
+ },
+ "proxy_valid": true,
+ "rule": "each coder: kappa >= 0.7 or raw agreement >= 0.85 (A28-3, A29-4)"
+}

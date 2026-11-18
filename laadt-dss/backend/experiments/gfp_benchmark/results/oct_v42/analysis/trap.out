@@ -1,0 +1,34 @@
+UYARI: tr/glm-4.7-flash:latest dosyası yok (raw_g1_glm-4.7-flash-latest_2026*.jsonl)
+=== A19 tuzak vs diğer (guard v4.1, referans-graf, pre_intervention) ===
+lang model                 arm                M1 trap  M1 oth  M2 trap  M2 oth  nQ t/o   MWU p
+tr   gemma4:e4b            grounded_guard       0.524   0.163    0.420   0.765   7/49      -  
+tr   gemma4:e4b            grounded_noguard     0.476   0.116    0.467   0.764   7/49    0.003
+tr   gemma4:e4b            ungrounded           0.476   0.231    0.422   0.674   7/49      -  
+tr   qwen3.8:27b           grounded_guard       0.667   0.146    0.381   0.655   7/48      -  
+tr   qwen3.8:27b           grounded_noguard     0.619   0.126    0.382   0.661   7/45    0.003
+tr   qwen3.8:27b           ungrounded           0.643   0.346    0.279   0.487   7/41      -  
+tr   mistral-small3.2:24b  grounded_guard       0.095   0.034    0.541   0.716   7/49      -  
+tr   mistral-small3.2:24b  grounded_noguard     0.095   0.041    0.553   0.728   7/49    0.195
+tr   mistral-small3.2:24b  ungrounded           0.238   0.122    0.456   0.639   7/49      -  
+tr   glm-4.7-flash:latest  grounded_guard         -       -        -       -     0/0       -  
+tr   glm-4.7-flash:latest  grounded_noguard       -       -        -       -     0/0       -  
+tr   glm-4.7-flash:latest  ungrounded             -       -        -       -     0/0       -  
+tr   muse-glimmer:30b      grounded_guard       0.286   0.034    0.367   0.808   7/49      -  
+tr   muse-glimmer:30b      grounded_noguard     0.333   0.042    0.311   0.773   7/48    0.000
+tr   muse-glimmer:30b      ungrounded           0.286   0.088    0.304   0.749   7/49      -  
+en   gemma4:e4b            grounded_guard       0.381   0.102    0.358   0.782   7/49      -  
+en   gemma4:e4b            grounded_noguard     0.333   0.095    0.457   0.790   7/49    0.087
+en   gemma4:e4b            ungrounded           0.333   0.197    0.419   0.675   7/49      -  
+en   qwen3.8:27b           grounded_guard       0.667   0.088    0.346   0.687   7/49      -  
+en   qwen3.8:27b           grounded_noguard     0.619   0.153    0.385   0.682   7/49    0.004
+en   qwen3.8:27b           ungrounded           0.714   0.319    0.271   0.466   7/47      -  
+
+=== M3 grounded_guard, tuzak yanıtları (teslim tarafı) ===
+tr   gemma4:e4b            n= 21 pre_SV= 11 blocked= 18 retried= 19 delivered_SV=  1 (pre&delivered SV=1)
+tr   qwen3.8:27b           n= 21 pre_SV= 14 blocked= 19 retried= 21 delivered_SV=  0 (pre&delivered SV=0)
+tr   mistral-small3.2:24b  n= 21 pre_SV=  2 blocked=  8 retried= 11 delivered_SV=  0 (pre&delivered SV=0)
+tr   muse-glimmer:30b      n= 21 pre_SV=  6 blocked= 16 retried= 17 delivered_SV=  0 (pre&delivered SV=0)
+en   gemma4:e4b            n= 21 pre_SV=  8 blocked= 21 retried= 21 delivered_SV=  0 (pre&delivered SV=0)
+en   qwen3.8:27b           n= 21 pre_SV= 14 blocked= 21 retried= 21 delivered_SV=  0 (pre&delivered SV=0)
+
+-> trap_analysis.json + trap_flagged_sentences.jsonl (414 SV bayrağı)

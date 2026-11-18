@@ -1,0 +1,1689 @@
+{
+  "version": "v3-2026-07-08+en",
+  "note": "G1 benchmark soru seti — 4 paralel yazar + cevaplanabilirlik/dedup/denge editörü (workflow wf_54049c50-38f). A2 ön-kayıtta hash'lenerek dondurulur. | v2: chain-3 istatistik gücü için +6 soru (ORTA-9/A2 donma koşulu; toplam 56, chain-3 n=10). | v3 (KRİTİK-7/F1): chain>=2 sorulara suggested_args_per_step ($prev.X policy türetmesi) + args_pinned; tam-zincir referans-graf için. | CROSS-LINGUAL: her soruya question_en eklendi (prereg-v2.0).",
+  "balance_report": "Final set: exactly 50 questions, 12-13 per stakeholder (residential 12, commercial 13, distribution 13, state 12), satisfying the 12-13 band and the '>=1 cross scale_focus per stakeholder' requirement (res-11/res-12 cross; com-10 cross; dis-09/dis-10 cross; sta-07/sta-10 cross).\n\nTwo edits from the raw candidate pool:\n1. Dropped 1 residential item (Bursa 5kW NPV+MC) as a near-duplicate of an already-accepted feasibility+MC chain (res-08), bringing residential from 13 candidates down to the target 12.\n2. Rejected 1 state item ('highest IRR' policy-mechanism question) because run_policy_scenario's declared outputs (npv/payback/government cost) do not include IRR — the tool literally cannot answer it, making it an unanswerable/hallucination-bait item rather than a legitimate benchmark question.\n3. Corrected one chain_length in-place (not rejected): com-13 (Antalya hotel 70kW+50kWh, net-metering vs FiT NPV comparison) was labeled chain_length=3 in the candidate set but actually requires only 2 tool calls — run_policy_scenario returns all 9 mechanisms (including both net metering and FiT) in a single call, so 'comparing two of the nine' is not a second policy call. Relabeled feasibility(1)+policy(1)=2.\n\nChain-length distribution achieved: chain1=27, chain2=19, chain3=4 (sum=50). This falls short of the requested ~32/~12/~6 split — there are simply too many chain-2-shaped questions and too few chain-1/chain-3-shaped questions in the original 50-candidate pool once schema-invalid and duplicate items are removed (residential and commercial supplied only 6/1 and 6/0 usable chain1/chain3 items respectively, all of which were already used). Reaching 32/12/6 exactly would have required either inventing new questions (outside this editorial task's scope — only dedup/reject was authorized) or arbitrarily discarding valid, non-duplicate, schema-correct questions purely to hit a ratio, which would have reduced coverage quality. Recommend that future candidate-question drafting for this benchmark bias toward more single-call (chain1) 'quick fact' questions and more genuine 3-tool chained questions (chain3), and fewer 2-tool 'compute A, then compute B for comparison' questions, to hit the target distribution without needing to cut usable content.\n\nOther schema notes applied during editing: all cities normalized to lowercase from the allowed set (ankara/istanbul/izmir/antalya/konya/bursa); all panel_kw (4-70) and bess_kwh (0-50) values fall within the tool's 0.5-100 / 0-100 ranges, no violations found; EV-mention questions (res-05) were kept because the tool has no EV parameter but the question's actual numeric ask (system cost, savings) is still fully answerable by simulate_pv_bess treating EV context as narrative color, not a required argument.",
+  "questions": [
+    {
+      "id": "res-01",
+      "stakeholder": "residential",
+      "question_tr": "Ankara'da oturuyorum, aylık faturam ortalama 2500 TL. Çatıma 5 kW'lık GES kursam kaç yılda kendini öder?",
+      "expected_tools": [
+        "simulate_pv_bess"
+      ],
+      "suggested_args": {
+        "city": "ankara",
+        "panel_kw": 5,
+        "monthly_bill_tl": 2500,
+        "stakeholder_type": "residential"
+      },
+      "chain_length": 1,
+      "scale_focus": "building",
+      "numeric_focus": [
+        "simple_payback_years",
+        "npv_tl",
+        "annual_savings_tl"
+      ],
+      "difficulty": "easy",
+      "question_en": "I live in Ankara, and my monthly bill averages 2500 TL. If I install a 5 kW rooftop PV system, how many years until it pays for itself?"
+    },
+    {
+      "id": "res-02",
+      "stakeholder": "residential",
+      "question_tr": "İzmir'deki evim için 6 kW panel + 10 kWh LFP batarya düşünüyorum, yıllık tüketimim yaklaşık 4200 kWh. NPV ve IRR nedir?",
+      "expected_tools": [
+        "simulate_pv_bess"
+      ],
+      "suggested_args": {
+        "city": "izmir",
+        "panel_kw": 6,
+        "bess_kwh": 10,
+        "annual_consumption_kwh": 4200,
+        "bess_chemistry": "LFP",
+        "stakeholder_type": "residential"
+      },
+      "chain_length": 1,
+      "scale_focus": "building",
+      "numeric_focus": [
+        "npv_tl",
+        "irr_percent"
+      ],
+      "difficulty": "easy",
+      "question_en": "For my house in İzmir I'm considering 6 kW of panels + a 10 kWh LFP battery; my annual consumption is about 4200 kWh. What are the NPV and IRR?"
+    },
+    {
+      "id": "res-03",
+      "stakeholder": "residential",
+      "question_tr": "Antalya'da 4 kW'lık bir çatı GES'in yıllık üretimi ne kadar olur, hiç batarya eklemeden?",
+      "expected_tools": [
+        "simulate_pv_bess"
+      ],
+      "suggested_args": {
+        "city": "antalya",
+        "panel_kw": 4,
+        "bess_kwh": 0,
+        "stakeholder_type": "residential"
+      },
+      "chain_length": 1,
+      "scale_focus": "building",
+      "numeric_focus": [
+        "annual_production_kwh",
+        "self_consumption_ratio"
+      ],
+      "difficulty": "easy",
+      "question_en": "How much would a 4 kW rooftop PV system produce annually in Antalya, without adding any battery at all?"
+    },
+    {
+      "id": "res-04",
+      "stakeholder": "residential",
+      "question_tr": "Bursa'da elektrik faturam 1800 TL civarı, bana uygun büyüklükte bir GES kurulumunun geri ödeme süresini ve LCOE değerini öğrenebilir miyim?",
+      "expected_tools": [
+        "simulate_pv_bess"
+      ],
+      "suggested_args": {
+        "city": "bursa",
+        "panel_kw": 4,
+        "monthly_bill_tl": 1800,
+        "stakeholder_type": "residential"
+      },
+      "chain_length": 1,
+      "scale_focus": "building",
+      "numeric_focus": [
+        "simple_payback_years",
+        "lcoe_tl_per_kwh"
+      ],
+      "difficulty": "easy",
+      "question_en": "My electricity bill in Bursa is around 1800 TL; can I find out the payback period and LCOE of an appropriately sized PV installation for me?"
+    },
+    {
+      "id": "res-05",
+      "stakeholder": "residential",
+      "question_tr": "Konya'da elektrikli aracım var, yıllık ev tüketimim 5000 kWh. 8 kW panel ile sistem kurulum maliyeti ve yıllık tasarrufum ne olur?",
+      "expected_tools": [
+        "simulate_pv_bess"
+      ],
+      "suggested_args": {
+        "city": "konya",
+        "panel_kw": 8,
+        "annual_consumption_kwh": 5000,
+        "stakeholder_type": "residential"
+      },
+      "chain_length": 1,
+      "scale_focus": "building",
+      "numeric_focus": [
+        "system_cost_tl",
+        "annual_savings_tl"
+      ],
+      "difficulty": "easy",
+      "question_en": "I have an electric vehicle in Konya, and my annual household consumption is 5000 kWh. With an 8 kW panel system, what would the installation cost and my annual savings be?"
+    },
+    {
+      "id": "res-06",
+      "stakeholder": "residential",
+      "question_tr": "İstanbul'da 5 kW GES ile önce bataryasız hesapla, sonra aynı sistemi 8 kWh NMC batarya ekleyerek tekrar hesapla; öz tüketim oranı ne kadar artıyor?",
+      "expected_tools": [
+        "simulate_pv_bess",
+        "simulate_pv_bess"
+      ],
+      "suggested_args": {
+        "city": "istanbul",
+        "panel_kw": 5,
+        "bess_kwh": 0,
+        "stakeholder_type": "residential"
+      },
+      "chain_length": 2,
+      "scale_focus": "building",
+      "numeric_focus": [
+        "self_consumption_ratio",
+        "npv_tl"
+      ],
+      "difficulty": "medium",
+      "suggested_args_per_step": [
+        {
+          "city": "istanbul",
+          "panel_kw": 5,
+          "bess_kwh": 0
+        },
+        {
+          "city": "istanbul",
+          "panel_kw": 5,
+          "bess_kwh": 8,
+          "bess_chemistry": "NMC"
+        }
+      ],
+      "args_pinned": true,
+      "question_en": "For a 5 kW PV system in İstanbul, first calculate it without a battery, then recalculate the same system with an 8 kWh NMC battery added; how much does the self-consumption ratio increase?"
+    },
+    {
+      "id": "res-07",
+      "stakeholder": "residential",
+      "question_tr": "5 kW ile 10 kW panel seçeneklerini Ankara için karşılaştırır mısın, hangisinin geri ödeme süresi daha kısa?",
+      "expected_tools": [
+        "simulate_pv_bess",
+        "simulate_pv_bess"
+      ],
+      "suggested_args": {
+        "city": "ankara",
+        "panel_kw": 5,
+        "stakeholder_type": "residential"
+      },
+      "chain_length": 2,
+      "scale_focus": "building",
+      "numeric_focus": [
+        "simple_payback_years",
+        "npv_tl"
+      ],
+      "difficulty": "medium",
+      "suggested_args_per_step": [
+        {
+          "city": "ankara",
+          "panel_kw": 5
+        },
+        {
+          "city": "ankara",
+          "panel_kw": 10
+        }
+      ],
+      "args_pinned": true,
+      "question_en": "Could you compare the 5 kW and 10 kW panel options for Ankara — which one has the shorter payback period?"
+    },
+    {
+      "id": "res-08",
+      "stakeholder": "residential",
+      "question_tr": "İzmir'de 6 kW GES + 10 kWh batarya için önce standart fizibiliteyi çıkar, sonra bu sonucun belirsizliğini Monte Carlo ile göster, NPV'nin yüzdelik dağılımını istiyorum.",
+      "expected_tools": [
+        "simulate_pv_bess",
+        "run_monte_carlo"
+      ],
+      "suggested_args": {
+        "city": "izmir",
+        "panel_kw": 6,
+        "bess_kwh": 10,
+        "annual_consumption_kwh": 4200,
+        "stakeholder_type": "residential"
+      },
+      "chain_length": 2,
+      "scale_focus": "building",
+      "numeric_focus": [
+        "npv_tl",
+        "payback distribution percentiles"
+      ],
+      "difficulty": "medium",
+      "suggested_args_per_step": [
+        {
+          "city": "izmir",
+          "panel_kw": 6,
+          "bess_kwh": 10,
+          "annual_consumption_kwh": 4200
+        },
+        {
+          "city": "izmir",
+          "panel_kw": 6,
+          "bess_kwh": 10,
+          "annual_consumption_kwh": 4200
+        }
+      ],
+      "args_pinned": true,
+      "question_en": "For a 6 kW PV system + 10 kWh battery in İzmir, first produce the standard feasibility, then show the uncertainty of that result with Monte Carlo; I want the percentile distribution of the NPV."
+    },
+    {
+      "id": "res-09",
+      "stakeholder": "residential",
+      "question_tr": "Antalya'da 5 kW panelli sistem için önce fizibilite hesabı yap, sonra bu yatırımın 9 teşvik mekanizmasına göre devlet destekli senaryolarını karşılaştır.",
+      "expected_tools": [
+        "simulate_pv_bess",
+        "run_policy_scenario"
+      ],
+      "suggested_args": {
+        "city": "antalya",
+        "panel_kw": 5,
+        "stakeholder_type": "residential"
+      },
+      "chain_length": 2,
+      "scale_focus": "building",
+      "numeric_focus": [
+        "npv_tl",
+        "system_cost_tl",
+        "policy comparison npv/payback"
+      ],
+      "difficulty": "medium",
+      "suggested_args_per_step": [
+        {
+          "city": "antalya",
+          "panel_kw": 5
+        },
+        {
+          "base_investment_tl": "$prev.system_cost_tl",
+          "annual_savings_tl": "$prev.annual_savings_tl",
+          "lifetime_years": 25
+        }
+      ],
+      "args_pinned": true,
+      "question_en": "For a 5 kW panel system in Antalya, first run a feasibility calculation, then compare the government-supported scenarios for this investment across the 9 incentive mechanisms."
+    },
+    {
+      "id": "res-10",
+      "stakeholder": "residential",
+      "question_tr": "Konya'da 6 kW panelli sistem için önce LFP batarya ile, sonra LTO batarya ile fizibiliteyi hesapla, ardından her ikisinin NPV belirsizliğini Monte Carlo ile karşılaştır.",
+      "expected_tools": [
+        "simulate_pv_bess",
+        "simulate_pv_bess",
+        "run_monte_carlo"
+      ],
+      "suggested_args": {
+        "city": "konya",
+        "panel_kw": 6,
+        "bess_kwh": 8,
+        "bess_chemistry": "LFP",
+        "stakeholder_type": "residential"
+      },
+      "chain_length": 3,
+      "scale_focus": "building",
+      "numeric_focus": [
+        "npv_tl",
+        "irr_percent",
+        "payback distribution percentiles"
+      ],
+      "difficulty": "hard",
+      "suggested_args_per_step": [
+        {
+          "city": "konya",
+          "panel_kw": 6,
+          "bess_kwh": 8,
+          "bess_chemistry": "LFP"
+        },
+        {
+          "city": "konya",
+          "panel_kw": 6,
+          "bess_kwh": 8,
+          "bess_chemistry": "LTO"
+        },
+        {
+          "city": "konya",
+          "panel_kw": 6,
+          "bess_kwh": 8
+        }
+      ],
+      "args_pinned": false,
+      "question_en": "For a 6 kW panel system in Konya, first calculate the feasibility with an LFP battery, then with an LTO battery, and then compare the NPV uncertainty of both using Monte Carlo."
+    },
+    {
+      "id": "res-11",
+      "stakeholder": "residential",
+      "question_tr": "Bizim apartmanda 40 daire var, her biri için tipik 5 kW'lık çatı GES'in getirisini hesaplayıp 40 ile çarparsak, bütün apartmanın toplam yıllık kazancını ve şebeke üzerindeki etkisini bu şekilde söyleyebilir misin?",
+      "expected_tools": [
+        "simulate_pv_bess",
+        "simulate_grid_impact"
+      ],
+      "suggested_args": {
+        "city": "istanbul",
+        "panel_kw": 5,
+        "stakeholder_type": "residential"
+      },
+      "chain_length": 2,
+      "scale_focus": "cross",
+      "numeric_focus": [
+        "annual_savings_tl",
+        "hosting_capacity_pct",
+        "voltage pu"
+      ],
+      "difficulty": "hard",
+      "suggested_args_per_step": [
+        {
+          "city": "istanbul",
+          "panel_kw": 5
+        },
+        {
+          "pv_penetration_pct": 40
+        }
+      ],
+      "args_pinned": false,
+      "question_en": "Our apartment building has 40 flats; if we compute the return of a typical 5 kW rooftop PV for each and multiply it by 40, can you tell me the whole building's total annual gain and its impact on the grid this way?"
+    },
+    {
+      "id": "res-12",
+      "stakeholder": "residential",
+      "question_tr": "Mahallemizdeki 30 evin tamamı 4'er kW GES kursa, mahalle çapında toplam tasarruf ve trafoya etkisi ne olur, tek bir ev sonucunu 30'la çarpmak doğru mu?",
+      "expected_tools": [
+        "simulate_pv_bess",
+        "simulate_grid_impact"
+      ],
+      "suggested_args": {
+        "city": "izmir",
+        "panel_kw": 4,
+        "stakeholder_type": "residential"
+      },
+      "chain_length": 2,
+      "scale_focus": "cross",
+      "numeric_focus": [
+        "annual_savings_tl",
+        "line_loading_pct",
+        "transformer deferral"
+      ],
+      "difficulty": "hard",
+      "suggested_args_per_step": [
+        {
+          "city": "izmir",
+          "panel_kw": 4
+        },
+        {
+          "pv_penetration_pct": 40
+        }
+      ],
+      "args_pinned": false,
+      "question_en": "If all 30 houses in our neighborhood each installed 4 kW of PV, what would the neighborhood-wide total savings and the impact on the transformer be — and is it correct to just multiply a single house's result by 30?"
+    },
+    {
+      "id": "com-01",
+      "stakeholder": "commercial",
+      "question_tr": "Antalya'daki otelimizin çatısına 40 kW'lık güneş paneli kurmayı düşünüyoruz, yıllık elektrik tüketimimiz yaklaşık 90.000 kWh. Yatırımın geri dönüş süresi ve NPV'si nedir?",
+      "expected_tools": [
+        "simulate_pv_bess"
+      ],
+      "suggested_args": {
+        "city": "antalya",
+        "panel_kw": 40,
+        "annual_consumption_kwh": 90000,
+        "stakeholder_type": "commercial"
+      },
+      "chain_length": 1,
+      "scale_focus": "building",
+      "numeric_focus": [
+        "npv_tl",
+        "simple_payback_years",
+        "annual_production_kwh"
+      ],
+      "difficulty": "easy",
+      "question_en": "We're considering installing 40 kW of solar panels on our hotel's roof in Antalya; our annual electricity consumption is about 90,000 kWh. What are the payback period and NPV of the investment?"
+    },
+    {
+      "id": "com-02",
+      "stakeholder": "commercial",
+      "question_tr": "Bursa'daki fabrikamızın aylık elektrik faturası ortalama 180.000 TL. 50 kW GES kurarsak öz tüketim oranımız ve yıllık tasarrufumuz ne olur?",
+      "expected_tools": [
+        "simulate_pv_bess"
+      ],
+      "suggested_args": {
+        "city": "bursa",
+        "panel_kw": 50,
+        "monthly_bill_tl": 180000,
+        "stakeholder_type": "commercial"
+      },
+      "chain_length": 1,
+      "scale_focus": "building",
+      "numeric_focus": [
+        "self_consumption_ratio",
+        "annual_savings_tl"
+      ],
+      "difficulty": "easy",
+      "question_en": "Our factory in Bursa has an average monthly electricity bill of 180,000 TL. If we install a 50 kW PV system, what would our self-consumption ratio and annual savings be?"
+    },
+    {
+      "id": "com-03",
+      "stakeholder": "commercial",
+      "question_tr": "Ofis binamız için 15 kW güneş enerjisi sistemi kurulum maliyeti ve LCOE değerini öğrenebilir miyim, İstanbul için?",
+      "expected_tools": [
+        "simulate_pv_bess"
+      ],
+      "suggested_args": {
+        "city": "istanbul",
+        "panel_kw": 15,
+        "stakeholder_type": "commercial"
+      },
+      "chain_length": 1,
+      "scale_focus": "building",
+      "numeric_focus": [
+        "system_cost_tl",
+        "lcoe_tl_per_kwh"
+      ],
+      "difficulty": "easy",
+      "question_en": "Can I find out the installation cost and LCOE of a 15 kW solar system for our office building, for İstanbul?"
+    },
+    {
+      "id": "com-04",
+      "stakeholder": "commercial",
+      "question_tr": "İzmir'deki depomuza 25 kW panel + 20 kWh batarya eklemek istiyoruz, LFP mi NMC mi daha iyi bir IRR verir?",
+      "expected_tools": [
+        "simulate_pv_bess",
+        "simulate_pv_bess"
+      ],
+      "suggested_args": {
+        "city": "izmir",
+        "panel_kw": 25,
+        "bess_kwh": 20,
+        "bess_chemistry": "LFP",
+        "stakeholder_type": "commercial"
+      },
+      "chain_length": 2,
+      "scale_focus": "building",
+      "numeric_focus": [
+        "irr_percent",
+        "npv_tl"
+      ],
+      "difficulty": "medium",
+      "suggested_args_per_step": [
+        {
+          "city": "izmir",
+          "panel_kw": 25,
+          "bess_kwh": 20,
+          "bess_chemistry": "LFP"
+        },
+        {
+          "city": "izmir",
+          "panel_kw": 25,
+          "bess_kwh": 20,
+          "bess_chemistry": "NMC"
+        }
+      ],
+      "args_pinned": true,
+      "question_en": "We want to add 25 kW of panels + a 20 kWh battery to our warehouse in İzmir; does LFP or NMC give a better IRR?"
+    },
+    {
+      "id": "com-05",
+      "stakeholder": "commercial",
+      "question_tr": "Konya'daki tekstil atölyemiz için batarya olmadan ve 30 kWh bataryayla kurulan 35 kW sistemleri karşılaştırıp hangisinin geri ödeme süresi daha kısa olduğunu söyler misiniz?",
+      "expected_tools": [
+        "simulate_pv_bess",
+        "simulate_pv_bess"
+      ],
+      "suggested_args": {
+        "city": "konya",
+        "panel_kw": 35,
+        "annual_consumption_kwh": 70000,
+        "stakeholder_type": "commercial"
+      },
+      "chain_length": 2,
+      "scale_focus": "building",
+      "numeric_focus": [
+        "simple_payback_years",
+        "npv_tl"
+      ],
+      "difficulty": "medium",
+      "suggested_args_per_step": [
+        {
+          "city": "konya",
+          "panel_kw": 35,
+          "bess_kwh": 0,
+          "annual_consumption_kwh": 70000
+        },
+        {
+          "city": "konya",
+          "panel_kw": 35,
+          "bess_kwh": 30,
+          "annual_consumption_kwh": 70000
+        }
+      ],
+      "args_pinned": true,
+      "question_en": "For our textile workshop in Konya, could you compare 35 kW systems installed without a battery versus with a 30 kWh battery, and tell me which has the shorter payback period?"
+    },
+    {
+      "id": "com-06",
+      "stakeholder": "commercial",
+      "question_tr": "Ankara'daki plastik enjeksiyon fabrikamızın yıllık tüketimi 250.000 kWh. Önce 20 kW, sonra 45 kW panel senaryolarını karşılaştırıp hangisinde NPV daha yüksek görün, ardından IRR farkını da belirtin.",
+      "expected_tools": [
+        "simulate_pv_bess",
+        "simulate_pv_bess"
+      ],
+      "suggested_args": {
+        "city": "ankara",
+        "panel_kw": 20,
+        "annual_consumption_kwh": 250000,
+        "stakeholder_type": "commercial"
+      },
+      "chain_length": 2,
+      "scale_focus": "building",
+      "numeric_focus": [
+        "npv_tl",
+        "irr_percent"
+      ],
+      "difficulty": "medium",
+      "suggested_args_per_step": [
+        {
+          "city": "ankara",
+          "panel_kw": 20,
+          "annual_consumption_kwh": 250000
+        },
+        {
+          "city": "ankara",
+          "panel_kw": 45,
+          "annual_consumption_kwh": 250000
+        }
+      ],
+      "args_pinned": true,
+      "question_en": "Our plastic injection molding factory in Ankara consumes 250,000 kWh per year. First compare the 20 kW and 45 kW panel scenarios and see which one has the higher NPV, then also state the IRR difference."
+    },
+    {
+      "id": "com-07",
+      "stakeholder": "commercial",
+      "question_tr": "Antalya'da 30 kW GES + 15 kWh LTO batarya kurulumunun getirisini hesaplayın, sonra bu yatırımın belirsizlik altında (Monte Carlo) NPV dağılımının yüzde 10'luk alt sınırı nedir?",
+      "expected_tools": [
+        "simulate_pv_bess",
+        "run_monte_carlo"
+      ],
+      "suggested_args": {
+        "city": "antalya",
+        "panel_kw": 30,
+        "bess_kwh": 15,
+        "bess_chemistry": "LTO",
+        "stakeholder_type": "commercial"
+      },
+      "chain_length": 2,
+      "scale_focus": "building",
+      "numeric_focus": [
+        "npv_tl",
+        "annual_savings_tl"
+      ],
+      "difficulty": "medium",
+      "suggested_args_per_step": [
+        {
+          "city": "antalya",
+          "panel_kw": 30,
+          "bess_kwh": 15,
+          "bess_chemistry": "LTO"
+        },
+        {
+          "city": "antalya",
+          "panel_kw": 30,
+          "bess_kwh": 15
+        }
+      ],
+      "args_pinned": true,
+      "question_en": "Calculate the return of a 30 kW PV + 15 kWh LTO battery installation in Antalya, then, under uncertainty (Monte Carlo), what is the 10th-percentile lower bound of the NPV distribution for this investment?"
+    },
+    {
+      "id": "com-08",
+      "stakeholder": "commercial",
+      "question_tr": "Merhaba, küçük bir market zinciri işletiyoruz, İstanbul'daki merkez şubemize 10 kW panel düşünüyoruz. Yıllık üretim tahmini ve basit geri ödeme süresini alabilir miyim?",
+      "expected_tools": [
+        "simulate_pv_bess"
+      ],
+      "suggested_args": {
+        "city": "istanbul",
+        "panel_kw": 10,
+        "stakeholder_type": "commercial"
+      },
+      "chain_length": 1,
+      "scale_focus": "building",
+      "numeric_focus": [
+        "annual_production_kwh",
+        "simple_payback_years"
+      ],
+      "difficulty": "easy",
+      "question_en": "Hello, we run a small supermarket chain and are considering 10 kW of panels for our main branch in İstanbul. Could I get the estimated annual production and the simple payback period?"
+    },
+    {
+      "id": "com-09",
+      "stakeholder": "commercial",
+      "question_tr": "İzmir'deki soğuk hava deposu tesisimizin yıllık tüketimi 400.000 kWh. 60 kW panel ve 40 kWh NMC batarya ile kurduğumuz sistemin NPV, IRR ve LCOE değerlerini istiyorum.",
+      "expected_tools": [
+        "simulate_pv_bess"
+      ],
+      "suggested_args": {
+        "city": "izmir",
+        "panel_kw": 60,
+        "bess_kwh": 40,
+        "bess_chemistry": "NMC",
+        "annual_consumption_kwh": 400000,
+        "stakeholder_type": "commercial"
+      },
+      "chain_length": 1,
+      "scale_focus": "building",
+      "numeric_focus": [
+        "npv_tl",
+        "irr_percent",
+        "lcoe_tl_per_kwh"
+      ],
+      "difficulty": "easy",
+      "question_en": "Our cold-storage facility in İzmir consumes 400,000 kWh per year. I'd like the NPV, IRR and LCOE of a system built with 60 kW of panels and a 40 kWh NMC battery."
+    },
+    {
+      "id": "com-10",
+      "stakeholder": "commercial",
+      "question_tr": "Bursa OSB'de her biri 40 kW GES kuran 200 fabrika olduğunu varsayarsak, tek bir fabrikanın sonucunu 200 ile çarpıp bölgesel şebeke etkisini bu şekilde tahmin edebilir miyiz?",
+      "expected_tools": [
+        "simulate_pv_bess",
+        "simulate_grid_impact"
+      ],
+      "suggested_args": {
+        "city": "bursa",
+        "panel_kw": 40,
+        "stakeholder_type": "commercial"
+      },
+      "chain_length": 2,
+      "scale_focus": "cross",
+      "numeric_focus": [
+        "npv_tl",
+        "max_voltage_pu",
+        "hosting_capacity_pct"
+      ],
+      "difficulty": "hard",
+      "suggested_args_per_step": [
+        {
+          "city": "bursa",
+          "panel_kw": 40
+        },
+        {
+          "pv_penetration_pct": 40
+        }
+      ],
+      "args_pinned": false,
+      "question_en": "Assuming there are 200 factories in the Bursa Organized Industrial Zone (OSB) each installing 40 kW of PV, can we estimate the regional grid impact by simply multiplying a single factory's result by 200?"
+    },
+    {
+      "id": "com-11",
+      "stakeholder": "commercial",
+      "question_tr": "Konya'daki OSB'de tesislerin tamamı çatı GES'e geçerse besleme hattındaki gerilim ve hat yüklenmesi ne olur, sistemin taşıma kapasitesi (hosting capacity) yüzde kaçtır?",
+      "expected_tools": [
+        "simulate_grid_impact"
+      ],
+      "suggested_args": {
+        "pv_penetration_pct": 80,
+        "run_penetration_sweep": true
+      },
+      "chain_length": 1,
+      "scale_focus": "feeder",
+      "numeric_focus": [
+        "max_voltage_pu",
+        "min_voltage_pu",
+        "hosting_capacity_pct"
+      ],
+      "difficulty": "medium",
+      "question_en": "If all the facilities in the Konya Organized Industrial Zone (OSB) switched to rooftop PV, what would the voltage and line loading on the feeder be, and what percentage is the system's hosting capacity?"
+    },
+    {
+      "id": "com-12",
+      "stakeholder": "commercial",
+      "question_tr": "40 kW GES + 25 kWh LFP batarya yatırımımızın hesapladığınız yıllık tasarrufunu ve toplam yatırım tutarını kullanarak, 9 farklı teşvik mekanizmasından hangisinin bize en yüksek NPV'yi sağladığını gösterir misiniz? İskonto oranı %12, sistem ömrü 25 yıl olsun.",
+      "expected_tools": [
+        "simulate_pv_bess",
+        "run_policy_scenario"
+      ],
+      "suggested_args": {
+        "city": "ankara",
+        "panel_kw": 40,
+        "bess_kwh": 25,
+        "bess_chemistry": "LFP",
+        "stakeholder_type": "commercial"
+      },
+      "chain_length": 2,
+      "scale_focus": "policy",
+      "numeric_focus": [
+        "npv_tl",
+        "simple_payback_years"
+      ],
+      "difficulty": "medium",
+      "suggested_args_per_step": [
+        {
+          "city": "ankara",
+          "panel_kw": 40,
+          "bess_kwh": 25,
+          "bess_chemistry": "LFP"
+        },
+        {
+          "base_investment_tl": "$prev.system_cost_tl",
+          "annual_savings_tl": "$prev.annual_savings_tl",
+          "lifetime_years": 25,
+          "discount_rate": 0.12
+        }
+      ],
+      "args_pinned": true,
+      "question_en": "Using the annual savings and total investment amount you calculate for our 40 kW PV + 25 kWh LFP battery investment, could you show which of the 9 different incentive mechanisms gives us the highest NPV? Use a 12% discount rate and a 25-year system lifetime."
+    },
+    {
+      "id": "com-13",
+      "stakeholder": "commercial",
+      "question_tr": "Antalya'daki 5 yıldızlı otelimiz yılda yaklaşık 500.000 kWh tüketiyor. Önce 70 kW panel + 50 kWh batarya sistemimizin yatırım maliyetini ve yıllık tasarrufunu hesaplayın; ardından bu rakamlarla, %15 iskonto oranında ve 20 yıllık ömürde net ölçüm (net metering) ile üretim bazlı FiT teşvikini NPV açısından karşılaştırın.",
+      "expected_tools": [
+        "simulate_pv_bess",
+        "run_policy_scenario"
+      ],
+      "suggested_args": {
+        "city": "antalya",
+        "panel_kw": 70,
+        "bess_kwh": 50,
+        "annual_consumption_kwh": 500000,
+        "stakeholder_type": "commercial"
+      },
+      "chain_length": 2,
+      "scale_focus": "policy",
+      "numeric_focus": [
+        "system_cost_tl",
+        "annual_savings_tl",
+        "npv_tl"
+      ],
+      "difficulty": "medium",
+      "suggested_args_per_step": [
+        {
+          "city": "antalya",
+          "panel_kw": 70,
+          "bess_kwh": 50,
+          "annual_consumption_kwh": 500000
+        },
+        {
+          "base_investment_tl": "$prev.system_cost_tl",
+          "annual_savings_tl": "$prev.annual_savings_tl",
+          "lifetime_years": 20,
+          "discount_rate": 0.15
+        }
+      ],
+      "args_pinned": true,
+      "question_en": "Our five-star hotel in Antalya consumes roughly 500,000 kWh per year. First calculate the investment cost and annual savings of our 70 kW panel + 50 kWh battery system; then, with those figures, compare net metering against a generation-based FiT incentive in terms of NPV, at a 15% discount rate and a 20-year lifetime."
+    },
+    {
+      "id": "dis-01",
+      "stakeholder": "distribution",
+      "question_tr": "%40 PV penetrasyonunda fiderdeki minimum ve maksimum gerilim değerleri nedir?",
+      "expected_tools": [
+        "simulate_grid_impact"
+      ],
+      "suggested_args": {
+        "pv_penetration_pct": 40
+      },
+      "chain_length": 1,
+      "scale_focus": "feeder",
+      "numeric_focus": [
+        "min_voltage_pu",
+        "max_voltage_pu"
+      ],
+      "difficulty": "easy",
+      "question_en": "At 40% PV penetration, what are the minimum and maximum voltage values on the feeder?"
+    },
+    {
+      "id": "dis-02",
+      "stakeholder": "distribution",
+      "question_tr": "Merhaba, bölgemizde güneş enerjisi penetrasyonu %55'e çıkarsa hat yüklenme yüzdesi ne olur, biraz endişeliyiz açıkçası.",
+      "expected_tools": [
+        "simulate_grid_impact"
+      ],
+      "suggested_args": {
+        "pv_penetration_pct": 55
+      },
+      "chain_length": 1,
+      "scale_focus": "feeder",
+      "numeric_focus": [
+        "line_loading_pct"
+      ],
+      "difficulty": "easy",
+      "question_en": "Hello, if solar penetration in our region rises to 55%, what would the line loading percentage be — honestly, we're a bit worried."
+    },
+    {
+      "id": "dis-03",
+      "stakeholder": "distribution",
+      "question_tr": "Hosting capacity yüzdemiz kaç, mevcut fider için hesaplar mısın?",
+      "expected_tools": [
+        "simulate_grid_impact"
+      ],
+      "suggested_args": {
+        "pv_penetration_pct": 30
+      },
+      "chain_length": 1,
+      "scale_focus": "feeder",
+      "numeric_focus": [
+        "hosting_capacity_pct"
+      ],
+      "difficulty": "easy",
+      "question_en": "What is our hosting capacity percentage — could you calculate it for the current feeder?"
+    },
+    {
+      "id": "dis-04",
+      "stakeholder": "distribution",
+      "question_tr": "%70 PV penetrasyonuna batarya penetrasyonunu da %20 ekleyerek şebeke etkisini birlikte değerlendirir misin?",
+      "expected_tools": [
+        "simulate_grid_impact"
+      ],
+      "suggested_args": {
+        "pv_penetration_pct": 70,
+        "bess_penetration_pct": 20
+      },
+      "chain_length": 1,
+      "scale_focus": "feeder",
+      "numeric_focus": [
+        "max_voltage_pu",
+        "line_loading_pct",
+        "hosting_capacity_pct"
+      ],
+      "difficulty": "medium",
+      "question_en": "Could you evaluate the grid impact of 70% PV penetration together with 20% battery penetration added on top?"
+    },
+    {
+      "id": "dis-05",
+      "stakeholder": "distribution",
+      "question_tr": "Trafo erteleme süresi PV penetrasyonu arttıkça nasıl değişiyor, bir penetrasyon taraması yapar mısın?",
+      "expected_tools": [
+        "simulate_grid_impact"
+      ],
+      "suggested_args": {
+        "pv_penetration_pct": 50,
+        "run_penetration_sweep": true
+      },
+      "chain_length": 1,
+      "scale_focus": "feeder",
+      "numeric_focus": [
+        "transformer_deferral_years"
+      ],
+      "difficulty": "medium",
+      "question_en": "How does the transformer deferral period change as PV penetration increases — could you run a penetration sweep?"
+    },
+    {
+      "id": "dis-06",
+      "stakeholder": "distribution",
+      "question_tr": "Önce %40 penetrasyonda şebeke etkisini göster, sonra aynı analizi %60 penetrasyon için tekrarla ve ikisini karşılaştır.",
+      "expected_tools": [
+        "simulate_grid_impact",
+        "simulate_grid_impact"
+      ],
+      "suggested_args": {
+        "pv_penetration_pct": 40
+      },
+      "chain_length": 2,
+      "scale_focus": "feeder",
+      "numeric_focus": [
+        "max_voltage_pu",
+        "line_loading_pct",
+        "hosting_capacity_pct"
+      ],
+      "difficulty": "medium",
+      "suggested_args_per_step": [
+        {
+          "pv_penetration_pct": 40
+        },
+        {
+          "pv_penetration_pct": 60
+        }
+      ],
+      "args_pinned": true,
+      "question_en": "First show the grid impact at 40% penetration, then repeat the same analysis for 60% penetration and compare the two."
+    },
+    {
+      "id": "dis-07",
+      "stakeholder": "distribution",
+      "question_tr": "%25 penetrasyonda gerilim ve hat yüklenmesini hesapla; ardından batarya penetrasyonunu %15 ekleyip aynı senaryoyu tekrar çalıştır, gerilim profilinde iyileşme var mı söyle.",
+      "expected_tools": [
+        "simulate_grid_impact",
+        "simulate_grid_impact"
+      ],
+      "suggested_args": {
+        "pv_penetration_pct": 25
+      },
+      "chain_length": 2,
+      "scale_focus": "feeder",
+      "numeric_focus": [
+        "max_voltage_pu",
+        "min_voltage_pu",
+        "line_loading_pct"
+      ],
+      "difficulty": "medium",
+      "suggested_args_per_step": [
+        {
+          "pv_penetration_pct": 25
+        },
+        {
+          "pv_penetration_pct": 25,
+          "bess_penetration_pct": 15
+        }
+      ],
+      "args_pinned": true,
+      "question_en": "Calculate the voltage and line loading at 25% penetration; then add 15% battery penetration and re-run the same scenario, and tell me whether there's an improvement in the voltage profile."
+    },
+    {
+      "id": "dis-08",
+      "stakeholder": "distribution",
+      "question_tr": "Fiderde %20, %50 ve %80 PV penetrasyon seviyelerinin her birinde hosting capacity ve trafo erteleme süresini ayrı ayrı hesaplayıp bana kısa bir özet çıkar.",
+      "expected_tools": [
+        "simulate_grid_impact",
+        "simulate_grid_impact",
+        "simulate_grid_impact"
+      ],
+      "suggested_args": {
+        "pv_penetration_pct": 20
+      },
+      "chain_length": 3,
+      "scale_focus": "feeder",
+      "numeric_focus": [
+        "hosting_capacity_pct",
+        "transformer_deferral_years"
+      ],
+      "difficulty": "hard",
+      "suggested_args_per_step": [
+        {
+          "pv_penetration_pct": 20
+        },
+        {
+          "pv_penetration_pct": 50
+        },
+        {
+          "pv_penetration_pct": 80
+        }
+      ],
+      "args_pinned": true,
+      "question_en": "Calculate the hosting capacity and transformer deferral period separately at each of the 20%, 50% and 80% PV penetration levels on the feeder, and give me a short summary."
+    },
+    {
+      "id": "dis-09",
+      "stakeholder": "distribution",
+      "question_tr": "Bölgemizdeki 200 çatıya ortalama 5 kW'lık sistem kurulsa, dağıtım fiderindeki toplam penetrasyon oranını ve buna karşılık gelen gerilim/hat yüklenme etkisini gösterir misin?",
+      "expected_tools": [
+        "simulate_grid_impact"
+      ],
+      "suggested_args": {
+        "pv_penetration_pct": 45
+      },
+      "chain_length": 1,
+      "scale_focus": "cross",
+      "numeric_focus": [
+        "max_voltage_pu",
+        "line_loading_pct",
+        "hosting_capacity_pct"
+      ],
+      "difficulty": "hard",
+      "question_en": "If an average 5 kW system were installed on 200 rooftops in our region, could you show the total penetration ratio on the distribution feeder and the corresponding voltage / line-loading impact?"
+    },
+    {
+      "id": "dis-10",
+      "stakeholder": "distribution",
+      "question_tr": "1000 haneli bir mahallede her evin ortalama NPV'si pozitif çıkıyorsa, bu mahallenin bağlı olduğu fiderde şebeke sorunu yaşanır mı, yoksa güvenle hepsi bağlanabilir mi?",
+      "expected_tools": [
+        "simulate_grid_impact"
+      ],
+      "suggested_args": {
+        "pv_penetration_pct": 80
+      },
+      "chain_length": 1,
+      "scale_focus": "cross",
+      "numeric_focus": [
+        "hosting_capacity_pct",
+        "max_voltage_pu",
+        "line_loading_pct"
+      ],
+      "difficulty": "hard",
+      "question_en": "In a 1000-household neighborhood, if each home's average NPV comes out positive, will the feeder this neighborhood is connected to run into grid problems, or can they all be safely connected?"
+    },
+    {
+      "id": "dis-11",
+      "stakeholder": "distribution",
+      "question_tr": "%90 penetrasyona batarya olmadan çıkarsak trafo erteleme kaç yıl olur, bataryayı %30 penetrasyonla eklersek bu süre nasıl değişir?",
+      "expected_tools": [
+        "simulate_grid_impact",
+        "simulate_grid_impact"
+      ],
+      "suggested_args": {
+        "pv_penetration_pct": 90
+      },
+      "chain_length": 2,
+      "scale_focus": "feeder",
+      "numeric_focus": [
+        "transformer_deferral_years"
+      ],
+      "difficulty": "medium",
+      "suggested_args_per_step": [
+        {
+          "pv_penetration_pct": 90
+        },
+        {
+          "pv_penetration_pct": 90,
+          "bess_penetration_pct": 30
+        }
+      ],
+      "args_pinned": true,
+      "question_en": "If we go up to 90% penetration without batteries, how many years of transformer deferral do we get, and how does this figure change if we add batteries at 30% penetration?"
+    },
+    {
+      "id": "dis-12",
+      "stakeholder": "distribution",
+      "question_tr": "%35 penetrasyonda hat yüklenmesi kaç yüzde?",
+      "expected_tools": [
+        "simulate_grid_impact"
+      ],
+      "suggested_args": {
+        "pv_penetration_pct": 35
+      },
+      "chain_length": 1,
+      "scale_focus": "feeder",
+      "numeric_focus": [
+        "line_loading_pct"
+      ],
+      "difficulty": "easy",
+      "question_en": "At 35% penetration, what is the line loading percentage?"
+    },
+    {
+      "id": "dis-13",
+      "stakeholder": "distribution",
+      "question_tr": "Şebekemizin PV entegrasyonu açısından limitini merak ediyorum; penetrasyon taraması yaparak hangi seviyede gerilim sınırlarını aştığımızı bulabilir misin?",
+      "expected_tools": [
+        "simulate_grid_impact"
+      ],
+      "suggested_args": {
+        "pv_penetration_pct": 10,
+        "run_penetration_sweep": true
+      },
+      "chain_length": 1,
+      "scale_focus": "feeder",
+      "numeric_focus": [
+        "hosting_capacity_pct",
+        "max_voltage_pu"
+      ],
+      "difficulty": "medium",
+      "question_en": "I'm curious about our grid's limit for PV integration; by running a penetration sweep, could you find at what level we exceed the voltage limits?"
+    },
+    {
+      "id": "sta-01",
+      "stakeholder": "state",
+      "question_tr": "10 kW'lık tipik bir konut GES+batarya sistemi için önce fizibilite hesabı yapar mısın, sonra bu yatırıma en uygun teşvik mekanizmasını bulur musun?",
+      "expected_tools": [
+        "simulate_pv_bess",
+        "run_policy_scenario"
+      ],
+      "suggested_args": {
+        "city": "ankara",
+        "panel_kw": 10,
+        "bess_kwh": 10,
+        "monthly_bill_tl": 2500,
+        "stakeholder_type": "residential"
+      },
+      "chain_length": 2,
+      "scale_focus": "policy",
+      "numeric_focus": [
+        "npv_tl",
+        "annual_savings_tl",
+        "system_cost_tl",
+        "policy_npv_tl",
+        "policy_payback_years"
+      ],
+      "difficulty": "medium",
+      "suggested_args_per_step": [
+        {
+          "city": "ankara",
+          "panel_kw": 10,
+          "bess_kwh": 10,
+          "monthly_bill_tl": 2500
+        },
+        {
+          "base_investment_tl": "$prev.system_cost_tl",
+          "annual_savings_tl": "$prev.annual_savings_tl",
+          "lifetime_years": 25
+        }
+      ],
+      "args_pinned": false,
+      "question_en": "For a typical 10 kW residential PV + battery system, could you first run a feasibility calculation, then find the most suitable incentive mechanism for this investment?"
+    },
+    {
+      "id": "sta-02",
+      "stakeholder": "state",
+      "question_tr": "9 teşvik mekanizmasının hangisi devlete en düşük maliyetle en yüksek NPV artışı sağlıyor, kısaca özetler misin?",
+      "expected_tools": [
+        "run_policy_scenario"
+      ],
+      "suggested_args": {
+        "base_investment_tl": 400000,
+        "annual_savings_tl": 55000,
+        "lifetime_years": 25,
+        "discount_rate": 0.15
+      },
+      "chain_length": 1,
+      "scale_focus": "policy",
+      "numeric_focus": [
+        "policy_npv_tl",
+        "government_cost_tl",
+        "policy_payback_years"
+      ],
+      "difficulty": "medium",
+      "question_en": "Which of the 9 incentive mechanisms delivers the highest NPV increase at the lowest cost to the government — could you briefly summarize?"
+    },
+    {
+      "id": "sta-03",
+      "stakeholder": "state",
+      "question_tr": "Selam, feed-in tarife (FiT) ile öz-tüketim teşvikini karşılaştırıp hangisinin batarya yatırımını daha çok tetiklediğini söyler misin?",
+      "expected_tools": [
+        "run_policy_scenario"
+      ],
+      "suggested_args": {
+        "base_investment_tl": 350000,
+        "annual_savings_tl": 48000,
+        "lifetime_years": 20,
+        "discount_rate": 0.14
+      },
+      "chain_length": 1,
+      "scale_focus": "policy",
+      "numeric_focus": [
+        "policy_npv_tl",
+        "policy_payback_years"
+      ],
+      "difficulty": "medium",
+      "question_en": "Hi, could you compare the feed-in tariff (FiT) with the self-consumption incentive and tell me which one drives battery investment more?"
+    },
+    {
+      "id": "sta-04",
+      "stakeholder": "state",
+      "question_tr": "500.000 TL yatırım maliyeti ve yıllık 70.000 TL tasarrufu olan bir GES projesi için 25 yıllık ömür ve %16 iskonto oranıyla teşvik mekanizmalarını sıralar mısın?",
+      "expected_tools": [
+        "run_policy_scenario"
+      ],
+      "suggested_args": {
+        "base_investment_tl": 500000,
+        "annual_savings_tl": 70000,
+        "lifetime_years": 25,
+        "discount_rate": 0.16
+      },
+      "chain_length": 1,
+      "scale_focus": "policy",
+      "numeric_focus": [
+        "policy_npv_tl",
+        "policy_payback_years"
+      ],
+      "difficulty": "easy",
+      "question_en": "For a PV project with a 500,000 TL investment cost and 70,000 TL in annual savings, could you rank the incentive mechanisms using a 25-year lifetime and a 16% discount rate?"
+    },
+    {
+      "id": "sta-05",
+      "stakeholder": "state",
+      "question_tr": "Ticari bir işletme için 25 kW panel + 20 kWh bataryalı sistemin maliyet ve tasarruf rakamlarını çıkar, ardından bu rakamlarla en avantajlı teşviki belirle.",
+      "expected_tools": [
+        "simulate_pv_bess",
+        "run_policy_scenario"
+      ],
+      "suggested_args": {
+        "city": "istanbul",
+        "panel_kw": 25,
+        "bess_kwh": 20,
+        "monthly_bill_tl": 18000,
+        "stakeholder_type": "commercial"
+      },
+      "chain_length": 2,
+      "scale_focus": "policy",
+      "numeric_focus": [
+        "npv_tl",
+        "system_cost_tl",
+        "annual_savings_tl",
+        "policy_npv_tl"
+      ],
+      "difficulty": "medium",
+      "suggested_args_per_step": [
+        {
+          "city": "istanbul",
+          "panel_kw": 25,
+          "bess_kwh": 20,
+          "monthly_bill_tl": 18000
+        },
+        {
+          "base_investment_tl": "$prev.system_cost_tl",
+          "annual_savings_tl": "$prev.annual_savings_tl",
+          "lifetime_years": 25
+        }
+      ],
+      "args_pinned": true,
+      "question_en": "For a commercial business, produce the cost and savings figures of a 25 kW panel + 20 kWh battery system, then use those figures to determine the most advantageous incentive."
+    },
+    {
+      "id": "sta-06",
+      "stakeholder": "state",
+      "question_tr": "Düşük iskonto oranının (örneğin %10) teşvik sıralamasını nasıl değiştirdiğini merak ediyorum, bakar mısın?",
+      "expected_tools": [
+        "run_policy_scenario"
+      ],
+      "suggested_args": {
+        "base_investment_tl": 300000,
+        "annual_savings_tl": 42000,
+        "lifetime_years": 20,
+        "discount_rate": 0.1
+      },
+      "chain_length": 1,
+      "scale_focus": "policy",
+      "numeric_focus": [
+        "policy_npv_tl",
+        "policy_payback_years"
+      ],
+      "difficulty": "medium",
+      "question_en": "I'm curious how a low discount rate (for example 10%) changes the incentive ranking — could you take a look?"
+    },
+    {
+      "id": "sta-07",
+      "stakeholder": "state",
+      "question_tr": "Bir OSB'deki (organize sanayi bölgesi) tüm işletmelerin çatısına GES koyması durumunda, tek bir işletme için hesapladığın NPV'yi kaç bin işletme varsa o kadar çarparak bölgenin toplam ekonomik faydasını ve bunun devlete maliyetini söyleyebilir misin?",
+      "expected_tools": [
+        "simulate_pv_bess",
+        "run_policy_scenario",
+        "simulate_grid_impact"
+      ],
+      "suggested_args": {
+        "city": "bursa",
+        "panel_kw": 30,
+        "bess_kwh": 15,
+        "annual_consumption_kwh": 60000,
+        "stakeholder_type": "commercial"
+      },
+      "chain_length": 3,
+      "scale_focus": "cross",
+      "numeric_focus": [
+        "npv_tl",
+        "government_cost_tl",
+        "hosting_capacity_pct"
+      ],
+      "difficulty": "hard",
+      "suggested_args_per_step": [
+        {
+          "city": "bursa",
+          "panel_kw": 30,
+          "bess_kwh": 15,
+          "annual_consumption_kwh": 60000
+        },
+        {
+          "base_investment_tl": "$prev.system_cost_tl",
+          "annual_savings_tl": "$prev.annual_savings_tl",
+          "lifetime_years": 25
+        },
+        {
+          "pv_penetration_pct": 40
+        }
+      ],
+      "args_pinned": false,
+      "question_en": "If every business in an Organized Industrial Zone (OSB) put PV on its roof, can you tell me the region's total economic benefit — by multiplying the NPV you calculate for a single business by however many thousand businesses there are — along with its cost to the government?"
+    },
+    {
+      "id": "sta-08",
+      "stakeholder": "state",
+      "question_tr": "Belediye binaları için 40 kW'lık bir GES yatırımının teşvik senaryolarını, 30 yıl ömür ve %12 iskonto varsayımıyla değerlendirir misin?",
+      "expected_tools": [
+        "run_policy_scenario"
+      ],
+      "suggested_args": {
+        "base_investment_tl": 900000,
+        "annual_savings_tl": 110000,
+        "lifetime_years": 30,
+        "discount_rate": 0.12
+      },
+      "chain_length": 1,
+      "scale_focus": "policy",
+      "numeric_focus": [
+        "policy_npv_tl",
+        "policy_payback_years",
+        "government_cost_tl"
+      ],
+      "difficulty": "medium",
+      "question_en": "Could you evaluate the incentive scenarios for a 40 kW PV investment for municipal buildings, assuming a 30-year lifetime and a 12% discount rate?"
+    },
+    {
+      "id": "sta-09",
+      "stakeholder": "state",
+      "question_tr": "Vergi indirimi mekanizması ile düşük faizli kredi desteğini karşılaştır, hangisi geri ödeme süresini daha çok kısaltıyor?",
+      "expected_tools": [
+        "run_policy_scenario"
+      ],
+      "suggested_args": {
+        "base_investment_tl": 250000,
+        "annual_savings_tl": 35000,
+        "lifetime_years": 20,
+        "discount_rate": 0.15
+      },
+      "chain_length": 1,
+      "scale_focus": "policy",
+      "numeric_focus": [
+        "policy_payback_years",
+        "policy_npv_tl"
+      ],
+      "difficulty": "easy",
+      "question_en": "Compare the tax-reduction mechanism with the low-interest loan support — which one shortens the payback period more?"
+    },
+    {
+      "id": "sta-10",
+      "stakeholder": "state",
+      "question_tr": "Bir mahalledeki her evin ortalama 6 kW'lık sistem kurduğunu, dolayısıyla mahallenin toplam trafo yüklenmesinin de tek bir evin sonuçlarıyla orantılı biçimde artacağını varsayarak devletin bu mahalle için ne kadar teşvik bütçesi ayırması gerektiğini hesaplar mısın?",
+      "expected_tools": [
+        "simulate_pv_bess",
+        "simulate_grid_impact",
+        "run_policy_scenario"
+      ],
+      "suggested_args": {
+        "city": "konya",
+        "panel_kw": 6,
+        "bess_kwh": 5,
+        "monthly_bill_tl": 1800,
+        "stakeholder_type": "residential"
+      },
+      "chain_length": 3,
+      "scale_focus": "cross",
+      "numeric_focus": [
+        "annual_savings_tl",
+        "line_loading_pct",
+        "government_cost_tl"
+      ],
+      "difficulty": "hard",
+      "suggested_args_per_step": [
+        {
+          "city": "konya",
+          "panel_kw": 6,
+          "bess_kwh": 5,
+          "monthly_bill_tl": 1800
+        },
+        {
+          "pv_penetration_pct": 40
+        },
+        {
+          "base_investment_tl": "$prev.system_cost_tl",
+          "annual_savings_tl": "$prev.annual_savings_tl",
+          "lifetime_years": 25
+        }
+      ],
+      "args_pinned": false,
+      "question_en": "Assuming that every home in a neighborhood installs an average 6 kW system — and therefore that the neighborhood's total transformer loading also rises in proportion to a single home's results — could you calculate how much incentive budget the government would need to allocate for this neighborhood?"
+    },
+    {
+      "id": "sta-11",
+      "stakeholder": "state",
+      "question_tr": "Net ölçüm (net metering) teşvikinin devlete yıllık maliyeti nedir, 200.000 TL'lik küçük ölçekli bir yatırım için?",
+      "expected_tools": [
+        "run_policy_scenario"
+      ],
+      "suggested_args": {
+        "base_investment_tl": 200000,
+        "annual_savings_tl": 28000,
+        "lifetime_years": 15,
+        "discount_rate": 0.15
+      },
+      "chain_length": 1,
+      "scale_focus": "policy",
+      "numeric_focus": [
+        "government_cost_tl",
+        "policy_npv_tl"
+      ],
+      "difficulty": "easy",
+      "question_en": "What is the annual cost to the government of the net metering incentive, for a small-scale 200,000 TL investment?"
+    },
+    {
+      "id": "sta-12",
+      "stakeholder": "state",
+      "question_tr": "İzmir'de bir işletme için önce 15 kW GES fizibilitesine bak, çıkan yatırım ve tasarruf rakamlarıyla hibe mi yoksa hızlandırılmış amortisman mı devlet açısından daha verimli, karşılaştır.",
+      "expected_tools": [
+        "simulate_pv_bess",
+        "run_policy_scenario"
+      ],
+      "suggested_args": {
+        "city": "izmir",
+        "panel_kw": 15,
+        "bess_kwh": 10,
+        "monthly_bill_tl": 9000,
+        "stakeholder_type": "commercial"
+      },
+      "chain_length": 2,
+      "scale_focus": "policy",
+      "numeric_focus": [
+        "npv_tl",
+        "system_cost_tl",
+        "government_cost_tl",
+        "policy_npv_tl"
+      ],
+      "difficulty": "medium",
+      "suggested_args_per_step": [
+        {
+          "city": "izmir",
+          "panel_kw": 15,
+          "bess_kwh": 10,
+          "monthly_bill_tl": 9000
+        },
+        {
+          "base_investment_tl": "$prev.system_cost_tl",
+          "annual_savings_tl": "$prev.annual_savings_tl",
+          "lifetime_years": 25
+        }
+      ],
+      "args_pinned": true,
+      "question_en": "For a business in İzmir, first look at the feasibility of a 15 kW PV system, and with the resulting investment and savings figures, compare whether a grant or accelerated depreciation is more efficient from the government's perspective."
+    },
+    {
+      "id": "res-13",
+      "stakeholder": "residential",
+      "question_tr": "Antalya'da 5 kW için önce bataryasız fizibilite yap, sonra 8 kWh LFP ile tekrarla, en sonunda bataryalı senaryonun NPV belirsizliğini Monte Carlo ile göster.",
+      "expected_tools": [
+        "simulate_pv_bess",
+        "simulate_pv_bess",
+        "run_monte_carlo"
+      ],
+      "suggested_args": {
+        "city": "antalya",
+        "panel_kw": 5,
+        "bess_kwh": 0,
+        "stakeholder_type": "residential"
+      },
+      "chain_length": 3,
+      "scale_focus": "building",
+      "numeric_focus": [
+        "npv_tl",
+        "self_consumption_ratio",
+        "npv percentiles"
+      ],
+      "difficulty": "hard",
+      "suggested_args_per_step": [
+        {
+          "city": "antalya",
+          "panel_kw": 5,
+          "bess_kwh": 0
+        },
+        {
+          "city": "antalya",
+          "panel_kw": 5,
+          "bess_kwh": 8,
+          "bess_chemistry": "LFP"
+        },
+        {
+          "city": "antalya",
+          "panel_kw": 5,
+          "bess_kwh": 8
+        }
+      ],
+      "args_pinned": true,
+      "question_en": "For 5 kW in Antalya, first run the feasibility without a battery, then repeat with an 8 kWh LFP battery, and finally show the NPV uncertainty of the battery scenario using Monte Carlo."
+    },
+    {
+      "id": "res-14",
+      "stakeholder": "residential",
+      "question_tr": "İstanbul'daki evim için 6 kW sistemin fizibilitesini çıkar; sonra aynı yatırım için teşvik mekanizmalarını karşılaştır; en iyi teşvikin NPV'sini bataryasız senaryoyla kıyasla.",
+      "expected_tools": [
+        "simulate_pv_bess",
+        "run_policy_scenario",
+        "simulate_pv_bess"
+      ],
+      "suggested_args": {
+        "city": "istanbul",
+        "panel_kw": 6,
+        "stakeholder_type": "residential"
+      },
+      "chain_length": 3,
+      "scale_focus": "building",
+      "numeric_focus": [
+        "npv_tl",
+        "policy npv",
+        "simple_payback_years"
+      ],
+      "difficulty": "hard",
+      "suggested_args_per_step": [
+        {
+          "city": "istanbul",
+          "panel_kw": 6
+        },
+        {
+          "base_investment_tl": "$prev.system_cost_tl",
+          "annual_savings_tl": "$prev.annual_savings_tl",
+          "lifetime_years": 25
+        },
+        {
+          "city": "istanbul",
+          "panel_kw": 6,
+          "bess_kwh": 0
+        }
+      ],
+      "args_pinned": true,
+      "question_en": "Produce the feasibility of a 6 kW system for my house in İstanbul; then compare the incentive mechanisms for the same investment; and compare the NPV of the best incentive against the no-battery scenario."
+    },
+    {
+      "id": "com-14",
+      "stakeholder": "commercial",
+      "question_tr": "Bursa'daki fabrikamız için 40 kW sistemi önce LFP sonra NMC bataryayla hesapla; kazanan kimyanın belirsizlik aralığını Monte Carlo ile raporla.",
+      "expected_tools": [
+        "simulate_pv_bess",
+        "simulate_pv_bess",
+        "run_monte_carlo"
+      ],
+      "suggested_args": {
+        "city": "bursa",
+        "panel_kw": 40,
+        "bess_kwh": 30,
+        "bess_chemistry": "LFP",
+        "stakeholder_type": "commercial"
+      },
+      "chain_length": 3,
+      "scale_focus": "building",
+      "numeric_focus": [
+        "irr_percent",
+        "npv_tl",
+        "npv percentiles"
+      ],
+      "difficulty": "hard",
+      "suggested_args_per_step": [
+        {
+          "city": "bursa",
+          "panel_kw": 40,
+          "bess_kwh": 30,
+          "bess_chemistry": "LFP"
+        },
+        {
+          "city": "bursa",
+          "panel_kw": 40,
+          "bess_kwh": 30,
+          "bess_chemistry": "NMC"
+        },
+        {
+          "city": "bursa",
+          "panel_kw": 40,
+          "bess_kwh": 30
+        }
+      ],
+      "args_pinned": false,
+      "question_en": "For our factory in Bursa, calculate a 40 kW system first with an LFP battery then with an NMC battery; report the uncertainty range of the winning chemistry using Monte Carlo."
+    },
+    {
+      "id": "com-15",
+      "stakeholder": "commercial",
+      "question_tr": "İzmir'de 30 kW'lık tesis kurulumunun fizibilitesini yap, bu yatırım için teşvik seçeneklerini karşılaştır, sonra en iyi teşvik altındaki geri ödemeyi teşviksiz durumla kıyasla.",
+      "expected_tools": [
+        "simulate_pv_bess",
+        "run_policy_scenario",
+        "simulate_pv_bess"
+      ],
+      "suggested_args": {
+        "city": "izmir",
+        "panel_kw": 30,
+        "stakeholder_type": "commercial"
+      },
+      "chain_length": 3,
+      "scale_focus": "building",
+      "numeric_focus": [
+        "simple_payback_years",
+        "policy payback",
+        "npv_tl"
+      ],
+      "difficulty": "hard",
+      "suggested_args_per_step": [
+        {
+          "city": "izmir",
+          "panel_kw": 30
+        },
+        {
+          "base_investment_tl": "$prev.system_cost_tl",
+          "annual_savings_tl": "$prev.annual_savings_tl",
+          "lifetime_years": 25
+        },
+        {
+          "city": "izmir",
+          "panel_kw": 30
+        }
+      ],
+      "args_pinned": false,
+      "question_en": "Run the feasibility of a 30 kW facility installation in İzmir, compare the incentive options for this investment, then compare the payback under the best incentive against the no-incentive case."
+    },
+    {
+      "id": "dis-14",
+      "stakeholder": "distribution",
+      "question_tr": "%20 PV penetrasyonu için şebeke etkisini hesapla, sonra %50 ile tekrarla, ardından %50+%20 BESS kombinasyonunun gerilim profilini ikisiyle karşılaştır.",
+      "expected_tools": [
+        "simulate_grid_impact",
+        "simulate_grid_impact",
+        "simulate_grid_impact"
+      ],
+      "suggested_args": {
+        "pv_penetration_pct": 20
+      },
+      "chain_length": 3,
+      "scale_focus": "feeder",
+      "numeric_focus": [
+        "max_voltage_pu",
+        "max_line_loading_pct",
+        "hosting_capacity_pct"
+      ],
+      "difficulty": "hard",
+      "suggested_args_per_step": [
+        {
+          "pv_penetration_pct": 20
+        },
+        {
+          "pv_penetration_pct": 50
+        },
+        {
+          "pv_penetration_pct": 50,
+          "bess_penetration_pct": 20
+        }
+      ],
+      "args_pinned": true,
+      "question_en": "Calculate the grid impact for 20% PV penetration, then repeat with 50%, then compare the voltage profile of the 50% + 20% BESS combination against the other two."
+    },
+    {
+      "id": "sta-13",
+      "stakeholder": "state",
+      "question_tr": "Tipik 10 kW konut sistemi için Ankara'da fizibilite çıkar; bu değerlerle 9 teşvik mekanizmasını karşılaştır; en verimli mekanizmanın devlet maliyetini en yüksek NPV'li mekanizmayla kıyasla.",
+      "expected_tools": [
+        "simulate_pv_bess",
+        "run_policy_scenario",
+        "run_policy_scenario"
+      ],
+      "suggested_args": {
+        "city": "ankara",
+        "panel_kw": 10,
+        "stakeholder_type": "residential"
+      },
+      "chain_length": 3,
+      "scale_focus": "policy",
+      "numeric_focus": [
+        "state_cost_tl",
+        "policy npv",
+        "leverage"
+      ],
+      "difficulty": "hard",
+      "suggested_args_per_step": [
+        {
+          "city": "ankara",
+          "panel_kw": 10
+        },
+        {
+          "base_investment_tl": "$prev.system_cost_tl",
+          "annual_savings_tl": "$prev.annual_savings_tl",
+          "lifetime_years": 25
+        },
+        {
+          "base_investment_tl": "$prev.system_cost_tl",
+          "annual_savings_tl": "$prev.annual_savings_tl",
+          "lifetime_years": 25
+        }
+      ],
+      "args_pinned": false,
+      "question_en": "Produce a feasibility for a typical 10 kW residential system in Ankara; with those values compare the 9 incentive mechanisms; then compare the government cost of the most efficient mechanism against the mechanism with the highest NPV."
+    }
+  ],
+  "rejected": [
+    {
+      "question_tr": "Bursa'da evim için 5 kW GES kurulumunun net bugünkü değerini hesapla ve sonucun ne kadar güvenilir olduğunu Monte Carlo simülasyonuyla teyit et.",
+      "reason": "DEDUP: residential 'feasibility + Monte Carlo confirmation' pattern is already covered by the accepted res-08 (İzmir 6kW+10kWh feasibility+MC, chain2). Near-identical structure/intent (single feasibility call followed by MC on the same system) with no new tool combination or numeric focus; dropped to keep residential at the 12-13 target band without redundant coverage."
+    },
+    {
+      "question_tr": "En yüksek IRR'yi sağlayan teşvik mekanizması hangisi, 600.000 TL yatırım ve yıllık 85.000 TL tasarruf senaryosunda?",
+      "reason": "NOT ANSWERABLE WITH DECLARED SCHEMA: run_policy_scenario's documented outputs are npv/payback/government cost per mechanism — it does not return irr_percent (IRR is only produced by simulate_pv_bess, which has no policy-mechanism breakdown). Asking for 'the mechanism with the highest IRR' cannot be satisfied by any available tool or tool combination as specified, so this is a hallucination trap rather than a legitimate benchmark item; rejected rather than silently reinterpreted as NPV."
+    }
+  ],
+  "per_step_author_notes": "29 patches for all chain_length>=2 questions. run_policy_scenario steps following feasibility reference $prev.system_cost_tl/$prev.annual_savings_tl; run_monte_carlo steps repeat identical city/panel_kw/bess_kwh/annual_consumption_kwh from the preceding feasibility step. args_pinned=false on 8 items: res-10/com-14 (winner chemistry ambiguous for downstream MC call), res-11/res-12/com-10/sta-07/sta-10 (cross-scale traps: grid_impact given representative pv_penetration_pct=40 placeholder), sta-01 (only panel_kw=10 textually pinned), sta-13 (second policy call likely redundant/trap step). stakeholder_type adımlardan sıyrıldı (koşucu ekler)."
+}

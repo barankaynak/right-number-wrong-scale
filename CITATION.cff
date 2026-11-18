@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this archive, please cite the article."
+title: "Right Number, Wrong Scale: code, data and traces"
+authors:
+  - family-names: Kaynak
+    given-names: Baran
+    affiliation: "Department of Information Systems Engineering, Sakarya University, Türkiye"
+    orcid: "https://orcid.org/0000-0002-9004-2639"
+license: MIT
+repository-code: "https://github.com/barankaynak/right-number-wrong-scale"
+preferred-citation:
+  type: article
+  title: "Right Number, Wrong Scale: Measuring Grounding Fidelity in LLM-Orchestrated Energy-Investment Decision Support from Buildings to Feeders"
+  authors:
+    - family-names: Kaynak
+      given-names: Baran
+      orcid: "https://orcid.org/0000-0002-9004-2639"
+  year: 2026

@@ -1,0 +1,27 @@
+{"ts": "2026-11-04T23:04:34+00:00", "event": "start", "conditions": [["gemma4:e4b", "tr"], ["qwen3.8:27b", "tr"], ["gemma4:e4b", "en"], ["qwen3.8:27b", "en"], ["mistral-small3.2:24b", "tr"], ["glm-4.7-flash:latest", "tr"], ["muse-glimmer:30b", "tr"]], "repeats": 3, "n_questions": 21}
+{"ts": "2026-11-04T23:04:35+00:00", "event": "condition_start", "model": "gemma4:e4b", "lang": "tr", "attempt": 1}
+{"ts": "2026-11-05T00:59:46+00:00", "event": "condition_done", "model": "gemma4:e4b", "lang": "tr", "file": "raw_mt_gemma4-e4b_20261104T230435Z.jsonl", "n": 189, "excluded": 0, "excl_rate": 0.0, "wall_h": 1.92}
+{"ts": "2026-11-05T00:59:46+00:00", "event": "condition_status", "model": "gemma4:e4b", "lang": "tr", "status": "complete"}
+{"ts": "2026-11-05T01:00:06+00:00", "event": "condition_start", "model": "qwen3.8:27b", "lang": "tr", "attempt": 1}
+{"ts": "2026-11-05T05:14:16+00:00", "event": "condition_done", "model": "qwen3.8:27b", "lang": "tr", "file": "raw_mt_qwen3.8-27b_20261105T010006Z.jsonl", "n": 189, "excluded": 3, "excl_rate": 0.0159, "wall_h": 4.24}
+{"ts": "2026-11-05T05:14:16+00:00", "event": "condition_status", "model": "qwen3.8:27b", "lang": "tr", "status": "complete"}
+{"ts": "2026-11-05T05:14:21+00:00", "event": "condition_start", "model": "gemma4:e4b", "lang": "en", "attempt": 1}
+{"ts": "2026-11-05T06:36:40+00:00", "event": "condition_done", "model": "gemma4:e4b", "lang": "en", "file": "raw_mt_gemma4-e4b_en_20261105T051421Z.jsonl", "n": 189, "excluded": 1, "excl_rate": 0.0053, "wall_h": 1.37}
+{"ts": "2026-11-05T06:36:40+00:00", "event": "condition_status", "model": "gemma4:e4b", "lang": "en", "status": "complete"}
+{"ts": "2026-11-05T06:36:50+00:00", "event": "condition_start", "model": "qwen3.8:27b", "lang": "en", "attempt": 1}
+{"ts": "2026-11-05T10:32:54+00:00", "event": "condition_done", "model": "qwen3.8:27b", "lang": "en", "file": "raw_mt_qwen3.8-27b_en_20261105T063650Z.jsonl", "n": 189, "excluded": 6, "excl_rate": 0.0317, "wall_h": 3.93}
+{"ts": "2026-11-05T10:32:54+00:00", "event": "condition_status", "model": "qwen3.8:27b", "lang": "en", "status": "complete"}
+{"ts": "2026-11-05T10:33:15+00:00", "event": "condition_start", "model": "mistral-small3.2:24b", "lang": "tr", "attempt": 1}
+{"ts": "2026-11-05T11:37:17+00:00", "event": "condition_done", "model": "mistral-small3.2:24b", "lang": "tr", "file": "raw_mt_mistral-small3.2-24b_20261105T103315Z.jsonl", "n": 189, "excluded": 5, "excl_rate": 0.0265, "wall_h": 1.07}
+{"ts": "2026-11-05T11:37:17+00:00", "event": "condition_status", "model": "mistral-small3.2:24b", "lang": "tr", "status": "complete"}
+{"ts": "2026-11-05T11:37:36+00:00", "event": "condition_start", "model": "glm-4.7-flash:latest", "lang": "tr", "attempt": 1}
+{"ts": "2026-11-05T14:30:53+00:00", "event": "condition_done", "model": "glm-4.7-flash:latest", "lang": "tr", "file": "raw_mt_glm-4.7-flash-latest_20261105T113736Z.jsonl", "n": 189, "excluded": 67, "excl_rate": 0.3545, "wall_h": 2.89}
+{"ts": "2026-11-05T14:30:53+00:00", "event": "archived", "file": "aborted_raw_mt_glm-4.7-flash-latest_20261105T113736Z.jsonl", "reason": "exclusion rate 0.354 > 0.1"}
+{"ts": "2026-11-05T14:30:54+00:00", "event": "condition_start", "model": "glm-4.7-flash:latest", "lang": "tr", "attempt": 2}
+{"ts": "2026-11-05T17:28:23+00:00", "event": "condition_done", "model": "glm-4.7-flash:latest", "lang": "tr", "file": "raw_mt_glm-4.7-flash-latest_20261105T143054Z.jsonl", "n": 189, "excluded": 60, "excl_rate": 0.3175, "wall_h": 2.96}
+{"ts": "2026-11-05T17:28:23+00:00", "event": "archived", "file": "aborted_raw_mt_glm-4.7-flash-latest_20261105T143054Z.jsonl", "reason": "exclusion rate 0.317 > 0.1"}
+{"ts": "2026-11-05T17:28:23+00:00", "event": "condition_status", "model": "glm-4.7-flash:latest", "lang": "tr", "status": "not run"}
+{"ts": "2026-11-05T17:28:43+00:00", "event": "condition_start", "model": "muse-glimmer:30b", "lang": "tr", "attempt": 1}
+{"ts": "2026-11-05T20:49:57+00:00", "event": "condition_done", "model": "muse-glimmer:30b", "lang": "tr", "file": "raw_mt_muse-glimmer-30b_20261105T172843Z.jsonl", "n": 189, "excluded": 0, "excl_rate": 0.0, "wall_h": 3.35}
+{"ts": "2026-11-05T20:49:57+00:00", "event": "condition_status", "model": "muse-glimmer:30b", "lang": "tr", "status": "complete"}
+{"ts": "2026-11-05T20:49:57+00:00", "event": "end"}

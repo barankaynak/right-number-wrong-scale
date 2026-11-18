@@ -1,0 +1,186 @@
+{
+ "oct_v42|raw_g1_gemma4-e4b_20261014T200243Z.jsonl|t1": {
+  "blocked": 154,
+  "summary_with_numbers": 8,
+  "empty_graph": 140,
+  "records_but_empty_summary": 6,
+  "records_but_empty_summary|last=simulate_grid_impact|failed=False": 4,
+  "records_but_empty_summary|last=run_policy_scenario|failed=False": 2
+ },
+ "oct_v42|raw_g1_gemma4-e4b_en_20261015T161107Z.jsonl|t1": {
+  "blocked": 140,
+  "empty_graph": 116,
+  "summary_with_numbers": 3,
+  "records_but_empty_summary": 21,
+  "records_but_empty_summary|last=run_monte_carlo|failed=False": 3,
+  "records_but_empty_summary|last=simulate_grid_impact|failed=False": 16,
+  "records_but_empty_summary|last=run_policy_scenario|failed=False": 1,
+  "records_but_empty_summary|last=run_policy_scenario|failed=True": 1
+ },
+ "oct_v42|raw_g1_mistral-small3.2-24b_20261016T015818Z.jsonl|t1": {
+  "blocked": 88,
+  "summary_with_numbers": 29,
+  "empty_graph": 40,
+  "records_but_empty_summary": 19,
+  "records_but_empty_summary|last=run_monte_carlo|failed=False": 4,
+  "records_but_empty_summary|last=simulate_grid_impact|failed=False": 10,
+  "records_but_empty_summary|last=configure_pv_system|failed=False": 1,
+  "records_but_empty_summary|last=run_policy_scenario|failed=False": 3,
+  "records_but_empty_summary|last=run_policy_scenario|failed=True": 1
+ },
+ "oct_v42|raw_g1_muse-glimmer-30b_20261016T121738Z.jsonl|t1": {
+  "blocked": 128,
+  "summary_with_numbers": 12,
+  "empty_graph": 85,
+  "records_but_empty_summary": 31,
+  "records_but_empty_summary|last=run_monte_carlo|failed=False": 3,
+  "records_but_empty_summary|last=simulate_grid_impact|failed=False": 28
+ },
+ "oct_v42|raw_g1_qwen3.8-27b_20261015T072421Z.jsonl|t1": {
+  "blocked": 142,
+  "summary_with_numbers": 35,
+  "records_but_empty_summary": 66,
+  "records_but_empty_summary|last=run_monte_carlo|failed=False": 11,
+  "records_but_empty_summary|last=run_policy_scenario|failed=True": 6,
+  "empty_graph": 41,
+  "records_but_empty_summary|last=simulate_grid_impact|failed=False": 44,
+  "records_but_empty_summary|last=run_bess_simulation|failed=False": 1,
+  "records_but_empty_summary|last=run_policy_scenario|failed=False": 4
+ },
+ "oct_v42|raw_g1_qwen3.8-27b_en_20261015T180819Z.jsonl|t1": {
+  "blocked": 136,
+  "summary_with_numbers": 33,
+  "records_but_empty_summary": 61,
+  "records_but_empty_summary|last=run_monte_carlo|failed=False": 10,
+  "records_but_empty_summary|last=run_policy_scenario|failed=True": 2,
+  "empty_graph": 42,
+  "records_but_empty_summary|last=simulate_grid_impact|failed=False": 45,
+  "records_but_empty_summary|last=run_policy_scenario|failed=False": 4
+ },
+ "oct_v42_mt|raw_mt_gemma4-e4b_20261104T230435Z.jsonl|t1": {
+  "blocked": 57,
+  "empty_graph": 57
+ },
+ "oct_v42_mt|raw_mt_gemma4-e4b_20261104T230435Z.jsonl|t2": {
+  "blocked": 47,
+  "records_but_empty_summary": 19,
+  "records_but_empty_summary|last=simulate_grid_impact|failed=False": 13,
+  "empty_graph": 27,
+  "records_but_empty_summary|last=run_policy_scenario|failed=True": 5,
+  "records_but_empty_summary|last=run_policy_scenario|failed=False": 1,
+  "summary_with_numbers": 1
+ },
+ "oct_v42_mt|raw_mt_gemma4-e4b_en_20261105T051421Z.jsonl|t1": {
+  "blocked": 62,
+  "empty_graph": 61,
+  "records_but_empty_summary": 1,
+  "records_but_empty_summary|last=simulate_grid_impact|failed=False": 1
+ },
+ "oct_v42_mt|raw_mt_gemma4-e4b_en_20261105T051421Z.jsonl|t2": {
+  "blocked": 39,
+  "empty_graph": 20,
+  "summary_with_numbers": 2,
+  "records_but_empty_summary": 17,
+  "records_but_empty_summary|last=simulate_grid_impact|failed=False": 11,
+  "records_but_empty_summary|last=run_policy_scenario|failed=True": 5,
+  "records_but_empty_summary|no_call_this_unit": 1
+ },
+ "oct_v42_mt|raw_mt_mistral-small3.2-24b_20261105T103315Z.jsonl|t1": {
+  "blocked": 22,
+  "empty_graph": 19,
+  "summary_with_numbers": 2,
+  "records_but_empty_summary": 1,
+  "records_but_empty_summary|last=simulate_grid_impact|failed=False": 1
+ },
+ "oct_v42_mt|raw_mt_mistral-small3.2-24b_20261105T103315Z.jsonl|t2": {
+  "blocked": 33,
+  "empty_graph": 12,
+  "records_but_empty_summary": 19,
+  "records_but_empty_summary|last=simulate_grid_impact|failed=False": 9,
+  "summary_with_numbers": 2,
+  "records_but_empty_summary|last=run_policy_scenario|failed=True": 1,
+  "records_but_empty_summary|last=run_policy_scenario|failed=False": 7,
+  "records_but_empty_summary|no_call_this_unit": 2
+ },
+ "oct_v42_mt|raw_mt_muse-glimmer-30b_20261105T172843Z.jsonl|t1": {
+  "blocked": 51,
+  "empty_graph": 44,
+  "records_but_empty_summary": 7,
+  "records_but_empty_summary|last=simulate_grid_impact|failed=False": 7
+ },
+ "oct_v42_mt|raw_mt_muse-glimmer-30b_20261105T172843Z.jsonl|t2": {
+  "blocked": 49,
+  "summary_with_numbers": 7,
+  "records_but_empty_summary": 21,
+  "records_but_empty_summary|last=simulate_grid_impact|failed=False": 19,
+  "empty_graph": 21,
+  "records_but_empty_summary|last=run_policy_scenario|failed=False": 1,
+  "records_but_empty_summary|last=run_policy_scenario|failed=True": 1
+ },
+ "oct_v42_mt|raw_mt_qwen3.8-27b_20261105T010006Z.jsonl|t1": {
+  "blocked": 58,
+  "summary_with_numbers": 6,
+  "empty_graph": 31,
+  "records_but_empty_summary": 21,
+  "records_but_empty_summary|last=simulate_grid_impact|failed=False": 20,
+  "records_but_empty_summary|last=run_policy_scenario|failed=False": 1
+ },
+ "oct_v42_mt|raw_mt_qwen3.8-27b_20261105T010006Z.jsonl|t2": {
+  "blocked": 48,
+  "records_but_empty_summary": 40,
+  "records_but_empty_summary|last=simulate_grid_impact|failed=False": 15,
+  "records_but_empty_summary|no_call_this_unit": 13,
+  "empty_graph": 5,
+  "records_but_empty_summary|last=run_policy_scenario|failed=True": 8,
+  "records_but_empty_summary|last=run_monte_carlo|failed=False": 1,
+  "summary_with_numbers": 3,
+  "records_but_empty_summary|last=run_policy_scenario|failed=False": 3
+ },
+ "oct_v42_mt|raw_mt_qwen3.8-27b_en_20261105T063650Z.jsonl|t1": {
+  "blocked": 61,
+  "empty_graph": 36,
+  "records_but_empty_summary": 21,
+  "records_but_empty_summary|last=simulate_grid_impact|failed=False": 19,
+  "records_but_empty_summary|last=run_policy_scenario|failed=True": 2,
+  "summary_with_numbers": 4
+ },
+ "oct_v42_mt|raw_mt_qwen3.8-27b_en_20261105T063650Z.jsonl|t2": {
+  "blocked": 49,
+  "empty_graph": 5,
+  "records_but_empty_summary": 41,
+  "records_but_empty_summary|last=simulate_grid_impact|failed=False": 16,
+  "records_but_empty_summary|no_call_this_unit": 11,
+  "records_but_empty_summary|last=run_policy_scenario|failed=True": 7,
+  "records_but_empty_summary|last=run_policy_scenario|failed=False": 6,
+  "summary_with_numbers": 3,
+  "records_but_empty_summary|last=run_monte_carlo|failed=False": 1
+ },
+ "oct_v42_evren|raw_g1_deepseek-v4.1-flash_20261106T091533Z.jsonl|t1": {
+  "blocked": 129,
+  "summary_with_numbers": 19,
+  "empty_graph": 31,
+  "records_but_empty_summary": 79,
+  "records_but_empty_summary|last=run_monte_carlo|failed=False": 11,
+  "records_but_empty_summary|last=simulate_grid_impact|failed=False": 50,
+  "records_but_empty_summary|last=run_policy_scenario|failed=True": 15,
+  "records_but_empty_summary|last=run_policy_scenario|failed=False": 3
+ },
+ "oct_v42_evren|raw_mt_deepseek-v4.1-flash_20261107T044521Z.jsonl|t1": {
+  "blocked": 60,
+  "records_but_empty_summary": 32,
+  "records_but_empty_summary|last=simulate_grid_impact|failed=False": 27,
+  "empty_graph": 26,
+  "records_but_empty_summary|last=run_policy_scenario|failed=False": 2,
+  "summary_with_numbers": 2,
+  "records_but_empty_summary|last=run_policy_scenario|failed=True": 3
+ },
+ "oct_v42_evren|raw_mt_deepseek-v4.1-flash_20261107T044521Z.jsonl|t2": {
+  "blocked": 48,
+  "records_but_empty_summary": 44,
+  "records_but_empty_summary|no_call_this_unit": 13,
+  "records_but_empty_summary|last=simulate_grid_impact|failed=False": 15,
+  "records_but_empty_summary|last=run_policy_scenario|failed=False": 13,
+  "summary_with_numbers": 4,
+  "records_but_empty_summary|last=run_policy_scenario|failed=True": 3
+ }
+}

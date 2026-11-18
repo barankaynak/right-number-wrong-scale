@@ -1,0 +1,253 @@
+{
+ "coverage_grounded_guard": {
+  "tr|gemma4:e4b": {
+   "n": 168,
+   "evaluated": 34,
+   "blocked": 18,
+   "retried": 21,
+   "not_evaluated": 134,
+   "not_eval_ref_scored": 129,
+   "not_eval_ref_unverifiable": 94,
+   "not_eval_empty_graph_scored": 124,
+   "evaluated_share": 0.20238095238095238,
+   "blocked_share_all": 0.10714285714285714,
+   "blocked_share_evaluated": 0.5294117647058824
+  },
+  "tr|qwen3.5:27b": {
+   "n": 168,
+   "evaluated": 108,
+   "blocked": 88,
+   "retried": 101,
+   "not_evaluated": 60,
+   "not_eval_ref_scored": 59,
+   "not_eval_ref_unverifiable": 48,
+   "not_eval_empty_graph_scored": 57,
+   "evaluated_share": 0.6428571428571429,
+   "blocked_share_all": 0.5238095238095238,
+   "blocked_share_evaluated": 0.8148148148148148
+  },
+  "tr|mistral-small3.2:24b": {
+   "n": 166,
+   "evaluated": 72,
+   "blocked": 52,
+   "retried": 53,
+   "not_evaluated": 94,
+   "not_eval_ref_scored": 51,
+   "not_eval_ref_unverifiable": 26,
+   "not_eval_empty_graph_scored": 40,
+   "evaluated_share": 0.43373493975903615,
+   "blocked_share_all": 0.3132530120481928,
+   "blocked_share_evaluated": 0.7222222222222222
+  },
+  "en|gemma4:e4b": {
+   "n": 168,
+   "evaluated": 48,
+   "blocked": 22,
+   "retried": 27,
+   "not_evaluated": 120,
+   "not_eval_ref_scored": 116,
+   "not_eval_ref_unverifiable": 75,
+   "not_eval_empty_graph_scored": 112,
+   "evaluated_share": 0.2857142857142857,
+   "blocked_share_all": 0.13095238095238096,
+   "blocked_share_evaluated": 0.4583333333333333
+  },
+  "en|qwen3.5:27b": {
+   "n": 168,
+   "evaluated": 96,
+   "blocked": 75,
+   "retried": 82,
+   "not_evaluated": 72,
+   "not_eval_ref_scored": 72,
+   "not_eval_ref_unverifiable": 67,
+   "not_eval_empty_graph_scored": 71,
+   "evaluated_share": 0.5714285714285714,
+   "blocked_share_all": 0.44642857142857145,
+   "blocked_share_evaluated": 0.78125
+  }
+ },
+ "trap_tool_use": {
+  "tr|gemma4:e4b|grounded_guard": {
+   "n": 21,
+   "called_tool": 0
+  },
+  "tr|gemma4:e4b|grounded_noguard": {
+   "n": 21,
+   "called_tool": 0
+  },
+  "tr|gemma4:e4b|ungrounded": {
+   "n": 21,
+   "called_tool": 0
+  },
+  "tr|qwen3.5:27b|grounded_guard": {
+   "n": 21,
+   "called_tool": 2
+  },
+  "tr|qwen3.5:27b|grounded_noguard": {
+   "n": 21,
+   "called_tool": 2
+  },
+  "tr|qwen3.5:27b|ungrounded": {
+   "n": 18,
+   "called_tool": 0
+  },
+  "tr|mistral-small3.2:24b|grounded_guard": {
+   "n": 20,
+   "called_tool": 0
+  },
+  "tr|mistral-small3.2:24b|grounded_noguard": {
+   "n": 20,
+   "called_tool": 0
+  },
+  "tr|mistral-small3.2:24b|ungrounded": {
+   "n": 21,
+   "called_tool": 0
+  },
+  "en|gemma4:e4b|grounded_guard": {
+   "n": 21,
+   "called_tool": 0
+  },
+  "en|gemma4:e4b|grounded_noguard": {
+   "n": 21,
+   "called_tool": 0
+  },
+  "en|gemma4:e4b|ungrounded": {
+   "n": 21,
+   "called_tool": 0
+  },
+  "en|qwen3.5:27b|grounded_guard": {
+   "n": 21,
+   "called_tool": 0
+  },
+  "en|qwen3.5:27b|grounded_noguard": {
+   "n": 21,
+   "called_tool": 0
+  },
+  "en|qwen3.5:27b|ungrounded": {
+   "n": 19,
+   "called_tool": 0
+  }
+ },
+ "trap_sv_decomposition": {
+  "grounded_guard": {
+   "a_input_echo": 27,
+   "b_small_integer": 28,
+   "c_other": 3
+  },
+  "all": {
+   "a_input_echo": 80,
+   "b_small_integer": 70,
+   "c_other": 7
+  },
+  "grounded_noguard": {
+   "a_input_echo": 27,
+   "b_small_integer": 28,
+   "c_other": 3
+  },
+  "ungrounded": {
+   "b_small_integer": 14,
+   "a_input_echo": 26,
+   "c_other": 1
+  }
+ },
+ "trap_sv_other": [
+  {
+   "lang": "tr",
+   "model": "qwen3.5:27b",
+   "arm": "grounded_guard",
+   "qid": "com-10",
+   "claim": "%50",
+   "value": 0.5,
+   "matched_key": "assumptions.electricity_sell_price_tl_per_kwh",
+   "record_scale": "building",
+   "claimed_scales": [
+    "feeder"
+   ],
+   "sentence": "%50'den fazla penetrasyonda etkiler katlanarak büyür."
+  },
+  {
+   "lang": "tr",
+   "model": "qwen3.5:27b",
+   "arm": "grounded_noguard",
+   "qid": "com-10",
+   "claim": "%50",
+   "value": 0.5,
+   "matched_key": "assumptions.electricity_sell_price_tl_per_kwh",
+   "record_scale": "building",
+   "claimed_scales": [
+    "feeder"
+   ],
+   "sentence": "%50'den fazla penetrasyonda etkiler katlanarak büyür."
+  },
+  {
+   "lang": "tr",
+   "model": "qwen3.5:27b",
+   "arm": "ungrounded",
+   "qid": "sta-10",
+   "claim": "%50",
+   "value": 0.5,
+   "matched_key": "assumptions.electricity_sell_price_tl_per_kwh",
+   "record_scale": "building",
+   "claimed_scales": [
+    "feeder"
+   ],
+   "sentence": "Yoksa farklı GES penetrasyon senaryolarının (örneğin %30, %50) voltaj ve yük etkilerini mi görmek istiyorsunuz?"
+  },
+  {
+   "lang": "en",
+   "model": "qwen3.5:27b",
+   "arm": "grounded_guard",
+   "qid": "res-12",
+   "claim": "50%",
+   "value": 0.5,
+   "matched_key": "assumptions.electricity_sell_price_tl_per_kwh",
+   "record_scale": "building",
+   "claimed_scales": [
+    "feeder"
+   ],
+   "sentence": "**Analyze grid impact scenarios** at different penetration levels (e.g., 30%, 50%, 70% of neighborhood installing PV)?"
+  },
+  {
+   "lang": "en",
+   "model": "qwen3.5:27b",
+   "arm": "grounded_guard",
+   "qid": "com-10",
+   "claim": "50%",
+   "value": 0.5,
+   "matched_key": "assumptions.electricity_sell_price_tl_per_kwh",
+   "record_scale": "building",
+   "claimed_scales": [
+    "feeder"
+   ],
+   "sentence": "**Would you like to see a sensitivity analysis** showing grid impacts at different penetration levels (e.g., 10%, 25%, 50% of factories installing)?"
+  },
+  {
+   "lang": "en",
+   "model": "qwen3.5:27b",
+   "arm": "grounded_noguard",
+   "qid": "res-12",
+   "claim": "50%",
+   "value": 0.5,
+   "matched_key": "assumptions.electricity_sell_price_tl_per_kwh",
+   "record_scale": "building",
+   "claimed_scales": [
+    "feeder"
+   ],
+   "sentence": "**Analyze grid impact scenarios** at different penetration levels (e.g., 30%, 50%, 70% of neighborhood installing PV)?"
+  },
+  {
+   "lang": "en",
+   "model": "qwen3.5:27b",
+   "arm": "grounded_noguard",
+   "qid": "com-10",
+   "claim": "50%",
+   "value": 0.5,
+   "matched_key": "assumptions.electricity_sell_price_tl_per_kwh",
+   "record_scale": "building",
+   "claimed_scales": [
+    "feeder"
+   ],
+   "sentence": "**Would you like to see a sensitivity analysis** showing grid impacts at different penetration levels (e.g., 10%, 25%, 50% of factories installing)?"
+  }
+ ]
+}

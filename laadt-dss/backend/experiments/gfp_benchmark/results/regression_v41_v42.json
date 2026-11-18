@@ -1,0 +1,8 @@
+{
+ "v41_sha256": "d7644303ad94f6aba4dac4116db20eb2bebddebabb4bc0a3b62146804ce1f233",
+ "v42_sha256": "a050b46ab5d8fa392215a1df47162c311daae95118d2bfa311d31e84a729f7c2",
+ "texts_compared": 3889,
+ "claims_compared": 54769,
+ "n_diffs": 0,
+ "diffs": []
+}

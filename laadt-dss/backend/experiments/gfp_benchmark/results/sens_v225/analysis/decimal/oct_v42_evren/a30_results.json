@@ -1,0 +1,447 @@
+{
+ "models": [
+  "deepseek-v4.1-flash"
+ ],
+ "lang": "tr",
+ "gfs": {
+  "deepseek-v4.1-flash": {
+   "file": "raw_g1_deepseek-v4.1-flash_20261106T091533Z.jsonl",
+   "model": "deepseek-v4.1-flash",
+   "exclusions": {
+    "fallback": 1,
+    "error": 0,
+    "ref_invalid": 0,
+    "no_claims_ref": 127,
+    "no_claims_inrun": 321,
+    "total": 504
+   },
+   "exclusion_rate": 0.002,
+   "exclusion_rate_over_10pct_INVALID": false,
+   "within_repeat_variance": {
+    "ref_gfs": {
+     "n_cells_multi_repeat": 125,
+     "mean_cell_std": 0.0827,
+     "median_cell_std": 0.0599,
+     "max_cell_std": 0.4038,
+     "frac_cells_std_zero": 0.08
+    },
+    "inrun_gfs": {
+     "n_cells_multi_repeat": 61,
+     "mean_cell_std": 0.0412,
+     "median_cell_std": 0.0186,
+     "max_cell_std": 0.4423,
+     "frac_cells_std_zero": 0.262
+    }
+   },
+   "G1_reference_gfs": {
+    "H_G1a": {
+     "pair": "grounded_guard vs ungrounded",
+     "gfs_mean": {
+      "grounded_guard": 0.8583436724886478,
+      "ungrounded": 0.5449148719045197
+     },
+     "wilcoxon": {
+      "n": 21,
+      "stat": 10.0,
+      "p": 4.100799560546875e-05,
+      "p_holm": 8.20159912109375e-05
+     },
+     "mcnemar_clean": {
+      "discordant": 11,
+      "a_only": 11,
+      "b_only": 0,
+      "p": 0.0009765625
+     },
+     "bootstrap": {
+      "mean_diff": 0.3134288005841282,
+      "ci95": [
+       0.20607255737828434,
+       0.4117924171726921
+      ]
+     },
+     "achieved_n": 21
+    },
+    "H_G1b": {
+     "pair": "grounded_guard vs grounded_noguard",
+     "gfs_mean": {
+      "grounded_guard": 0.8583436724886478,
+      "grounded_noguard": 0.7695065647579563
+     },
+     "wilcoxon": {
+      "n": 21,
+      "stat": 45.0,
+      "p": 0.012691497802734375,
+      "p_holm": 0.012691497802734375
+     },
+     "mcnemar_clean": {
+      "discordant": 11,
+      "a_only": 11,
+      "b_only": 0,
+      "p": 0.0009765625
+     },
+     "bootstrap": {
+      "mean_diff": 0.0888371077306915,
+      "ci95": [
+       0.02404362300393638,
+       0.15156280115851317
+      ]
+     },
+     "achieved_n": 21
+    },
+    "H_G1a_aux": {
+     "pair": "grounded_noguard vs ungrounded",
+     "gfs_mean": {
+      "grounded_noguard": 0.7230329226645443,
+      "ungrounded": 0.4870901029088478
+     },
+     "wilcoxon": {
+      "n": 56,
+      "stat": 125.0,
+      "p": 4.025763647144099e-08,
+      "p_holm": 1.2077290941432297e-07
+     },
+     "mcnemar_clean": {
+      "discordant": 0,
+      "a_only": 0,
+      "b_only": 0,
+      "p": 1.0
+     },
+     "bootstrap": {
+      "mean_diff": 0.23594281975569645,
+      "ci95": [
+       0.17539083976283906,
+       0.2952731735860342
+      ]
+     },
+     "achieved_n": 56
+    }
+   },
+   "G1_reference_gfs_sensitivity": {
+    "withheld_as_0": {
+     "H_G1a": {
+      "gfs_mean": {
+       "grounded_guard": 0.2672445234417463,
+       "ungrounded": 0.4870901029088478
+      },
+      "achieved_n": 56,
+      "wilcoxon": {
+       "n": 56,
+       "stat": 343.0,
+       "p": 0.00020604374330102698,
+       "p_holm": 0.00020604374330102698
+      },
+      "mcnemar_clean": {
+       "discordant": 9,
+       "a_only": 9,
+       "b_only": 0,
+       "p": 0.00390625
+      },
+      "bootstrap": {
+       "mean_diff": -0.21984557946710148,
+       "ci95": [
+        -0.3221627806622252,
+        -0.11458027839047216
+       ]
+      }
+     },
+     "H_G1b": {
+      "gfs_mean": {
+       "grounded_guard": 0.2672445234417463,
+       "grounded_noguard": 0.7230329226645443
+      },
+      "achieved_n": 56,
+      "wilcoxon": {
+       "n": 56,
+       "stat": 103.0,
+       "p": 1.4348785450968169e-08,
+       "p_holm": 4.3046356352904506e-08
+      },
+      "mcnemar_clean": {
+       "discordant": 9,
+       "a_only": 9,
+       "b_only": 0,
+       "p": 0.00390625
+      },
+      "bootstrap": {
+       "mean_diff": -0.4557883992227979,
+       "ci95": [
+        -0.554483438647335,
+        -0.356659605614065
+       ]
+      }
+     },
+     "H_G1a_aux": {
+      "gfs_mean": {
+       "grounded_noguard": 0.7230329226645443,
+       "ungrounded": 0.4870901029088478
+      },
+      "achieved_n": 56,
+      "wilcoxon": {
+       "n": 56,
+       "stat": 125.0,
+       "p": 4.025763647144099e-08,
+       "p_holm": 8.051527294288198e-08
+      },
+      "mcnemar_clean": {
+       "discordant": 0,
+       "a_only": 0,
+       "b_only": 0,
+       "p": 1.0
+      },
+      "bootstrap": {
+       "mean_diff": 0.23594281975569645,
+       "ci95": [
+        0.17539083976283906,
+        0.2952731735860342
+       ]
+      }
+     }
+    },
+    "withheld_as_1": {
+     "H_G1a": {
+      "gfs_mean": {
+       "grounded_guard": 0.9636730948703178,
+       "ungrounded": 0.4870901029088478
+      },
+      "achieved_n": 56,
+      "wilcoxon": {
+       "n": 56,
+       "stat": 7.0,
+       "p": 1.101793134173463e-10,
+       "p_holm": 3.305379402520389e-10
+      },
+      "mcnemar_clean": {
+       "discordant": 46,
+       "a_only": 46,
+       "b_only": 0,
+       "p": 2.842170943040401e-14
+      },
+      "bootstrap": {
+       "mean_diff": 0.47658299196146997,
+       "ci95": [
+        0.41862540760313505,
+        0.5335228893376345
+       ]
+      }
+     },
+     "H_G1b": {
+      "gfs_mean": {
+       "grounded_guard": 0.9636730948703178,
+       "grounded_noguard": 0.7230329226645443
+      },
+      "achieved_n": 56,
+      "wilcoxon": {
+       "n": 56,
+       "stat": 28.0,
+       "p": 3.3649950664506857e-10,
+       "p_holm": 6.729990132901371e-10
+      },
+      "mcnemar_clean": {
+       "discordant": 46,
+       "a_only": 46,
+       "b_only": 0,
+       "p": 2.842170943040401e-14
+      },
+      "bootstrap": {
+       "mean_diff": 0.24064017220577355,
+       "ci95": [
+        0.19205047352018456,
+        0.292213129117383
+       ]
+      }
+     },
+     "H_G1a_aux": {
+      "gfs_mean": {
+       "grounded_noguard": 0.7230329226645443,
+       "ungrounded": 0.4870901029088478
+      },
+      "achieved_n": 56,
+      "wilcoxon": {
+       "n": 56,
+       "stat": 125.0,
+       "p": 4.025763647144099e-08,
+       "p_holm": 4.025763647144099e-08
+      },
+      "mcnemar_clean": {
+       "discordant": 0,
+       "a_only": 0,
+       "b_only": 0,
+       "p": 1.0
+      },
+      "bootstrap": {
+       "mean_diff": 0.23594281975569645,
+       "ci95": [
+        0.17539083976283906,
+        0.2952731735860342
+       ]
+      }
+     }
+    }
+   },
+   "withheld": {
+    "n_guard_responses": 167,
+    "n_withheld": 110,
+    "withheld_rate": 0.6587,
+    "clean_in_noguard_withheld_in_guard": {
+     "any_repeat": {
+      "n_questions": 0,
+      "share_of_questions": 0.0
+     },
+     "all_repeats": {
+      "n_questions": 0,
+      "share_of_questions": 0.0
+     }
+    }
+   },
+   "G1b_pre_intervention": {
+    "gfs_mean": {
+     "grounded_guard": 0.8451807755093833,
+     "grounded_noguard": 0.8266465222280901
+    },
+    "wilcoxon": {
+     "n": 51,
+     "stat": 608.0,
+     "p": 0.6061752519894534
+    },
+    "note": "fark ≈0 beklenir → kazanım müdahaleden (dürüst ayrıştırma)"
+   },
+   "G2_inrun_primary": {
+    "analysis_unit": "question (cell-mean over repeats)",
+    "group_means": {
+     "chain1": 0.8224,
+     "chain2": 0.8418,
+     "chain3": 0.8182
+    },
+    "group_n": {
+     "chain1": 25,
+     "chain2": 18,
+     "chain3": 9
+    },
+    "kruskal": {
+     "H": 1.4294592440801428,
+     "p": 0.48932439644415304
+    },
+    "dunn": {
+     "pairwise_p": {
+      "chain1-vs-chain2": 0.23302656096737762,
+      "chain1-vs-chain3": 0.63348916625276,
+      "chain2-vs-chain3": 0.6534343865658561
+     },
+     "pairwise_p_holm": {
+      "chain1-vs-chain2": 0.6990796829021328,
+      "chain1-vs-chain3": 1.0,
+      "chain2-vs-chain3": 1.0
+     }
+    },
+    "spearman": {
+     "rho": -0.12538592483533828,
+     "p": 0.3757825546740562
+    },
+    "claim_count_covariate_note": "chain≥2 sorular doğal olarak daha çok iddia içerir (prereg §6.3)"
+   },
+   "G2_reference_secondary": {
+    "analysis_unit": "question (cell-mean over repeats)",
+    "group_means": {
+     "chain1": 0.7299,
+     "chain2": 0.6979,
+     "chain3": 0.7523
+    },
+    "group_n": {
+     "chain1": 27,
+     "chain2": 19,
+     "chain3": 10
+    },
+    "kruskal": {
+     "H": 0.6438926263025735,
+     "p": 0.7247370981364193
+    },
+    "dunn": {
+     "pairwise_p": {
+      "chain1-vs-chain2": 0.5374549928013324,
+      "chain1-vs-chain3": 0.781095955264659,
+      "chain2-vs-chain3": 0.4617479500908954
+     },
+     "pairwise_p_holm": {
+      "chain2-vs-chain3": 1.0,
+      "chain1-vs-chain2": 1.0,
+      "chain1-vs-chain3": 1.0
+     }
+    },
+    "spearman": {
+     "rho": -0.007479888387921794,
+     "p": 0.9563674089225114
+    }
+   },
+   "guard_side_metrics": {
+    "n": 167,
+    "blocked_rate": 0.7725,
+    "retried_rate": 0.9162,
+    "ambiguous_per_response": 1.078,
+    "evaluated_rate": 1.0,
+    "toolless_rate": 0.1856,
+    "blocked_rate_toolless": 1.0,
+    "blocked_rate_tool": 0.7206,
+    "withheld_no_claims_rate": 0.7126
+   }
+  }
+ },
+ "secondary_ok": [
+  "rescore",
+  "paths",
+  "trap",
+  "reach30"
+ ],
+ "mt": "mt_results.json",
+ "determinism": {
+  "deepseek-v4.1-flash": {
+   "n": 5,
+   "reply_identical": 0,
+   "cells": [
+    {
+     "qid": "res-01",
+     "reply_identical": false,
+     "ref_gfs_det": 0.9629629629629629,
+     "ref_gfs_main": 0.96875
+    },
+    {
+     "qid": "res-11",
+     "reply_identical": false,
+     "ref_gfs_det": 0.3888888888888889,
+     "ref_gfs_main": 0.6486486486486487
+    },
+    {
+     "qid": "com-01",
+     "reply_identical": false,
+     "ref_gfs_det": 0.8787878787878788,
+     "ref_gfs_main": 0.9285714285714286
+    },
+    {
+     "qid": "dis-01",
+     "reply_identical": false,
+     "ref_gfs_det": 0.8,
+     "ref_gfs_main": 0.8
+    },
+    {
+     "qid": "sta-01",
+     "reply_identical": false,
+     "ref_gfs_det": 0.6923076923076923,
+     "ref_gfs_main": 0.5454545454545454
+    }
+   ]
+  }
+ },
+ "telemetry": {
+  "calls": 1949,
+  "capacity_wait_events": 29,
+  "served_models": {
+   "deepseek/deepseek-v4.1-flash": 1949
+  },
+  "finish_reason": {
+   "tool_calls": 826,
+   "stop": 1123
+  },
+  "prompt_tokens": 6915062,
+  "completion_tokens": 1731925,
+  "had_reasoning": 1945
+ }
+}

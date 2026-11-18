@@ -1,0 +1,62 @@
+{
+ "0.0": {
+  "n_flags": 72,
+  "categories": {
+   "value_matches_reference_FP": 0,
+   "percentile_or_pct_label": 1,
+   "small_int_context": 23,
+   "unresolved_by_value_matching": 48
+  },
+  "category_pct": {
+   "value_matches_reference_FP": 0.0,
+   "percentile_or_pct_label": 1.4,
+   "small_int_context": 31.9,
+   "unresolved_by_value_matching": 66.7
+  }
+ },
+ "0.01": {
+  "n_flags": 41,
+  "categories": {
+   "value_matches_reference_FP": 2,
+   "percentile_or_pct_label": 1,
+   "small_int_context": 23,
+   "unresolved_by_value_matching": 15
+  },
+  "category_pct": {
+   "value_matches_reference_FP": 4.9,
+   "percentile_or_pct_label": 2.4,
+   "small_int_context": 56.1,
+   "unresolved_by_value_matching": 36.6
+  }
+ },
+ "0.02": {
+  "n_flags": 41,
+  "categories": {
+   "value_matches_reference_FP": 2,
+   "percentile_or_pct_label": 1,
+   "small_int_context": 23,
+   "unresolved_by_value_matching": 15
+  },
+  "category_pct": {
+   "value_matches_reference_FP": 4.9,
+   "percentile_or_pct_label": 2.4,
+   "small_int_context": 56.1,
+   "unresolved_by_value_matching": 36.6
+  }
+ },
+ "0.05": {
+  "n_flags": 34,
+  "categories": {
+   "value_matches_reference_FP": 3,
+   "percentile_or_pct_label": 1,
+   "small_int_context": 17,
+   "unresolved_by_value_matching": 13
+  },
+  "category_pct": {
+   "value_matches_reference_FP": 8.8,
+   "percentile_or_pct_label": 2.9,
+   "small_int_context": 50.0,
+   "unresolved_by_value_matching": 38.2
+  }
+ }
+}

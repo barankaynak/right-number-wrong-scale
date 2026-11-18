@@ -1,0 +1,92 @@
+{
+  "n_blocked_responses": 296,
+  "n_blocked_analysed_with_inrun_graph": 115,
+  "n_flags": 865,
+  "categories": {
+    "value_matches_reference_FP": 128,
+    "percentile_or_pct_label": 60,
+    "small_int_context": 276,
+    "unresolved_by_value_matching": 401
+  },
+  "category_pct": {
+    "value_matches_reference_FP": 14.8,
+    "percentile_or_pct_label": 6.9,
+    "small_int_context": 31.9,
+    "unresolved_by_value_matching": 46.4
+  },
+  "note": "'unresolved_by_value_matching' DOĞRULANMIŞ UYDURMA DEĞİL — değer-eşleştiricinin (guard ve bu script AYNI zaaf) çözemediği artık; örnekleri sık sık meşru sayılardır (gerilim 1.1024↔1,102). Hiçbir canlı-sayım iddialaşmaz.",
+  "examples_unresolved": [
+    {
+      "qid": "com-09",
+      "text": "5.39",
+      "verdict": "UNGROUNDED",
+      "sentence": "| **Net Bugünkü Değer (NPV)** | **5.39 Milyon TL** | Bu, projenin ömrü boyunca elde edilec"
+    },
+    {
+      "qid": "com-09",
+      "text": "3.5",
+      "verdict": "UNIT_MISMATCH",
+      "sentence": "*   **Enerji Birim Maliyeti:** Yıllık tüketiminiz 400.000 kWh üzerinden, ortalama birim ma"
+    },
+    {
+      "qid": "dis-06",
+      "text": "658",
+      "verdict": "UNGROUNDED",
+      "sentence": "| **Toplam Kayıplar** | 0.009658 MW | 0.010069 MW | Artıyor | Şebeke elemanlarında ısı ola"
+    },
+    {
+      "qid": "dis-06",
+      "text": "069",
+      "verdict": "UNGROUNDED",
+      "sentence": "| **Toplam Kayıplar** | 0.009658 MW | 0.010069 MW | Artıyor | Şebeke elemanlarında ısı ola"
+    },
+    {
+      "qid": "dis-07",
+      "text": "%2.19",
+      "verdict": "UNGROUNDED",
+      "sentence": "Hat Yüklenmesi** | %123.38 | %121.19 | %2.19 azalma |"
+    },
+    {
+      "qid": "dis-07",
+      "text": "%6.86",
+      "verdict": "UNGROUNDED",
+      "sentence": "| **Trafo Yüklenmesi** | %327.71 | %320.85 | %6.86 azalma |"
+    },
+    {
+      "qid": "dis-07",
+      "text": "356",
+      "verdict": "UNGROUNDED",
+      "sentence": "| **Toplam Kayıp (Losses)** | 0.009356 MW | 0.009058 MW | Azalma |"
+    },
+    {
+      "qid": "dis-07",
+      "text": "058",
+      "verdict": "UNGROUNDED",
+      "sentence": "| **Toplam Kayıp (Losses)** | 0.009356 MW | 0.009058 MW | Azalma |"
+    },
+    {
+      "qid": "dis-07",
+      "text": "0.95",
+      "verdict": "UNGROUNDED",
+      "sentence": "Bu, şebekenin nominal gerilim seviyesinin (genellikle 0.95 ile 1.05 p.u."
+    },
+    {
+      "qid": "dis-07",
+      "text": "1.05",
+      "verdict": "UNGROUNDED",
+      "sentence": "Bu, şebekenin nominal gerilim seviyesinin (genellikle 0.95 ile 1.05 p.u."
+    },
+    {
+      "qid": "com-01",
+      "text": "2.57",
+      "verdict": "UNGROUNDED",
+      "sentence": "| **Net Bugünkü Değer (NPV)** | **2.57 Milyon TL** | 25 yıllık ömür boyunca elde edeceğini"
+    },
+    {
+      "qid": "dis-01",
+      "text": "0.95",
+      "verdict": "UNGROUNDED",
+      "sentence": "Bu, gerilim seviyesinin nominal aralığın (örneğin 0.95 p.u."
+    }
+  ]
+}

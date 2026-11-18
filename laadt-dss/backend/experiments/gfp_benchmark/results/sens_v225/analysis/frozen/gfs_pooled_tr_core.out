@@ -1,0 +1,76 @@
+{
+ "mode": "pooled_sensitivity",
+ "models": [
+  "gemma4:e4b",
+  "qwen3.8:27b"
+ ],
+ "pooled_sensitivity": {
+  "note": "SENSITIVITY only — 6-test pooled Holm (3 pairs × 2 models); primary is within-model (§6.2)",
+  "models": [
+   "gemma4:e4b",
+   "qwen3.8:27b"
+  ],
+  "tests": {
+   "gemma4:e4b:H_G1a": {
+    "pair": "grounded_guard vs ungrounded",
+    "n": 12,
+    "gfs_mean": {
+     "grounded_guard": 0.9646,
+     "ungrounded": 0.7179
+    },
+    "wilcoxon_p": 0.00146484375,
+    "p_holm_pooled6": 0.0033091259212947735
+   },
+   "gemma4:e4b:H_G1b": {
+    "pair": "grounded_guard vs grounded_noguard",
+    "n": 12,
+    "gfs_mean": {
+     "grounded_guard": 0.9646,
+     "grounded_noguard": 0.8386
+    },
+    "wilcoxon_p": 0.00048828125,
+    "p_holm_pooled6": 0.00244140625
+   },
+   "gemma4:e4b:H_G1a_aux": {
+    "pair": "grounded_noguard vs ungrounded",
+    "n": 56,
+    "gfs_mean": {
+     "grounded_noguard": 0.727,
+     "ungrounded": 0.6424
+    },
+    "wilcoxon_p": 0.0011030419737649245,
+    "p_holm_pooled6": 0.0033091259212947735
+   },
+   "qwen3.8:27b:H_G1a": {
+    "pair": "grounded_guard vs ungrounded",
+    "n": 17,
+    "gfs_mean": {
+     "grounded_guard": 0.8399,
+     "ungrounded": 0.5259
+    },
+    "wilcoxon_p": 0.0005035400390625,
+    "p_holm_pooled6": 0.00244140625
+   },
+   "qwen3.8:27b:H_G1b": {
+    "pair": "grounded_guard vs grounded_noguard",
+    "n": 19,
+    "gfs_mean": {
+     "grounded_guard": 0.8187,
+     "grounded_noguard": 0.7374
+    },
+    "wilcoxon_p": 0.12209548134133213,
+    "p_holm_pooled6": 0.12209548134133213
+   },
+   "qwen3.8:27b:H_G1a_aux": {
+    "pair": "grounded_noguard vs ungrounded",
+    "n": 47,
+    "gfs_mean": {
+     "grounded_noguard": 0.6293,
+     "ungrounded": 0.4525
+    },
+    "wilcoxon_p": 5.133566105541831e-07,
+    "p_holm_pooled6": 3.080139663325099e-06
+   }
+  }
+ }
+}

@@ -1,0 +1,264 @@
+{
+ "design": "A29: estimates from coder-1 on all sentences; reliability and Jev gate on the seed-drawn 80-sentence overlap with coder-2",
+ "n_items": 263,
+ "n_overlap": 80,
+ "reliability_overlap": {
+  "scale_building_YN": {
+   "n": 80,
+   "kappa": 0.9732,
+   "raw_agreement": 0.9875,
+   "pabak": 0.975
+  },
+  "scale_multi_feeder_YN": {
+   "n": 80,
+   "kappa": 0.9046,
+   "raw_agreement": 0.9625,
+   "pabak": 0.925
+  },
+  "scale_policy_YN": {
+   "n": 80,
+   "kappa": 0.8824,
+   "raw_agreement": 0.9875,
+   "pabak": 0.975
+  },
+  "aggregation_YN": {
+   "n": 80,
+   "kappa": 0.8182,
+   "raw_agreement": 0.9375,
+   "pabak": 0.875
+  },
+  "unsure_YN": {
+   "n": 80,
+   "kappa": -0.0191,
+   "raw_agreement": 0.95,
+   "pabak": 0.9
+  }
+ },
+ "coder1_vs_bounds_overlap": {
+  "scale_building_YN": {
+   "coder1_Y_strict_N": 1,
+   "coder1_N_lenient_Y": 0
+  },
+  "scale_multi_feeder_YN": {
+   "coder1_Y_strict_N": 1,
+   "coder1_N_lenient_Y": 2
+  },
+  "scale_policy_YN": {
+   "coder1_Y_strict_N": 1,
+   "coder1_N_lenient_Y": 0
+  },
+  "aggregation_YN": {
+   "coder1_Y_strict_N": 0,
+   "coder1_N_lenient_Y": 5
+  },
+  "unsure_YN": {
+   "coder1_Y_strict_N": 1,
+   "coder1_N_lenient_Y": 3
+  }
+ },
+ "by_label_set": {
+  "coder1": {
+   "precision": {
+    "feeder": {
+     "tp": 140,
+     "n": 142,
+     "wilson": [
+      0.9501,
+      0.9961
+     ],
+     "n_from_S2": 1,
+     "ht_point": 0.9859
+    },
+    "policy": {
+     "tp": 12,
+     "n": 12,
+     "wilson": [
+      0.7575,
+      1.0
+     ],
+     "n_from_S2": 0,
+     "ht_point": 1.0
+    }
+   },
+   "fn_rate_S3": {
+    "fn": 52,
+    "n": 100,
+    "wilson": [
+     0.4232,
+     0.6154
+    ]
+   },
+   "recall_population": {
+    "point": 0.5964,
+    "ci95": [
+     0.5232,
+     0.6813
+    ],
+    "B": 1000,
+    "label": "rough bound"
+   },
+   "recall_population_incl_S2": {
+    "point": 0.596,
+    "ci95": [
+     0.5231,
+     0.6791
+    ],
+    "B": 1000,
+    "label": "rough bound, secondary"
+   },
+   "prevalence_population": {
+    "point": 0.6966,
+    "ci95": [
+     0.6216,
+     0.7695
+    ],
+    "B": 1000
+   },
+   "restatement_S2": {
+    "n_sentences": 1,
+    "n_responses": 1,
+    "n_questions": 1,
+    "by_condition": {
+     "en|gemma4:e4b": 0,
+     "en|qwen3.8:27b": 0,
+     "tr|gemma4:e4b": 0,
+     "tr|mistral-small3.2:24b": 0,
+     "tr|muse-glimmer:30b": 0,
+     "tr|qwen3.8:27b": 1
+    },
+    "S2_size": 13,
+    "T2_all_S2_matches": {
+     "small_int": 9,
+     "ratio": 5,
+     "other": 6
+    },
+    "T2_restatement_matches": {
+     "small_int": 1,
+     "ratio": 0,
+     "other": 0
+    },
+    "guard_arm_paths": {
+     "P0": 0,
+     "P1a": 0,
+     "P1b": 0,
+     "P2": 1,
+     "P3": 0,
+     "null": 0
+    }
+   },
+   "parametric_aggregation": {
+    "n_coded": 145,
+    "ht_weighted_total": 383.71,
+    "label": "descriptive; not a provenance restatement"
+   },
+   "fragments": {
+    "n": 19,
+    "any_scale_Y": 0
+   },
+   "unsure_Y": 8
+  }
+ },
+ "jev": {
+  "coded": {
+   "header": true,
+   "jev_model_expected": "jev-1.13.0",
+   "threshold": 0.8,
+   "kappa_gate": null,
+   "n_sentences": 263,
+   "n_labeled": 263,
+   "n_unlabeled": 0,
+   "n_error_batches": 0,
+   "models_seen": [
+    "jev-1.13.0"
+   ],
+   "status": "complete",
+   "n_items": 263,
+   "coder1_all_info": {
+    "scale_building_YN": {
+     "n": 263,
+     "kappa": 0.0456,
+     "raw_agreement": 0.6806
+    },
+    "scale_multi_feeder_YN": {
+     "n": 263,
+     "kappa": 0.4812,
+     "raw_agreement": 0.7833
+    },
+    "scale_policy_YN": {
+     "n": 263,
+     "kappa": 0.0,
+     "raw_agreement": 0.9392
+    },
+    "aggregation_YN": {
+     "n": 263,
+     "kappa": 0.5465,
+     "raw_agreement": 0.8289
+    },
+    "multi": {
+     "n": 263,
+     "kappa": 0.5716,
+     "raw_agreement": 0.8365
+    }
+   },
+   "gate_frozen_call_not_used": {
+    "variable": "multi",
+    "against": "consensus",
+    "kappa": 0.5716,
+    "status": "complete",
+    "threshold": 0.6
+   },
+   "gate": {
+    "variable": "multi",
+    "against": "strict_AND",
+    "on": "A29 overlap (80)",
+    "n": 80,
+    "kappa": 0.6603,
+    "raw_agreement": 0.85,
+    "status": "complete",
+    "threshold": 0.6,
+    "passed": true
+   }
+  },
+  "scaleout": {
+   "header": true,
+   "jev_model_expected": "jev-1.13.0",
+   "threshold": 0.8,
+   "kappa_gate": {
+    "variable": "multi",
+    "against": "strict_AND",
+    "on": "A29 overlap (80)",
+    "n": 80,
+    "kappa": 0.6603,
+    "raw_agreement": 0.85,
+    "status": "complete",
+    "threshold": 0.6,
+    "passed": true
+   },
+   "n_sentences": 8937,
+   "n_labeled": 8937,
+   "n_unlabeled": 0,
+   "n_error_batches": 0,
+   "models_seen": [
+    "jev-1.14.0"
+   ],
+   "status": "complete",
+   "label": "Jev-estimated, human-validated on n=263 trap sentences (kappa=0.6603)",
+   "trap_remaining": {
+    "n": 470,
+    "jev_multi_or_aggregation": 334,
+    "lexicon_flagged": 175,
+    "lexicon_flagged_jev_agrees_multi": 157,
+    "S2_eligible": 0,
+    "jev_restatement_candidates": 0
+   },
+   "nontrap": {
+    "n": 8467,
+    "jev_multi_or_aggregation": 2194,
+    "lexicon_flagged": 1594,
+    "lexicon_flagged_jev_agrees_multi": 1171,
+    "S2_eligible": 3769,
+    "jev_restatement_candidates": 0
+   }
+  }
+ }
+}

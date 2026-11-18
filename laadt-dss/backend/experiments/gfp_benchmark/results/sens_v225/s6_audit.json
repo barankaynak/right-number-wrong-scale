@@ -1,0 +1,69 @@
+{
+ "counts": {
+  "signed|GROUNDED|traceable=Y": 2,
+  "signed|UNGROUNDED|traceable=Y": 1,
+  "signed|UNGROUNDED|traceable=N": 3
+ },
+ "items": [
+  {
+   "item": "A024",
+   "number": "6",
+   "tag": "signed",
+   "path": "P1a",
+   "condition": "en|qwen3.8:27b",
+   "matcher_verdict": "GROUNDED",
+   "coder1_traceable": "Y",
+   "context": "s: **you recover your investment in about 4 [#5]–5"
+  },
+  {
+   "item": "A025",
+   "number": "1",
+   "tag": "signed",
+   "path": "P2",
+   "condition": "tr|muse-glimmer:30b",
+   "matcher_verdict": "GROUNDED",
+   "coder1_traceable": "Y",
+   "context": "ğrulanmış değerler):\n• Net bugünkü değer: -139,655"
+  },
+  {
+   "item": "A026",
+   "number": "1",
+   "tag": "signed",
+   "path": "P2",
+   "condition": "en|qwen3.8:27b",
+   "matcher_verdict": "UNGROUNDED",
+   "coder1_traceable": "Y",
+   "context": "s (verified values):\n• Net present value: -367,260"
+  },
+  {
+   "item": "A031",
+   "number": "1",
+   "tag": "signed",
+   "path": "P2",
+   "condition": "en|qwen3.8:27b",
+   "matcher_verdict": "UNGROUNDED",
+   "coder1_traceable": "N",
+   "context": "(verified values):\n• Net present value: -1,824,311"
+  },
+  {
+   "item": "A065",
+   "number": "1",
+   "tag": "signed",
+   "path": "P2",
+   "condition": "en|qwen3.8:27b",
+   "matcher_verdict": "UNGROUNDED",
+   "coder1_traceable": "N",
+   "context": "s (verified values):\n• Net present value: -694,609"
+  },
+  {
+   "item": "A072",
+   "number": "1",
+   "tag": "signed",
+   "path": "P2",
+   "condition": "tr|mistral-small3.2:24b",
+   "matcher_verdict": "UNGROUNDED",
+   "coder1_traceable": "N",
+   "context": "ğrulanmış değerler):\n• Net bugünkü değer: -697,664"
+  }
+ ]
+}

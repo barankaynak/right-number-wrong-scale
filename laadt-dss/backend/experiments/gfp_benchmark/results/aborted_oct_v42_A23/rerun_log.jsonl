@@ -1,0 +1,2 @@
+{"ts": "2026-10-14T14:32:20+00:00", "event": "start", "conditions": [["gemma4:e4b", "tr"], ["qwen3.5:27b", "tr"], ["mistral-small3.2:24b", "tr"], ["gemma4:e4b", "en"], ["qwen3.5:27b", "en"]], "repeats": 3}
+{"ts": "2026-10-14T14:32:20+00:00", "event": "condition_start", "model": "gemma4:e4b", "lang": "tr", "attempt": 1}

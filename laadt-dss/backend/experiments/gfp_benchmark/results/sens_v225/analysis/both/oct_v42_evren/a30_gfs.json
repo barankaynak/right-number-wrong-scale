@@ -1,0 +1,382 @@
+{
+ "deepseek-v4.1-flash": {
+  "file": "raw_g1_deepseek-v4.1-flash_20261106T091533Z.jsonl",
+  "model": "deepseek-v4.1-flash",
+  "exclusions": {
+   "fallback": 1,
+   "error": 0,
+   "ref_invalid": 0,
+   "no_claims_ref": 127,
+   "no_claims_inrun": 321,
+   "total": 504
+  },
+  "exclusion_rate": 0.002,
+  "exclusion_rate_over_10pct_INVALID": false,
+  "within_repeat_variance": {
+   "ref_gfs": {
+    "n_cells_multi_repeat": 125,
+    "mean_cell_std": 0.0829,
+    "median_cell_std": 0.0599,
+    "max_cell_std": 0.4038,
+    "frac_cells_std_zero": 0.08
+   },
+   "inrun_gfs": {
+    "n_cells_multi_repeat": 61,
+    "mean_cell_std": 0.0399,
+    "median_cell_std": 0.0179,
+    "max_cell_std": 0.4423,
+    "frac_cells_std_zero": 0.279
+   }
+  },
+  "G1_reference_gfs": {
+   "H_G1a": {
+    "pair": "grounded_guard vs ungrounded",
+    "gfs_mean": {
+     "grounded_guard": 0.8662801804251559,
+     "ungrounded": 0.5443857713754191
+    },
+    "wilcoxon": {
+     "n": 21,
+     "stat": 10.0,
+     "p": 4.100799560546875e-05,
+     "p_holm": 8.20159912109375e-05
+    },
+    "mcnemar_clean": {
+     "discordant": 12,
+     "a_only": 12,
+     "b_only": 0,
+     "p": 0.00048828125
+    },
+    "bootstrap": {
+     "mean_diff": 0.3218944090497366,
+     "ci95": [
+      0.2131790776133905,
+      0.42223673118421534
+     ]
+    },
+    "achieved_n": 21
+   },
+   "H_G1b": {
+    "pair": "grounded_guard vs grounded_noguard",
+    "gfs_mean": {
+     "grounded_guard": 0.8662801804251559,
+     "grounded_noguard": 0.7711845692931037
+    },
+    "wilcoxon": {
+     "n": 21,
+     "stat": 41.0,
+     "p": 0.008009910583496094,
+     "p_holm": 0.008009910583496094
+    },
+    "mcnemar_clean": {
+     "discordant": 12,
+     "a_only": 12,
+     "b_only": 0,
+     "p": 0.00048828125
+    },
+    "bootstrap": {
+     "mean_diff": 0.09509561113205203,
+     "ci95": [
+      0.03123014334013849,
+      0.1563534043457322
+     ]
+    },
+    "achieved_n": 21
+   },
+   "H_G1a_aux": {
+    "pair": "grounded_noguard vs ungrounded",
+    "gfs_mean": {
+     "grounded_noguard": 0.7223438857662341,
+     "ungrounded": 0.4864957350447431
+    },
+    "wilcoxon": {
+     "n": 56,
+     "stat": 125.0,
+     "p": 4.025763647144099e-08,
+     "p_holm": 1.2077290941432297e-07
+    },
+    "mcnemar_clean": {
+     "discordant": 0,
+     "a_only": 0,
+     "b_only": 0,
+     "p": 1.0
+    },
+    "bootstrap": {
+     "mean_diff": 0.2358481507214911,
+     "ci95": [
+      0.1752980767642886,
+      0.2953349965328389
+     ]
+    },
+    "achieved_n": 56
+   }
+  },
+  "G1_reference_gfs_sensitivity": {
+   "withheld_as_0": {
+    "H_G1a": {
+     "gfs_mean": {
+      "grounded_guard": 0.2702207139179368,
+      "ungrounded": 0.4864957350447431
+     },
+     "achieved_n": 56,
+     "wilcoxon": {
+      "n": 56,
+      "stat": 359.0,
+      "p": 0.00034231446454148647,
+      "p_holm": 0.00034231446454148647
+     },
+     "mcnemar_clean": {
+      "discordant": 10,
+      "a_only": 10,
+      "b_only": 0,
+      "p": 0.001953125
+     },
+     "bootstrap": {
+      "mean_diff": -0.2162750211268063,
+      "ci95": [
+       -0.3205902560619556,
+       -0.11046298795902763
+      ]
+     }
+    },
+    "H_G1b": {
+     "gfs_mean": {
+      "grounded_guard": 0.2702207139179368,
+      "grounded_noguard": 0.7223438857662341
+     },
+     "achieved_n": 56,
+     "wilcoxon": {
+      "n": 56,
+      "stat": 106.0,
+      "p": 1.654671895179466e-08,
+      "p_holm": 4.9640156855383974e-08
+     },
+     "mcnemar_clean": {
+      "discordant": 10,
+      "a_only": 10,
+      "b_only": 0,
+      "p": 0.001953125
+     },
+     "bootstrap": {
+      "mean_diff": -0.4521231718482973,
+      "ci95": [
+       -0.5508335071346105,
+       -0.35207555227380255
+      ]
+     }
+    },
+    "H_G1a_aux": {
+     "gfs_mean": {
+      "grounded_noguard": 0.7223438857662341,
+      "ungrounded": 0.4864957350447431
+     },
+     "achieved_n": 56,
+     "wilcoxon": {
+      "n": 56,
+      "stat": 125.0,
+      "p": 4.025763647144099e-08,
+      "p_holm": 8.051527294288198e-08
+     },
+     "mcnemar_clean": {
+      "discordant": 0,
+      "a_only": 0,
+      "b_only": 0,
+      "p": 1.0
+     },
+     "bootstrap": {
+      "mean_diff": 0.2358481507214911,
+      "ci95": [
+       0.1752980767642886,
+       0.2953349965328389
+      ]
+     }
+    }
+   },
+   "withheld_as_1": {
+    "H_G1a": {
+     "gfs_mean": {
+      "grounded_guard": 0.9666492853465083,
+      "ungrounded": 0.4864957350447431
+     },
+     "achieved_n": 56,
+     "wilcoxon": {
+      "n": 56,
+      "stat": 7.0,
+      "p": 1.101793134173463e-10,
+      "p_holm": 3.305379402520389e-10
+     },
+     "mcnemar_clean": {
+      "discordant": 47,
+      "a_only": 47,
+      "b_only": 0,
+      "p": 1.4210854715202004e-14
+     },
+     "bootstrap": {
+      "mean_diff": 0.48015355030176515,
+      "ci95": [
+       0.4228012598183843,
+       0.5370567121386649
+      ]
+     }
+    },
+    "H_G1b": {
+     "gfs_mean": {
+      "grounded_guard": 0.9666492853465083,
+      "grounded_noguard": 0.7223438857662341
+     },
+     "achieved_n": 56,
+     "wilcoxon": {
+      "n": 56,
+      "stat": 23.0,
+      "p": 2.586335570060804e-10,
+      "p_holm": 5.172671140121608e-10
+     },
+     "mcnemar_clean": {
+      "discordant": 47,
+      "a_only": 47,
+      "b_only": 0,
+      "p": 1.4210854715202004e-14
+     },
+     "bootstrap": {
+      "mean_diff": 0.2443053995802741,
+      "ci95": [
+       0.19690385120559742,
+       0.2952059033188407
+      ]
+     }
+    },
+    "H_G1a_aux": {
+     "gfs_mean": {
+      "grounded_noguard": 0.7223438857662341,
+      "ungrounded": 0.4864957350447431
+     },
+     "achieved_n": 56,
+     "wilcoxon": {
+      "n": 56,
+      "stat": 125.0,
+      "p": 4.025763647144099e-08,
+      "p_holm": 4.025763647144099e-08
+     },
+     "mcnemar_clean": {
+      "discordant": 0,
+      "a_only": 0,
+      "b_only": 0,
+      "p": 1.0
+     },
+     "bootstrap": {
+      "mean_diff": 0.2358481507214911,
+      "ci95": [
+       0.1752980767642886,
+       0.2953349965328389
+      ]
+     }
+    }
+   }
+  },
+  "withheld": {
+   "n_guard_responses": 167,
+   "n_withheld": 110,
+   "withheld_rate": 0.6587,
+   "clean_in_noguard_withheld_in_guard": {
+    "any_repeat": {
+     "n_questions": 0,
+     "share_of_questions": 0.0
+    },
+    "all_repeats": {
+     "n_questions": 0,
+     "share_of_questions": 0.0
+    }
+   }
+  },
+  "G1b_pre_intervention": {
+   "gfs_mean": {
+    "grounded_guard": 0.8464479960840467,
+    "grounded_noguard": 0.8292854043834121
+   },
+   "wilcoxon": {
+    "n": 51,
+    "stat": 615.0,
+    "p": 0.6527635040598475
+   },
+   "note": "fark ≈0 beklenir → kazanım müdahaleden (dürüst ayrıştırma)"
+  },
+  "G2_inrun_primary": {
+   "analysis_unit": "question (cell-mean over repeats)",
+   "group_means": {
+    "chain1": 0.8224,
+    "chain2": 0.8486,
+    "chain3": 0.8197
+   },
+   "group_n": {
+    "chain1": 25,
+    "chain2": 18,
+    "chain3": 9
+   },
+   "kruskal": {
+    "H": 1.0061623406193085,
+    "p": 0.6046647115802395
+   },
+   "dunn": {
+    "pairwise_p": {
+     "chain1-vs-chain2": 0.31869026936776823,
+     "chain1-vs-chain3": 0.6638734268366528,
+     "chain2-vs-chain3": 0.7329250778133765
+    },
+    "pairwise_p_holm": {
+     "chain1-vs-chain2": 0.9560708081033047,
+     "chain1-vs-chain3": 1.0,
+     "chain2-vs-chain3": 1.0
+    }
+   },
+   "spearman": {
+    "rho": -0.10864299718670262,
+    "p": 0.4432809073217068
+   },
+   "claim_count_covariate_note": "chain≥2 sorular doğal olarak daha çok iddia içerir (prereg §6.3)"
+  },
+  "G2_reference_secondary": {
+   "analysis_unit": "question (cell-mean over repeats)",
+   "group_means": {
+    "chain1": 0.7299,
+    "chain2": 0.6964,
+    "chain3": 0.7511
+   },
+   "group_n": {
+    "chain1": 27,
+    "chain2": 19,
+    "chain3": 10
+   },
+   "kruskal": {
+    "H": 0.7288777499303762,
+    "p": 0.6945862913061448
+   },
+   "dunn": {
+    "pairwise_p": {
+     "chain1-vs-chain2": 0.4853705674957982,
+     "chain1-vs-chain3": 0.8175822542059288,
+     "chain2-vs-chain3": 0.4512589741503419
+    },
+    "pairwise_p_holm": {
+     "chain2-vs-chain3": 1.0,
+     "chain1-vs-chain2": 1.0,
+     "chain1-vs-chain3": 1.0
+    }
+   },
+   "spearman": {
+    "rho": -0.017118152529572266,
+    "p": 0.9003490569647252
+   }
+  },
+  "guard_side_metrics": {
+   "n": 167,
+   "blocked_rate": 0.7725,
+   "retried_rate": 0.9162,
+   "ambiguous_per_response": 1.09,
+   "evaluated_rate": 1.0,
+   "toolless_rate": 0.1856,
+   "blocked_rate_toolless": 1.0,
+   "blocked_rate_tool": 0.7206,
+   "withheld_no_claims_rate": 0.7126
+  }
+ }
+}

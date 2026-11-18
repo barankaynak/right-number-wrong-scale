@@ -1,0 +1,224 @@
+{
+ "amendment": "A28",
+ "questions": {
+  "res-04": {
+   "tr": "Ek bilgi: PV sistem gücü 4 kW.",
+   "en": "Additional information: PV system size 4 kW.",
+   "values": {
+    "panel_kw": 4
+   },
+   "subset": "clear",
+   "answerable": true
+  },
+  "res-11": {
+   "tr": "Ek bilgi: şehir İstanbul; PV penetrasyonu %40.",
+   "en": "Additional information: city Istanbul; PV penetration 40%.",
+   "values": {
+    "city": "istanbul",
+    "pv_penetration_pct": 40
+   },
+   "subset": "clear",
+   "answerable": true
+  },
+  "res-12": {
+   "tr": "Ek bilgi: şehir İzmir; PV penetrasyonu %40.",
+   "en": "Additional information: city Izmir; PV penetration 40%.",
+   "values": {
+    "city": "izmir",
+    "pv_penetration_pct": 40
+   },
+   "subset": "clear",
+   "answerable": true
+  },
+  "com-10": {
+   "tr": "Ek bilgi: PV penetrasyonu %40.",
+   "en": "Additional information: PV penetration 40%.",
+   "values": {
+    "pv_penetration_pct": 40
+   },
+   "subset": "strict",
+   "answerable": true
+  },
+  "com-11": {
+   "tr": "Ek bilgi: PV penetrasyonu %80.",
+   "en": "Additional information: PV penetration 80%.",
+   "values": {
+    "pv_penetration_pct": 80
+   },
+   "subset": "strict",
+   "answerable": true
+  },
+  "com-12": {
+   "tr": "Ek bilgi: şehir Ankara.",
+   "en": "Additional information: city Ankara.",
+   "values": {
+    "city": "ankara"
+   },
+   "subset": "clear",
+   "answerable": true
+  },
+  "dis-03": {
+   "tr": "Ek bilgi: PV penetrasyonu %30.",
+   "en": "Additional information: PV penetration 30%.",
+   "values": {
+    "pv_penetration_pct": 30
+   },
+   "subset": "clear",
+   "answerable": true
+  },
+  "dis-05": {
+   "tr": "Ek bilgi: PV penetrasyonu %50.",
+   "en": "Additional information: PV penetration 50%.",
+   "values": {
+    "pv_penetration_pct": 50
+   },
+   "subset": "strict",
+   "answerable": false
+  },
+  "dis-09": {
+   "tr": "Ek bilgi: PV penetrasyonu %45.",
+   "en": "Additional information: PV penetration 45%.",
+   "values": {
+    "pv_penetration_pct": 45
+   },
+   "subset": "clear",
+   "answerable": true
+  },
+  "dis-10": {
+   "tr": "Ek bilgi: PV penetrasyonu %80.",
+   "en": "Additional information: PV penetration 80%.",
+   "values": {
+    "pv_penetration_pct": 80
+   },
+   "subset": "clear",
+   "answerable": true
+  },
+  "dis-13": {
+   "tr": "Ek bilgi: PV penetrasyonu %10.",
+   "en": "Additional information: PV penetration 10%.",
+   "values": {
+    "pv_penetration_pct": 10
+   },
+   "subset": "strict",
+   "answerable": true
+  },
+  "sta-01": {
+   "tr": "Ek bilgi: şehir Ankara; batarya kapasitesi 10 kWh; aylık fatura 2.500 TL; sistem ömrü 25 yıl.",
+   "en": "Additional information: city Ankara; battery capacity 10 kWh; monthly bill 2,500 TL; system lifetime 25 years.",
+   "values": {
+    "city": "ankara",
+    "bess_kwh": 10,
+    "monthly_bill_tl": 2500,
+    "lifetime_years": 25
+   },
+   "subset": "clear",
+   "answerable": true
+  },
+  "sta-02": {
+   "tr": "Ek bilgi: yatırım tutarı 400.000 TL; yıllık tasarruf 55.000 TL; sistem ömrü 25 yıl; iskonto oranı %15.",
+   "en": "Additional information: investment cost 400,000 TL; annual savings 55,000 TL; system lifetime 25 years; discount rate 15%.",
+   "values": {
+    "base_investment_tl": 400000,
+    "annual_savings_tl": 55000,
+    "lifetime_years": 25,
+    "discount_rate": 0.15
+   },
+   "subset": "clear",
+   "answerable": true
+  },
+  "sta-03": {
+   "tr": "Ek bilgi: yatırım tutarı 350.000 TL; yıllık tasarruf 48.000 TL; sistem ömrü 20 yıl; iskonto oranı %14.",
+   "en": "Additional information: investment cost 350,000 TL; annual savings 48,000 TL; system lifetime 20 years; discount rate 14%.",
+   "values": {
+    "base_investment_tl": 350000,
+    "annual_savings_tl": 48000,
+    "lifetime_years": 20,
+    "discount_rate": 0.14
+   },
+   "subset": "clear",
+   "answerable": true
+  },
+  "sta-05": {
+   "tr": "Ek bilgi: şehir İstanbul; aylık fatura 18.000 TL; sistem ömrü 25 yıl.",
+   "en": "Additional information: city Istanbul; monthly bill 18,000 TL; system lifetime 25 years.",
+   "values": {
+    "city": "istanbul",
+    "monthly_bill_tl": 18000,
+    "lifetime_years": 25
+   },
+   "subset": "clear",
+   "answerable": true
+  },
+  "sta-06": {
+   "tr": "Ek bilgi: yatırım tutarı 300.000 TL; yıllık tasarruf 42.000 TL; sistem ömrü 20 yıl.",
+   "en": "Additional information: investment cost 300,000 TL; annual savings 42,000 TL; system lifetime 20 years.",
+   "values": {
+    "base_investment_tl": 300000,
+    "annual_savings_tl": 42000,
+    "lifetime_years": 20
+   },
+   "subset": "clear",
+   "answerable": true
+  },
+  "sta-07": {
+   "tr": "Ek bilgi: şehir Bursa; PV sistem gücü 30 kW; batarya kapasitesi 15 kWh; yıllık tüketim 60.000 kWh; sistem ömrü 25 yıl; PV penetrasyonu %40.",
+   "en": "Additional information: city Bursa; PV system size 30 kW; battery capacity 15 kWh; annual consumption 60,000 kWh; system lifetime 25 years; PV penetration 40%.",
+   "values": {
+    "city": "bursa",
+    "panel_kw": 30,
+    "bess_kwh": 15,
+    "annual_consumption_kwh": 60000,
+    "lifetime_years": 25,
+    "pv_penetration_pct": 40
+   },
+   "subset": "clear",
+   "answerable": true
+  },
+  "sta-08": {
+   "tr": "Ek bilgi: yatırım tutarı 900.000 TL; yıllık tasarruf 110.000 TL.",
+   "en": "Additional information: investment cost 900,000 TL; annual savings 110,000 TL.",
+   "values": {
+    "base_investment_tl": 900000,
+    "annual_savings_tl": 110000
+   },
+   "subset": "clear",
+   "answerable": true
+  },
+  "sta-09": {
+   "tr": "Ek bilgi: yatırım tutarı 250.000 TL; yıllık tasarruf 35.000 TL; sistem ömrü 20 yıl; iskonto oranı %15.",
+   "en": "Additional information: investment cost 250,000 TL; annual savings 35,000 TL; system lifetime 20 years; discount rate 15%.",
+   "values": {
+    "base_investment_tl": 250000,
+    "annual_savings_tl": 35000,
+    "lifetime_years": 20,
+    "discount_rate": 0.15
+   },
+   "subset": "clear",
+   "answerable": true
+  },
+  "sta-10": {
+   "tr": "Ek bilgi: şehir Konya; batarya kapasitesi 5 kWh; aylık fatura 1.800 TL; PV penetrasyonu %40; sistem ömrü 25 yıl.",
+   "en": "Additional information: city Konya; battery capacity 5 kWh; monthly bill 1,800 TL; PV penetration 40%; system lifetime 25 years.",
+   "values": {
+    "city": "konya",
+    "bess_kwh": 5,
+    "monthly_bill_tl": 1800,
+    "pv_penetration_pct": 40,
+    "lifetime_years": 25
+   },
+   "subset": "clear",
+   "answerable": true
+  },
+  "sta-11": {
+   "tr": "Ek bilgi: yıllık tasarruf 28.000 TL; sistem ömrü 15 yıl; iskonto oranı %15.",
+   "en": "Additional information: annual savings 28,000 TL; system lifetime 15 years; discount rate 15%.",
+   "values": {
+    "annual_savings_tl": 28000,
+    "lifetime_years": 15,
+    "discount_rate": 0.15
+   },
+   "subset": "clear",
+   "answerable": true
+  }
+ }
+}

@@ -1,0 +1,319 @@
+{
+ "n_rows": 189,
+ "n_excluded": 0,
+ "by_condition_n": {
+  "tr|deepseek-v4.1-flash": 189
+ },
+ "questions": {
+  "answerable": [
+   "com-10",
+   "com-11",
+   "com-12",
+   "dis-03",
+   "dis-09",
+   "dis-10",
+   "dis-13",
+   "res-04",
+   "res-11",
+   "res-12",
+   "sta-01",
+   "sta-02",
+   "sta-03",
+   "sta-05",
+   "sta-06",
+   "sta-07",
+   "sta-08",
+   "sta-09",
+   "sta-10",
+   "sta-11"
+  ],
+  "clear": [
+   "com-12",
+   "dis-03",
+   "dis-09",
+   "dis-10",
+   "res-04",
+   "res-11",
+   "res-12",
+   "sta-01",
+   "sta-02",
+   "sta-03",
+   "sta-05",
+   "sta-06",
+   "sta-07",
+   "sta-08",
+   "sta-09",
+   "sta-10",
+   "sta-11"
+  ]
+ },
+ "TU_question_means": {
+  "grounded_guard|turn1": {
+   "res-04": 0.6666666666666666,
+   "res-11": 0.0,
+   "res-12": 0.0,
+   "com-10": 0.0,
+   "com-11": 0.0,
+   "com-12": 0.0,
+   "dis-03": 0.0,
+   "dis-09": 0.0,
+   "dis-10": 0.0,
+   "dis-13": 0.0,
+   "sta-01": 0.0,
+   "sta-02": 0.0,
+   "sta-03": 0.0,
+   "sta-05": 0.0,
+   "sta-06": 0.0,
+   "sta-07": 0.0,
+   "sta-08": 0.0,
+   "sta-09": 0.0,
+   "sta-10": 0.0,
+   "sta-11": 0.0
+  },
+  "grounded_guard|turn2": {
+   "res-04": 1.0,
+   "res-11": 0.0,
+   "res-12": 0.0,
+   "com-10": 0.0,
+   "com-11": 0.0,
+   "com-12": 0.3333333333333333,
+   "dis-03": 0.0,
+   "dis-09": 0.0,
+   "dis-10": 0.3333333333333333,
+   "dis-13": 0.0,
+   "sta-01": 0.0,
+   "sta-02": 0.0,
+   "sta-03": 0.0,
+   "sta-05": 0.3333333333333333,
+   "sta-06": 0.3333333333333333,
+   "sta-07": 0.0,
+   "sta-08": 0.0,
+   "sta-09": 0.0,
+   "sta-10": 0.0,
+   "sta-11": 0.0
+  },
+  "grounded_noguard|turn1": {
+   "res-04": 1.0,
+   "res-11": 0.3333333333333333,
+   "res-12": 1.0,
+   "com-10": 0.6666666666666666,
+   "com-11": 1.0,
+   "com-12": 0.0,
+   "dis-03": 0.0,
+   "dis-09": 1.0,
+   "dis-10": 1.0,
+   "dis-13": 1.0,
+   "sta-01": 0.6666666666666666,
+   "sta-02": 0.0,
+   "sta-03": 0.0,
+   "sta-05": 0.6666666666666666,
+   "sta-06": 0.0,
+   "sta-07": 0.0,
+   "sta-08": 0.0,
+   "sta-09": 0.0,
+   "sta-10": 0.6666666666666666,
+   "sta-11": 0.6666666666666666
+  },
+  "grounded_noguard|turn2": {
+   "res-04": 1.0,
+   "res-11": 1.0,
+   "res-12": 1.0,
+   "com-10": 1.0,
+   "com-11": 1.0,
+   "com-12": 0.3333333333333333,
+   "dis-03": 0.0,
+   "dis-09": 1.0,
+   "dis-10": 1.0,
+   "dis-13": 1.0,
+   "sta-01": 1.0,
+   "sta-02": 0.3333333333333333,
+   "sta-03": 0.0,
+   "sta-05": 1.0,
+   "sta-06": 1.0,
+   "sta-07": 1.0,
+   "sta-08": 0.6666666666666666,
+   "sta-09": 0.0,
+   "sta-10": 1.0,
+   "sta-11": 1.0
+  },
+  "ungrounded|turn1": {
+   "res-04": 0.0,
+   "res-11": 0.0,
+   "res-12": 0.0,
+   "com-10": 0.0,
+   "com-11": 0.0,
+   "com-12": 0.0,
+   "dis-03": 0.0,
+   "dis-09": 0.0,
+   "dis-10": 0.0,
+   "dis-13": 0.0,
+   "sta-01": 0.0,
+   "sta-02": 0.0,
+   "sta-03": 0.0,
+   "sta-05": 0.0,
+   "sta-06": 0.0,
+   "sta-07": 0.0,
+   "sta-08": 0.0,
+   "sta-09": 0.0,
+   "sta-10": 0.0,
+   "sta-11": 0.0
+  },
+  "ungrounded|turn2": {
+   "res-04": 0.0,
+   "res-11": 0.0,
+   "res-12": 0.0,
+   "com-10": 0.0,
+   "com-11": 0.0,
+   "com-12": 0.0,
+   "dis-03": 0.0,
+   "dis-09": 0.0,
+   "dis-10": 0.0,
+   "dis-13": 0.0,
+   "sta-01": 0.0,
+   "sta-02": 0.0,
+   "sta-03": 0.0,
+   "sta-05": 0.0,
+   "sta-06": 0.0,
+   "sta-07": 0.0,
+   "sta-08": 0.0,
+   "sta-09": 0.0,
+   "sta-10": 0.0,
+   "sta-11": 0.0
+  }
+ },
+ "primary": {
+  "H_MT1": {
+   "n_questions": 20,
+   "n": 20,
+   "stat": 0.0,
+   "p": 0.03389485352468927,
+   "mean_diff": 0.08333333333333334,
+   "ci95": [
+    0.03333333333333333,
+    0.15000000000000002
+   ],
+   "label": "guard arm TU, turn 2 minus turn 1",
+   "p_holm": 0.03389485352468927
+  },
+  "H_MT2": {
+   "n_questions": 20,
+   "n": 20,
+   "stat": 8.0,
+   "p": 0.014217402978100863,
+   "mean_diff": 0.2,
+   "ci95": [
+    0.06666666666666668,
+    0.35000000000000003
+   ],
+   "label": "usability cost C = TU(noguard) - TU(guard), turn 2 minus turn 1",
+   "p_holm": 0.028434805956201726
+  }
+ },
+ "sensitivity_clear17": {
+  "H_MT1": {
+   "n_questions": 17,
+   "n": 17,
+   "stat": 0.0,
+   "p": 0.03389485352468927,
+   "mean_diff": 0.0980392156862745,
+   "ci95": [
+    0.0392156862745098,
+    0.17647058823529413
+   ],
+   "label": "guard arm TU, turn 2 minus turn 1",
+   "p_holm": 0.04525693404449622
+  },
+  "H_MT2": {
+   "n_questions": 17,
+   "n": 17,
+   "stat": 7.5,
+   "p": 0.02262846702224811,
+   "mean_diff": 0.21568627450980396,
+   "ci95": [
+    0.058823529411764705,
+    0.39215686274509803
+   ],
+   "label": "usability cost C = TU(noguard) - TU(guard), turn 2 minus turn 1",
+   "p_holm": 0.04525693404449622
+  }
+ },
+ "secondary_a_turn2_reference_gfs": {
+  "arm_mean": {
+   "grounded_guard": 0.887608226693873,
+   "grounded_noguard": 0.7166226849338547,
+   "ungrounded": 0.670478629250764
+  },
+  "guard_vs_noguard": {
+   "n_questions": 9,
+   "n": 9,
+   "stat": 1.0,
+   "p": 0.0078125
+  }
+ },
+ "secondary_b_guard_turn2_blocked": {
+  "turn2_tool_called": {
+   "blocked": 35,
+   "n": 47
+  },
+  "turn2_no_tool": {
+   "blocked": 13,
+   "n": 16
+  }
+ },
+ "secondary_c_TU_by_condition_turn1_turn2": {
+  "tr|deepseek-v4.1-flash|grounded_guard": [
+   0.0333,
+   0.1167
+  ],
+  "tr|deepseek-v4.1-flash|grounded_noguard": [
+   0.4833,
+   0.7667
+  ],
+  "tr|deepseek-v4.1-flash|ungrounded": [
+   0.0,
+   0.0
+  ]
+ },
+ "secondary_d_turn1_tool_rate": {
+  "grounded_guard": 0.5873,
+  "grounded_noguard": 0.6032,
+  "ungrounded": 0.0
+ },
+ "secondary_e_traps_turn2_scale_violations": {
+  "grounded_guard": 0,
+  "grounded_noguard": 43,
+  "ungrounded": 0
+ },
+ "proxy_validation": {
+  "n_items": 86,
+  "proxy_Y": 54,
+  "coder1": {
+   "n": 86,
+   "kappa": 0.9496,
+   "raw_agreement": 0.9767,
+   "pabak": 0.9534,
+   "cells": {
+    "proxyY_humanY": 54,
+    "proxyY_humanN": 0,
+    "proxyN_humanY": 2,
+    "proxyN_humanN": 30
+   },
+   "criterion_met": true
+  },
+  "coder2": {
+   "n": 30,
+   "kappa": 0.9327,
+   "raw_agreement": 0.9667,
+   "pabak": 0.9334,
+   "cells": {
+    "proxyY_humanY": 16,
+    "proxyY_humanN": 0,
+    "proxyN_humanY": 1,
+    "proxyN_humanN": 13
+   },
+   "criterion_met": true
+  },
+  "proxy_valid": true,
+  "rule": "each coder: kappa >= 0.7 or raw agreement >= 0.85 (A28-3, A29-4)"
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "amendment": "A28",
+ "normalize": "indices [n] -> []; re.fullmatch",
+ "labels": {
+  "simple_payback_years": [
+   "simple_payback_years"
+  ],
+  "npv_tl": [
+   "npv_tl"
+  ],
+  "annual_savings_tl": [
+   "annual_savings_tl"
+  ],
+  "irr_percent": [
+   "irr_percent"
+  ],
+  "annual_production_kwh": [
+   "annual_production_kwh"
+  ],
+  "self_consumption_ratio": [
+   "self_consumption_ratio"
+  ],
+  "lcoe_tl_per_kwh": [
+   "lcoe_tl_per_kwh"
+  ],
+  "system_cost_tl": [
+   "system_cost_tl"
+  ],
+  "payback distribution percentiles": [
+   "payback_statistics\\.(p5|p50|p95|mean)_years"
+  ],
+  "npv percentiles": [
+   "npv_statistics\\.(p5|p25|p50|p75|p95|mean)_tl"
+  ],
+  "policy comparison npv/payback": [
+   "policy_results\\[\\]\\.npv_tl",
+   "policy_results\\[\\]\\.(simple|discounted)_payback_years"
+  ],
+  "policy_npv_tl": [
+   "policy_results\\[\\]\\.npv_tl"
+  ],
+  "policy npv": [
+   "policy_results\\[\\]\\.npv_tl"
+  ],
+  "policy_payback_years": [
+   "policy_results\\[\\]\\.(simple|discounted)_payback_years"
+  ],
+  "policy payback": [
+   "policy_results\\[\\]\\.(simple|discounted)_payback_years"
+  ],
+  "government_cost_tl": [
+   "policy_results\\[\\]\\.state_cost(_per_mw)?_tl"
+  ],
+  "state_cost_tl": [
+   "policy_results\\[\\]\\.state_cost(_per_mw)?_tl"
+  ],
+  "leverage": [
+   "policy_results\\[\\]\\.incentive_effectiveness_score"
+  ],
+  "hosting_capacity_pct": [
+   "hosting_capacity_analysis\\.hosting_capacity_pct"
+  ],
+  "max_voltage_pu": [
+   "grid_impact\\.max_voltage_pu",
+   "hosting_capacity_analysis\\.sweep_results\\[\\]\\.max_voltage_pu"
+  ],
+  "min_voltage_pu": [
+   "grid_impact\\.min_voltage_pu",
+   "hosting_capacity_analysis\\.sweep_results\\[\\]\\.min_voltage_pu"
+  ],
+  "voltage pu": [
+   "grid_impact\\.(max|min)_voltage_pu",
+   "hosting_capacity_analysis\\.sweep_results\\[\\]\\.(max|min)_voltage_pu"
+  ],
+  "line_loading_pct": [
+   "grid_impact\\.max_line_loading_pct",
+   "hosting_capacity_analysis\\.sweep_results\\[\\]\\.max_line_loading_pct"
+  ],
+  "max_line_loading_pct": [
+   "grid_impact\\.max_line_loading_pct",
+   "hosting_capacity_analysis\\.sweep_results\\[\\]\\.max_line_loading_pct"
+  ],
+  "transformer deferral": [],
+  "transformer_deferral_years": []
+ }
+}
