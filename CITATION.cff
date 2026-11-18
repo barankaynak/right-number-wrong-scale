@@ -8,6 +8,7 @@ authors:
     orcid: "https://orcid.org/0000-0002-9004-2639"
 license: MIT
 repository-code: "https://github.com/barankaynak/right-number-wrong-scale"
+doi: "10.5281/zenodo.24341348"
 preferred-citation:
   type: article
   title: "Right Number, Wrong Scale: Measuring Grounding Fidelity in LLM-Orchestrated Energy-Investment Decision Support from Buildings to Feeders"
