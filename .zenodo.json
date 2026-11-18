@@ -1,0 +1,30 @@
+{
+  "title": "Right Number, Wrong Scale: code, data and traces",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Kaynak, Baran",
+      "affiliation": "Department of Information Systems Engineering, Sakarya University, Türkiye",
+      "orcid": "0000-0002-9004-2639"
+    }
+  ],
+  "description": "<p>Archive of the study <em>Right Number, Wrong Scale: Measuring Grounding Fidelity in LLM-Orchestrated Energy-Investment Decision Support from Buildings to Feeders</em>. It holds the frozen platform code the study evaluated (simulators, LLM orchestrator, provenance guard), the pre-registration with its SHA-256 tables, the benchmark, the run harnesses and analysis scripts, and the raw traces and results behind the article's tables and figures. The files changed for the public release are listed in RELEASE_NOTE.md with their original hashes.</p><p>Licence: code under MIT; data, traces and documentation under CC BY 4.0. The later, maintained state of the platform is LAaDT-DSS (https://github.com/barankaynak/laadt-dss).</p>",
+  "license": "MIT",
+  "keywords": [
+    "grounding fidelity",
+    "large language models",
+    "decision support",
+    "rooftop PV",
+    "distribution feeders",
+    "provenance guard",
+    "pre-registration"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.24338714",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "software"
+    }
+  ]
+}
