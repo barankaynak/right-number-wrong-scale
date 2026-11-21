@@ -7176,7 +7176,7 @@
    "sci": false,
    "context": "\\quad bounds $\\Delta$: withheld${=}0$ / ${=}1$ & $-.63$/$+.27$ & $-.59$/$+.25$ & $-.37$/$+.33$ & $-.39$/$+.32$ & $-.37$/$+.20$ & $-.53$/$+.27$ \\\\",
    "status": "single",
-   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42/analysis/tol_g1.out",
+   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42/guard_coverage.json",
    "transform": "=",
    "robust": false,
    "decoys": 4
@@ -9304,7 +9304,7 @@
    "sci": false,
    "context": "estimates decline with chain length: $0.82/0.76/0.63$ ($n{=}20/13/6$) for Model~B in",
    "status": "single",
-   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42/analysis/tol_g1.out",
+   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42/guard_coverage.json",
    "transform": "=",
    "robust": false,
    "decoys": 4
@@ -9350,7 +9350,7 @@
    "sci": false,
    "context": "estimates decline with chain length: $0.82/0.76/0.63$ ($n{=}20/13/6$) for Model~B in",
    "status": "single",
-   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42/analysis/tol_g4.out",
+   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42/guard_coverage.json",
    "transform": "=",
    "robust": false,
    "decoys": 4
@@ -12713,7 +12713,7 @@
    "sci": false,
    "context": "B tr & .081 $\\to$ .090 & .12 $\\to$ .10 & $-$.38/$+$.32 & 13/0 & 0 $\\to$ 0 & ${<}.001$ $\\to$ ${<}.001$ & .019 $\\to$ .020 \\\\",
    "status": "single",
-   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/sens_v225/analysis/both/oct_v42_mt/mt_results.json",
+   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/sens_v225/analysis/both/oct_v42_evren/a30_gfs.json",
    "transform": "=",
    "robust": false,
    "decoys": 4
@@ -12914,7 +12914,7 @@
    "sci": false,
    "context": "B en & .039 $\\to$ .041 & .14 $\\to$ .093 & $-$.40/$+$.31 & 12/0 & 0 $\\to$ 0 & ${<}.001$ $\\to$ ${<}.001$ & .013 $\\to$ .014 \\\\",
    "status": "single",
-   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/sens_v225/analysis/both/oct_v42_mt/mt_results.json",
+   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/sens_v225/analysis/both/oct_v42_evren/a30_gfs.json",
    "transform": "=",
    "robust": false,
    "decoys": 4
@@ -13558,7 +13558,7 @@
    "sci": false,
    "context": "DeepSeek & .090 $\\to$ .095 & .011 $\\to$ .008 & $-$.45/$+$.24 & 12/0 & 0 $\\to$ 0 & ${<}.001$ $\\to$ ${<}.001$ & .031 $\\to$ .031 \\\\",
    "status": "single",
-   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/sens_v225/analysis/both/gfs_pooled_tr_core.out",
+   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/sens_v225/analysis/both/crosslingual_stats.out",
    "transform": "=",
    "robust": false,
    "decoys": 4
@@ -20318,7 +20318,7 @@
    "sci": false,
    "context": "languages) and Model~C. At $0\\%$ every delivered interval includes zero except",
    "status": "single",
-   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42/analysis/tol_g4.out",
+   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42/analysis/tol_g1.out",
    "transform": "=",
    "robust": false,
    "decoys": 2
@@ -20605,7 +20605,7 @@
    "sci": false,
    "context": "reference-\\gfs\\ (H\\_G1b); $^{*}$ CI$_{95}$ excludes $0$. Taxonomy rows: share of live",
    "status": "single",
-   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42/analysis/tol_g4.out",
+   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42/analysis/tol_g1.out",
    "transform": "=",
    "robust": false,
    "decoys": 2
@@ -22102,7 +22102,7 @@
    "sci": false,
    "context": "Withheld (\\%) & 65.9 & 88.7 & 64.5 \\\\",
    "status": "single",
-   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42_evren/a30_gfs.json",
+   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42/analysis/xling.out",
    "transform": "x100",
    "robust": false,
    "decoys": 3
@@ -22289,7 +22289,7 @@
    "sci": false,
    "context": "Paths P0/P1a/P2/P3 (\\%) & 8.4/14.4/11.4/65.9 & 4.8/1.8/4.8/86.9 & 9.6/4.8/21.1/64.5 \\\\",
    "status": "single",
-   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42_evren/a30_gfs.json",
+   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42/analysis/xling.out",
    "transform": "x100",
    "robust": false,
    "decoys": 3
@@ -22613,7 +22613,7 @@
    "sci": false,
    "context": "H\\_G1b guard / no-guard; achieved $n$ & .859/.768; 21 & .965/.839; 12 & .819/.737; 19 \\\\",
    "status": "single",
-   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42/analysis/tol_g1.out",
+   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42/guard_coverage.json",
    "transform": "=",
    "robust": false,
    "decoys": 2
@@ -22738,7 +22738,7 @@
    "sci": false,
    "context": "\\quad $\\Delta$ [CI$_{95}$] & $+$.090 [.025, .153] & $+$.126 [.073, .192] & $+$.081 [$-$.021, .188] \\\\",
    "status": "single",
-   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42_evren/crosslingual_cells.json",
+   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42/tolerance_sensitivity_g1.json",
    "transform": "=",
    "robust": false,
    "decoys": 4
@@ -22922,7 +22922,7 @@
    "sci": false,
    "context": "\\quad Wilcoxon $p$ (descriptive) & .011 & -- & -- \\\\",
    "status": "single",
-   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42_evren/a30_gfs.json",
+   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42/analysis/paths.out",
    "transform": "=",
    "robust": false,
    "decoys": 4

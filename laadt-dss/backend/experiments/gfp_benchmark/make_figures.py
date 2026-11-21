@@ -60,7 +60,12 @@ def fig_g4_recall():
     x = np.arange(len(order)); w = 0.38
     fig, ax = plt.subplots(figsize=(5.2, 3.0))
     ax.bar(x - w/2, gfp, w, label="GFP (provenance)", color=C_GFP)
-    ax.bar(x + w/2, leg, w, label="deployed point-check", color=C_LEG)
+    ax.bar(x + w/2, leg, w, label="earlier point-check", color=C_LEG)
+    for i, l in enumerate(leg):  # a zero-height bar is invisible: mark it on the baseline and print the 0
+        if l == 0:
+            ax.plot([i + w/2 - 0.45*w, i + w/2 + 0.45*w], [0, 0], color=C_LEG, lw=3,
+                    solid_capstyle="butt", clip_on=False, zorder=5)
+            ax.text(i + w/2, 0.025, "0", color=C_LEG, ha="center", va="bottom", fontsize=8, fontweight="bold")
     for i, (g, p) in enumerate(zip(gfp, ps)):
         star = "***" if p < 1e-3 else "**" if p < 1e-2 else "*" if p < 0.05 else "n.s."
         ax.text(i, g + 0.03, f"$p$={p:.2g}\n{star}", ha="center", va="bottom", fontsize=6.5)
