@@ -15,3 +15,28 @@ The paper and `PREREGISTRATION.md` refer to these git tags of the development re
 | prereg-v3.6 | f51bb96 | 2026-11-05 |
 | prereg-v3.7 | adad4c0 | 2026-11-05 |
 | prereg-v3.8 | c0d263b | 2026-11-14 |
+
+## The 156 hash rows of `PREREGISTRATION.md`
+
+Checked against the development repository's history before release:
+
+- 123 rows equal the file in this archive.
+- 23 rows are superseded by a later row for the same file, which equals the file here.
+- 4 rows equal an earlier committed version of a file that a later frozen version changed, as
+  `PREREGISTRATION.md` records (`inject_errors.py` once, `crosslingual_stats.py` three times).
+- 2 rows name the staging path of `scale_assertion_analysis.py`; the file was moved byte-identical
+  to `experiments/gfp_benchmark/` and equals those rows there.
+- 2 rows name files that `PREREGISTRATION.md` marks as kept outside git
+  (`coding_interface_v4/coder2.html`, `patch_v4_subset.py`). They are not in this archive.
+- 2 rows belong to the A8 precision audit, which was withdrawn and never run
+  (`a8_precision/WITHDRAWN.md`). They were hashed on the generator's output as written to disk:
+  Python's `csv` module ends rows with CRLF, while cells keep their own LF line breaks; git stored
+  the files with LF row ends. Restoring the CRLF row ends reproduces both hashes:
+
+```python
+import csv, hashlib, io
+for f in ("A8_coding_sheet.csv", "A8_guard_key.csv"):
+    rows = list(csv.reader(io.StringIO(open(f, encoding="utf-8-sig", newline="").read(), newline="")))
+    buf = io.StringIO(newline=""); csv.writer(buf).writerows(rows)
+    print(f, hashlib.sha256(("\ufeff" + buf.getvalue()).encode("utf-8")).hexdigest())
+```

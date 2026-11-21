@@ -1,6 +1,6 @@
 # Release note
 
-This archive was built from commit `7830a4b` of the development repository's `main` branch. The files below were changed for the public release: a private host address, a service endpoint and local paths were replaced, and the two coder sheets of the mutation-quality audit, whose file names carried the coders' first names, were renamed `B4_coding_coder1.csv` and `B4_coding_coder2.csv` (with every reference to them). Nothing else differs from the commit. `original` is the SHA-256 of the file at that commit, `released` that of the file here.
+This archive was built from commit `aba60d3` of the development repository's `main` branch. The files below were changed for the public release: a private host address, a service endpoint and local paths were replaced, and the two coder sheets of the mutation-quality audit, whose file names carried the coders' first names, were renamed `B4_coding_coder1.csv` and `B4_coding_coder2.csv` (with every reference to them). Nothing else differs from the commit. `original` is the SHA-256 of the file at that commit, `released` that of the file here.
 
 | file | original | released |
 |---|---|---|
@@ -9,8 +9,8 @@ This archive was built from commit `7830a4b` of the development repository's `ma
 | `laadt-dss/backend/experiments/gfp_benchmark/b4_mutation_quality/B4_results.json` | `4f94c5b24aa83eb5085c32819c54f734ed136d9c4e6b4b3fa666d700ca249d64` | `44014cd15778d08538bdf09e4691e7616d507d9ac11c08703bbf8b49b98004cc` |
 | `laadt-dss/backend/experiments/gfp_benchmark/b4_mutation_quality/compute_b4_kappa.py` | `c3fc7beda71b617f5529fd3a24b9fe55047c8fff47db6225f061b548be2b371b` | `6960e6b4024d3325539dcf5a9141e73e3f35c0053954782a46eb03345792c8f8` |
 | `laadt-dss/backend/experiments/gfp_benchmark/b4_mutation_quality/make_b4_adjudication_tool.py` | `b083a635738a728903bb3b142a443e4ec2d7989b54001d04c442cb549920661a` | `a6eed29331a37f76782f3c4cd3939bbb0356603c3436eeacc7b9e9f691c186f0` |
-| `laadt-dss/backend/experiments/gfp_benchmark/manuscript_audit/report.json` | `7b083c1531eb643a2ebdbb267f32cfe6e262c98fdd7639657b3e539b4fd092da` | `38e20ec2f1eb8c01f58e35b586bfdbd3f557643e8db48a286855918d8c669d9f` |
-| `laadt-dss/backend/experiments/gfp_benchmark/manuscript_audit/report.md` | `b33e1b3304c047acafec918faeb146c7e7bfa4bca6725876a44ec299242c84ea` | `e1483068eaf21df1a1ad52a8f49e640f7c26ef09cdfe8608d35c54cdecf6206e` |
+| `laadt-dss/backend/experiments/gfp_benchmark/manuscript_audit/report.json` | `317a97b23fd6a47b443dd67603fa6fc2c1a71749c80b8261b5d789fd26e516d2` | `2a10990e076b085342ce58519ad83d3510e9b70b3ea380633debc83c13766bc6` |
+| `laadt-dss/backend/experiments/gfp_benchmark/manuscript_audit/report.md` | `cc22c51f507488c7b3ae249950b981570b6216ec86df9135f4a528b00bf33f46` | `a7bfdbbb1eefd2b815028f2133bcf6005cbb73751ea884b49bd435c6ca3f3fd3` |
 | `laadt-dss/backend/experiments/gfp_benchmark/run_a30_evren.py` | `9135c6c56770f9178fe0d1c1cbc86aebc359913be20fb294efdeb54228c35d03` | `8fe940ed727c76244ac101d26c792ca50e69103fd196f2f3c88515498f7fb136` |
 | `laadt-dss/docker-compose.yml` | `8add23a14ae4cc5a1d5eb0dc8653986eab6039a64f71fd31bdd6617e1d70310f` | `e437d0964f793b8f406c95eb6f2531f6e19ac29449209a3c49e42374f995b934` |
 

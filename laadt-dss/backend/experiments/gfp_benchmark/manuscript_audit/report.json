@@ -7176,7 +7176,7 @@
    "sci": false,
    "context": "\\quad bounds $\\Delta$: withheld${=}0$ / ${=}1$ & $-.63$/$+.27$ & $-.59$/$+.25$ & $-.37$/$+.33$ & $-.39$/$+.32$ & $-.37$/$+.20$ & $-.53$/$+.27$ \\\\",
    "status": "single",
-   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42/guard_coverage.json",
+   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42/analysis/tol_g1.out",
    "transform": "=",
    "robust": false,
    "decoys": 4
@@ -8117,7 +8117,7 @@
    "sci": false,
    "context": "\\quad $n$; $p$ & 8; .62 & 16; .97 & 39; .50 & 40; .75 & 33; .42 & 22; .30 \\\\",
    "status": "single",
-   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42/analysis/rescore.out",
+   "source": "laadt-dss/backend/experiments/gfp_benchmark/manuscript_audit/derived_values.json",
    "transform": "=",
    "robust": false,
    "decoys": 4
@@ -9304,7 +9304,7 @@
    "sci": false,
    "context": "estimates decline with chain length: $0.82/0.76/0.63$ ($n{=}20/13/6$) for Model~B in",
    "status": "single",
-   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42/guard_coverage.json",
+   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42/analysis/tol_g1.out",
    "transform": "=",
    "robust": false,
    "decoys": 4
@@ -9350,7 +9350,7 @@
    "sci": false,
    "context": "estimates decline with chain length: $0.82/0.76/0.63$ ($n{=}20/13/6$) for Model~B in",
    "status": "single",
-   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42/guard_coverage.json",
+   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42/analysis/tol_g4.out",
    "transform": "=",
    "robust": false,
    "decoys": 4
@@ -11857,7 +11857,20 @@
   },
   {
    "file": "main.tex",
-   "line": 1337,
+   "line": 1272,
+   "scope": "conclusion",
+   "mode": "restate",
+   "token": "4.0",
+   "value": 4.0,
+   "dec": 1,
+   "sci": false,
+   "context": "MIT licence; data, traces and documentation under CC BY 4.0.",
+   "status": "consistent",
+   "source": "equals a results numeral matched to its scoped sources; also equals a value in derived_values.json"
+  },
+  {
+   "file": "main.tex",
+   "line": 1342,
    "scope": "App A lexicon",
    "mode": "design",
    "token": "40",
@@ -11871,7 +11884,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1341,
+   "line": 1346,
    "scope": "App A lexicon",
    "mode": "design",
    "token": "1990",
@@ -11885,7 +11898,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1341,
+   "line": 1346,
    "scope": "App A lexicon",
    "mode": "design",
    "token": "2100",
@@ -11899,7 +11912,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1343,
+   "line": 1348,
    "scope": "App A lexicon",
    "mode": "design",
    "token": "1",
@@ -11913,7 +11926,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1343,
+   "line": 1348,
    "scope": "App A lexicon",
    "mode": "design",
    "token": "2",
@@ -11927,7 +11940,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1343,
+   "line": 1348,
    "scope": "App A lexicon",
    "mode": "design",
    "token": "3",
@@ -11941,7 +11954,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1343,
+   "line": 1348,
    "scope": "App A lexicon",
    "mode": "design",
    "token": "4",
@@ -11955,7 +11968,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1343,
+   "line": 1348,
    "scope": "App A lexicon",
    "mode": "design",
    "token": "12",
@@ -11969,7 +11982,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1343,
+   "line": 1348,
    "scope": "App A lexicon",
    "mode": "design",
    "token": "24",
@@ -11983,7 +11996,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1343,
+   "line": 1348,
    "scope": "App A lexicon",
    "mode": "design",
    "token": "25",
@@ -11997,7 +12010,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1343,
+   "line": 1348,
    "scope": "App A lexicon",
    "mode": "design",
    "token": "100",
@@ -12011,7 +12024,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1343,
+   "line": 1348,
    "scope": "App A lexicon",
    "mode": "design",
    "token": "365",
@@ -12025,7 +12038,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1343,
+   "line": 1348,
    "scope": "App A lexicon",
    "mode": "design",
    "token": "8760",
@@ -12039,7 +12052,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1344,
+   "line": 1349,
    "scope": "App A lexicon",
    "mode": "design",
    "token": "100",
@@ -12053,7 +12066,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1346,
+   "line": 1351,
    "scope": "App A lexicon",
    "mode": "design",
    "token": "25",
@@ -12067,7 +12080,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1357,
+   "line": 1362,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "885",
@@ -12082,7 +12095,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1357,
+   "line": 1362,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "758",
@@ -12097,7 +12110,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1358,
+   "line": 1363,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "740",
@@ -12112,7 +12125,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1358,
+   "line": 1363,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "273",
@@ -12127,7 +12140,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1358,
+   "line": 1363,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "160",
@@ -12142,7 +12155,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1359,
+   "line": 1364,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "161",
@@ -12158,7 +12171,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1371,
+   "line": 1376,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "0",
@@ -12173,7 +12186,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1371,
+   "line": 1376,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "1",
@@ -12188,7 +12201,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1373,
+   "line": 1378,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".126",
@@ -12204,7 +12217,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1373,
+   "line": 1378,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".126",
@@ -12220,7 +12233,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1373,
+   "line": 1378,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".0015",
@@ -12236,7 +12249,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1373,
+   "line": 1378,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".0015",
@@ -12252,7 +12265,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1373,
+   "line": 1378,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".63",
@@ -12268,7 +12281,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1373,
+   "line": 1378,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".27",
@@ -12283,7 +12296,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1373,
+   "line": 1378,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "10",
@@ -12298,7 +12311,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1373,
+   "line": 1378,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "0",
@@ -12313,7 +12326,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1373,
+   "line": 1378,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "1",
@@ -12328,7 +12341,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1373,
+   "line": 1378,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "1",
@@ -12343,7 +12356,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1373,
+   "line": 1378,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".0022",
@@ -12358,7 +12371,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1373,
+   "line": 1378,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".0022",
@@ -12373,7 +12386,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1373,
+   "line": 1378,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".010",
@@ -12388,7 +12401,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1373,
+   "line": 1378,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".010",
@@ -12403,7 +12416,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1374,
+   "line": 1379,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".095",
@@ -12419,7 +12432,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1374,
+   "line": 1379,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".086",
@@ -12435,7 +12448,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1374,
+   "line": 1379,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".0022",
@@ -12450,7 +12463,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1374,
+   "line": 1379,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".0022",
@@ -12465,7 +12478,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1374,
+   "line": 1379,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".60",
@@ -12480,7 +12493,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1374,
+   "line": 1379,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".24",
@@ -12495,7 +12508,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1374,
+   "line": 1379,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "11",
@@ -12510,7 +12523,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1374,
+   "line": 1379,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "0",
@@ -12525,7 +12538,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1374,
+   "line": 1379,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "3",
@@ -12540,7 +12553,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1374,
+   "line": 1379,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "3",
@@ -12555,7 +12568,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1374,
+   "line": 1379,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".001",
@@ -12570,7 +12583,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1374,
+   "line": 1379,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".001",
@@ -12585,7 +12598,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1374,
+   "line": 1379,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".014",
@@ -12600,7 +12613,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1374,
+   "line": 1379,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".014",
@@ -12615,7 +12628,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1375,
+   "line": 1380,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".081",
@@ -12631,7 +12644,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1375,
+   "line": 1380,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".090",
@@ -12646,7 +12659,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1375,
+   "line": 1380,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".12",
@@ -12661,7 +12674,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1375,
+   "line": 1380,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".10",
@@ -12676,7 +12689,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1375,
+   "line": 1380,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".38",
@@ -12691,7 +12704,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1375,
+   "line": 1380,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".32",
@@ -12707,7 +12720,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1375,
+   "line": 1380,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "13",
@@ -12722,7 +12735,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1375,
+   "line": 1380,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "0",
@@ -12737,7 +12750,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1375,
+   "line": 1380,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "0",
@@ -12752,7 +12765,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1375,
+   "line": 1380,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "0",
@@ -12767,7 +12780,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1375,
+   "line": 1380,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".001",
@@ -12782,7 +12795,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1375,
+   "line": 1380,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".001",
@@ -12797,7 +12810,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1375,
+   "line": 1380,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".019",
@@ -12813,7 +12826,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1375,
+   "line": 1380,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".020",
@@ -12829,7 +12842,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1376,
+   "line": 1381,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".039",
@@ -12845,7 +12858,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1376,
+   "line": 1381,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".041",
@@ -12861,7 +12874,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1376,
+   "line": 1381,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".14",
@@ -12876,7 +12889,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1376,
+   "line": 1381,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".093",
@@ -12892,7 +12905,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1376,
+   "line": 1381,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".40",
@@ -12908,7 +12921,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1376,
+   "line": 1381,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".31",
@@ -12923,7 +12936,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1376,
+   "line": 1381,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "12",
@@ -12938,7 +12951,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1376,
+   "line": 1381,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "0",
@@ -12953,7 +12966,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1376,
+   "line": 1381,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "0",
@@ -12968,7 +12981,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1376,
+   "line": 1381,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "0",
@@ -12983,7 +12996,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1376,
+   "line": 1381,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".001",
@@ -12998,7 +13011,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1376,
+   "line": 1381,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".001",
@@ -13013,7 +13026,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1376,
+   "line": 1381,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".013",
@@ -13028,7 +13041,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1376,
+   "line": 1381,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".014",
@@ -13043,7 +13056,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1377,
+   "line": 1382,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".018",
@@ -13058,7 +13071,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1377,
+   "line": 1382,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".033",
@@ -13074,7 +13087,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1377,
+   "line": 1382,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".79",
@@ -13090,7 +13103,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1377,
+   "line": 1382,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".50",
@@ -13106,7 +13119,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1377,
+   "line": 1382,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".39",
@@ -13121,7 +13134,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1377,
+   "line": 1382,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".18",
@@ -13136,7 +13149,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1377,
+   "line": 1382,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "12",
@@ -13151,7 +13164,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1377,
+   "line": 1382,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "0",
@@ -13166,7 +13179,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1377,
+   "line": 1382,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "4",
@@ -13181,7 +13194,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1377,
+   "line": 1382,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "6",
@@ -13197,7 +13210,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1377,
+   "line": 1382,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".21",
@@ -13213,7 +13226,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1377,
+   "line": 1382,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".083",
@@ -13229,7 +13242,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1377,
+   "line": 1382,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".006",
@@ -13244,7 +13257,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1377,
+   "line": 1382,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".013",
@@ -13259,7 +13272,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1378,
+   "line": 1383,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".077",
@@ -13274,7 +13287,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1378,
+   "line": 1383,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".069",
@@ -13289,7 +13302,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1378,
+   "line": 1383,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".018",
@@ -13304,7 +13317,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1378,
+   "line": 1383,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".016",
@@ -13320,7 +13333,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1378,
+   "line": 1383,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".56",
@@ -13336,7 +13349,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1378,
+   "line": 1383,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".24",
@@ -13352,7 +13365,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1378,
+   "line": 1383,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "7",
@@ -13367,7 +13380,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1378,
+   "line": 1383,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "0",
@@ -13382,7 +13395,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1378,
+   "line": 1383,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "8",
@@ -13397,7 +13410,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1378,
+   "line": 1383,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "10",
@@ -13413,7 +13426,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1378,
+   "line": 1383,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".23",
@@ -13428,7 +13441,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1378,
+   "line": 1383,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".030",
@@ -13443,7 +13456,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1378,
+   "line": 1383,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".011",
@@ -13458,7 +13471,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1378,
+   "line": 1383,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".010",
@@ -13474,7 +13487,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1379,
+   "line": 1384,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".090",
@@ -13490,7 +13503,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1379,
+   "line": 1384,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".095",
@@ -13505,7 +13518,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1379,
+   "line": 1384,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".011",
@@ -13521,7 +13534,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1379,
+   "line": 1384,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".008",
@@ -13536,7 +13549,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1379,
+   "line": 1384,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".45",
@@ -13552,7 +13565,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1379,
+   "line": 1384,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".24",
@@ -13567,7 +13580,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1379,
+   "line": 1384,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "12",
@@ -13582,7 +13595,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1379,
+   "line": 1384,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "0",
@@ -13597,7 +13610,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1379,
+   "line": 1384,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "0",
@@ -13612,7 +13625,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1379,
+   "line": 1384,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "0",
@@ -13627,7 +13640,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1379,
+   "line": 1384,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".001",
@@ -13642,7 +13655,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1379,
+   "line": 1384,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".001",
@@ -13657,7 +13670,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1379,
+   "line": 1384,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".031",
@@ -13672,7 +13685,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1379,
+   "line": 1384,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": ".031",
@@ -13687,7 +13700,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1387,
+   "line": 1392,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "2",
@@ -13703,7 +13716,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1391,
+   "line": 1396,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "2",
@@ -13719,7 +13732,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1393,
+   "line": 1398,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "6",
@@ -13734,7 +13747,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1393,
+   "line": 1398,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "168",
@@ -13749,7 +13762,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1393,
+   "line": 1398,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "0",
@@ -13764,7 +13777,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1393,
+   "line": 1398,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "0",
@@ -13779,7 +13792,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1393,
+   "line": 1398,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "0",
@@ -13794,7 +13807,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1393,
+   "line": 1398,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "154",
@@ -13810,7 +13823,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1393,
+   "line": 1398,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "0",
@@ -13825,7 +13838,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1393,
+   "line": 1398,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "2",
@@ -13840,7 +13853,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1393,
+   "line": 1398,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "2",
@@ -13855,7 +13868,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1393,
+   "line": 1398,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "47",
@@ -13870,7 +13883,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1394,
+   "line": 1399,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "21",
@@ -13885,7 +13898,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1394,
+   "line": 1399,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "168",
@@ -13900,7 +13913,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1394,
+   "line": 1399,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "0",
@@ -13915,7 +13928,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1394,
+   "line": 1399,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "3",
@@ -13930,7 +13943,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1394,
+   "line": 1399,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "3",
@@ -13945,7 +13958,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1394,
+   "line": 1399,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "140",
@@ -13961,7 +13974,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1394,
+   "line": 1399,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "0",
@@ -13976,7 +13989,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1394,
+   "line": 1399,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "4",
@@ -13991,7 +14004,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1394,
+   "line": 1399,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "4",
@@ -14006,7 +14019,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1394,
+   "line": 1399,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "39",
@@ -14022,7 +14035,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1395,
+   "line": 1400,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "66",
@@ -14037,7 +14050,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1395,
+   "line": 1400,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "166",
@@ -14052,7 +14065,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1395,
+   "line": 1400,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "0",
@@ -14067,7 +14080,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1395,
+   "line": 1400,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "4",
@@ -14082,7 +14095,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1395,
+   "line": 1400,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "4",
@@ -14097,7 +14110,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1395,
+   "line": 1400,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "142",
@@ -14113,7 +14126,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1395,
+   "line": 1400,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "0",
@@ -14128,7 +14141,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1395,
+   "line": 1400,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "4",
@@ -14143,7 +14156,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1395,
+   "line": 1400,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "4",
@@ -14158,7 +14171,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1395,
+   "line": 1400,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "48",
@@ -14174,7 +14187,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1396,
+   "line": 1401,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "61",
@@ -14189,7 +14202,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1396,
+   "line": 1401,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "166",
@@ -14205,7 +14218,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1396,
+   "line": 1401,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "0",
@@ -14220,7 +14233,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1396,
+   "line": 1401,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "0",
@@ -14235,7 +14248,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1396,
+   "line": 1401,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "0",
@@ -14250,7 +14263,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1396,
+   "line": 1401,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "136",
@@ -14266,7 +14279,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1396,
+   "line": 1401,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "0",
@@ -14281,7 +14294,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1396,
+   "line": 1401,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "3",
@@ -14296,7 +14309,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1396,
+   "line": 1401,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "3",
@@ -14311,7 +14324,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1396,
+   "line": 1401,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "49",
@@ -14326,7 +14339,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1397,
+   "line": 1402,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "19",
@@ -14341,7 +14354,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1397,
+   "line": 1402,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "165",
@@ -14356,7 +14369,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1397,
+   "line": 1402,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "1",
@@ -14371,7 +14384,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1397,
+   "line": 1402,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "6",
@@ -14386,7 +14399,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1397,
+   "line": 1402,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "7",
@@ -14401,7 +14414,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1397,
+   "line": 1402,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "88",
@@ -14417,7 +14430,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1397,
+   "line": 1402,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "0",
@@ -14432,7 +14445,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1397,
+   "line": 1402,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "4",
@@ -14447,7 +14460,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1397,
+   "line": 1402,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "4",
@@ -14462,7 +14475,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1397,
+   "line": 1402,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "33",
@@ -14477,7 +14490,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1398,
+   "line": 1403,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "31",
@@ -14492,7 +14505,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1398,
+   "line": 1403,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "168",
@@ -14508,7 +14521,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1398,
+   "line": 1403,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "1",
@@ -14523,7 +14536,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1398,
+   "line": 1403,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "13",
@@ -14538,7 +14551,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1398,
+   "line": 1403,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "14",
@@ -14553,7 +14566,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1398,
+   "line": 1403,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "128",
@@ -14569,7 +14582,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1398,
+   "line": 1403,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "0",
@@ -14584,7 +14597,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1398,
+   "line": 1403,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "4",
@@ -14599,7 +14612,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1398,
+   "line": 1403,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "5",
@@ -14614,7 +14627,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1398,
+   "line": 1403,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "49",
@@ -14630,7 +14643,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1399,
+   "line": 1404,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "79",
@@ -14645,7 +14658,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1399,
+   "line": 1404,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "167",
@@ -14660,7 +14673,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1399,
+   "line": 1404,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "0",
@@ -14675,7 +14688,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1399,
+   "line": 1404,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "11",
@@ -14690,7 +14703,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1399,
+   "line": 1404,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "11",
@@ -14705,7 +14718,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1399,
+   "line": 1404,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "129",
@@ -14721,7 +14734,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1399,
+   "line": 1404,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "0",
@@ -14736,7 +14749,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1399,
+   "line": 1404,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "17",
@@ -14751,7 +14764,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1399,
+   "line": 1404,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "17",
@@ -14766,7 +14779,7 @@
   },
   {
    "file": "main.tex",
-   "line": 1399,
+   "line": 1404,
    "scope": "App B matcher",
    "mode": "scoped",
    "token": "48",
@@ -15675,7 +15688,7 @@
    "sci": false,
    "context": "$\\mathrm{Tri}(0.08, 0.12, 0.15)$; after year~5 a $30\\%$ yearly chance that savings",
    "status": "code/design",
-   "source": "laadt-dss/backend/app/simulation/advisor/sizing.py",
+   "source": "laadt-dss/backend/app/simulation/pv/solar_model.py",
    "transform": "="
   },
   {
@@ -19923,7 +19936,7 @@
    "sci": false,
    "context": "The relative tolerance component was pre-registered at $2\\%$, with a re-analysis at",
    "status": "single",
-   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42/analysis/tol_tax.out",
+   "source": "laadt-dss/backend/experiments/gfp_benchmark/manuscript_audit/derived_values.json",
    "transform": "=",
    "robust": false,
    "decoys": 2
@@ -20014,7 +20027,7 @@
    "sci": false,
    "context": "not swept. The guard intervened at $2\\%$ and was not re-run, so the sweep changes the",
    "status": "single",
-   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42/analysis/tol_tax.out",
+   "source": "laadt-dss/backend/experiments/gfp_benchmark/manuscript_audit/derived_values.json",
    "transform": "=",
    "robust": false,
    "decoys": 2
@@ -20060,7 +20073,7 @@
    "sci": false,
    "context": "error-free controls whose texts were stored (Table~\\ref{tab:jev}), and their $2\\%$",
    "status": "single",
-   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42/analysis/tol_tax.out",
+   "source": "laadt-dss/backend/experiments/gfp_benchmark/manuscript_audit/derived_values.json",
    "transform": "=",
    "robust": false,
    "decoys": 2
@@ -20076,7 +20089,7 @@
    "sci": false,
    "context": "At $2\\%$ the false-positive count on error-free controls is zero by construction,",
    "status": "single",
-   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42/analysis/tol_tax.out",
+   "source": "laadt-dss/backend/experiments/gfp_benchmark/manuscript_audit/derived_values.json",
    "transform": "=",
    "robust": false,
    "decoys": 2
@@ -20244,7 +20257,7 @@
    "sci": false,
    "context": "flags $2$ error-free controls.",
    "status": "single",
-   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42/analysis/tol_tax.out",
+   "source": "laadt-dss/backend/experiments/gfp_benchmark/manuscript_audit/derived_values.json",
    "transform": "=",
    "robust": false,
    "decoys": 2
@@ -20759,7 +20772,7 @@
    "sci": false,
    "context": "unit-swap & 74 & 32 & 28 & 24 & 23 \\\\",
    "status": "single",
-   "source": "laadt-dss/backend/experiments/gfp_benchmark/manuscript_audit/derived_values.json",
+   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42/analysis/tol_tax.out",
    "transform": "=",
    "robust": false,
    "decoys": 4
@@ -22260,7 +22273,7 @@
    "sci": false,
    "context": "Paths P0/P1a/P2/P3 (\\%) & 8.4/14.4/11.4/65.9 & 4.8/1.8/4.8/86.9 & 9.6/4.8/21.1/64.5 \\\\",
    "status": "single",
-   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42/tolerance_sensitivity_g1.json",
+   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42_evren/intervention_paths.json",
    "transform": "x100",
    "robust": false,
    "decoys": 4
@@ -22600,7 +22613,7 @@
    "sci": false,
    "context": "H\\_G1b guard / no-guard; achieved $n$ & .859/.768; 21 & .965/.839; 12 & .819/.737; 19 \\\\",
    "status": "single",
-   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42/guard_coverage.json",
+   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42/analysis/tol_g1.out",
    "transform": "=",
    "robust": false,
    "decoys": 2
@@ -23751,7 +23764,7 @@
    "sci": false,
    "context": "H\\_MT1 $\\Delta$ [CI$_{95}$] & $+$.083 [.033, .150] & \\multicolumn{2}{r}{$+$.103 [.053, .161]} \\\\",
    "status": "single",
-   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42_mt/mt_results.json",
+   "source": "laadt-dss/backend/experiments/gfp_benchmark/results/oct_v42/analysis/xling.out",
    "transform": "=",
    "robust": false,
    "decoys": 4
@@ -25859,6 +25872,19 @@
    "context": "4. **Conversation does not recover the cost.** In a pre-registered second turn that supplied the missing inputs, the gap in traceable usable answers between the guarded a",
    "status": "consistent",
    "source": "equals a results numeral matched to its scoped sources; also equals a value in derived_values.json"
+  },
+  {
+   "file": "cover_letter.md",
+   "line": 29,
+   "scope": "restates results",
+   "token": "10.5281",
+   "value": 10.5281,
+   "dec": 4,
+   "sci": false,
+   "context": "**Declarations.** This manuscript is original, has not been published previously, and is not under consideration elsewhere. It has a single author, and there are no compe",
+   "status": "exception",
+   "source": "identifier",
+   "reason": "DOI prefix of the archive on Zenodo (doi.org link)"
   },
   {
    "file": "cover_letter.md",
